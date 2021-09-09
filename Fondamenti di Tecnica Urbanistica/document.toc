@@ -1,11 +1,41 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
-\contentsline {chapter}{\numberline {1}Introduzione al Corso}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Urbanistica}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Cambiamento Demografico}{4}{subsection.1.1.1}%
-\contentsline {chapter}{\numberline {2}Origine del Fenomeno Urbano}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Rivoluzione Industriale}{8}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Pianificazione}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Utopia}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Il Piano Urbanistico}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Le Tecniche di Pianificazione}{19}{section.3.3}%
+\contentsline {chapter}{\numberline {1}Introduzione al Corso}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Urbanistica}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Cambiamento Demografico}{5}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {2}Origine del Fenomeno Urbano}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Rivoluzione Industriale}{9}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Pianificazione}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Utopia}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Il Piano Urbanistico}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Le Tecniche di Pianificazione}{20}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Il Fenomeno Urbano in Italia}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Napoli}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Firenze}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Milano}{30}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Roma}{33}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fabbrica e città}{37}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Modelli Urbani e Territoriali}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelli Morfologici}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Modelli Teorici}{44}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Le Città Nel Tempo}{46}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Città Pre-Industriali}{46}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Modelli di Centro Urbano}{51}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Modelli dinamici di continuità}{54}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Modelli di Tipo Teorico}{58}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Modello di localizzazione}{58}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Modello di gravitazione}{60}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Modello gerarchico}{61}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Evoluzione Della Normativa}{62}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Prima del 1939}{62}{subsection.8.0.1}%
+\contentsline {subsection}{\numberline {8.0.2}1939-1978}{62}{subsection.8.0.2}%
+\contentsline {subsection}{\numberline {8.0.3}Dal 1985}{63}{subsection.8.0.3}%
+\contentsline {subsection}{\numberline {8.0.4}Dal 2001}{63}{subsection.8.0.4}%
+\contentsline {chapter}{\numberline {9}Pianificazione}{64}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Tipologie di Piani}{64}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Piani Generali}{64}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Piani Settoriali}{65}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Piani Misti}{65}{subsection.9.1.3}%
+\contentsline {section}{\numberline {9.2}Livelli Della Pianificazione}{66}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Principali Norme Nazionali - 1}{68}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Principali Norme Nazionali - 2}{69}{section.9.4}%
