@@ -1,0 +1,1619 @@
+\documentclass[a4paper,12pt, oneside]{book}
+%\usepackage{fullpage}
+\usepackage[italian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{graphicx} 
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{engrec}
+\usepackage{rotating}
+\usepackage[safe,extra]{tipa}
+\usepackage{tikz,pgfplots}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc,through,backgrounds}
+%\usepackage{showkeys}
+\usepackage{multirow}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{enumerate}
+\usepackage{braket}
+\usepackage{marginnote}
+\usepackage{pgfplots}
+\usepackage{cancel}
+\usepackage{polynom}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{pdfpages}
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\fancyhead[LE,RO]{\slshape \rightmark}
+\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+\usepackage{stanli}
+
+
+\title{Tecnica delle Costruzioni}
+\author{UniNA\\\ Ivano D'Apice\\\href{https://t.me/sonoivano}{@sonoivano}}
+\date{}
+
+\pgfplotsset{compat=1.13}
+\begin{document}
+	\maketitle
+	
+	\definecolor{shadecolor}{gray}{0.80}
+	\newtheorem{teorema}{Teorema}
+	\newtheorem{definizione}{Definizione}
+	\newtheorem{principio}{Principio}
+	\newtheorem{esempio}{Esempio}
+	\newtheorem{corollario}{Corollario}
+	\newtheorem{lemma}{Lemma}
+	\newtheorem{osservazione}{Osservazione}
+	\newtheorem{nota}{Nota}
+	\newtheorem{algoritmo}{Algoritmo}
+	\tableofcontents
+	\renewcommand{\chaptermark}[1]{%
+		\markboth{\chaptername
+			\ \thechapter.\ #1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+	
+	\chapter{Introduzione}
+	
+	\textbf{Questi appunti sono presi a lezione. Per quanto sia stata fatta una revisione è altamente probabile (praticamente certo) che possano contenere errori, sia di stampa che di vero e proprio contenuto. Per eventuali proposte di correzione inviare una mail alla seguente casella postale. Link: } \url{ivanodapice@icloud.com}.\\
+	\textbf{Grazie mille e buono studio!}
+	
+	\chapter{Richiami}
+	
+	Alcuni dei primi concetti da ricordare sono:
+	
+	\begin{itemize} 
+		\item[$\ast$] \textbf{Corpo in Equilibrio}:\\
+		Una struttura in cui la sommatoria delle forze agenti è uguale a 0.
+		\item[$\ast$] \textbf{Metodi di risoluzione di strutture}\\
+		Metodo delle forze, metodo degli spostamenti, eq. statica, plv.
+	\end{itemize}
+	
+	\section{Travi continue, taglio e momento}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{14.5}{2};                              %Punto D
+			\point{e}{2.2}{-2};                              %Punto E
+			\point{f}{25.6}{-2};                             %Punto F
+			\point{g}{8}{1};								 %Punto G
+			\point{h}{20}{1};								 %Punto H
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{2}{b}[0];                               %Carrello B
+			%{type}{insertion point}[rotation][length or angle][load distance]
+			\load{1}{c}[90][0][0];                           %Forza F Mezzeria
+			\load{1}{a}[270][0][1];                          %Reazione Va
+			\load{1}{a}[180][0][0];                          %Reazione Ha
+			\load{1}{b}[270][0][1];                          %Reazione Vb
+			\notation{1}{d}{F}[above];                       %Forza F Nomenclatura
+			\notation{1}{a}{$H_a$}[above left=1mm];          %Reazione Ha Nomenclatura
+			\notation{1}{e}{$V_a$}[right];                   %Reazione Va Nomenclatura
+			\notation{1}{f}{$V_b$}[left];                    %Reazione Vb Nomenclatura
+			\notation{1}{a}{A}[above];                       %Punto A Nomenclatura
+			\notation{1}{b}{B}[above];                       %Punto B Nomenclatura
+			\dimensioning{1}{a}{c}{-2}[a];					 %Dimensione a
+			\dimensioning{1}{c}{b}{-2}[b];					 %Dimensione b
+		\end{tikzpicture}
+		\caption{Trave appoggiata-appoggiata.}
+		\label{fig:traveuno}
+	\end{figure}
+	
+	Cominciano a parlare di questa trave appoggiata-appoggiata.
+	Abbiamo una forza F in mezzeria che sarà equilibrata dalle altre 2 forze Verticali $V_a$ e $V_b$. La forza orizzontale $H_a$ è nulla perché appunto è una trave continua e non ci sono lavori orizzontali.
+	Se facciamo una equazione di equilibrio troveremo i seguenti dati:
+	
+	\phantom{.}
+	
+	$\Sigma V=0,‎‎‎‎‎\hfill V_a + V_b - F = 0$
+	
+	\phantom{.}
+	
+	$\Sigma H=0,‎‎‎‎‎\hfill H_a = 0$
+	
+	\phantom{.}
+	
+	$\Sigma M_a=0,‎‎‎‎‎\hfill F\cdot a - V_b\cdot l = 0$
+	
+	\phantom{.}
+	
+	Da cui possiamo ricavare $V_a=F-V_b$ e $V_b=\dfrac{F\cdot a}{a+b}$.
+	Nel caso in cui $a=1$ e $b=1$ avremo $V_b=\dfrac{F\cdot 1}{2}$
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};               					%Punto A
+			\point{b}{26}{1};             					%Punto B
+			\point{c}{14}{1};              					%Punto C
+			\beam{2}{a}{b};                					%Trave A-B
+			\notation{1}{a}{A}[left];      					%Punto A Nomenclatura
+			\notation{1}{b}{B}[right];     					%Punto B Nomenclatura
+			\notation{1}{a}{$+$}[above left=5mm];      
+			\notation{1}{a}{$-$}[below left=5mm];  
+			\internalforces{a}{c}{-1}{-1}[0][gray]; 		%Taglio A-C
+			\internalforces{c}{b}{1}{1}[0][gray];   		%Taglio C-B
+		\end{tikzpicture}
+		\caption{Taglio.}
+		\label{fig:tagliouno}
+	\end{figure}
+	
+	Come possiamo vedere dall'esempio [\ref{fig:tagliouno}], il diagramma del taglio della trave [\ref{fig:traveuno}] è positivo per convenzione quando mettendoci in un generico concio avremo le forze disposte in questo modo:
+	
+	\centering $\uparrow \Box \downarrow$
+	
+	In presenza di forze, allora, il diagramma presenterà un salto. In situazioni di forze concentrate (carichi) invece, avremo un andamento lineare.\phantom{..............}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};               					%Punto A
+			\point{b}{26}{1};              					%Punto B
+			\point{c}{14}{1};              					%Punto C
+			\beam{2}{a}{b};                					%Trave A-B
+			\notation{1}{a}{A}[left];      					%Punto A Nomenclatura
+			\notation{1}{b}{B}[right];     					%Punto B Nomenclatura
+			\notation{1}{a}{$-$}[above left=5mm];      
+			\notation{1}{a}{$+$}[below left=5mm];  
+			\internalforces{a}{c}{0}{1}[0][gray]; 			%Taglio A-C
+			\internalforces{c}{b}{1}{0}[0][gray];   		%Taglio C-B
+		\end{tikzpicture}
+		\caption{Momento Flettente.}
+		\label{fig:momentouno}
+	\end{figure}
+	
+	A differenza del taglio, quando abbiamo una forza il diagramma del  momento presenterà un punto angoloso o cuspide. 
+	Se ad esempio avremo una forza molto piccola da non far cambiare il segno al taglio avremo solo un punto angoloso.
+	Con forze grandi tali da cambiare segno invece ci saranno le condizioni per verificare una cuspide.
+	Convenzionalmente avremo valori positivi per forze generanti tali  momenti sul concio infinitesimo:
+	
+	\centering $\circlearrowright \Box \circlearrowleft$
+	
+	\section{Metodo delle Forze}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{caricoin}{2}{3};                          %Punto iniziale Carico q1 
+			\point{caricofin}{26}{3};                        %Punto finale Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                              %Incastro A
+			\lineload{2}{caricoin}{caricofin}[1][1];         %Carico q1
+			\dimensioning{1}{a}{b}{-1}[$L_1$];					 %Dimensione a
+			\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			\notation{1}{b}{B}[above right];                 %Punto B Nomenclatura
+			\notation{1}{caricofin}{$q_1$}[above right];     %Carico q1 Nomenclatura
+			
+		\end{tikzpicture}
+		\caption{Trave a sbalzo.}
+		\label{fig:sbalzouno}
+	\end{figure}
+	
+	Iniziamo con un esempio classico. La [\ref{fig:sbalzouno}] è una trave a sbalzo con un estremo libero e un incastro. Sul tronco della trave inoltre è stato applicato un carico $q_1$. In questo caso il corpo sarà isostatico dal $3t-s=3-3=0$.
+	
+	Ora calcoliamo le reazioni che genera l'incastro nella trave con le equazioni della statica.
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{-1.6cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{scappaaapapapa}{1}{1};
+			%\point{caricoin}{2}{3};                         %Punto iniziale Carico q1 
+			%\point{caricofin}{26}{3};                       %Punto finale Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                              %Incastro A
+			\load{1}{c}[90][0][0];                           %Carico q1 Forza Mezzeria
+			\load{1}{a}[270][0][1];                          %Reazione Va
+			\load{3}{scappaaapapapa}[90][180];                          %Reazione Ha
+			%\lineload{2}{caricoin}{caricofin}[1][1];        %Carico q1
+			%\dimensioning{1}{a}{b}{-1}[1];					 %Dimensione a
+			%\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			%\notation{1}{b}{B}[above right];                 %Punto B Nomenclatura
+			\notation{1}{e}{$V_a$}[right];                   %Reazione Va Nomenclatura
+			\notation{1}{a}{$M_a$}[left=8mm];          %Reazione Ha Nomenclatura
+			\notation{1}{d}{$q_1L$}[above right];            %Carico q1l Forza Nomenclatura
+			%\notation{1}{c}{a}[below=15mm];			     %Dimensione a Nomenclatura. Punto C
+			%\notation{1}{caricofin}{$q_1$}[above right];    %Carico q1 Nomenclatura
+			
+		\end{tikzpicture}
+		\caption{Reazioni.}
+		\label{fig:sbalzouno1}
+	\end{figure}
+	
+	$\Sigma V=0,‎‎‎‎‎\hfill - V_a + q_1L= 0$
+	
+	\phantom{.}
+	
+	$\Sigma M_a=0,‎‎‎‎‎\hfill -\dfrac{qL^{2}}{2} + M_a = 0$
+	
+	\phantom{text}
+	
+	Vediamo che sia $V_a$ che $M_a$ sono di calcoli banali. Cosa succede però se alla stessa trave aggiungiamo un vincolo rendendola così 1 volta iperstatica?
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{scappaaapapapa}{1}{1};
+			%\point{caricoin}{2}{3};                         %Punto iniziale Carico q1 
+			%\point{caricofin}{26}{3};                       %Punto finale Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                              %Incastro A
+			\support{2}{b}[0];                               %Carrello B
+			\load{1}{c}[90][0][0];                           %Carico q1 Forza Mezzeria
+			\load{1}{a}[270][0][1];                          %Reazione Va
+			\load{3}{scappaaapapapa}[90][180];                          %Reazione Ha
+			\load{1}{b}[270][0][1];                          %Reazione Vb
+			%\lineload{2}{caricoin}{caricofin}[1][1];        %Carico q1
+			%\dimensioning{1}{a}{b}{-1}[1];					 %Dimensione a
+			%\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			%\notation{1}{b}{B}[above right];                 %Punto B Nomenclatura
+			\notation{1}{e}{$V_a$}[right];                   %Reazione Va Nomenclatura
+			\notation{1}{f}{$V_b$}[left];                    %Reazione Vb Nomenclatura
+			\notation{1}{a}{$M_a$}[left=8mm];          %Reazione Ha Nomenclatura
+			\notation{1}{d}{$q_1L$}[above right];            %Carico q1l Forza Nomenclatura
+			%\notation{1}{c}{a}[below=15mm];			     %Dimensione a Nomenclatura. Punto C
+			%\notation{1}{caricofin}{$q_1$}[above right];    %Carico q1 Nomenclatura
+			
+		\end{tikzpicture}
+		\caption{Trave incastrata-appoggiata.}
+		\label{fig:sbalzounopiucarrello}
+	\end{figure}
+	
+	$\Sigma V=0,‎‎‎‎‎\hfill q_1L - R_a - R_b = 0$
+	
+	\phantom{.}
+	
+	$\Sigma M_a=0,‎‎‎‎‎\hfill -\dfrac{qL^{2}}{2} + M_a + R_bL = 0$
+	
+	\phantom{.}
+	
+	Queste di sopra sono due equazioni in tre incognite che ci daranno $\infty^{1}$ risultati. Pertanto è impossibile, o molto laborioso, trovare l'unica soluzione \textbf{congruente} al nostro sistema che ha nell'incastro condizioni di $V_a=0, \varphi_a=0$ e nel carrello $V_b=0$.
+	
+	\phantom{.}
+	
+	Tratteremo questa struttura staticamente indefinita rimuovendo un vincolo e aggiungendo una forza fittizia.
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{-1cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{scappaaapapapa}{1}{1};
+			%\point{caricoin}{2}{3};                         %Punto iniziale Carico q1 
+			%\point{caricofin}{26}{3};                       %Punto finale Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                              %Incastro A
+			\load{1}{c}[90][0][0];                           %Carico q1 Forza Mezzeria
+			\load{1}{a}[270][0][1];                          %Reazione Va
+			\load{3}{scappaaapapapa}[90][180];                          %Reazione Ha
+			\load{1}{b}[270][0][1];                          %Reazione Vb
+			%\lineload{2}{caricoin}{caricofin}[1][1];        %Carico q1
+			%\dimensioning{1}{a}{b}{-1}[1];					 %Dimensione a
+			%\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			%\notation{1}{b}{B}[above right];                 %Punto B Nomenclatura
+			\notation{1}{e}{$V_a$}[right];                   %Reazione Va Nomenclatura
+			\notation{1}{f}{$F_x$}[left];                    %Reazione Vb Nomenclatura
+			\notation{1}{a}{$M_a$}[left=8mm];          %Reazione Ha Nomenclatura
+			\notation{1}{d}{$q_1L$}[above right];            %Carico q1l Forza Nomenclatura
+			%\notation{1}{c}{a}[below=15mm];			     %Dimensione a Nomenclatura. Punto C
+			%\notation{1}{caricofin}{$q_1$}[above right];    %Carico q1 Nomenclatura
+			
+		\end{tikzpicture}
+		\caption{Trave dopo soppressione del vincolo carrello.}
+		\label{fig:sbalzounoforzafitt}
+	\end{figure}
+	
+	Da questa nuova trave possiamo ricavare la reazione $V_b$ tramite equazioni di \textbf{congruenza}.
+	
+	\phantom{.}
+	
+	$[V_b=0]\hfill$
+	
+	$V_b = V_b(q_1)+V_b(x)=0, \Rightarrow \dfrac{qL^{4}}{8EI} - \dfrac{xL^{3}}{3EI} = 0\hfill$
+	
+	\phantom{.}
+	
+	$x=\frac{3}{8}qL\hfill$
+	
+	\phantom{.}
+	
+	$\boxtimes$ \textbf{N.B.} I risultati relativi a $V_b(q_1), V_b(x)$ sono stati ottenuti tramite tabelle di valori noti.
+	
+	\phantom{.}
+	
+	\phantom{.}
+	
+	il nostro nuovo sistema di equazioni sarà:
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			q_1L - R_a - R_b &= 0 \\ \\
+			-\dfrac{qL^{2}}{2} + M_a &= 0 \\ \\
+			\dfrac{qL^{4}}{8EI} - \dfrac{xL^{3}}{3EI} &=0\\	
+		\end{cases}
+	\end{equation}
+	
+	\phantom{.}
+	
+	Ora inizieremo a trattare il vero e proprio metodo delle forze. Verrà presentato mediante questa struttura:
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{caricoin}{2}{3};                          %Punto iniziale Carico q1 
+			\point{caricofin}{26}{3};                        %Punto finale Carico q1
+			\point{caricomed}{14}{3};                        %Punto medio Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                              %Incastro A
+			\support{2}{c}[0];
+			\support{2}{b}[0];
+			\lineload{2}{caricoin}{caricomed}[1][1];         %Carico q1
+			\lineload{2}{caricomed}{caricofin}[2][2];        %Carico q2
+			\dimensioning{1}{a}{c}{-1}[$L_1$];					 %Dimensione a
+			\dimensioning{1}{c}{b}{-1}[$L_2$];					 %Dimensione a
+			\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			\notation{1}{b}{C}[above right];                 %Punto B Nomenclatura
+			\notation{1}{c}{B}[above];                       %Punto C Nomenclatura
+			\notation{1}{caricofin}{$q_2$}[above right];     %Carico q2 Nomenclatura
+			\notation{1}{caricoin}{$q_1$}[above left];       %Carico q1 Nomenclatura
+			
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveforzaaaa}
+	\end{figure}
+	
+	Definiamo la struttura in quanto isostatica, iperstatica o labile. Dal $3t-s$ calcoliamo come segue:
+	
+	$3t-s=3-5=-2$ quindi avremo una struttura 2 volte iperstatica.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{13}{1};                                %Punto C
+			\point{e}{15}{1};                                %Punto C
+			\point{caricoin}{2}{3};                          %Punto iniziale Carico q1 
+			\point{caricofin}{26}{3};                        %Punto finale Carico q1
+			\point{caricomed}{14}{3};                        %Punto medio Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\hinge{1}{a};                                    %Incastro A
+			\hinge{1}{c};
+			\load{3}{a}[90][180];
+			\load{2}{d}[90][180];
+			\load{3}{e}[270][180];
+			\support{2}{c}[0];
+			\support{2}{b}[0];
+			\notation{1}{a}{$X_a$}[left=4mm];                  %Punto A Nomenclatura
+			\notation{1}{d}{$X_{bsx}$}[above left=2mm];                       %Punto C Nomenclatura
+			\notation{1}{e}{$X_{bdx}$}[above right=2mm];                       %Punto C Nomenclatura
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveforzacazzoculomega}
+	\end{figure}
+	
+	Dato che il numero di volte in cui la struttura risultava iperstatica erano 2 abbiamo declassato il vincolo incastro e creato una cerniera di distacco tra le due travi. Quindi avremo due incognite iperstatiche che saranno $X_a$ e $X_b$.
+	
+	Equazioni di congruenza:
+	\begin{equation}
+		\centering
+		\begin{cases}
+			\varphi_a=0 \\ \\
+			\varphi_{bsx}=\varphi_{bdx} \\ \\
+		\end{cases}
+	\end{equation}
+	
+	Per calcolare queste due incognite dobbiamo usare dal formulario i casi notevoli come nel precedente esercizio. In questo frangente ci aiuteremo con una rappresentazione visiva dei suddetti casi.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso $X_a$. Tratto AB.}
+		\label{fig:appappbnesjkbdj}
+	\end{figure}
+	
+	$ \varphi_a(X_a)=\varphi_{bsx}(X_a) \Rightarrow \dfrac{X_a L_1}{3EI}-\dfrac{X_a L_1}{6EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1.2cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\lineload{2}{a}{b};
+			\notation{1}{b}{$q_1$}[above right=2mm];
+			%\load{3}{d}[90][180];
+			%\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso $q_1$. Tratto AB.}
+		\label{fig:appappbnasdasdj}
+	\end{figure}
+	
+	$ \varphi_a(q_1)=\varphi_{bsx}(q_1) \Rightarrow -\dfrac{q_1 L_1^{3}}{24EI}+\dfrac{q_1 L_1^{3}}{24EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1.4cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{27.4}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{2}{d}[270][180];
+			\notation{1}{d}{$X_b$}[right=4mm];
+		\end{tikzpicture}
+		\caption{Caso $X_{bsx}$. Tratto AB.}
+		\label{fig:appappbneqweewwedj}
+	\end{figure}
+	
+	$ \varphi_a(x_b)=\varphi_{bsx}(x_b) \Rightarrow \dfrac{x_b L_1}{6EI}-\dfrac{x_b L_1}{3EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$X_b$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso $X_a$. Tratto BC.}
+		\label{fig:appappbnsdfsdf}
+	\end{figure}
+	
+	$ \varphi_{bdx}(x_b)=\dfrac{X_b L_2}{3EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1.2cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\lineload{2}{a}{b};
+			\notation{1}{b}{$q_2$}[above right=2mm];
+			%\load{3}{d}[90][180];
+			%\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso $q_2$. Tratto BC.}
+		\label{fig:appappbnasdsdfsdfdj}
+	\end{figure}
+	
+	$ \varphi_{bdx}(q_2)=-\dfrac{q_2 L_2^{3}}{24EI} $
+	
+	\phantom{.}
+	
+	Ricapitolando tutti i casi delle nostre equazioni di congruenza arriveremo a costruire un sistema di equazioni tale da darci le soluzioni ai nostri termini incogniti.
+	
+	\phantom{.}
+	
+	$ \varphi_a=0 \Rightarrow \varphi_a(X_a)+\varphi_a(q_1)+\varphi_a(x_b) \hfill$
+	
+	\phantom{.}
+	
+	$ \varphi_{bsx}=\varphi_{bdx} \Rightarrow \varphi_{bsx}(X_a)+\varphi_{bsx}(q_1)+\varphi_{bsx}(x_b)=\varphi_{bdx}(x_b)+\varphi_{bdx}(q_2) \hfill$
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			\dfrac{X_a L_1}{3EI}-\dfrac{q_1 L_1^{3}}{24EI}+\dfrac{x_b L_1}{6EI}&=0 \\ \\
+			\dfrac{X_a L_1}{6EI}+\dfrac{q_1 L_1^{3}}{24EI}-\dfrac{x_b L_1}{3EI}&=\dfrac{X_b L_2}{3EI}-\dfrac{q_2 L_2^{3}}{24EI} \\ \\
+		\end{cases}
+	\end{equation}
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			\dfrac{X_a L_1}{3EI}+\dfrac{x_b L_1}{6EI}&=\dfrac{q_1 L_1^{3}}{24EI} \\ \\
+			\dfrac{X_a L_1}{6EI}+x_b(\dfrac{L_1}{3EI}+\dfrac{L_2}{3EI})&=\dfrac{q_1 L_1^{3}}{24EI}+\dfrac{q_2 L_2^{3}}{24EI} \\ \\
+		\end{cases}
+	\end{equation}
+	
+	\begin{equation}
+		\begin{pmatrix}
+			\dfrac{L_1}{3EI} & \dfrac{L_1}{6EI}\\\\ \dfrac{L_1}{6EI} & (\dfrac{L_1}{3EI}+\dfrac{L_2}{3EI})
+		\end{pmatrix}
+		\begin{pmatrix}
+			x_a \\ x_b
+		\end{pmatrix}
+		=
+		\begin{pmatrix}
+			\dfrac{q_1 L_1^{3}}{24EI} \\\\ \dfrac{q_1 L_1^{3}}{24EI} & \dfrac{q_2 L_2^{3}}{24EI}
+		\end{pmatrix}
+	\end{equation}	
+	
+	Il sistema matriciale qui sopra riportato ha la particolarità di essere sempre simmetrico rispetto la diagonale per il termine $D_{ij}$ \textsl{(spostamento relativo al G.D.L  i-esimo associato ad un vettore unitario)}.
+	
+	$\boxtimes \hfill$
+	
+	\break 
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                
+			\point{b}{26}{1};                               
+			\point{c}{14}{1};                               
+			\point{d}{0}{1};            
+			\point{e}{28}{1};       
+			\point{forza}{28}{2.5};  
+			\point{carico1}{2.4}{2.5};   
+			\point{carico2}{26.4}{2.5};        
+			\point{caricoin1}{0}{2};   
+			\point{caricofin1}{2}{2};     
+			\point{caricoin2}{14}{2};        
+			\point{caricofin2}{26}{2};
+			\point{momento}{14.4}{1};      
+			\beam{2}{d}{e};                                  
+			\support{1}{a}[0];                               
+			\support{1}{b}[0];                               
+			\support{1}{c}[0];
+			\load{3}{momento}[270][180];
+			\load{1}{e}[90];
+			\lineload{2}{caricoin1}{caricofin1}[1][1];        
+			\lineload{2}{caricoin2}{caricofin2}[1][1];        
+			\dimensioning{1}{d}{a}{-1}[$L_1$];
+			\dimensioning{1}{a}{c}{-1}[$L_2$];
+			\dimensioning{1}{c}{b}{-1}[$L_3$];
+			\dimensioning{1}{b}{e}{-1}[$L_4$];
+			\notation{1}{d}{A}[left];
+			\notation{1}{a}{B}[above];
+			\notation{1}{c}{C}[above];
+			\notation{1}{b}{D}[above];
+			\notation{1}{e}{E}[right];
+			\notation{1}{forza}{$F$}[right];
+			\notation{1}{carico2}{$q_2$}[];
+			\notation{1}{carico1}{$q_1$}[];
+			
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveesss1}
+	\end{figure}
+	
+	Possiamo eliminare lo sbalzo trasportando le forze $q_1$ e $F$ nei rispettivi punti B e D.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{28}{1};
+			\point{e}{0}{1};
+			\point{momento}{15}{1};
+			\point{caricofin}{26}{3};                        %Punto finale Carico q1
+			\point{caricomed}{14}{3};                        %Punto medio Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                              %Incastro A
+			\support{1}{c}[0];
+			\support{1}{b}[0];
+			\load{2}{d}[270][180];
+			\load{3}{e}[90][180];
+			\load{3}{momento}[270][180];
+			\lineload{2}{caricomed}{caricofin}[1][1];        %Carico q2
+			\dimensioning{1}{a}{c}{-1}[$L_2$];					 %Dimensione a
+			\dimensioning{1}{c}{b}{-1}[$L_3$];					 %Dimensione a
+			\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			\notation{1}{b}{C}[above right];                 %Punto B Nomenclatura
+			\notation{1}{c}{B}[above];                       %Punto C Nomenclatura
+			\notation{1}{caricofin}{$q_2$}[above right];     %Carico q2 Nomenclatura
+			\notation{1}{d}{$FL_4$}[right=4mm];
+			\notation{1}{e}{$\dfrac{q_1 L_1^{2}}{2}$}[left=4mm];
+			\notation{1}{momento}{$c$}[above right=3mm];
+			
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveforzaaaa11111}
+	\end{figure}
+	
+	Ora creiamo una sconnessione nel punto B che verrà bilanciata da due momenti opposti.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{28}{1};
+			\point{e}{0}{1};
+			\point{momento}{15}{1};
+			\point{momento2}{16.5}{1};
+			\point{momento3}{13}{1};
+			\point{caricofin}{26}{3};                        %Punto finale Carico q1
+			\point{caricomed}{14}{3};                        %Punto medio Carico q1
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                              %Incastro A
+			\support{1}{c}[0];
+			\support{1}{b}[0];
+			\hinge{1}{c};
+			\load{2}{d}[270][180];
+			\load{3}{e}[90][180];
+			\load{2}{momento3}[90][180];
+			\load{3}{momento}[270][180];
+			\load{3}{momento2}[270][180];
+			\lineload{2}{caricomed}{caricofin}[1][1];        %Carico q2
+			\notation{1}{a}{A}[above left];                  %Punto A Nomenclatura
+			\notation{1}{b}{C}[above right];                 %Punto B Nomenclatura
+			\notation{1}{c}{B}[above];                       %Punto C Nomenclatura
+			\notation{1}{caricofin}{$q_2$}[above right];     %Carico q2 Nomenclatura
+			\notation{1}{d}{$FL_4$}[right=4mm];
+			\notation{1}{e}{$\dfrac{q_1 L_1^{2}}{2}$}[left=4mm];
+			\notation{1}{momento}{$c$}[above right=3mm];
+			\notation{1}{momento2}{$x_{bdx}$}[above right=3mm];
+			\notation{1}{momento3}{$x_{bsx}$}[above left=3mm];
+			
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveforzaaaa122111}
+	\end{figure}
+	
+	Dato che sul nodo in B c'è un momento $c$ dobbiamo stare attenti a ricavare il valore risultante sulla trave. Infatti ciò è riconducibile a un nodo triplo che si potrà visualizzare con la seguente figura:
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};
+			\point{b}{4}{1};
+			\point{c}{10}{1};
+			\point{d}{14}{1};
+			\point{hinge}{12}{1};
+			\point{e}{20}{1};
+			\point{f}{22}{1};
+			\point{g}{12}{2.2};
+			\beam{1}{a}{b};
+			\beam{1}{c}{d};
+			\beam{1}{e}{f};
+			\hinge{1}{hinge};
+			\load{2}{b}[270][180];
+			\load{3}{c}[90][180];
+			\load{2}{d}[270][180];
+			\load{3}{e}[90][180];
+			\load{3}{g}[0][180];
+			\notation{1}{b}{$x_{bsx}$}[above right=2mm];
+			\notation{1}{c}{$x_{bsx}$}[below left=2mm];
+			\notation{1}{d}{$x_{bdx}+c$}[above right=2mm];
+			\notation{1}{e}{$x_{bdx}+c$}[below left=2.4mm];
+			\notation{1}{g}{$c$}[above right=2.4mm];
+			\notation{1}{hinge}{B}[below=2mm];
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveforzaaaa2211}
+	\end{figure}
+	
+	$\boxtimes$ \textbf{N.B.} Quando abbiamo un \textbf{momento sul nodo} ci sarà sempre un salto nel diagramma del momento.
+	
+	Ora scriviamo le equazioni di congruenza per il nuovo corpo sconnesso.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$\dfrac{q_1 L_1^{2}}{2}$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso Momento $sx$ di trasporto $q_1$. Tratto AB.}
+		\label{fig:appappbnesjsedfdkbdj}
+	\end{figure}
+	
+	$ \varphi_{bsx}(q_1)=-\dfrac{q_1 L_1^{2}}{2}\cdot \dfrac{L_2}{6EI}$
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1.6cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{27.4}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{2}{d}[270][180];
+			\notation{1}{d}{$X_{bsx}$}[right=4mm];
+		\end{tikzpicture}
+		\caption{Caso $X_{bsx}$. Tratto AB.}
+		\label{fig:appappbneqwedfsewwedj}
+	\end{figure}
+	
+	$ \varphi_{bsx}(x)=-\dfrac{xL_2}{3EI}$
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1.6cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\lineload{2}{a}{b};
+			\notation{1}{b}{$q_2$}[above right=2mm];
+			%\load{3}{d}[90][180];
+			%\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso $q_2$. Tratto BC.}
+		\label{fig:asdgrfdf}
+	\end{figure}
+	
+	$ \varphi_{bdx}(q_2)=-\dfrac{q_2 L_3^{3}}{24EI}$
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{1.6cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{27.4}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{2}{d}[270][180];
+			\notation{1}{d}{$FL_4$}[right=4mm];
+		\end{tikzpicture}
+		\caption{Caso $F$. Tratto BC.}
+		\label{fig:asasdcd}
+	\end{figure}
+	
+	$ \varphi_{bdx}(F)=FL_4\cdot \dfrac{L_3}{6EI}$
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$x+c$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Caso $x+c$. Tratto BC.}
+		\label{fig:dsfvcbb}
+	\end{figure}
+	
+	$ \varphi_{bdx}(x+c)=(x+c)\cdot \dfrac{L_3}{3EI}$
+	
+	\phantom{.}
+	
+	\phantom{.}
+	
+	$[\varphi_{bsx}=\varphi_{bdx}] \hfill$
+	
+	$\varphi_{bsx}=\varphi_{bsx}(q_1)+\varphi_{bsx}(x) \hfill$
+	
+	$\varphi_{bdx}=\varphi_{bdx}(q_2)+\varphi_{bdx}(F)+\varphi_{bdx}(x+c) \hfill$
+	
+	\phantom{.}
+	
+	Se volessimo ad esempio trovare il valore di x, grazie alle equazioni di congruenza basterà mettere a denominatore i termini di interesse e i restanti al numeratore:
+	
+	\phantom{.}
+	
+	$x=\dfrac{-\dfrac{q_1 L_1^{2}}{2}\cdot \dfrac{L_2}{6EI}+\dfrac{q_2 L_3^{3}}{24EI}-\dfrac{FL_4L_3}{6EI}-\dfrac{cL_3}{3EI} }{-\dfrac{L_2}{3EI}+\dfrac{L_3}{3EI}}$
+	
+	\break
+	
+	$\boxtimes$ Metodo delle forze (Esempio  Numerico) $\hfill$
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};               				
+			\point{b}{14}{1};             				
+			\point{c}{26}{1};
+			\point{d}{2}{-4};
+			\point{e}{14}{-4};
+			\point{f}{26}{-4};
+			\point{g}{1.4}{3};
+			\point{h}{26.6}{3};
+			\point{caricounoinizio}{2}{2};
+			\point{caricounofine}{14}{2};
+			\point{caricodueinizio}{14}{2};
+			\point{caricoduefine}{26}{2};
+			\beam{2}{a}{c};
+			\support{3}{a}[-90];
+			\support{1}{b}[0];
+			\support{1}{c}[0];
+			\lineload{2}{caricounoinizio}{caricounofine}[1][1];
+			\lineload{2}{caricodueinizio}{caricoduefine}[2][2];
+			\dimensioning{1}{a}{b}{-1}[$L_1$];
+			\dimensioning{1}{b}{c}{-1}[$L_2$];
+			\notation{1}{d}{$A$}[];
+			\notation{1}{e}{$B$}[];
+			\notation{1}{f}{$C$}[];
+			\notation{1}{g}{$q_1$}[];
+			\notation{1}{h}{$q_2$}[];
+		\end{tikzpicture}
+		\caption{Taglio.}
+		\label{fig:taglifjouno}
+	\end{figure}
+	
+	Calcoliamo la condizione statica di questa struttura:
+	
+	$2t-s=2-4 \Rightarrow 2$ volte iperstatica.
+	
+	Dati numerici:$\hfill$
+	
+	$q_1=2,00kN/m \hfill$
+	
+	$q_2=3,00kN/m \hfill$
+	
+	$L_1=3,00m \hfill$
+	
+	$L_2=2,00m \hfill$
+	
+	Ora costruiamo la nostra struttura declassata
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};               				
+			\point{b}{14}{1};             				
+			\point{c}{26}{1};
+			\point{d}{12}{1};
+			\point{e}{16}{1};
+			\point{nota1}{11}{1};
+			\point{nota2}{17}{1};
+			\beam{2}{a}{c};
+			\support{3}{a}[-90];
+			\support{1}{b}[0];
+			\support{1}{c}[0];
+			\hinge{1}{a};
+			\hinge{1}{b};
+			\load{3}{a}[270][180][.8];
+			\load{2}{d}[90][180][.8];
+			\load{3}{e}[270][180][.8];
+			\notation{1}{a}{$X_a$}[above right=5.8mm];
+			\notation{1}{nota1}{$X_bsx$}[above left=5.8mm];
+			\notation{1}{nota2}{$X_bdx$}[above right=5.8mm];
+		\end{tikzpicture}
+		\caption{Taglio.}
+		\label{fig:mddkdkfnjvkeo}
+	\end{figure}
+	
+	Eq. di congruenza:
+	
+	\begin{alignat*}{7}
+		\varphi_{a} & {}=0{} & & {}\Rightarrow{} & \varphi_a(q_1) & {}+{} & \varphi_a(x_a) & {}+{} & \varphi_a(x_b) & {}={} & 0 \\
+		\varphi_{bsx} & {}=\varphi_{bdx} {} & & {}\Rightarrow{} & \varphi_{bsx}(q_1) & {}+{} & \varphi_{bsx}(x_a) & {}+{} & \varphi_{bsx}(x_b) & {}={} & \varphi_{bdx}(q_2) & {}+{} & \varphi_{bdx}(x_b) 
+	\end{alignat*}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\lineload{2}{a}{b};
+			\notation{1}{b}{$q_1$}[above right=2mm];
+			%\load{3}{d}[90][180];
+			%\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Tratto AB.}
+		\label{fig:asddddgrfdf}
+	\end{figure}
+	
+	$ \varphi_a(q_1)=\dfrac{q_1 L_1^{3}}{24EI},\phantom{....} \varphi_{bsx}(q_1)=-\dfrac{q_1 L_1^{3}}{24EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{-1.6cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Tratto AB.}
+		\label{fig:ddfdfvcsaazx}
+	\end{figure}
+	
+	$ \varphi_a(x_a)=-\dfrac{x_a L_1}{3EI}, \phantom{....} \varphi_{bsx}(x_a)=\dfrac{x_a L_1}{6EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{.6cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{27.4}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{2}{d}[270][180];
+			\notation{1}{d}{$X_b$}[right=4mm];
+		\end{tikzpicture}
+		\caption{Tratto AB.}
+		\label{fig:asasdsfdcd}
+	\end{figure}
+	
+	$ \varphi_a(x_b)=-\dfrac{x_b L_1}{6EI},\phantom{....} \varphi_{bsx}=\dfrac{x_b L_1}{3EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{-.2cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\lineload{2}{a}{b};
+			\notation{1}{b}{$q_2$}[above right=2mm];
+			%\load{3}{d}[90][180];
+			%\notation{1}{d}{$X_a$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Tratto BC.}
+		\label{fig:asdfddddgrfdf}
+	\end{figure}
+	
+	$ \varphi_{bdx}(q_2)=-\dfrac{q_2 L_2^{3}}{24EI} $
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[1][gray];
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$X_b$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Tratto BC.}
+		\label{fig:fva23edcv}
+	\end{figure}
+	
+	$ \varphi_{bsx}(x_b)=-\dfrac{x_b L_2}{3EI} $
+	
+	\phantom{text}
+	
+	\phantom{text}
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			\dfrac{q_1 L_1^{3}}{24EI}-\dfrac{x_a L_1}{3EI}-\dfrac{x_b L_1}{6EI}&=0 \\ \\
+			-\dfrac{q_1 L_1^{3}}{24EI}+\dfrac{x_a L_1}{6EI}+\dfrac{x_b L_1}{3EI}&=\dfrac{q_2 L_2^{3}}{24EI}-\dfrac{x_b L_2}{3EI}\\ \\ 
+		\end{cases}
+		\hfill
+	\end{equation}
+	
+	Trasformiamo il sistema in termini noti tutti positivi:
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			\dfrac{x_a L_1}{3EI}+\dfrac{x_b L_1}{6EI}&=\dfrac{q_1 L_1^{3}}{24EI} \\ \\
+			\dfrac{x_a L_1}{6EI}+\dfrac{x_b L_1}{3EI}+\dfrac{x_b L_2}{3EI}&=\dfrac{q_1 L_1^{3}}{24EI}+\dfrac{q_2 L_2^{3}}{24EI}\\ \\ 
+		\end{cases}
+		\hfill
+	\end{equation}
+	
+	\begin{equation}
+		\begin{pmatrix}
+			\dfrac{L_1}{3EI} & \dfrac{L_1}{6EI}\\\\ \dfrac{L_1}{6EI} & (\dfrac{L_1}{3EI}+\dfrac{L_2}{3EI})
+		\end{pmatrix}
+		\begin{pmatrix}
+			x_a \\ x_b
+		\end{pmatrix}
+		=
+		\begin{pmatrix}
+			\dfrac{q_1 L_1^{3}}{24EI} \\\\ \dfrac{q_1 L_1^{3}}{24EI} & \dfrac{q_2 L_2^{3}}{24EI}
+		\end{pmatrix}
+	\end{equation}	
+	
+	\phantom{text}
+	
+	\phantom{text}
+	
+	Ora calcoliamo le reazioni vincolari:
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\point{e}{27.4}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\load{3}{d}[90][180];
+			\load{2}{e}[270][180];
+			\load{1}{a}[270][0][1];                          %Reazione Va
+			\load{1}{b}[270][0][1];                          %Reazione Vb
+			\lineload{2}{a}{b}
+			\notation{1}{b}{$q_1$}[above right=1.8mm];
+			\notation{1}{d}{$X_a$}[left=4mm];
+			\notation{1}{e}{$X_b$}[right=4mm];
+			\notation{1}{a}{$R_a$}[below=22mm];                   %Reazione Va Nomenclatura
+			\notation{1}{b}{$R_b$}[below=22mm];                    %Reazione Vb Nomenclatura
+		\end{tikzpicture}
+		\caption{Tratto AB.}
+		\label{fig:ddfdfvcfvbccvsdsaazx}
+	\end{figure}
+	
+	\phantom{.}
+	
+	$\Sigma V=0,‎‎‎‎‎\hfill R_a + R_{bsx} - q_1 L_1 = 0$
+	
+	\phantom{.}
+	
+	$\Sigma M_a=0,‎‎‎‎‎\hfill -x_a+x_{bsx}+\dfrac{q_1 L_1^{2}}{2}-R_b L_1 = 0$
+	
+	\phantom{.}
+	
+	Otteniamo $R_a=3,00kN$,\phantom{,,} $R_{bsx}=3,00kN$,\phantom{,,} $x_a=1,50kNm$,\phantom{,,} $x_b=1,50kNm$.
+	
+	\phantom{text}
+	
+	\phantom{text}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                 %Punto A
+			\point{b}{26}{1};                                %Punto B
+			\point{c}{14}{1};                                %Punto C
+			\point{d}{.6}{1};
+			\point{e}{27.4}{1};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{1}{a}[0];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\load{3}{d}[90][180];
+			\load{1}{a}[270][0][1];                          %Reazione Va
+			\load{1}{b}[270][0][1];                          %Reazione Vb
+			\lineload{2}{a}{b}
+			\notation{1}{b}{$q_2$}[above right=1.8mm];
+			\notation{1}{d}{$X_b$}[left=4mm]
+			\notation{1}{a}{$R_{bdx}$}[below=22mm];                   %Reazione Va Nomenclatura
+			\notation{1}{b}{$R_c$}[below=22mm];                    %Reazione Vb Nomenclatura
+		\end{tikzpicture}
+		\caption{Tratto AB.}
+		\label{fig:dfsgbvsmdlknfvc}
+	\end{figure}
+	
+	\phantom{.}
+	
+	$\Sigma V=0,‎‎‎‎‎\hfill R_{bdx}+R_c-q_2 L_2 = 0$
+	
+	\phantom{.}
+	
+	$\Sigma M_b=0,‎‎‎‎‎\hfill -x_b+\dfrac{q_2 L_2^{2}}{2}-R_c L_2 = 0$
+	
+	\phantom{.}
+	
+	Otteniamo $R_b=3,75kN$,\phantom{,,} $R_c=2,25kN$.
+	
+	Adesso calcoliamo analiticamente il taglio e momento della struttura:
+	
+	\break
+	
+	TRATTO \textbf{A-B}
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			T(x)&=R_a - q_1 x \\ \\
+			M(x)&=-x_a+R_a x-\dfrac{q_1 x^2}{2}\\ \\ 
+		\end{cases}
+		\hfill
+	\end{equation}
+	
+	TRATTO \textbf{B-C}
+	
+	\begin{equation}
+		\centering
+		\begin{cases}
+			T(x)&=R_{bdx} - q_2 x \\ \\
+			M(x)&=-x_b+R_{bdx} x-\dfrac{q_2 x^2}{2}\\ \\ 
+		\end{cases}
+		\hfill
+	\end{equation}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};
+			\point{b}{12}{1};
+			\point{c}{22}{1};
+			\beam{1}{a}{c};
+			\internalforces{a}{b}{-3}{3}[0][blue][0];
+			\internalforces{b}{c}{-3.75}{2.75}[0][blue][0];
+		\end{tikzpicture}
+		\caption{Diagramma Taglio.}
+		\label{fig:sdv xccxcv}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};
+			\point{b}{12}{1};
+			\point{c}{22}{1};
+			\beam{1}{a}{c};
+			\internalforces{a}{b}{-1.5}{-3}[-2.8][red];
+			\internalforces{b}{c}{-3}{0}[-1.3][red];
+		\end{tikzpicture}
+		\caption{Diagramma Momento.}
+		\label{fig:hvjghv}
+	\end{figure}
+	
+	$\boxtimes$ \textbf{N.B.} Il punto di minimo parabolico del momento si trova dove il taglio è nullo.
+	
+	\break
+	
+	\section{Metodo degli Spostamenti}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\rule[-1ex]{0pt}{3.5ex}  & \textbf{INCOGNITE} & \textbf{EQUAZIONI} \\
+		\hline
+		\rule[-1ex]{0pt}{3.5ex} Metodo delle forze & FORZE & Equazioni di congruenza \\
+		\hline
+		\rule[-1ex]{0pt}{3.5ex} Metodo degli spostamenti & SPOSTAMENTI & Equazioni di equilibrio \\
+		\hline
+	\end{tabular}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};               				
+			\point{b}{14}{1};             				
+			\point{c}{26}{1};
+			\point{d}{2}{-4};
+			\point{e}{14}{-4};
+			\point{f}{26}{-4};
+			\point{g}{1.4}{3};
+			\point{h}{26.6}{3};
+			\point{caricounoinizio}{2}{2};
+			\point{caricounofine}{14}{2};
+			\point{caricodueinizio}{14}{2};
+			\point{caricoduefine}{26}{2};
+			\beam{2}{a}{c};
+			\support{3}{a}[-90];
+			\support{1}{b}[0];
+			\support{1}{c}[0];
+			\lineload{2}{caricounoinizio}{caricounofine}[1][1];
+			\lineload{2}{caricodueinizio}{caricoduefine}[2][2];
+			\dimensioning{1}{a}{b}{-1}[$L_1$];
+			\dimensioning{1}{b}{c}{-1}[$L_2$];
+			\notation{1}{d}{$A$}[];
+			\notation{1}{e}{$B$}[];
+			\notation{1}{f}{$C$}[];
+			\notation{1}{g}{$q_1$}[];
+			\notation{1}{h}{$q_2$}[];
+			\notation{1}{b}{$\bullet$}[above left];
+			\notation{1}{b}{$\bullet$}[above right];
+			\notation{1}{b}{$\bullet$}[below left];
+			\notation{1}{b}{$\bullet$}[below right];
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:dsxgfhvcvbrdgc}
+	\end{figure}
+	
+    $\alpha$) \textbf{FASE A NODI BLOCCATI.} $\hfill$
+	
+	\phantom{.}
+	
+	In questa fase blocchiamo tanti nodi quante volte è iperstatica la struttura. I morsetti (Se guardiamo la [\ref{fig:dsxgfhvcvbrdgc}] ce n'è uno nel punto B) potranno essere disposti solo su vincoli interni. $\hfill$
+	
+	\phantom{text}
+	
+	Il morsetto è un ulteriore vincolo fittizio che ci farà alzare di 1 volta la iperstaticità strutturale. La sua condizione cinematica è $\varphi=0.\hfill$
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\centering
+			% here we construct our structure
+			\scaling{.40};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{0}{1};                                 %Punto A
+			\point{b}{24}{1};                                %Punto B
+			\point{c}{12}{1};                                %Punto C
+			\point{d}{-1}{1};
+			\point{e}{25.4}{1};
+			\point{caricoin}{0}{2};
+			\point{caricofin}{24}{2};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                               %Cerniera A
+			\support{3}{b}[90];                               %Carrello B
+			\load{3}{d}[90][180];
+			\load{2}{e}[270][180];
+			\lineload{2}{caricoin}{caricofin}
+			\notation{1}{caricofin}{$q_1$}[above right=1.8mm];
+			\notation{1}{d}{$\dfrac{q_1 L_1^{2}}{12}$}[left=4mm];
+			\notation{1}{e}{$M_{bsx}(q_1)$}[right=4mm];
+		\end{tikzpicture}
+		\caption{Tratto AB.}
+		\label{fig:sfdgfgvcxesrg}
+	\end{figure}
+	
+	$M_{bsx}(q_1)=\dfrac{q_1 L_1^{2}}{12}$
+	
+	\begin{figure}[h]
+		\centering
+		\hspace*{-2.2cm}
+		\begin{tikzpicture}
+			\centering
+			% here we construct our structure
+			\scaling{.40};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{0}{1};                                 %Punto A
+			\point{b}{24}{1};                                %Punto B
+			\point{c}{12}{1};                                %Punto C
+			\point{d}{-1}{1};
+			\point{e}{25.4}{1};
+			\point{caricoin}{0}{2};
+			\point{caricofin}{24}{2};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                               %Cerniera A
+			\support{1}{b};                               %Carrello B
+			\load{3}{d}[90][180];
+			\notation{1}{d}{$M_{bdx}(q_2)$}[left=4mm];
+		\end{tikzpicture}
+		\caption{Tratto BC.}
+		\label{fig:sdefsdfxcvcvbdes}
+	\end{figure}
+	
+	$M_{bdx}(q_2)=\dfrac{q_2 L_2^{2}}{8}$
+	
+	\phantom{text}
+	
+	$M_{bsx}(q_1), M_{bdx}(q_2)$ sono azioni applicate dal nodo per effetto del carico esterno. Azioni che il vincolo ausiliario [\textbf{::}] deve esercitare per imporre la condizione cinematica $\varphi=0. \hfill$
+	
+	$\boxtimes \hfill$
+	
+	\phantom{text}
+	
+	\phantom{text}
+	
+	\phantom{text}
+	
+	$\beta$) \textbf{ATTIVAZIONE DEGLI SPOSTAMENTI NODALI.} $\hfill$
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};               				
+			\point{b}{14}{1};             				
+			\point{c}{26}{1};
+			\point{d}{2}{-4};
+			\point{e}{14}{-4};
+			\point{f}{26}{-4};
+			\point{g}{1.4}{3};
+			\point{h}{26.6}{3};
+			\beam{2}{a}{c};
+			\support{3}{a}[-90];
+			\support{1}{b}[0];
+			\support{1}{c}[0];
+			\internalforces{a}{b}{0}{0}[-1][gray];
+			\internalforces{b}{c}{0}{0}[1][gray];
+			\notation{1}{b}{$\bullet$}[above left];
+			\notation{1}{b}{$\bullet$}[above right];
+			\notation{1}{b}{$\bullet$}[below left];
+			\notation{1}{b}{$\bullet$}[below right];
+		\end{tikzpicture}
+		\caption{Flessione dei tronchi indotta dagli spostamenti.}
+		\label{fig:sdftgerte4t342td}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{.9cm}
+		\begin{tikzpicture}
+			\centering
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{0}{1};                                 %Punto A
+			\point{b}{24}{1};                                %Punto B
+			\point{c}{12}{1};                                %Punto C
+			\point{d}{-1}{1};
+			\point{e}{25.4}{1};
+			\point{caricoin}{0}{2};
+			\point{caricofin}{24}{2};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+			\load{3}{e}[270][180];
+			\notation{1}{e}{$M_{bsx}(\varphi_b)$}[right=4mm];
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:43terdfgdfg}
+	\end{figure}
+	
+	$M_{bsx}(\varphi_b)=\dfrac{4EI}{L_1}\varphi_b$
+	
+	\begin{figure}[H]
+		\centering
+		\hspace*{-2.5cm}
+		\begin{tikzpicture}
+			\centering
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{0}{1};                                 %Punto A
+			\point{b}{24}{1};                                %Punto B
+			\point{c}{12}{1};                                %Punto C
+			\point{d}{-1}{1};
+			\point{e}{25.4}{1};
+			\point{caricoin}{0}{2};
+			\point{caricofin}{24}{2};
+			\beam{2}{a}{b};                                  %Trave A-B
+			\support{3}{a}[-90];                               %Cerniera A
+			\support{1}{b}[0];                               %Carrello B
+		    \load{3}{d}[90][180];
+			\notation{1}{d}{$M_{bdx}(\varphi_b)$}[left=4mm];
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:wer435tret453}
+	\end{figure}
+	 
+	 $M_{bdx}(\varphi_b)=\dfrac{3EI}{L_2}\varphi_b$
+	 
+	$\boxtimes \hfill$
+	
+	\break
+	
+	$\gamma$) \textbf{SCRITTURA DELL'EQUAZIONE DI EQUILIBRIO AL NODO.} 
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

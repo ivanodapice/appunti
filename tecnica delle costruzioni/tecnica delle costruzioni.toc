@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Richiami}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Travi continue, taglio e momento}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Metodo delle Forze}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Metodo degli Spostamenti}{20}{section.2.3}%

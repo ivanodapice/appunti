@@ -1,0 +1,5 @@
+gswin64.exe -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=foo-compressed.pdf foo.pdf
+
+
+
+C:\pdfsizeopt\pdfsizeopt file.pdf filec.pdf
