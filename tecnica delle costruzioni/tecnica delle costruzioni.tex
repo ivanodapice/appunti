@@ -1473,9 +1473,9 @@
 		\label{fig:sfdgfgvcxesrg}
 	\end{figure}
 	
-	$M_{bsx}(q_1)=\dfrac{q_1 L_1^{2}}{12}$
+	$M_{bsx}(q_1)=-\dfrac{q_1 L_1^{2}}{12}$
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
 		\hspace*{-2.2cm}
 		\begin{tikzpicture}
@@ -1609,11 +1609,62 @@
 	
 	$\gamma$) \textbf{SCRITTURA DELL'EQUAZIONE DI EQUILIBRIO AL NODO.} 
 	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};
+			\point{b}{4}{1};
+			\point{c}{10}{1};
+			\point{d}{14}{1};
+			\point{hinge}{12}{1};
+			\point{e}{20}{1};
+			\point{f}{22}{1};
+			\point{g}{12}{2.2};
+			\beam{1}{a}{b};
+			\beam{1}{c}{d};
+			\beam{1}{e}{f};
+			\support{1}{hinge}[0];
+			\load{3}{b}[270][180];
+			\load{2}{c}[90][180];
+			\load{2}{d}[270][180];
+			\load{3}{e}[90][180];
+			\load{3}{g}[0][180];
+			\notation{1}{b}{$M_{bsx}$}[above right=2mm];
+			\notation{1}{c}{$-M_{bsx}$}[below left=2mm];
+			\notation{1}{d}{$-M_{bdx}$}[above right=2mm];
+			\notation{1}{e}{$M_{bdx}$}[below left=2.4mm];
+			\notation{1}{g}{$M_{est}$}[above right=2.4mm];
+			\notation{1}{hinge}{B}[below=10mm];
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:sdfdvcxw222}
+	\end{figure}
 	
+	La presenza di $M_{est}$ non è per forza verificata, ma nel caso sia la scriveremo come azione esterna applicata al nodo
 	
+	\phantom{text}
 	
+	$ -M_{bsx}-M_{bdx}+M_{est}=0 \Rightarrow M_{bsx}+M_{bdx}=M_{est} $
 	
+	\phantom{text}
 	
+	$M_{bsx}+M_{bdx}=$ Somma delle azioni applicate dal nodo sulla struttura.
+	
+	$M_{est}$ Azioni esterne applicate sul nodo.
+	
+	\phantom{text}
+	
+	$-\dfrac{q_1 L_1^{2}}{12}+\dfrac{4EI}{L_1}\varphi_b+\dfrac{q_2 L_2^{2}}{8}+\dfrac{3EI}{L_2}\varphi_b=0$
+	
+	\phantom{text}
+	
+	\phantom{text}
+	
+	$ \varphi_b=\dfrac{\dfrac{q_1 L_1^{2}}{12}-\dfrac{q_2 L_2^{2}}{8}}{\dfrac{4EI}{L_1}+\dfrac{3EI}{L_2}} $
 	
 	
 \end{document}
