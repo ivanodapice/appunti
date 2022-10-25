@@ -1,0 +1,108 @@
+\documentclass[a4paper,12pt, oneside]{book}
+%\pdfminorversion=5 
+%\pdfcompresslevel=9
+%\pdfobjcompresslevel=2
+%\pdfminorversion=5
+% \usepackage{fullpage}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{csquotes}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{engrec}
+\usepackage{rotating}
+\usepackage[safe,extra]{tipa}
+\usepackage{tikz,pgfplots}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc,through,backgrounds}
+\usepackage{stanli}
+\usepackage{multirow}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{enumerate}
+\usepackage{braket}
+\usepackage{marginnote}
+\usepackage{pgfplots}
+\usepackage{cancel}
+\usepackage{polynom}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{pdfpages}
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\fancyhead[LE,RO]{\slshape \rightmark}
+\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+
+\title{\textbf{Tecnica delle Costruzioni}\\ \textbf{Corso di laurea in ingegneria edile}\\ \textbf{Prof. Ing. Andrea Prota– a.a. 2022/2023}}
+\author{Ivano D'Apice\\\\ N41002772}
+\date{}
+
+\pgfplotsset{compat=1.13}
+\begin{document}
+	\maketitle
+	
+	\definecolor{shadecolor}{gray}{0.80}
+	
+	\newtheorem{teorema}{Teorema}
+	\newtheorem{definizione}{Definizione}
+	\newtheorem{esempio}{Esempio}
+	\newtheorem{corollario}{Corollario}
+	\newtheorem{lemma}{Lemma}
+	\newtheorem{osservazione}{Osservazione}
+	\newtheorem{nota}{Nota}
+	\newtheorem{esercizio}{Esercizio}
+	\tableofcontents
+	\renewcommand{\chaptermark}[1]{%
+		\markboth{\chaptername
+			\ \thechapter.\ #1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+	
+	\chapter{Assegno Solaio}
+	    
+    \begin{tabbing}
+	 Geometria \hspace{10em} \= \hspace{1em} \\
+	 $L_1$=  $0.70+0.10\cdot n$              \> n=n.ro lettere del nome    \\
+	 $L_2$=  $4.30+0.10\cdot c$              \> c=n.re lettere del cognome \\ 
+	 $L_3$=  $4.80+0.10\cdot c-0.10\cdot n$  \>                             
+    \end{tabbing}	    
+
+	\begin{figure}[H]
+		\centering
+		\hspace*{1cm}
+		\begin{tikzpicture}
+			% here we construct our structure
+			\scaling{.45};
+			%\draw[help lines,step=.45]
+			(0,-.9) grid (12.6,1.81);
+			\point{a}{2}{1};                                
+			\point{b}{26}{1};                               
+			\point{c}{14}{1};                               
+			\point{d}{0}{1};  
+			\beam{2}{d}{b};                                          
+			\support{1}{a}[0];                               
+			\support{1}{b}[0];                               
+			\support{1}{c}[0];        
+			\dimensioning{1}{d}{a}{-1}[$L_1$];
+			\dimensioning{1}{a}{c}{-1}[$L_2$];
+			\dimensioning{1}{c}{b}{-1}[$L_3$];
+			\notation{1}{d}{A}[below = 18mm];
+			\notation{1}{a}{B}[below = 18mm];
+			\notation{1}{c}{C}[below = 18mm];
+			\notation{1}{b}{D}[below = 18mm];
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:traveesss1}
+	\end{figure}
+	
+\end{document}
