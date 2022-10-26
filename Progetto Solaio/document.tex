@@ -6,6 +6,7 @@
 % \usepackage{fullpage}
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
 \usepackage{float}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -44,7 +45,7 @@
 \fancyhead[LO,RE]{\slshape \leftmark}
 \fancyfoot[C]{\thepage}
 
-\title{\textbf{Tecnica delle Costruzioni}\\ \textbf{Corso di laurea in ingegneria edile}\\ \textbf{Prof. Ing. Andrea Prota– a.a. 2022/2023}}
+\title{\textbf{Tecnica delle Costruzioni}\\ \textbf{Corso di laurea in ingegneria edile}\\ \textbf{Prof. Ing. Andrea Prota–a.a. 2022/2023}}
 \author{Ivano D'Apice\\\\ N41002772}
 \date{}
 
@@ -72,14 +73,14 @@
 	    
     \begin{tabbing}
 	 Geometria \hspace{10em} \= \hspace{1em} \\
-	 $L_1$=  $0.70+0.10\cdot n$              \> n=n.ro lettere del nome    \\
-	 $L_2$=  $4.30+0.10\cdot c$              \> c=n.re lettere del cognome \\ 
-	 $L_3$=  $4.80+0.10\cdot c-0.10\cdot n$  \>                             
+	 $L_1$=  $0,70+0,10\cdot n$              \> n=n.ro lettere del nome    \\
+	 $L_2$=  $4,00+0,10\cdot c$              \> c=n.re lettere del cognome \\ 
+	 $L_3$=  $4,80+0,10\cdot c-0,10\cdot n$  \>                             
     \end{tabbing}	    
 
 	\begin{figure}[H]
 		\centering
-		\hspace*{1cm}
+		\hspace*{-.5cm}
 		\begin{tikzpicture}
 			% here we construct our structure
 			\scaling{.45};
@@ -104,5 +105,71 @@
 		\caption{}
 		\label{fig:traveesss1}
 	\end{figure}
+	
+	\begin{figure}[H]
+		\hspace*{-.4cm}
+		\centering
+		\includegraphics[width=0.7\linewidth]{"immagini/misure solaio flessione normale"}
+		\caption{Dati numerici in 1 metro di solaio.}
+		\label{fig:misure-solaio-flessione-normale}
+	\end{figure}
+	
+	\begin{tabbing}
+		Carichi Accidentali$^{[\textbf{1}]}$\label{1} \hspace{10em} \= Matricola pari \hspace{1em} \\
+		Sullo Sbalzo $\longrightarrow$    \> $q=5,00kN/m^{2}$    \\
+		In Campata   $\longrightarrow$    \> $q=3,50kN/m^{2}$                     
+	\end{tabbing}	
+	
+	
+	\chapter{Analisi dei carichi}
+	
+	Consideriamo due tipi di carico: $Q$ e $G$. I carichi di tipo $Q$ si dicono \textbf{variabili}, mentre quelli di tipo $G$ \textbf{permanenti}. Differenziamo poi i carichi $G$ in \textbf{permanenti strutturali} $G_1$ e \textbf{permanenti non strutturali} $G_2$.
+    \leavevmode\newline
+    \leavevmode\newline
+	Si ricorda che verrà fatta una verifica rispetto allo \textbf{S.L.U} (Stati Limite Ultimo), tenendo conto dello \textbf{S.L.E} (Stato Limite di Esercizio) per quanto riguarda il dimensionamento del solaio.
+
+	Dati:
+	\begin{tabbing}
+		\hspace{14em} \= \hspace{2em} \= \hspace{6em} \= \hspace{2em} \= \hspace{2em} \\ 
+		$L_1$=  $0,70+0,10\cdot n$              \> = \> $0,70+0,50$ \> = \> $\textbf{1,20m}$  \\
+		$L_2$=  $4,30+0,10\cdot c$              \> = \> $4,30+0,60$ \> = \> $\textbf{4,90m}$  \\
+		$L_3$=  $4,80+0,10\cdot c-0,10\cdot n$  \> = \> $4,80+0,10$ \> = \> $\textbf{4,90m}$                     
+	\end{tabbing}	
+	\leavevmode\newline
+	Utilizziamo la luce maggiore ($L_2=L_3$) per calcolare l'altezza del solaio grazie allo S.L.E. Avremo che $\textbf{H=}\frac{\textbf{L}}{\textbf{20}}$ e quindi $H=\frac{490cm}{20}=24,50cm\sim\textbf{25,00cm}$.$^{[\textbf{2}]}$\label{2}
+    \leavevmode\newline
+    \leavevmode\newline
+	Come da progetto [\ref{fig:misure-solaio-flessione-normale}] avremo $\textbf{H}_{sbalzo}=H-4,00cm=25,00cm-4,00cm=\textbf{21,00cm}$.
+	
+	\section{Carichi strutturali permanenti $\textbf{G}_1$}
+	
+	\begin{tabbing}
+		Materiale\hspace{2em} \= h (m)\hspace{3em} \= L (m)\hspace{3em} \= $G_1$ (kN/m$^3$)\hspace{3em} \= $G_1$ (kN/m$^2$)\hspace{1em}\\\\
+		Soletta  \> 0,05 \> 1,00           \> 25,00           \> 1,25  \\
+		Travetti \> 0,20 \> 0,10$\cdot$2   \> 25,00           \> 1,00  \\ 
+		Laterizi$^{[\textbf{2.1}]}$\label{3} \> 0,20 \> 0,40$\cdot$2 \> \phantom{0}6,00 \> 	0,96                                    
+	\end{tabbing}	    
+	
+	Totale $\textbf{G}_1=(1,25+1,00+0,96)kN/m^2=3,21kN/m^2$ 
+
+    \section{Carichi permanenti non strutturali $\textbf{G}_2$}
+    
+    \begin{tabbing}
+    	Materiale\hspace{2em} \= h (m)\hspace{3em} \= L (m)\hspace{3em} \= $G_1$ (kN/m$^3$)\hspace{3em} \= $G_1$ (kN/m$^2$)\hspace{1em}\\\\
+    	Massetto  \> 0,60 \> 1,00 \> 16,00           \> 0,96  \\
+    	Pavimento \> 0,01 \> 1,00 \> 16,00           \> 0,18  \\ 
+    	Intonaco  \> 0,01 \> 1,00 \> 18,00           \> 0,18                                    
+    \end{tabbing}	    
+    
+    Totale $\textbf{G}_2=(0,96+0,18+0,18)kN/m^2=1,32kN/m^2$ 
+    
+	\chapter{Note}
+	[\ref{1}] I valori di carico accidentale in situazione normale sono $q=4.00kN/m^{2}$ e $q=2.00kN/m^{2}$ rispettivamente per lo sbalzo e campata. I valori usati in esercizio sono puramente didattici.
+	\leavevmode\newline
+	\leavevmode\newline
+	[\ref{2}] Considerando che una pignatta non è alta meno di 12 cm, l’altezza minima del solaio è comunque di 17 cm.
+	\leavevmode\newline
+	\leavevmode\newline
+	[\ref{3}] Il peso specifico dei blocchi di allegerimento in laterizio è stato ricavato dalle tabelle dei pesi specifici di normativa, considerando una percentuale di foratura pari al 67\textdiscount ( 18 $\cdot$ [ 1-0,67 ] ) = 5,94 -> 6,00 KN/m$^3$.
 	
 \end{document}
