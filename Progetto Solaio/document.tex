@@ -232,9 +232,9 @@
     		\lineload{1}{caricovari}{caricovarf}[.569][.569][0.01];
     		\lineload{1}{a}{b}[1.088][1.088][.01];
     		\lineload{1}{d}{a}[1][1][.09];
-    		\notation{1}{caricovarf}{$3,50kN/m^{2}$}[above right];
-    		\notation{1}{b}{$6,15kN/m^{2}$}[above right];
-    		\notation{1}{d}{$5,65kN/m^{2}$}[above left];
+    		\notation{1}{caricovarf}{$3,50kN/m$}[above right];
+    		\notation{1}{b}{$6,15kN/m$}[above right];
+    		\notation{1}{d}{$5,65kN/m$}[above left];
     	\end{tikzpicture}
     	\caption{}
     	\label{fig:travesolaiocarico1}
@@ -260,8 +260,8 @@
     		\support{1}{c}[0];
     		\lineload{1}{a}{b}[1.657][1.657][.01];
     		\lineload{1}{d}{a}[1][1][.09];
-    		\notation{1}{b}{$9,65kN/m^{2}$}[above right];
-    		\notation{1}{d}{$5,65kN/m^{2}$}[above left];
+    		\notation{1}{b}{$9,65kN/m$}[above right];
+    		\notation{1}{d}{$5,65kN/m$}[above left];
     		\dimensioning{1}{d}{a}{-1.4}[$1,20$];
     		\dimensioning{1}{a}{c}{-1.4}[$4,90$];
     		\dimensioning{1}{c}{b}{-1.4}[$4,90$];
@@ -293,8 +293,8 @@
     		\support{1}{c}[0];
     		\load{3}{d}[90][180];
     		\lineload{1}{a}{b}[1.657][1.657][.01];
-    		\notation{1}{b}{$9,65kN/m^{2}$}[above right];
-    	    \notation{1}{d}{$4,07kN$}[left=.5cm];
+    		\notation{1}{b}{$9,65kN/m$}[above right];
+    	    \notation{1}{d}{$4,07kNm$}[left=.5cm];
     	    \notation{1}{a}{B}[below=2cm];
     	    \notation{1}{b}{D}[below=2cm];
     	    \notation{1}{c}{C}[below=2cm];
@@ -328,8 +328,8 @@
     		\support{1}{c}[0];
     		\load{3}{d}[90][180];
     		\lineload{1}{a}{b}[1.657][1.657][.01];
-    		\notation{1}{b}{$9,65kN/m^{2}$}[above right];
-    		\notation{1}{d}{$4,07kN$}[left=.5cm];
+    		\notation{1}{b}{$9,65kN/m$}[above right];
+    		\notation{1}{d}{$4,07kNm$}[left=.5cm];
     		\notation{1}{c}{$\bullet$}[above left=-1.3mm];
     		\notation{1}{c}{$\bullet$}[above right=-1.3mm];
     		\notation{1}{c}{$\bullet$}[below left=-1.3mm];
@@ -358,15 +358,15 @@
     		\support{3}{b}[90];                               %Carrello B
     		\load{3}{d}[90][180];
     		\load{3}{e}[270][180];
-    		\notation{1}{d}{$4,07kN$}[left=.5cm];
-    		\notation{1}{e}{$\frac{4,07kN\endnote{Quando abbiamo un incastro-appoggio con una coppia esterna, la coppia opposta andrà dimezzata}}{2}$}[right=.5cm];
+    		\notation{1}{d}{$4,07kNm$}[left=.5cm];
+    		\notation{1}{e}{$\frac{4,07kNm\endnote{Quando abbiamo un incastro-appoggio con una coppia esterna, la coppia opposta andrà dimezzata}}{2}$}[right=.5cm];
     	\end{tikzpicture}
     	\caption{Tratto BC.}
     	\label{fig:trattobcmomento}
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{sx}(M_b)=2,04kN$
+    $M_{c}^{sx}(M_b)=-2,04kNm$
     \end{tightcenter}
 
     \leavevmode\newline
@@ -393,14 +393,14 @@
     		\load{2}{e}[270][180];
     		\lineload{1}{f}{g}[1][1][0.01];
     		\notation{1}{d}{$\frac{qL^{2}}{8}$}[left=.5cm];
-    		\notation{1}{e}{$28,96kN$}[right=.5cm];
+    		\notation{1}{e}{$28,96kNm$}[right=.5cm];
     	\end{tikzpicture}
     	\caption{Tratto BC.}
     	\label{fig:trattobccarico}
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{sx}(q)=-28,96kN$
+    $M_{c}^{sx}(q)=28,96kNm$
     \end{tightcenter}
     
     \leavevmode\newline
@@ -427,14 +427,14 @@
     		\load{2}{e}[270][180];
     		\lineload{1}{f}{g}[1][1][0.01];
     		\notation{1}{e}{$\frac{qL^{2}}{8}$}[right=.5cm];
-    		\notation{1}{d}{$28,96kN$}[left=.5cm];
+    		\notation{1}{d}{$28,96kNm$}[left=.5cm];
     	\end{tikzpicture}
     	\caption{Tratto CD.}
     	\label{fig:trattocdcarico}
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{dx}(q)=28,96kN$
+    $M_{c}^{dx}(q)=-28,96kNm$
     \end{tightcenter}
     
     \leavevmode\newline
@@ -496,7 +496,7 @@
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{sx}(\varphi_{c})=\frac{3EI}{4,90m}\varphi_{c}$
+    $M_{c}^{sx}(\varphi_{c})=-\frac{3EI}{4,90m}\varphi_{c}$
     \end{tightcenter}
     
     \begin{figure}[H]
@@ -513,7 +513,7 @@
     		\beam{2}{a}{b};
     		\support{3}{a}[-90];
     		\support{1}{b}[0];
-    		\load{2}{c}[90][180];
+    		\load{3}{c}[90][180];
     		\internalforces{a}{b}{0}{0}[-1][gray];
     		\notation{1}{c}{$\frac{3EI}{L_3}\varphi_{c}$}[left=.5cm];
     	\end{tikzpicture}
@@ -522,7 +522,7 @@
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{dx}(\varphi_{c})=\frac{3EI}{4,90m}\varphi_{c}$
+    $M_{c}^{dx}(\varphi_{c})=-\frac{3EI}{4,90m}\varphi_{c}$
     \end{tightcenter}
     \leavevmode\newline
     \leavevmode\newline
@@ -537,11 +537,128 @@
     \begin{equation}
     	\begin{cases}
     		M_{c}^{sx}(M_b)+M_{c}^{sx}(q)+M_{c}^{sx}(\varphi_{c})+M_{c}^{dx}(q)+M_{c}^{dx}(\varphi_{c})&=0 \\ \\
-    		2,04kN-28,96kN+\frac{3EI}{4,90m}\varphi_{c}+28,96kN+\frac{3EI}{4,90m}&=0\\ \\ 
+    		-2,04kNm+28,96kNm-\frac{3EI}{4,90m}\varphi_{c}-28,96kNm-\frac{3EI}{4,90m}\varphi_{c}&=0\\ \\ 
     	\end{cases}
     	\hfill
     \end{equation}
-   
+ 
+    \leavevmode\newline
+   	$\varphi_{c}=-\frac{10,00kNm^{2}}{6EI}$ 
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    $M_{c}^{dx}=M_{c}^{sx}(\varphi_{c})=-\frac{3EI}{4,90m}\varphi_{c}=-\frac{3EI}{4,90m}\cdot-\frac{10,00kNm^{2}}{6EI}=\frac{10,00kNm^{2}}{4,90m}\frac{3EI}{6EI}=1,02kNm$
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    $\delta$) \textbf{REAZIONI VINCOLARI.}
+    \leavevmode\newline
+    \leavevmode\newline
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.6cm}
+    	\begin{tikzpicture}
+    		\centering
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                 %Punto A
+    		\point{b}{26}{1};                                %Punto B
+    		\point{c}{14}{1};                                %Punto C
+    		\point{d}{.6}{1}
+    		\point{e}{27}{1};
+    		\point{f}{2}{1.8};
+    		\point{g}{26}{1.8};
+    		\point{ccccc}{2}{-1};
+    		\point{bbbbb}{26}{-1};
+    		\beam{2}{a}{b};                                  %Trave A-B
+    		\support{1}{a}[0];                               %Cerniera A
+    		\support{1}{b}[0];                              %Carrello B
+    		\load{3}{d}[90][180];
+    		\load{3}{e}[270][180];
+    		\load{1}{c}[90];
+    		\load{1}{a}[-90][1][1];
+    		\load{1}{b}[-90][1][1];
+       		\notation{1}{d}{$4,07kNm$}[left=.5cm];
+    		\notation{1}{e}{$1,02kNm$}[right=.5cm];
+    		\notation{1}{c}{$47,29kN$}[above right=3mm];
+    		\notation{1}{ccccc}{$R_a$}[below right=4mm];
+    		\notation{1}{bbbbb}{$R_{bsx}$}[below left=4mm];
+    	\end{tikzpicture}
+    	\caption{Tratto BC.}
+    	\label{fig:reazionevincolareBC}
+    \end{figure}
+    
+    \begin{alignat*}{5}
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_a+R_{bsx}-qL        & {}=0{}\\
+    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{qL^{2}}{2}-R_{bsx}L-1,69kNm & {}=0{} 
+    \end{alignat*}
+    \leavevmode\newline
+    \leavevmode\newline
+    $115,85kNm-R_{bsx}\phantom{,}4,90m-1,02kNm=0$
+    \leavevmode\newline
+    \leavevmode\newline
+    $R_{bsx}=\frac{115,85kNm-1,02kNm}{4,90m}=23,43kN$
+    \leavevmode\newline
+    \leavevmode\newline
+    $R_a=47,29kN-23,43kN=23,86kN$
+    
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.6cm}
+    	\begin{tikzpicture}
+    		\centering
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                 %Punto A
+    		\point{b}{26}{1};                                %Punto B
+    		\point{c}{14}{1};                                %Punto C
+    		\point{d}{.6}{1}
+    		\point{e}{27}{1};
+    		\point{f}{2}{1.8};
+    		\point{g}{26}{1.8};
+    		\point{ccccc}{2}{-1};
+    		\point{bbbbb}{26}{-1};
+    		\beam{2}{a}{b};                                  %Trave A-B
+    		\support{1}{a}[0];                               %Cerniera A
+    		\support{1}{b}[0];                              %Carrello B
+    		\load{3}{d}[90][180];
+    		\load{1}{c}[90];
+    		\load{1}{a}[-90][1][1];
+    		\load{1}{b}[-90][1][1];
+    		\notation{1}{d}{$1,02kNm$}[left=.5cm];
+    		\notation{1}{c}{$47,29kN$}[above right=3mm];
+    		\notation{1}{ccccc}{$R_{bdx}$}[below right=4mm];
+    		\notation{1}{bbbbb}{$R_c$}[below left=4mm];
+    	\end{tikzpicture}
+    	\caption{Tratto CD.}
+    	\label{fig:reazionevincolareCD}
+    \end{figure}
+
+    \begin{alignat*}{5}
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{bdx}+R_c-qL        & {}=0{}\\
+    	\Sigma M_c & {}=0{} & \phantom{123456} & \frac{qL^{2}}{2}-R_cL& {}=0{} 
+    \end{alignat*}
+    \leavevmode\newline
+    \leavevmode\newline
+    $115,86kNm-R_c\phantom{,}4,90m=0$
+    \leavevmode\newline
+    \leavevmode\newline
+    $R_c=\frac{115,86kNm}{4,90m}=23,64kN$
+    \leavevmode\newline
+    \leavevmode\newline
+    $R_{bdx}=47,29kN-23,64kN=23,65kN$
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    $\textbf{R}_a=23,99kN,\leavevmode\newline \textbf{R}_b=47,64kN,\leavevmode\newline \textbf{R}_c=23,64kN,\leavevmode\newline \textbf{M}_{c}^{dx}=\textbf{M}_{c}^{sx}(\varphi_{c})=1,02kNm$
+
 	\newpage
 	\begingroup
 	\parindent 0pt
