@@ -44,6 +44,11 @@
 \fancyhead[LE,RO]{\slshape \rightmark}
 \fancyhead[LO,RE]{\slshape \leftmark}
 \fancyfoot[C]{\thepage}
+\usepackage{endnotes}
+\makeatletter
+\makeatother
+\renewcommand{\theendnote}{\Roman{endnote}} 
+\renewcommand{\notesname}{Note}
 
 \title{\textbf{Tecnica delle Costruzioni}\\ \textbf{Corso di laurea in ingegneria edile}\\ \textbf{Prof. Ing. Andrea Prota–a.a. 2022/2023}}
 \author{Ivano D'Apice\\\\ N41002772}
@@ -103,7 +108,7 @@
 			\notation{1}{b}{D}[below = 18mm];
 		\end{tikzpicture}
 		\caption{}
-		\label{fig:traveesss1}
+		\label{fig:travesolaio}
 	\end{figure}
 	
 	\begin{figure}[H]
@@ -115,12 +120,10 @@
 	\end{figure}
 	
 	\begin{tabbing}
-		Carichi Accidentali$^{[\textbf{1}]}$\label{1} \hspace{10em} \= Matricola pari \hspace{1em} \\
-		Sullo Sbalzo $\longrightarrow$    \> $q=5,00kN/m^{2}$    \\
-		In Campata   $\longrightarrow$    \> $q=3,50kN/m^{2}$                     
-	\end{tabbing}	
-	
-	
+		Carichi Accidentali\endnote{I valori di carico accidentale in situazione normale sono $q=4.00kN/m^{2}$ e $q=2.00kN/m^{2}$ rispettivamente per lo sbalzo e campata. I valori usati in esercizio sono puramente didattici.} \hspace{10em} \= Matricola pari \hspace{1em} \\
+		Sullo Sbalzo $\longrightarrow$    \> $q_{k1}=5,00kN/m^{2}$    \\
+		In Campata   $\longrightarrow$    \> $q_{k2}=3,50kN/m^{2}$                     
+	\end{tabbing}
 	\chapter{Analisi dei carichi}
 	
 	Consideriamo due tipi di carico: $Q$ e $G$. I carichi di tipo $Q$ si dicono \textbf{variabili}, mentre quelli di tipo $G$ \textbf{permanenti}. Differenziamo poi i carichi $G$ in \textbf{permanenti strutturali} $G_1$ e \textbf{permanenti non strutturali} $G_2$.
@@ -136,40 +139,119 @@
 		$L_3$=  $4,80+0,10\cdot c-0,10\cdot n$  \> = \> $4,80+0,10$ \> = \> $\textbf{4,90m}$                     
 	\end{tabbing}	
 	\leavevmode\newline
-	Utilizziamo la luce maggiore ($L_2=L_3$) per calcolare l'altezza del solaio grazie allo S.L.E. Avremo che $\textbf{H=}\frac{\textbf{L}}{\textbf{20}}$ e quindi $H=\frac{490cm}{20}=24,50cm\sim\textbf{25,00cm}$.$^{[\textbf{2}]}$\label{2}
+	Utilizziamo la luce maggiore ($L_2=L_3$) per calcolare l'altezza del solaio grazie allo S.L.E. Avremo che $\textbf{H=}\frac{\textbf{L}}{\textbf{20}}$ e quindi $H=\frac{490cm}{20}=24,50cm\sim\textbf{25,00cm}$.
     \leavevmode\newline
     \leavevmode\newline
-	Come da progetto [\ref{fig:misure-solaio-flessione-normale}] avremo $\textbf{H}_{sbalzo}=H-4,00cm=25,00cm-4,00cm=\textbf{21,00cm}$.
+	Come da progetto [\ref{fig:misure-solaio-flessione-normale}] avremo $\textbf{H}_{sbalzo}\endnote{Considerando che una pignatta non è alta meno di 12 cm, l’altezza minima del solaio è comunque di 17 cm.}=H-4,00cm=25,00cm-4,00cm=\textbf{21,00cm}$.
+	
+	\break
 	
 	\section{Carichi strutturali permanenti $\textbf{G}_1$}
 	
 	\begin{tabbing}
-		Materiale\hspace{2em} \= h (m)\hspace{3em} \= L (m)\hspace{3em} \= $G_1$ (kN/m$^3$)\hspace{3em} \= $G_1$ (kN/m$^2$)\hspace{1em}\\\\
+		\textbf{Campata} \hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^2$)\hspace{1em}\\\\
 		Soletta  \> 0,05 \> 1,00           \> 25,00           \> 1,25  \\
 		Travetti \> 0,20 \> 0,10$\cdot$2   \> 25,00           \> 1,00  \\ 
-		Laterizi$^{[\textbf{2.1}]}$\label{3} \> 0,20 \> 0,40$\cdot$2 \> \phantom{0}6,00 \> 	0,96                                    
+		Laterizi \endnote{Il peso specifico dei blocchi di allegerimento in laterizio è stato ricavato dalle tabelle dei pesi specifici di normativa, considerando una percentuale di foratura pari al 67\textdiscount (18$\cdot$[1-0,67]) = 5,94 -> 6,00 KN/m$^3$.} \> 0,20 \> 0,40$\cdot$2 \> \phantom{0}6,00 \> 	0,96                                    
 	\end{tabbing}	    
 	
-	Totale $\textbf{G}_1=(1,25+1,00+0,96)kN/m^2=3,21kN/m^2$ 
+	\begin{tabbing}
+		\textbf{Sbalzo}\phantom{11.} \hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^2$)\hspace{1em}\\\\
+		Soletta  \> 0,05 \> 1,00           \> 25,00           \> 1,25  \\
+		Travetti \> 0,16 \> 0,10$\cdot$2   \> 25,00           \> 0,80  \\ 
+		Laterizi \> 0,16 \> 0,40$\cdot$2 \> \phantom{0}6,00   \> 0,77                                    
+	\end{tabbing}
+
+    \phantom{123}$\textbf{G}_{1campata}=(1,25+1,00+0,96)kN/m^2=3,21kN/m^2$ 
+	
+	\phantom{123}$\textbf{G}_{1sbalzo}\phantom{1.}=(1,25+0,80+0,77)kN/m^2=2,82kN/m^2$
 
     \section{Carichi permanenti non strutturali $\textbf{G}_2$}
     
     \begin{tabbing}
-    	Materiale\hspace{2em} \= h (m)\hspace{3em} \= L (m)\hspace{3em} \= $G_1$ (kN/m$^3$)\hspace{3em} \= $G_1$ (kN/m$^2$)\hspace{1em}\\\\
+    	\phantom{\textbf{Campata}}\hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{G}_2$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_2$ (kN/m$^2$)\hspace{1em}\\\\
     	Massetto  \> 0,60 \> 1,00 \> 16,00           \> 0,96  \\
     	Pavimento \> 0,01 \> 1,00 \> 16,00           \> 0,18  \\ 
     	Intonaco  \> 0,01 \> 1,00 \> 18,00           \> 0,18                                    
-    \end{tabbing}	    
+    \end{tabbing}    
     
-    Totale $\textbf{G}_2=(0,96+0,18+0,18)kN/m^2=1,32kN/m^2$ 
+    Totale in campata e sullo sbalzo:\\
+    \phantom{123}$\textbf{G}_2=(0,96+0,18+0,18)kN/m^2=1,32kN/m^2$ 
     
-	\chapter{Note}
-	[\ref{1}] I valori di carico accidentale in situazione normale sono $q=4.00kN/m^{2}$ e $q=2.00kN/m^{2}$ rispettivamente per lo sbalzo e campata. I valori usati in esercizio sono puramente didattici.
-	\leavevmode\newline
-	\leavevmode\newline
-	[\ref{2}] Considerando che una pignatta non è alta meno di 12 cm, l’altezza minima del solaio è comunque di 17 cm.
-	\leavevmode\newline
-	\leavevmode\newline
-	[\ref{3}] Il peso specifico dei blocchi di allegerimento in laterizio è stato ricavato dalle tabelle dei pesi specifici di normativa, considerando una percentuale di foratura pari al 67\textdiscount ( 18 $\cdot$ [ 1-0,67 ] ) = 5,94 -> 6,00 KN/m$^3$.
-	
+    \section{Condizioni di Carico}
+    
+    Dobbiamo usare i coefficienti parziali per le azioni nelle verifiche agli S.L.U per calcolare i carichi distribuiti da applicare al solaio.
+    
+    \begin{tabbing}
+    	\phantom{Campata} \hspace{1em} \= \hspace{10em} \= \hspace{2em} \= \hspace{1em}\\\\
+    	$G_{1campata}$    \> $3,21kN/m^2\cdot\gamma_{G1}$ \> = \> $4,17kN/m^2$ \\
+    	$G_{1sbalzo}$     \> $2,82kN/m^2\cdot\gamma_{G1}$ \> = \> $3,67kN/m^2$ \\
+    	$G_2$    \> $1,32kN/m^2\cdot\gamma_{G2}$ \> = \> $1,98kN/m^2$ \\ 
+    	$Q_{k1}$ \> $3,50kN/m^2\cdot\gamma_{Q_{k1}}$ \endnote{In realtà bisogna comunque ricordare che essendo $Q_k$ un carico variabile, $\gamma_{Q1}$ può essere sia pari a 1,5, sia a 0. In questo caso sono stati riportati tutti i casi sfavorevoli.}\> = \> $5,25kN/m^2$ \\       
+    	$Q_{k2}$ \> $5,00kN/m^2\cdot\gamma_{Q{k2}}$ \> = \> $7,50kN/m^2$                    
+    \end{tabbing}	
+    
+    \chapter{Sollecitazioni di progetto allo stato limite Ultimo}
+    
+    I carichi permanenti $G_1, G_2$ e variabili $Q_k$, devono essere combinati tenendo conto dei coefficienti di sicurezza parziali ($\gamma_{G}$ e $\gamma_{Qk}$) in modo da ottenere le sollecitazioni più gravose allo S.L.U. Le condizioni di carico da considerare sono tre:
+    \leavevmode\newline
+    \leavevmode\newline
+    \phantom{12}\textbf{1.} Entrambe le campate caricate con carichi permanenti e variabili, rispettivamente moltiplicati per i coefficienti parziali 1,30 e 1,50. Sullo sbalzo va considerato solo il carico permanente moltiplicato per il coefficiente parziale 1,30.
+    \leavevmode\newline
+    \phantom{12}\textbf{2.} Carichi permanenti su tutta la trave moltiplicati per il coefficiente parziale 1,30. Carichi variabili sulla prima campata e sullo sbalzo moltiplicati per il coefficiente parziale 1,50. 
+    \leavevmode\newline
+    \phantom{12}\textbf{3.} Carichi permanenti su tutta la trave moltiplicati per il coefficiente parziale 1,30. Carichi variabili solo sulla seconda campata, moltiplicati per il coefficiente parziale 1,50.
+    
+    \section{Combinazione di carico n° 1}
+    
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.9cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                
+    		\point{b}{26}{1};                               
+    		\point{c}{14}{1};                               
+    		\point{d}{0}{1};
+    		\point{caricovari}{2}{4};
+    		\point{caricovarf}{26}{4};
+    		\beam{2}{d}{b};                                          
+    		\support{1}{a}[0];                               
+    		\support{1}{b}[0];                               
+    		\support{1}{c}[0];
+    		\lineload{1}{caricovari}{caricovarf}[.569][.569][0.01];
+    		\lineload{1}{a}{b}[1.088][1.088][.01];
+    		\lineload{1}{d}{a}[1][1][.09];
+    		\notation{1}{caricovarf}{$3,50kN/m^{2}$}[above right];
+    		\notation{1}{b}{$6,15kN/m^{2}$}[above right];
+    		\notation{1}{d}{$5,65kN/m^{2}$}[above left];
+    	\end{tikzpicture}
+    	\caption{}
+    	\label{fig:travesolaiocarico1}
+    \end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	\newpage
+	\begingroup
+	\parindent 0pt
+	\parskip 2ex
+	\def\enotesize{\normalsize}
+	\theendnotes
+	\endgroup
+
 \end{document}
