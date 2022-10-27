@@ -49,6 +49,13 @@
 \makeatother
 \renewcommand{\theendnote}{\Roman{endnote}} 
 \renewcommand{\notesname}{Note}
+\newenvironment{tightcenter}{%
+	\setlength\topsep{0pt}
+	\setlength\parskip{0pt}
+	\begin{center}
+	}{%
+	\end{center}
+}
 
 \title{\textbf{Tecnica delle Costruzioni}\\ \textbf{Corso di laurea in ingegneria edile}\\ \textbf{Prof. Ing. Andrea Prota–a.a. 2022/2023}}
 \author{Ivano D'Apice\\\\ N41002772}
@@ -142,7 +149,7 @@
 	Utilizziamo la luce maggiore ($L_2=L_3$) per calcolare l'altezza del solaio grazie allo S.L.E. Avremo che $\textbf{H=}\frac{\textbf{L}}{\textbf{20}}$ e quindi $H=\frac{490cm}{20}=24,50cm\sim\textbf{25,00cm}$.
     \leavevmode\newline
     \leavevmode\newline
-	Come da progetto [\ref{fig:misure-solaio-flessione-normale}] avremo $\textbf{H}_{sbalzo}\endnote{Considerando che una pignatta non è alta meno di 12 cm, l’altezza minima del solaio è comunque di 17 cm.}=H-4,00cm=25,00cm-4,00cm=\textbf{21,00cm}$.
+	Come da progetto [\ref{fig:misure-solaio-flessione-normale}] avremo $\textbf{H}_{sbalzo}=H-4,00cm=25,00cm-4,00cm=\textbf{21,00cm}$.\endnote{Considerando che una pignatta non è alta meno di 12 cm, l’altezza minima del solaio è comunque di 17 cm.}
 	
 	\break
 	
@@ -233,19 +240,308 @@
     	\label{fig:travesolaiocarico1}
     \end{figure}
 
+    Addizioniamo i carichi agenti sulle uguali campate.
 
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.9cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                
+    		\point{b}{26}{1};                               
+    		\point{c}{14}{1};                               
+    		\point{d}{0}{1};
+    		\beam{2}{d}{b};                                          
+    		\support{1}{a}[0];                               
+    		\support{1}{b}[0];                               
+    		\support{1}{c}[0];
+    		\lineload{1}{a}{b}[1.657][1.657][.01];
+    		\lineload{1}{d}{a}[1][1][.09];
+    		\notation{1}{b}{$9,65kN/m^{2}$}[above right];
+    		\notation{1}{d}{$5,65kN/m^{2}$}[above left];
+    		\dimensioning{1}{d}{a}{-1.4}[$1,20$];
+    		\dimensioning{1}{a}{c}{-1.4}[$4,90$];
+    		\dimensioning{1}{c}{b}{-1.4}[$4,90$];
+    	\end{tikzpicture}
+    	\caption{}
+    	\label{fig:travesolaiocaricouniformato1}
+    \end{figure}
 
+    \textbf{Metodo degli spostamenti:}
+    \leavevmode\newline
+    \leavevmode\newline
+    $\boxtimes$ Come primo passaggio, possiamo semplificare lo sbalzo come un momento applicato all'estremo del vincolo in B.
+    
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.5cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                
+    		\point{b}{26}{1};                               
+    		\point{c}{14}{1}; 
+    		\point{d}{.6}{1};                              
+    		\beam{2}{a}{b};                                          
+    		\support{1}{a}[0];                               
+    		\support{1}{b}[0];                               
+    		\support{1}{c}[0];
+    		\load{3}{d}[90][180];
+    		\lineload{1}{a}{b}[1.657][1.657][.01];
+    		\notation{1}{b}{$9,65kN/m^{2}$}[above right];
+    	    \notation{1}{d}{$4,07kN$}[left=.5cm];
+    	    \notation{1}{a}{B}[below=2cm];
+    	    \notation{1}{b}{D}[below=2cm];
+    	    \notation{1}{c}{C}[below=2cm];
+    		\dimensioning{1}{a}{c}{-1.4}[$4,90$];
+    		\dimensioning{1}{c}{b}{-1.4}[$4,90$];
+    	\end{tikzpicture}
+    	\caption{}
+    	\label{fig:travesolaiocaricomomento}
+    \end{figure}
+    
+    $\alpha$) \textbf{FASE A NODI BLOCCATI.} 
+    \leavevmode\newline
+    \leavevmode\newline
+    $\boxtimes$ Aggiungiamo un vincolo fittizio (morsetto) in mezzeria.
+    
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.5cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                
+    		\point{b}{26}{1};                               
+    		\point{c}{14}{1}; 
+    		\point{d}{.6}{1};                              
+    		\beam{2}{a}{b};                                          
+    		\support{1}{a}[0];                               
+    		\support{1}{b}[0];                               
+    		\support{1}{c}[0];
+    		\load{3}{d}[90][180];
+    		\lineload{1}{a}{b}[1.657][1.657][.01];
+    		\notation{1}{b}{$9,65kN/m^{2}$}[above right];
+    		\notation{1}{d}{$4,07kN$}[left=.5cm];
+    		\notation{1}{c}{$\bullet$}[above left=-1.3mm];
+    		\notation{1}{c}{$\bullet$}[above right=-1.3mm];
+    		\notation{1}{c}{$\bullet$}[below left=-1.3mm];
+    		\notation{1}{c}{$\bullet$}[below right=-1.3mm];
+    	\end{tikzpicture}
+    	\caption{}
+    	\label{fig:travesolaiocaricfitt}
+    \end{figure}
 
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.5cm}
+    	\begin{tikzpicture}
+    		\centering
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                 %Punto A
+    		\point{b}{26}{1};                                %Punto B
+    		\point{c}{14}{1};                                %Punto C
+    		\point{d}{.6}{1}
+    		\point{e}{27}{1};
+    		\beam{2}{a}{b};                                  %Trave A-B
+    		\support{1}{a}[0];                               %Cerniera A
+    		\support{3}{b}[90];                               %Carrello B
+    		\load{3}{d}[90][180];
+    		\load{3}{e}[270][180];
+    		\notation{1}{d}{$4,07kN$}[left=.5cm];
+    		\notation{1}{e}{$\frac{4,07kN\endnote{Quando abbiamo un incastro-appoggio con una coppia esterna, la coppia opposta andrà dimezzata}}{2}$}[right=.5cm];
+    	\end{tikzpicture}
+    	\caption{Tratto BC.}
+    	\label{fig:trattobcmomento}
+    \end{figure}
 
+    \begin{tightcenter}
+    $M_{c}^{sx}(M_b)=2,04kN$
+    \end{tightcenter}
 
+    \leavevmode\newline
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-.7cm}
+    	\begin{tikzpicture}
+    		\centering
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                 %Punto A
+    		\point{b}{26}{1};                                %Punto B
+    		\point{c}{14}{1};                                %Punto C
+    		\point{d}{.6}{1}
+    		\point{e}{27}{1};
+    		\point{f}{2}{1.8};
+    		\point{g}{26}{1.8};
+    		\beam{2}{a}{b};                                  %Trave A-B
+    		\support{1}{a}[0];                               %Cerniera A
+    		\support{3}{b}[90];                              %Carrello B
+    		\load{3}{d}[90][180];
+    		\load{2}{e}[270][180];
+    		\lineload{1}{f}{g}[1][1][0.01];
+    		\notation{1}{d}{$\frac{qL^{2}}{8}$}[left=.5cm];
+    		\notation{1}{e}{$28,96kN$}[right=.5cm];
+    	\end{tikzpicture}
+    	\caption{Tratto BC.}
+    	\label{fig:trattobccarico}
+    \end{figure}
 
+    \begin{tightcenter}
+    $M_{c}^{sx}(q)=-28,96kN$
+    \end{tightcenter}
+    
+    \leavevmode\newline
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.7cm}
+    	\begin{tikzpicture}
+    		\centering
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};                                 %Punto A
+    		\point{b}{26}{1};                                %Punto B
+    		\point{c}{14}{1};                                %Punto C
+    		\point{d}{.6}{1}
+    		\point{e}{27}{1};
+    		\point{f}{2}{1.8};
+    		\point{g}{26}{1.8};
+    		\beam{2}{a}{b};    
+    		\support{3}{a}[-90];                            
+    		\support{1}{b};                               %Carrello B
+    		\load{3}{d}[90][180];
+    		\load{2}{e}[270][180];
+    		\lineload{1}{f}{g}[1][1][0.01];
+    		\notation{1}{e}{$\frac{qL^{2}}{8}$}[right=.5cm];
+    		\notation{1}{d}{$28,96kN$}[left=.5cm];
+    	\end{tikzpicture}
+    	\caption{Tratto CD.}
+    	\label{fig:trattocdcarico}
+    \end{figure}
 
+    \begin{tightcenter}
+    $M_{c}^{dx}(q)=28,96kN$
+    \end{tightcenter}
+    
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    $\beta$) \textbf{ATTIVAZIONE DEGLI SPOSTAMENTI NODALI.} $\hfill$
 
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{.2cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};               				
+    		\point{b}{14}{1};             				
+    		\point{c}{26}{1};
+    		\point{d}{2}{-4};
+    		\point{e}{14}{-4};
+    		\point{f}{26}{-4};
+    		\point{g}{1.4}{3};
+    		\point{h}{26.6}{3};
+    		\beam{2}{a}{c};
+    		\support{1}{a}[0];
+    		\support{1}{b}[0];
+    		\support{1}{c}[0];
+    		\internalforces{a}{b}{0}{0}[-1][gray];
+    		\internalforces{b}{c}{0}{0}[1][gray];
+    		\notation{1}{b}{$\bullet$}[above left=-1.3mm];
+    		\notation{1}{b}{$\bullet$}[above right=-1.3mm];
+    		\notation{1}{b}{$\bullet$}[below left=-1.3mm];
+    		\notation{1}{b}{$\bullet$}[below right=-1.3mm];
+    	\end{tikzpicture}
+    	\caption{Flessione dei tronchi indotta dagli spostamenti.}
+    	\label{fig:spostamentonodale}
+    \end{figure}
 
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{.8cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};               				             				
+    		\point{b}{26}{1};
+    		\point{c}{27}{1};
+    		\beam{2}{a}{b};
+    		\support{1}{a}[0];
+    		\support{3}{b}[90];
+    		\load{3}{c}[270][180];
+    		\internalforces{a}{b}{0}{0}[-1][gray];
+    		\notation{1}{c}{$\frac{3EI}{L_2}\varphi_{c}$}[right=.5cm];
+    	\end{tikzpicture}
+    	\caption{Tratto BC.}
+    	\label{fig:spostamentonodalebc}
+    \end{figure}
 
+    \begin{tightcenter}
+    $M_{c}^{sx}(\varphi_{c})=\frac{3EI}{4,90m}\varphi_{c}$
+    \end{tightcenter}
+    
+    \begin{figure}[H]
+    	\centering
+    	\hspace*{-1.4cm}
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);
+    		\point{a}{2}{1};               				             				
+    		\point{b}{26}{1};
+    		\point{c}{1}{1};
+    		\beam{2}{a}{b};
+    		\support{3}{a}[-90];
+    		\support{1}{b}[0];
+    		\load{2}{c}[90][180];
+    		\internalforces{a}{b}{0}{0}[-1][gray];
+    		\notation{1}{c}{$\frac{3EI}{L_3}\varphi_{c}$}[left=.5cm];
+    	\end{tikzpicture}
+    	\caption{Tratto CD.}
+    	\label{fig:spostamentonodalecd}
+    \end{figure}
 
-
-
+    \begin{tightcenter}
+    $M_{c}^{dx}(\varphi_{c})=\frac{3EI}{4,90m}\varphi_{c}$
+    \end{tightcenter}
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    $\gamma$) \textbf{SCRITTURA DELL'EQUAZIONE DI EQUILIBRIO AL NODO.} 
+    \leavevmode\newline
+    \leavevmode\newline
+    \begin{tightcenter}
+      $ M_{csx}+M_{cdx}-M_{est}=0  $
+    \end{tightcenter}
+    \leavevmode\newline 
+    \begin{equation}
+    	\begin{cases}
+    		M_{c}^{sx}(M_b)+M_{c}^{sx}(q)+M_{c}^{sx}(\varphi_{c})+M_{c}^{dx}(q)+M_{c}^{dx}(\varphi_{c})&=0 \\ \\
+    		2,04kN-28,96kN+\frac{3EI}{4,90m}\varphi_{c}+28,96kN+\frac{3EI}{4,90m}&=0\\ \\ 
+    	\end{cases}
+    	\hfill
+    \end{equation}
+   
 	\newpage
 	\begingroup
 	\parindent 0pt
