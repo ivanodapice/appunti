@@ -157,14 +157,14 @@
 	\section{Carichi strutturali permanenti $\textbf{G}_1$}
 	
 	\begin{tabbing}
-		\textbf{Campata} \hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^2$)\hspace{1em}\\\\
+		\textbf{Campata} \hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{P}$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^2$)\hspace{1em}\\\\
 		Soletta  \> 0,05 \> 1,00           \> 25,00           \> 1,25  \\
 		Travetti \> 0,20 \> 0,10$\cdot$2   \> 25,00           \> 1,00  \\ 
 		Laterizi \endnote{Il peso specifico dei blocchi di allegerimento in laterizio è stato ricavato dalle tabelle dei pesi specifici di normativa, considerando una percentuale di foratura pari al 67\textdiscount (18$\cdot$[1-0,67]) = 5,94 -> 6,00 KN/m$^3$.} \> 0,20 \> 0,40$\cdot$2 \> \phantom{0}6,00 \> 	0,96                                    
 	\end{tabbing}	    
 	
 	\begin{tabbing}
-		\textbf{Sbalzo}\phantom{11.} \hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^2$)\hspace{1em}\\\\
+		\textbf{Sbalzo}\phantom{11.} \hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{P}$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_1$ (kN/m$^2$)\hspace{1em}\\\\
 		Soletta  \> 0,05 \> 1,00           \> 25,00           \> 1,25  \\
 		Travetti \> 0,16 \> 0,10$\cdot$2   \> 25,00           \> 0,80  \\ 
 		Laterizi \> 0,16 \> 0,40$\cdot$2 \> \phantom{0}6,00   \> 0,77                                    
@@ -177,7 +177,7 @@
     \section{Carichi permanenti non strutturali $\textbf{G}_2$}
     
     \begin{tabbing}
-    	\phantom{\textbf{Campata}}\hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{G}_2$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_2$ (kN/m$^2$)\hspace{1em}\\\\
+    	\phantom{\textbf{Campata}}\hspace{2em} \= \textbf{h} (m)\hspace{3em} \= \textbf{L} (m)\hspace{3em} \= $\textbf{P}$ (kN/m$^3$)\hspace{3em} \= $\textbf{G}_2$ (kN/m$^2$)\hspace{1em}\\\\
     	Massetto  \> 0,60 \> 1,00 \> 16,00           \> 0,96  \\
     	Pavimento \> 0,01 \> 1,00 \> 16,00           \> 0,18  \\ 
     	Intonaco  \> 0,01 \> 1,00 \> 18,00           \> 0,18                                    
@@ -199,7 +199,7 @@
     	$Q_{k2}$ \> $3,50kN/m^2\cdot\gamma_{Q{k2}}$ \> = \> $5,25kN/m^2$                    
     \end{tabbing}	
     
-    \chapter{Sollecitazioni di progetto allo stato limite Ultimo}
+    \chapter{Sollecitazioni di progetto allo Stato Limite Ultimo}
     
     I carichi permanenti $G_1, G_2$ e variabili $Q_k$, devono essere combinati tenendo conto dei coefficienti di sicurezza parziali ($\gamma_{G}$ e $\gamma_{Qk}$) in modo da ottenere le sollecitazioni più gravose allo S.L.U. Le condizioni di carico da considerare sono tre:
     \leavevmode\newline
@@ -233,7 +233,7 @@
     		\lineload{1}{caricovari}{caricovarf}[.569][.569][0.01];
     		\lineload{1}{a}{b}[1.088][1.088][.01];
     		\lineload{1}{d}{a}[1][1][.09];
-    		\notation{1}{caricovarf}{$3,50kN/m$}[above right];
+    		\notation{1}{caricovarf}{$5,25kN/m$}[above right];
     		\notation{1}{b}{$6,15kN/m$}[above right];
     		\notation{1}{d}{$5,65kN/m$}[above left];
     	\end{tikzpicture}
@@ -261,7 +261,7 @@
     		\support{1}{c}[0];
     		\lineload{1}{a}{b}[1.657][1.657][.01];
     		\lineload{1}{d}{a}[1][1][.09];
-    		\notation{1}{b}{$9,65kN/m$}[above right];
+    		\notation{1}{b}{$11,40kN/m$}[above right];
     		\notation{1}{d}{$5,65kN/m$}[above left];
     		\dimensioning{1}{d}{a}{-1.4}[$1,20$];
     		\dimensioning{1}{a}{c}{-1.4}[$4,90$];
@@ -294,7 +294,7 @@
     		\support{1}{c}[0];
     		\load{3}{d}[90][180];
     		\lineload{1}{a}{b}[1.657][1.657][.01];
-    		\notation{1}{b}{$9,65kN/m$}[above right];
+    		\notation{1}{b}{$11,40kN/m$}[above right];
     	    \notation{1}{d}{$4,07kNm$}[left=.5cm];
     	    \notation{1}{a}{B}[below=2cm];
     	    \notation{1}{b}{D}[below=2cm];
@@ -329,7 +329,7 @@
     		\support{1}{c}[0];
     		\load{3}{d}[90][180];
     		\lineload{1}{a}{b}[1.657][1.657][.01];
-    		\notation{1}{b}{$9,65kN/m$}[above right];
+    		\notation{1}{b}{$11,40kN/m$}[above right];
     		\notation{1}{d}{$4,07kNm$}[left=.5cm];
     		\notation{1}{c}{$\bullet$}[above left=-1.3mm];
     		\notation{1}{c}{$\bullet$}[above right=-1.3mm];
@@ -401,7 +401,7 @@
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{sx}(q)=28,96kNm$
+    $M_{c}^{sx}(q)=34,21kNm$
     \end{tightcenter}
     
     \leavevmode\newline
@@ -428,14 +428,14 @@
     		\load{2}{e}[270][180];
     		\lineload{1}{f}{g}[1][1][0.01];
     		\notation{1}{e}{$\frac{qL^{2}}{8}$}[right=.5cm];
-    		\notation{1}{d}{$28,96kNm$}[left=.5cm];
+    		\notation{1}{d}{$34,21kNm$}[left=.5cm];
     	\end{tikzpicture}
     	\caption{Tratto CD.}
     	\label{fig:trattocdcarico}
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{dx}(q)=-28,96kNm$
+    $M_{c}^{dx}(q)=-34,21kNm$
     \end{tightcenter}
     
     \leavevmode\newline
@@ -538,7 +538,7 @@
     \begin{equation}
     	\begin{cases}
     		M_{c}^{sx}(M_b)+M_{c}^{sx}(q)+M_{c}^{sx}(\varphi_{c})+M_{c}^{dx}(q)+M_{c}^{dx}(\varphi_{c})&=0 \\ \\
-    		-2,04kNm+28,96kNm+\frac{3EI}{4,90m}\varphi_{c}-28,96kNm+\frac{3EI}{4,90m}\varphi_{c}&=0\\ \\ 
+    		-2,04kNm+34,21kNm+\frac{3EI}{4,90m}\varphi_{c}-34,21kNm+\frac{3EI}{4,90m}\varphi_{c}&=0\\ \\ 
     	\end{cases}
     	\hfill
     \end{equation}
@@ -553,8 +553,8 @@
     \leavevmode\newline
     \begin{equation}
     	\begin{cases}
-    		M_{CB}=2,04kNm-28,96kNm-1,02kNm\phantom{tes}&=-27,94kNm \\ \\
-    		M_{CD}=-28,96kNm+1,02kNm\phantom{tes}&=-27,94kNm\\ \\ 
+    		M_{CB}=2,04kNm-34,21kNm-1,02kNm\phantom{tes}&=-33,19kNm \\ \\
+    		M_{CD}=-34,21kNm+1,02kNm\phantom{tes}&=-33,19kNm\\ \\ 
     	\end{cases}
     	\hfill
     \end{equation}
@@ -592,8 +592,8 @@
     		\load{1}{a}[-90][1][1];
     		\load{1}{b}[-90][1][1];
        		\notation{1}{d}{$4,07kNm$}[left=.5cm];
-    		\notation{1}{e}{$27,94kNm$}[right=.5cm];
-    		\notation{1}{c}{$47,29kN$}[above right=3mm];
+    		\notation{1}{e}{$33,19kNm$}[right=.5cm];
+    		\notation{1}{c}{$55,86kN$}[above right=3mm];
     		\notation{1}{ccccc}{$R_b$}[below right=4mm];
     		\notation{1}{bbbbb}{$R_{csx}$}[below left=4mm];
     	\end{tikzpicture}
@@ -602,18 +602,18 @@
     \end{figure}
     
     \begin{alignat*}{5}
-    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_b+R_{csx}-47,29kN       & {}=0{}\\
-    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{47,29kN\cdot4,90m}{2}-R_{csx}\cdot4,90m+27,94kNm-4,07kNm & {}=0{} 
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_b+R_{csx}-55,86kN       & {}=0{}\\
+    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{55,86kN\cdot4,90m}{2}-R_{csx}\cdot4,90m+33,19kNm-4,07kNm & {}=0{} 
     \end{alignat*}
     \leavevmode\newline
     \leavevmode\newline
-    $R_{csx}\cdot\phantom{,}4,90m=115,86kNm+23,87kNm$
+    $R_{csx}\cdot\phantom{,}4,90m=136,86kNm+29,12kNm$
     \leavevmode\newline
     \leavevmode\newline
-    $R_{csx}=\frac{139,73kNm}{4,90m}=28,52kN$
+    $R_{csx}=\frac{165,98kNm}{4,90m}=33,87kN$
     \leavevmode\newline
     \leavevmode\newline
-    $R_b=47,29kN-28,52kN=18,77kN$
+    $R_b=55,86kN-33,87kN=21,99kN$
     
     \begin{figure}[H]
     	\centering
@@ -640,8 +640,8 @@
     		\load{1}{c}[90];
     		\load{1}{a}[-90][1][1];
     		\load{1}{b}[-90][1][1];
-    		\notation{1}{d}{$27,94kNm$}[left=.5cm];
-    		\notation{1}{c}{$47,29kN$}[above right=3mm];
+    		\notation{1}{d}{$33,19kNm$}[left=.5cm];
+    		\notation{1}{c}{$55,86kN$}[above right=3mm];
     		\notation{1}{ccccc}{$R_{cdx}$}[below right=4mm];
     		\notation{1}{bbbbb}{$R_d$}[below left=4mm];
     	\end{tikzpicture}
@@ -650,24 +650,24 @@
     \end{figure}
 
     \begin{alignat*}{5}
-    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{cdx}+R_c-47,29kN & {}=0{}\\
-    	\Sigma M_c & {}=0{} & \phantom{123456} & 115,86kNm-R_d\cdot4,90m-27,94kNm& {}=0{} 
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{cdx}+R_c-55,86kN & {}=0{}\\
+    	\Sigma M_c & {}=0{} & \phantom{123456} & 136,86kNm-R_d\cdot4,90m-33,19kNm& {}=0{} 
     \end{alignat*}
     \leavevmode\newline
     \leavevmode\newline
-    $R_d\cdot\phantom{,}4,90m=87,92kNm$
+    $R_d\cdot\phantom{,}4,90m=103,67kNm$
     \leavevmode\newline
     \leavevmode\newline
-    $R_d=\frac{87,92kNm}{4,90m}=17,94kN$
+    $R_d=\frac{103,67kNm}{4,90m}=21,16kN$
     \leavevmode\newline
     \leavevmode\newline
-    $R_{cdx}=47,29kN-17,94kN=29,35kN$
+    $R_{cdx}=55,86kN-21,16kN=34,70kN$
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
-    $\textbf{R}_b=18,77kN,\leavevmode\newline \textbf{R}_c=57,87kN,\leavevmode\newline \textbf{R}_d=17,94kN\leavevmode\newline$
+    $\textbf{R}_b=21,99kN,\leavevmode\newline \textbf{R}_{csx}=33,87kN,\leavevmode\newline \textbf{R}_{cdx}=34,70kN,\leavevmode\newline \textbf{R}_d=21,16kN\leavevmode\newline$
     
     \break
     
@@ -686,8 +686,8 @@
     \phantom{testoabcdefgh}{\tiny TRATTO C-D}
     \begin{equation}
     	\begin{cases}
-    		T(x)&=R_c-q\cdot x \\ \\
-    		M(x)&=R_c\cdot x-M_c-\frac{q\cdot x^2}{2}\\ \\ 
+    		T(x)&=R_{cdx}-q\cdot x \\ \\
+    		M(x)&=R_{cdx}\cdot x-M_c-\frac{q\cdot x^2}{2}\\ \\ 
     	\end{cases}
     	\hfill
     \end{equation}
@@ -697,11 +697,11 @@
     \phantom{tes}{\tiny TRATTO B-C}
     \begin{equation}
     	\begin{cases}
-    		T(0)&=\textbf{18,77kN} \\ \\
+    		T(0)&=\textbf{21,99kN} \\ \\
     		M(0)&=\textbf{-4,07kNm}\\ \\ 
-    		T(4,90m)&=18,77kN-47,29kN=\textbf{-28,52kN}\\ \\ 
-    		M(4,90m)&=-4,07kNm+91,97kNm-115,86kNm=\textbf{-27,94kNm}\\ \\ 
-    		M(2,45m)&=-4,07kNm+45,99kNm-28,96kNm=\textbf{12,96kNm}
+    		T(4,90m)&=21,99kN-55,86kN=\textbf{-33,87kN}\\ \\ 
+    		M(4,90m)&=-4,07kNm+107,75kNm-136,86kNm=\textbf{-33,19kNm}\\ \\ 
+    		M(2,45m)&=-4,07kNm+53,88kNm-34,21kNm=\textbf{15,60kNm}
     	\end{cases}
     	\hfill
     \end{equation}
@@ -709,11 +709,11 @@
     \phantom{tes}{\tiny TRATTO C-D}
     \begin{equation}
     	\begin{cases}
-    		T(0)&=\textbf{29,35kN} \\ \\
-    		M(0)&=\textbf{-27,94kNm}\\ \\ 
-    		T(4,90m)&=29,35kN-47,29kN=\textbf{-17,94kN}\\ \\ 
-    		M(4,90m)&=-27,94kNm+143,82kNm-115,86kNm=\textbf{0,0kNm}\\ \\ 
-    		M(2,45m)&=-27,94kNm+71,91kNm-28,96kNm=\textbf{15,01kNm}
+    		T(0)&=\textbf{34,70kN} \\ \\
+    		M(0)&=\textbf{-33,19kNm}\\ \\ 
+    		T(4,90m)&=34,70kN-55,86kN=\textbf{-21,16kN}\\ \\ 
+    		M(4,90m)&=-33,19kNm+170,03kNm-136,86kNm=\textbf{0,0kNm}\\ \\ 
+    		M(2,45m)&=-33,19kNm+85,02kNm-34,21kNm=\textbf{17,62kNm}
     	\end{cases}
     	\hfill
     \end{equation}
@@ -733,6 +733,7 @@
     		\support{1}{b}[0];                               
     		\support{1}{c}[0];                               
     		\support{1}{d}[0];
+    		\internalforces{a}{b}{0}{0.678}[0][red][0];
     		\internalforces{b}{c}{-1.877}{2.582}[0][red][0];
     		\internalforces{c}{d}{-2.935}{1.794}[0][red][0];
     	\end{tikzpicture}
