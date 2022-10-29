@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  29 OCT 2022 19:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  29 OCT 2022 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,8 +1360,8 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-File: immagini/misure solaio flessione normale 2.png Graphic file (type bmp)
-<immagini/misure solaio flessione normale 2.png>
+File: immagini/misure solaio flessione normale.png Graphic file (type bmp)
+<immagini/misure solaio flessione normale.png>
 \openout4 = `document.ent'.
 
 [2
@@ -2053,8 +2053,8 @@ Package rerunfilecheck Info: File `document.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  42367 strings out of 410536
- 951529 string characters out of 2813392
- 1567031 words of memory out of 3000000
+ 951491 string characters out of 2813392
+ 1567029 words of memory out of 3000000
  62822 multiletter control sequences out of 15000+600000
  478601 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
