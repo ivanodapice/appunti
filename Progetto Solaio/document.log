@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  29 OCT 2022 21:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  29 OCT 2022 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,7 +2012,14 @@ Overfull \hbox (89.7249pt too wide) in paragraph at lines 779--780
 []| []  
  []
 
-[14] (document.ent
+File: immagini/inviluppo momenti.png Graphic file (type bmp)
+<immagini/inviluppo momenti.png>
+
+Overfull \hbox (89.7249pt too wide) in paragraph at lines 785--786
+[]| []  
+ []
+
+[14] [15] (document.ent
 Overfull \hbox (4.7401pt too wide) in paragraph at lines 30--50
 [][]\TU/lmr/m/n/12 Considerando che una pignatta non è alta meno di 12 cm, l’al
 tezza mini-
@@ -2048,23 +2055,23 @@ Overfull \hbox (6.80408pt too wide) in paragraph at lines 122--135
 la coppia
  []
 
-) [15] (document.aux)
+) [16] (document.aux)
 
 Package rerunfilecheck Warning: File `document.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `document.out':
-(rerunfilecheck)             Before: C64F5BEEDFA2A080EA2A01D65CD558B1;1836
-(rerunfilecheck)             After:  108BCF25AA8F569F8D61AE61097C48AF;1827.
+(rerunfilecheck)             Before: 108BCF25AA8F569F8D61AE61097C48AF;1827
+(rerunfilecheck)             After:  2E871B813CBC815CC99053FBB3392021;1970.
  ) 
 Here is how much of TeX's memory you used:
- 42368 strings out of 410536
- 951506 string characters out of 2813392
+ 42376 strings out of 410536
+ 951801 string characters out of 2813392
  1567031 words of memory out of 3000000
- 62823 multiletter control sequences out of 15000+600000
+ 62830 multiletter control sequences out of 15000+600000
  478601 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,12n,91p,1007b,883s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on document.pdf (16 pages).
+Output written on document.pdf (17 pages).
