@@ -121,7 +121,7 @@
 	\begin{figure}[H]
 		\hspace*{-.4cm}
 		\centering
-		\includegraphics[width=0.7\linewidth]{"immagini/misure solaio flessione normale"}
+		\includegraphics[width=0.7\linewidth]{"immagini/misure solaio flessione normale 2"}
 		\caption{Dati numerici in 1 metro di solaio.}
 		\label{fig:misure-solaio-flessione-normale}
 	\end{figure}
@@ -277,7 +277,7 @@
     
     \begin{figure}[H]
     	\centering
-    	\hspace*{-1.5cm}
+    	\hspace*{-2cm}
     	\begin{tikzpicture}
     		% here we construct our structure
     		\scaling{.45};
@@ -372,7 +372,7 @@
     \leavevmode\newline
     \begin{figure}[H]
     	\centering
-    	\hspace*{-.7cm}
+    	\hspace*{-.3cm}
     	\begin{tikzpicture}
     		\centering
     		% here we construct our structure
@@ -462,8 +462,8 @@
     		\support{1}{a}[0];
     		\support{1}{b}[0];
     		\support{1}{c}[0];
-    		\internalforces{a}{b}{0}{0}[-1][gray];
-    		\internalforces{b}{c}{0}{0}[1][gray];
+    		\internalforces{a}{b}{0}{0}[1][gray];
+    		\internalforces{b}{c}{0}{0}[-1][gray];
     		\notation{1}{b}{$\bullet$}[above left=-1.3mm];
     		\notation{1}{b}{$\bullet$}[above right=-1.3mm];
     		\notation{1}{b}{$\bullet$}[below left=-1.3mm];
@@ -487,8 +487,8 @@
     		\beam{2}{a}{b};
     		\support{1}{a}[0];
     		\support{3}{b}[90];
-    		\load{3}{c}[270][180];
-    		\internalforces{a}{b}{0}{0}[-1][gray];
+    		\load{2}{c}[270][180];
+    		\internalforces{a}{b}{0}{0}[1][gray];
     		\notation{1}{c}{$\frac{3EI}{L_2}\varphi_{c}$}[right=.5cm];
     	\end{tikzpicture}
     	\caption{Tratto BC.}
@@ -496,7 +496,7 @@
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{sx}(\varphi_{c})=-\frac{3EI}{4,90m}\varphi_{c}$
+    $M_{c}^{sx}(\varphi_{c})=\frac{3EI}{4,90m}\varphi_{c}$
     \end{tightcenter}
     
     \begin{figure}[H]
@@ -513,7 +513,7 @@
     		\beam{2}{a}{b};
     		\support{3}{a}[-90];
     		\support{1}{b}[0];
-    		\load{3}{c}[90][180];
+    		\load{2}{c}[90][180];
     		\internalforces{a}{b}{0}{0}[-1][gray];
     		\notation{1}{c}{$\frac{3EI}{L_3}\varphi_{c}$}[left=.5cm];
     	\end{tikzpicture}
@@ -522,7 +522,7 @@
     \end{figure}
 
     \begin{tightcenter}
-    $M_{c}^{dx}(\varphi_{c})=-\frac{3EI}{4,90m}\varphi_{c}$
+    $M_{c}^{dx}(\varphi_{c})=\frac{3EI}{4,90m}\varphi_{c}$
     \end{tightcenter}
     \leavevmode\newline
     \leavevmode\newline
@@ -537,17 +537,26 @@
     \begin{equation}
     	\begin{cases}
     		M_{c}^{sx}(M_b)+M_{c}^{sx}(q)+M_{c}^{sx}(\varphi_{c})+M_{c}^{dx}(q)+M_{c}^{dx}(\varphi_{c})&=0 \\ \\
-    		-2,04kNm+28,96kNm-\frac{3EI}{4,90m}\varphi_{c}-28,96kNm-\frac{3EI}{4,90m}\varphi_{c}&=0\\ \\ 
+    		-2,04kNm+28,96kNm+\frac{3EI}{4,90m}\varphi_{c}-28,96kNm+\frac{3EI}{4,90m}\varphi_{c}&=0\\ \\ 
     	\end{cases}
     	\hfill
     \end{equation}
- 
+   \leavevmode\newline
+    \begin{equation}
+    	\begin{cases}
+    		\varphi_{c}&=\frac{10,00kNm^{2}}{6EI}\\ \\
+    		M_{c}^{sx}=M_{c}^{dx}(\varphi_{c})=\frac{3EI}{4,90m}\cdot\frac{10,00kNm^{2}}{6EI}=\frac{10,00kNm^{2}}{4,90m}\frac{3EI}{6EI}&=1,02kNm\\ \\ 
+    	\end{cases}
+    	\hfill
+    \end{equation}
     \leavevmode\newline
-   	$\varphi_{c}=-\frac{10,00kNm^{2}}{6EI}$ 
-    \leavevmode\newline
-    \leavevmode\newline
-    \leavevmode\newline
-    $M_{c}^{dx}=M_{c}^{sx}(\varphi_{c})=-\frac{3EI}{4,90m}\varphi_{c}=-\frac{3EI}{4,90m}\cdot-\frac{10,00kNm^{2}}{6EI}=\frac{10,00kNm^{2}}{4,90m}\frac{3EI}{6EI}=1,02kNm$
+    \begin{equation}
+    	\begin{cases}
+    		M_{CB}=2,04kNm-28,96kNm-1,02kNm\phantom{tes}&=-27,94kNm \\ \\
+    		M_{CD}=-28,96kNm+1,02kNm\phantom{tes}&=-27,94kNm\\ \\ 
+    	\end{cases}
+    	\hfill
+    \end{equation}
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
@@ -577,33 +586,33 @@
     		\support{1}{a}[0];                               %Cerniera A
     		\support{1}{b}[0];                              %Carrello B
     		\load{3}{d}[90][180];
-    		\load{3}{e}[270][180];
+    		\load{2}{e}[270][180];
     		\load{1}{c}[90];
     		\load{1}{a}[-90][1][1];
     		\load{1}{b}[-90][1][1];
        		\notation{1}{d}{$4,07kNm$}[left=.5cm];
-    		\notation{1}{e}{$1,02kNm$}[right=.5cm];
+    		\notation{1}{e}{$27,94kNm$}[right=.5cm];
     		\notation{1}{c}{$47,29kN$}[above right=3mm];
-    		\notation{1}{ccccc}{$R_a$}[below right=4mm];
-    		\notation{1}{bbbbb}{$R_{bsx}$}[below left=4mm];
+    		\notation{1}{ccccc}{$R_b$}[below right=4mm];
+    		\notation{1}{bbbbb}{$R_{csx}$}[below left=4mm];
     	\end{tikzpicture}
     	\caption{Tratto BC.}
     	\label{fig:reazionevincolareBC}
     \end{figure}
     
     \begin{alignat*}{5}
-    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_a+R_{bsx}-qL        & {}=0{}\\
-    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{qL^{2}}{2}-R_{bsx}L-1,69kNm & {}=0{} 
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_b+R_{csx}-47,29kN       & {}=0{}\\
+    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{47,29kN\cdot4,90m}{2}-R_{csx}\cdot4,90m+27,94kNm-4,07kNm & {}=0{} 
     \end{alignat*}
     \leavevmode\newline
     \leavevmode\newline
-    $R_{bsx}\phantom{,}4,90m=115,85kNm-1,02kNm$
+    $R_{csx}\cdot\phantom{,}4,90m=115,86kNm+23,87kNm$
     \leavevmode\newline
     \leavevmode\newline
-    $R_{bsx}=\frac{115,85kNm-1,02kNm}{4,90m}=23,43kN$
+    $R_{csx}=\frac{139,73kNm}{4,90m}=28,52kN$
     \leavevmode\newline
     \leavevmode\newline
-    $R_a=47,29kN-23,43kN=23,86kN$
+    $R_b=47,29kN-28,52kN=18,77kN$
     
     \begin{figure}[H]
     	\centering
@@ -630,35 +639,134 @@
     		\load{1}{c}[90];
     		\load{1}{a}[-90][1][1];
     		\load{1}{b}[-90][1][1];
-    		\notation{1}{d}{$1,02kNm$}[left=.5cm];
+    		\notation{1}{d}{$27,94kNm$}[left=.5cm];
     		\notation{1}{c}{$47,29kN$}[above right=3mm];
-    		\notation{1}{ccccc}{$R_{bdx}$}[below right=4mm];
-    		\notation{1}{bbbbb}{$R_c$}[below left=4mm];
+    		\notation{1}{ccccc}{$R_{cdx}$}[below right=4mm];
+    		\notation{1}{bbbbb}{$R_d$}[below left=4mm];
     	\end{tikzpicture}
     	\caption{Tratto CD.}
     	\label{fig:reazionevincolareCD}
     \end{figure}
 
     \begin{alignat*}{5}
-    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{bdx}+R_c-qL        & {}=0{}\\
-    	\Sigma M_c & {}=0{} & \phantom{123456} & \frac{qL^{2}}{2}-R_cL& {}=0{} 
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{cdx}+R_c-47,29kN & {}=0{}\\
+    	\Sigma M_c & {}=0{} & \phantom{123456} & 115,86kNm-R_d\cdot4,90m-27,94kNm& {}=0{} 
     \end{alignat*}
     \leavevmode\newline
     \leavevmode\newline
-    $R_c\phantom{,}4,90m=115,86kNm$
+    $R_d\cdot\phantom{,}4,90m=87,92kNm$
     \leavevmode\newline
     \leavevmode\newline
-    $R_c=\frac{115,85kNm}{4,90m}=23,64kN$
+    $R_d=\frac{87,92kNm}{4,90m}=17,94kN$
     \leavevmode\newline
     \leavevmode\newline
-    $R_{bdx}=47,29kN-23,64kN=23,65kN$
+    $R_{cdx}=47,29kN-17,94kN=29,35kN$
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
-    $\textbf{R}_a=23,99kN,\leavevmode\newline \textbf{R}_b=47,64kN,\leavevmode\newline \textbf{R}_c=23,64kN,\leavevmode\newline \textbf{M}_{c}^{dx}=\textbf{M}_{c}^{sx}(\varphi_{c})=1,02kNm$
+    $\textbf{R}_b=18,77kN,\leavevmode\newline \textbf{R}_c=57,87kN,\leavevmode\newline \textbf{R}_d=17,94kN\leavevmode\newline$
+    
+    \break
+    
+    $\delta$) \textbf{EQUAZIONI TAGLIO E MOMENTO.}
+    \leavevmode\newline
+    \leavevmode\newline
+    \phantom{testoabcdefgh}{\tiny TRATTO B-C}
+    \begin{equation}
+    	\begin{cases}
+    	T(x)&=R_b-q\cdot x \\ \\
+        M(x)&=R_b\cdot x-M_b-\frac{q\cdot x^2}{2}\\ \\ 
+    	\end{cases}
+    	\hfill
+    \end{equation}
 
+    \phantom{testoabcdefgh}{\tiny TRATTO C-D}
+    \begin{equation}
+    	\begin{cases}
+    		T(x)&=R_c-q\cdot x \\ \\
+    		M(x)&=R_c\cdot x-M_c-\frac{q\cdot x^2}{2}\\ \\ 
+    	\end{cases}
+    	\hfill
+    \end{equation}
+    \leavevmode\newline
+    \leavevmode\newline
+    \leavevmode\newline
+    \phantom{tes}{\tiny TRATTO B-C}
+    \begin{equation}
+    	\begin{cases}
+    		T(0)&=\textbf{18,77kN} \\ \\
+    		M(0)&=\textbf{-4,07kNm}\\ \\ 
+    		T(4,90m)&=18,77kN-47,29kN=\textbf{-28,52kN}\\ \\ 
+    		M(4,90m)&=-4,07kNm+91,97kNm-115,86kNm=\textbf{-27,94kNm}\\ \\ 
+    		M(2,45m)&=-4,07kNm+45,99kNm-28,96kNm=\textbf{12,96kNm}
+    	\end{cases}
+    	\hfill
+    \end{equation}
+    
+    \phantom{tes}{\tiny TRATTO C-D}
+    \begin{equation}
+    	\begin{cases}
+    		T(0)&=\textbf{29,35kN} \\ \\
+    		M(0)&=\textbf{-27,94kNm}\\ \\ 
+    		T(4,90m)&=29,35kN-47,29kN=\textbf{-17,94kN}\\ \\ 
+    		M(4,90m)&=-27,94kNm+143,82kNm-115,86kNm=\textbf{0,0kNm}\\ \\ 
+    		M(2,45m)&=-27,94kNm+71,91kNm-28,96kNm=\textbf{15,01kNm}
+    	\end{cases}
+    	\hfill
+    \end{equation}
+    
+    \begin{figure}[H]
+    	\centering
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);                              
+    		\point{a}{0}{1};
+    		\point{b}{2}{1}; 
+    		\point{c}{14}{1}; 
+    		\point{d}{26}{1};
+    		\beam{2}{a}{d};                                          
+    		\support{1}{b}[0];                               
+    		\support{1}{c}[0];                               
+    		\support{1}{d}[0];
+    		\internalforces{b}{c}{-1.877}{2.582}[0][red][0];
+    		\internalforces{c}{d}{-2.935}{1.794}[0][red][0];
+    	\end{tikzpicture}
+    	\caption{}
+    	\label{fig:taglio}
+    \end{figure}
+   
+    \begin{figure}[H]
+    	\centering	
+    	\begin{tikzpicture}
+    		% here we construct our structure
+    		\scaling{.45};
+    		%\draw[help lines,step=.45]
+    		(0,-.9) grid (12.6,1.81);                              
+    		\point{a}{0}{1};
+    		\point{b}{2}{1}; 
+    		\point{c}{14}{1}; 
+    		\point{d}{26}{1};
+    		\point{e}{6}{1};
+    		\beam{2}{a}{d};                                          
+    		\support{1}{b}[0];                               
+    		\support{1}{c}[0];                               
+    		\support{1}{d}[0];
+    		\internalforces{b}{c}{-0.407}{-2.794}[-1.296][blue][1];
+    		\internalforces{c}{d}{-2.794}{0}[-1.501][blue][1];
+    		\internalforces{a}{b}{0}{-0.407}[0.0001][blue][1];
+    	\end{tikzpicture}
+    	\caption{}
+    	\label{fig:momento}
+    \end{figure}
+    
+    \section{Combinazione di carico n° 2}
+    
+    
+    
 	\newpage
 	\begingroup
 	\parindent 0pt

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  28 OCT 2022 00:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  29 OCT 2022 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,8 +1360,8 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-File: immagini/misure solaio flessione normale.jpg Graphic file (type bmp)
-<immagini/misure solaio flessione normale.jpg>
+File: immagini/misure solaio flessione normale 2.png Graphic file (type bmp)
+<immagini/misure solaio flessione normale 2.png>
 \openout4 = `document.ent'.
 
 [2
@@ -1531,7 +1531,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (32.65141pt too wide) in paragraph at lines 280--304
+Overfull \hbox (18.42503pt too wide) in paragraph at lines 280--304
  []|  [] 
  []
 
@@ -1660,7 +1660,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (49.5095pt too wide) in paragraph at lines 375--398
+Overfull \hbox (60.89044pt too wide) in paragraph at lines 375--398
  []|  [] 
  []
 
@@ -1868,8 +1868,13 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (51.94019pt too wide) in paragraph at lines 560--590
+Overfull \hbox (57.81512pt too wide) in paragraph at lines 569--599
  []|  [] 
+ []
+
+
+Overfull \hbox (16.81117pt too wide) detected at line 606
+[]
  []
 
 Missing character: There is no ; in font nullfont!
@@ -1915,7 +1920,83 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[9] [10] (document.ent
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
+ 
+ []
+
+[10] [11]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+[12] [13] (document.ent
 Overfull \hbox (4.7401pt too wide) in paragraph at lines 30--50
 [][]\TU/lmr/m/n/12 Considerando che una pignatta non è alta meno di 12 cm, l’al
 tezza mini-
@@ -1951,17 +2032,23 @@ Overfull \hbox (6.80408pt too wide) in paragraph at lines 122--135
 la coppia
  []
 
-) [11] (document.aux)
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 2222641EEDF43F94C9AA674D6EA4B6B5;1419.
+) [14] (document.aux)
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 2222641EEDF43F94C9AA674D6EA4B6B5;1419
+(rerunfilecheck)             After:  F126BE842B5ADB961E79BD7152D207A8;1623.
  ) 
 Here is how much of TeX's memory you used:
- 42347 strings out of 410536
- 951134 string characters out of 2813392
- 1566954 words of memory out of 3000000
- 62802 multiletter control sequences out of 15000+600000
+ 42349 strings out of 410536
+ 951107 string characters out of 2813392
+ 1567031 words of memory out of 3000000
+ 62806 multiletter control sequences out of 15000+600000
  478601 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,12n,91p,1007b,881s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 88i,12n,91p,1007b,883s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on document.pdf (12 pages).
+Output written on document.pdf (15 pages).
