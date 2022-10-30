@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  30 OCT 2022 09:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.22)  30 OCT 2022 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,7 +1873,7 @@ Overfull \hbox (57.81512pt too wide) in paragraph at lines 570--600
  []
 
 
-Overfull \hbox (16.81117pt too wide) detected at line 607
+Overfull \hbox (13.22842pt too wide) detected at line 607
 []
  []
 
@@ -2008,14 +2008,14 @@ Overfull \hbox (89.7249pt too wide) in paragraph at lines 771--772
 File: immagini/caso 3.png Graphic file (type bmp)
 <immagini/caso 3.png>
 
-Overfull \hbox (89.7249pt too wide) in paragraph at lines 779--780
+Overfull \hbox (70.63936pt too wide) in paragraph at lines 779--780
 []| []  
  []
 
 File: immagini/inviluppo momenti.png Graphic file (type bmp)
 <immagini/inviluppo momenti.png>
 
-Overfull \hbox (92.56992pt too wide) in paragraph at lines 785--786
+Overfull \hbox (76.32982pt too wide) in paragraph at lines 785--786
 []| []  
  []
 

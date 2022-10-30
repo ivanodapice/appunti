@@ -129,8 +129,8 @@
 	
 	\begin{tabbing}
 		Carichi Accidentali\endnote{I valori di carico accidentale in situazione normale sono $q=4.00kN/m^{2}$ e $q=2.00kN/m^{2}$ rispettivamente per lo sbalzo e campata. I valori usati in esercizio sono puramente didattici.} \hspace{10em} \= Matricola pari \hspace{1em} \\
-		Sullo Sbalzo $\longrightarrow$    \> $q_{k1}=5,00kN/m^{2}$    \\
-		In Campata   $\longrightarrow$    \> $q_{k2}=3,50kN/m^{2}$                     
+		Sullo Sbalzo $\longrightarrow$    \> $Q_{k1}=5,00kN/m^{2}$    \\
+		In Campata   $\longrightarrow$    \> $Q_{k2}=3,50kN/m^{2}$                     
 	\end{tabbing}
 	\chapter{Analisi dei carichi}
 	
@@ -394,7 +394,7 @@
     		\load{2}{e}[270][180];
     		\lineload{1}{f}{g}[1][1][0.01];
     		\notation{1}{d}{$\frac{qL^{2}}{8}$}[left=.5cm];
-    		\notation{1}{e}{$28,96kNm$}[right=.5cm];
+    		\notation{1}{e}{$34,21kNm$}[right=.5cm];
     	\end{tikzpicture}
     	\caption{Tratto BC.}
     	\label{fig:trattobccarico}
@@ -595,22 +595,22 @@
     		\notation{1}{e}{$33,19kNm$}[right=.5cm];
     		\notation{1}{c}{$55,86kN$}[above right=3mm];
     		\notation{1}{ccccc}{$R_b$}[below right=4mm];
-    		\notation{1}{bbbbb}{$R_{csx}$}[below left=4mm];
+    		\notation{1}{bbbbb}{$R_{c}^{sx}$}[below left=4mm];
     	\end{tikzpicture}
     	\caption{Tratto BC.}
     	\label{fig:reazionevincolareBC}
     \end{figure}
     
     \begin{alignat*}{5}
-    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_b+R_{csx}-55,86kN       & {}=0{}\\
-    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{55,86kN\cdot4,90m}{2}-R_{csx}\cdot4,90m+33,19kNm-4,07kNm & {}=0{} 
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_b+R_{c}^{sx}-55,86kN       & {}=0{}\\
+    	\Sigma M_b & {}=0{} & \phantom{123456} & \frac{55,86kN\cdot4,90m}{2}-R_{c}^{sx}\cdot4,90m+33,19kNm-4,07kNm & {}=0{} 
     \end{alignat*}
     \leavevmode\newline
     \leavevmode\newline
-    $R_{csx}\cdot\phantom{,}4,90m=136,86kNm+29,12kNm$
+    $R_{c}^{sx}\cdot\phantom{,}4,90m=136,86kNm+29,12kNm$
     \leavevmode\newline
     \leavevmode\newline
-    $R_{csx}=\frac{165,98kNm}{4,90m}=33,87kN$
+    $R_{c}^{sx}=\frac{165,98kNm}{4,90m}=33,87kN$
     \leavevmode\newline
     \leavevmode\newline
     $R_b=55,86kN-33,87kN=21,99kN$
@@ -642,7 +642,7 @@
     		\load{1}{b}[-90][1][1];
     		\notation{1}{d}{$33,19kNm$}[left=.5cm];
     		\notation{1}{c}{$55,86kN$}[above right=3mm];
-    		\notation{1}{ccccc}{$R_{cdx}$}[below right=4mm];
+    		\notation{1}{ccccc}{$R_{c}^{dx}$}[below right=4mm];
     		\notation{1}{bbbbb}{$R_d$}[below left=4mm];
     	\end{tikzpicture}
     	\caption{Tratto CD.}
@@ -650,7 +650,7 @@
     \end{figure}
 
     \begin{alignat*}{5}
-    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{cdx}+R_c-55,86kN & {}=0{}\\
+    	\Sigma Y\phantom{_b}   & {}=0{} & \phantom{123456} & R_{c}^{dx}+R_d-55,86kN & {}=0{}\\
     	\Sigma M_c & {}=0{} & \phantom{123456} & 136,86kNm-R_d\cdot4,90m-33,19kNm& {}=0{} 
     \end{alignat*}
     \leavevmode\newline
@@ -661,13 +661,13 @@
     $R_d=\frac{103,67kNm}{4,90m}=21,16kN$
     \leavevmode\newline
     \leavevmode\newline
-    $R_{cdx}=55,86kN-21,16kN=34,70kN$
+    $R_{c}^{dx}=55,86kN-21,16kN=34,70kN$
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
     \leavevmode\newline
-    $\textbf{R}_b=21,99kN,\leavevmode\newline \textbf{R}_{csx}=33,87kN,\leavevmode\newline \textbf{R}_{cdx}=34,70kN,\leavevmode\newline \textbf{R}_d=21,16kN\leavevmode\newline$
+    $\textbf{R}_b=21,99kN,\leavevmode\newline\leavevmode\newline \textbf{R}_{c}^{sx}=33,87kN,\leavevmode\newline\leavevmode\newline \textbf{R}_{c}^{dx}=34,70kN,\leavevmode\newline\leavevmode\newline \textbf{R}_d=21,16kN\leavevmode\newline$
     
     \break
     
@@ -686,8 +686,8 @@
     \phantom{testoabcdefgh}{\tiny TRATTO C-D}
     \begin{equation}
     	\begin{cases}
-    		T(x)&=R_{cdx}-q\cdot x \\ \\
-    		M(x)&=R_{cdx}\cdot x-M_c-\frac{q\cdot x^2}{2}\\ \\ 
+    		T(x)&=R_{c}^{dx}-q\cdot x \\ \\
+    		M(x)&=R_{c}^{dx}\cdot x-M_c-\frac{q\cdot x^2}{2}\\ \\ 
     	\end{cases}
     	\hfill
     \end{equation}
@@ -776,13 +776,13 @@
     \section{Combinazione di carico n° 3}
 
     \begin{figure}[H]
-    	\hspace*{-3.7cm}\includegraphics[width=1.5\linewidth]{"immagini/caso 3.png"}
+    	\hspace*{-3.cm}\includegraphics[width=1.4\linewidth]{"immagini/caso 3.png"}
     \end{figure}
 
     \section{Inviluppo momenti}
 
     \begin{figure}[H]
-    	\hspace*{-3.6cm}\includegraphics[width=1.5\linewidth]{"immagini/inviluppo momenti.png"}
+    	\hspace*{-2.8cm}\includegraphics[width=1.4\linewidth]{"immagini/inviluppo momenti.png"}
     \end{figure}
 
 
