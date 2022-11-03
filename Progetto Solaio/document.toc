@@ -16,3 +16,4 @@
 \contentsline {section}{\numberline {4.3}Punto C}{18}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Punto E}{19}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Punto D}{19}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Diagramma dominio M-N}{20}{section.4.6}%

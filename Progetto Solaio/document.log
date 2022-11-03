@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.21)  3 NOV 2022 13:48
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.21)  3 NOV 2022 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2037,8 +2037,14 @@ al fatto che si ipotizza in uso un acciaio B450C e
  []
 
 ) [21] (./document.aux)
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 3B8F09E4D8F93922C58C4C7EAECB17BD;2537.
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 3B8F09E4D8F93922C58C4C7EAECB17BD;2537
+(rerunfilecheck)             After:  6042F1D481E5AB4886D7FC3C0227A464;2703.
  ) 
 Here is how much of TeX's memory you used:
  42478 strings out of 476179
