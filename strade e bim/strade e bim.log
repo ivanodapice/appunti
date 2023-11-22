@@ -1,0 +1,2725 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.7)  10 NOV 2023 20:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"./strade e bim.tex"
+(strade e bim.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbook.cls
+Document Class: scrbook 2023/07/07 v3.41 KOMA-Script document class (book)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+Package scrbook Info: You've used standard option `12pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=12pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=12pt' there
+(scrbook)             instead of `12pt', too.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2691.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt
+.clo
+File: scrsize12pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (12pt
+)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
+y
+Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count182
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 27.31467pt
+(typearea)              \oddsidemargin  = -22.47766pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1799.
+)
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\scr@dte@chapter@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5990.
+\scr@dte@section@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 6001.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 6001.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 6010.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 6020.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 6020.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 6030.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 6030.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 6041.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 6041.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 6051.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 6051.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7242.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count190
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7259.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count191
+Class scrbook Info: Redefining `\numberline' on input line 7430.
+\bibindent=\dimen140
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/10/25 v3.96 The Babel package
+\babel@savecnt=\count192
+\U@D=\dimen141
+\l@unhyphenated=\language79
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count193
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.l
+df
+Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
+\it@lettering=\count194
+\it@doublequoteactive=\count195
+\it@ISOcompliance=\count196
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel
+-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count197
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen142
+\pgfutil@tempdimb=\dimen143
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\pgf@xd=\dimen154
+\pgf@yd=\dimen155
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count198
+\c@pgf@countb=\count199
+\c@pgf@countc=\count266
+\c@pgf@countd=\count267
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count268
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count269
+)))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count270
+\pgfsyssoftpath@bigbuffer@items=\count271
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count272
+\pgfmath@box=\box54
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count273
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count274
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen175
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen179
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count275
+\pgf@shadingcount=\count276
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box58
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box59
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count277
+\pgfplotmarksize=\dimen185
+)
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikz@lastmovetox=\dimen190
+\tikz@lastmovetoy=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count278
+\tikznumberofchildren=\count279
+\tikznumberofcurrentchild=\count280
+\tikz@fig@count=\count281
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count282
+\pgfmatrixcurrentcolumn=\count283
+\pgf@matrix@numberofcolumns=\count284
+)
+\tikz@expandcount=\count285
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks32
+\thm@bodyfont=\toks33
+\thm@headfont=\toks34
+\thm@notefont=\toks35
+\thm@headpunct=\toks36
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
+\dth@everypar=\toks37
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-11-01 L3 programming layer (loader) 
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2023-10-23 L3 backend support: XeTeX
+\g__graphics_track_int=\count286
+\l__pdf_internal_box=\box64
+\g__pdf_backend_object_int=\count287
+\g__pdf_backend_annotation_int=\count288
+\g__pdf_backend_link_int=\count289
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+))
+Class scrbook Info: amsthm's \deferred@thm@head patched.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks38
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks39
+\ex@=\dimen194
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen195
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count291
+\leftroot@=\count292
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count293
+\DOTSCASE@=\count294
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen196
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count295
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count296
+\dotsspace@=\muskip16
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks40
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+\andhelp@=\toks41
+\eqnshift@=\dimen197
+\alignsep@=\dimen198
+\tagshift@=\dimen199
+\tagwidth@=\dimen256
+\totwidth@=\dimen257
+\lineht@=\dimen258
+\@envbody=\toks42
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks43
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen259
+\calc@Bdimen=\dimen260
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip73
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count305
+\l_MT_multwidth_dim=\dimen261
+\origjot=\skip74
+\l_MT_shortvdotswithinadjustabove_dim=\dimen262
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen263
+\l_MT_above_intertext_sep=\dimen264
+\l_MT_below_intertext_sep=\dimen265
+\l_MT_above_shortintertext_sep=\dimen266
+\l_MT_below_shortintertext_sep=\dimen267
+\xmathstrut@box=\box67
+\xmathstrut@dim=\dimen268
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/engrec\engrec.sty
+Package: engrec 2008/05/07 v1.1 fichier engrec.sty par Le TeXnicien de surface
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count306
+\rotFPtop=\skip75
+\rotFPbot=\skip76
+\rot@float@box=\box68
+\rot@mess@toks=\toks44
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read4
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tipa\extraipa.sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipx.sty
+Package: tipx 2003/01/01 TIPX version 1.2
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip77
+\multirow@cntb=\count307
+\multirow@dima=\skip78
+\bigstrutjot=\dimen269
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-10-27 v7.01d Hypertext links for LaTeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-10-05 v2.54 Cross-referencing by name of section
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count308
+)
+\@linkdim=\dimen270
+\Hy@linkcounter=\count309
+\Hy@pagecounter=\count310
+ (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-10-27 v7.01d Hyperref: PDFDocEncoding definition (HO)
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count311
+ (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-10-27 v7.01d Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4168.
+Package hyperref Info: Link nesting OFF on input line 4173.
+Package hyperref Info: Hyper index ON on input line 4176.
+Package hyperref Info: Plain pages OFF on input line 4183.
+Package hyperref Info: Backreferencing OFF on input line 4188.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4435.
+\c@Hy@tempcnt=\count312
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4773.
+\XeTeXLinkMargin=\dimen271
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count313
+\Field@Width=\dimen272
+\Fld@charsize=\dimen273
+Package hyperref Info: Hyper figures OFF on input line 6052.
+Package hyperref Info: Link nesting OFF on input line 6057.
+Package hyperref Info: Hyper index ON on input line 6060.
+Package hyperref Info: backreferencing OFF on input line 6067.
+Package hyperref Info: Link coloring OFF on input line 6072.
+Package hyperref Info: Link coloring with OCG OFF on input line 6077.
+Package hyperref Info: PDF/A mode OFF on input line 6082.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count314
+\c@Item=\count315
+\c@Hfootnote=\count316
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2023-10-27 v7.01d Hyperref driver for XeTeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box69
+\c@Hy@AnnotLevel=\count317
+\HyField@AnnotCount=\count318
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip79
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks47
+\MT@tempbox=\box70
+\MT@count=\count321
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks48
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen274
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count322
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xet
+ex.def
+File: microtype-xetex.def 2023/03/13 v3.1a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 238.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks49
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip80
+\enit@outerparindent=\dimen275
+\enit@toks=\toks50
+\enit@inbox=\box71
+\enit@count@id=\count323
+\enitdp@description=\count324
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/braket\braket.sty)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/marginnote\marginnote.s
+ty
+Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count325
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/polynom\polynom.sty
+Package: polynom 2017/07/17 0.19 (CH,HA)
+\pld@currstage=\count326
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen276
+\lightrulewidth=\dimen277
+\cmidrulewidth=\dimen278
+\belowrulesep=\dimen279
+\belowbottomsep=\dimen280
+\aboverulesep=\dimen281
+\abovetopsep=\dimen282
+\cmidrulesep=\dimen283
+\cmidrulekern=\dimen284
+\defaultaddspace=\dimen285
+\@cmidla=\count327
+\@cmidlb=\count328
+\@aboverulesep=\dimen286
+\@belowrulesep=\dimen287
+\@thisruleclass=\count329
+\@lastruleclass=\count330
+\@thisrulewidth=\dimen288
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen289
+\ESO@tempdimb=\dimen290
+)
+\AM@pagewidth=\dimen291
+\AM@pageheight=\dimen292
+\AM@fboxrule=\dimen293
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
+File: ppxetex.def 2022/12/19 v0.5x Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count331
+\AM@pagebox=\box72
+\AM@global@opts=\toks51
+\AM@pagecnt=\count332
+\AM@toc@title=\toks52
+\AM@lof@heading=\toks53
+\c@AM@survey=\count333
+\AM@templatesizebox=\box73
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen294
+\c@pgfplots@coordindex=\count334
+\c@pgfplots@scanlineindex=\count335
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks57
+\t@pgf@tokb=\toks58
+\t@pgf@tokc=\toks59
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count336
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count337
+\t@pgfplotstable@a=\toks60
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count338
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-xetex.def
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count339
+))))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen295
+\pgfdecoratedremainingdistance=\dimen296
+\pgfdecoratedinputsegmentcompleteddistance=\dimen297
+\pgfdecoratedinputsegmentremainingdistance=\dimen298
+\pgf@decorate@distancetomove=\dimen299
+\pgf@decorate@repeatstate=\count340
+\pgfdecorationsegmentamplitude=\dimen300
+\pgfdecorationsegmentlength=\dimen301
+)
+\tikz@lib@dec@box=\box74
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count341
+\pgfplots@xmin@reg=\dimen302
+\pgfplots@xmax@reg=\dimen303
+\pgfplots@ymin@reg=\dimen304
+\pgfplots@ymax@reg=\dimen305
+\pgfplots@zmin@reg=\dimen306
+\pgfplots@zmax@reg=\dimen307
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip81
+\RaggedLeftLeftskip=\skip82
+\RaggedRightLeftskip=\skip83
+\CenteringRightskip=\skip84
+\RaggedLeftRightskip=\skip85
+\RaggedRightRightskip=\skip86
+\CenteringParfillskip=\skip87
+\RaggedLeftParfillskip=\skip88
+\RaggedRightParfillskip=\skip89
+\JustifyingParfillskip=\skip90
+\CenteringParindent=\skip91
+\RaggedLeftParindent=\skip92
+\RaggedRightParindent=\skip93
+\JustifyingParindent=\skip94
+)
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrlayer' or `scrlayer-scrpage', because
+(scrbook)              they support KOMA-Script classes.
+(scrbook)              With `fancyhdr' several features of class `scrbook'
+(scrbook)              like options `headsepline', `footsepline' or command
+(scrbook)              `\MakeMarkcase' and the commands `\setkomafont' and
+(scrbook)              `\addtokomafont' for the page style elements need
+(scrbook)              explicite user intervention to work.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 45.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip95
+\f@nch@O@elh=\skip96
+\f@nch@O@erh=\skip97
+\f@nch@O@olh=\skip98
+\f@nch@O@orh=\skip99
+\f@nch@O@elf=\skip100
+\f@nch@O@erf=\skip101
+\f@nch@O@olf=\skip102
+\f@nch@O@orf=\skip103
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count342
+\mult@box=\box75
+\multicol@leftmargin=\dimen308
+\c@unbalance=\count343
+\c@collectmore=\count344
+\doublecol@number=\count345
+\multicoltolerance=\count346
+\multicolpretolerance=\count347
+\full@width=\dimen309
+\page@free=\dimen310
+\premulticols=\dimen311
+\postmulticols=\dimen312
+\multicolsep=\skip104
+\multicolbaselineskip=\skip105
+\partial@page=\box76
+\last@line=\box77
+\mc@boxedresult=\box78
+\maxbalancingoverflow=\dimen313
+\mult@rightbox=\box79
+\mult@grightbox=\box80
+\mult@firstbox=\box81
+\mult@gfirstbox=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\c@minrows=\count348
+\c@columnbadness=\count349
+\c@finalcolumnbadness=\count350
+\last@try=\dimen314
+\multicolovershoot=\dimen315
+\multicolundershoot=\dimen316
+\mult@nat@firstbox=\box119
+\colbreak@box=\box120
+\mc@col@check@num=\count351
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2023/09/26 version 6.1.0 text color boxes
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box121
+\tcb@upperbox=\box122
+\tcb@lowerbox=\box123
+\tcb@phantombox=\box124
+\c@tcbbreakpart=\count352
+\c@tcblayer=\count353
+\c@tcolorbox@number=\count354
+\tcb@temp=\box125
+\tcb@temp=\box126
+\tcb@temp=\box127
+\tcb@temp=\box128
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.cod
+e.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.1.0'
+\c@tcbrastercolumn=\count355
+\c@tcbrasterrow=\count356
+\c@tcbrasternum=\count357
+\c@tcbraster=\count358
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code
+.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.1.0'
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image
+.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-commo
+n.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfil
+l.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box129
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsa
+w.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.1.0'
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.
+code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.1.0'
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box130
+\tcb@totalupperbox=\box131
+\tcb@totallowerbox=\box132
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code
+.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.1.0'
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.c
+ode.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.1.0'
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.co
+de.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.1.0'
+\tcbfitdim=\dimen317
+\tcb@lowerfitdim=\dimen318
+\tcb@upperfitdim=\dimen319
+\tcb@cur@hbadness=\count359
+))
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/unicode-math\unicode-ma
+th.sty
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/unicode-math\unicode-ma
+th-xetex.sty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count360
+\l__fontspec_language_int=\count361
+\l__fontspec_strnum_int=\count362
+\l__fontspec_tmp_int=\count363
+\l__fontspec_tmpa_int=\count364
+\l__fontspec_tmpb_int=\count365
+\l__fontspec_tmpc_int=\count366
+\l__fontspec_em_int=\count367
+\l__fontspec_emdef_int=\count368
+\l__fontspec_strong_int=\count369
+\l__fontspec_strongdef_int=\count370
+\l__fontspec_tmpa_dim=\dimen320
+\l__fontspec_tmpb_dim=\dimen321
+\l__fontspec_tmpc_dim=\dimen322
+ (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count371
+\g__um_fonts_used_int=\count372
+\l__um_primecount_int=\count373
+\g__um_primekern_muskip=\muskip18
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/unicode-math\unicode-ma
+th-table.tex)))
+
+Package fontspec Info: Could not resolve font "TeX Gyre Bonum Math/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'TeXGyreBonumMath(0)' created for font 'TeX
+(fontspec)             Gyre Bonum Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"TeX Gyre Bonum
+(fontspec)             Math/OT:script=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Could not resolve font "TeX Gyre Bonum Math/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'TeXGyreBonumMath(1)' created for font 'TeX
+(fontspec)             Gyre Bonum Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=10.62-},{Size=8.22-10.62,Font=TeX
+(fontspec)             Gyre Bonum Math,Style=MathScript},{Size=-8.22,Font=TeX
+(fontspec)             Gyre Bonum Math,Style=MathScriptScript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <10.62->"TeX Gyre
+(fontspec)             Bonum
+(fontspec)             Math/OT:script=math;language=dflt;"<8.22-10.62>"TeX
+(fontspec)             Gyre Bonum
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-8.22>"TeX
+(fontspec)             Gyre Bonum Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/TeXGyreBonumMath(1)/m/n on input lin
+e 79.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/TeXGyreBonumMath(1)/b/n on input li
+ne 79.
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 1.0001.
+
+
+Package fontspec Info: Could not resolve font "TeX Gyre Bonum Math/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 1.0001.
+
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 1.0001.
+
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 1.0001.
+
+
+Package fontspec Info: Font family 'TeXGyreBonumMath(2)' created for font 'TeX
+(fontspec)             Gyre Bonum Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=10.62-},{Size=8.22-10.62,Font=TeX
+(fontspec)             Gyre Bonum Math,Style=MathScript},{Size=-8.22,Font=TeX
+(fontspec)             Gyre Bonum
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdju
+stment={\fontdimen
+(fontspec)             8\font =8.136pt\relax \fontdimen 9\font =4.752pt\relax
+(fontspec)             \fontdimen 10\font =4.752pt\relax \fontdimen 11\font
+(fontspec)             =7.596pt\relax \fontdimen 12\font =2.676pt\relax
+(fontspec)             \fontdimen 13\font =4.008pt\relax \fontdimen 14\font
+(fontspec)             =4.008pt\relax \fontdimen 15\font =3.324pt\relax
+(fontspec)             \fontdimen 16\font =2.772pt\relax \fontdimen 17\font
+(fontspec)             =2.772pt\relax \fontdimen 18\font =2.772pt\relax
+(fontspec)             \fontdimen 19\font =1.392pt\relax \fontdimen 22\font
+(fontspec)             =3.12pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.62->s*[1.0001]"TeX Gyre Bonum
+(fontspec)             Math/OT:script=math;language=dflt;"<8.22-10.62>s*[1.0001
+]"TeX
+(fontspec)             Gyre Bonum
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-8.22>s*[1.0
+001]"TeX
+(fontspec)             Gyre Bonum Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.136pt\relax \fontdimen 9\font
+(fontspec)             =4.752pt\relax \fontdimen 10\font =4.752pt\relax
+(fontspec)             \fontdimen 11\font =7.596pt\relax \fontdimen 12\font
+(fontspec)             =2.676pt\relax \fontdimen 13\font =4.008pt\relax
+(fontspec)             \fontdimen 14\font =4.008pt\relax \fontdimen 15\font
+(fontspec)             =3.324pt\relax \fontdimen 16\font =2.772pt\relax
+(fontspec)             \fontdimen 17\font =2.772pt\relax \fontdimen 18\font
+(fontspec)             =2.772pt\relax \fontdimen 19\font =1.392pt\relax
+(fontspec)             \fontdimen 22\font =3.12pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/TeXGyreBonumMath(2)/m/n on input li
+ne 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/TeXGyreBonumMath(2)/b/n on input li
+ne 79.
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 0.9999.
+
+
+Package fontspec Info: Could not resolve font "TeX Gyre Bonum Math/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 0.9999.
+
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 0.9999.
+
+
+Package fontspec Info: TeX Gyre Bonum Math scale = 0.9999.
+
+
+Package fontspec Info: Font family 'TeXGyreBonumMath(3)' created for font 'TeX
+(fontspec)             Gyre Bonum Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=10.62-},{Size=8.22-10.62,Font=TeX
+(fontspec)             Gyre Bonum Math,Style=MathScript},{Size=-8.22,Font=TeX
+(fontspec)             Gyre Bonum
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdju
+stment={\fontdimen
+(fontspec)             8\font =0.864pt\relax \fontdimen 9\font =1.2pt\relax
+(fontspec)             \fontdimen 10\font =1.2pt\relax \fontdimen 11\font
+(fontspec)             =1.2pt\relax \fontdimen 12\font =5.364pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.62->s*[0.9999]"TeX Gyre Bonum
+(fontspec)             Math/OT:script=math;language=dflt;"<8.22-10.62>s*[0.9999
+]"TeX
+(fontspec)             Gyre Bonum
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-8.22>s*[0.9
+999]"TeX
+(fontspec)             Gyre Bonum Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.864pt\relax \fontdimen 9\font
+(fontspec)             =1.2pt\relax \fontdimen 10\font =1.2pt\relax \fontdimen
+(fontspec)             11\font =1.2pt\relax \fontdimen 12\font =5.364pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 7
+9.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/TeXGyreBonumMath(3)/m/n on input li
+ne 79.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 79.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/TeXGyreBonumMath(3)/b/n on input li
+ne 79.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip106
+\thanksmargin=\skip107
+\droptitle=\skip108
+)
+
+Class scrbook Warning: Usage of package `titlesec' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use KOMA-Script features
+(scrbook)              like \setkomafont, \RedeclareSectionCommand, \sectionlin
+esformat
+(scrbook)              and several others to re-configure section
+(scrbook)              headings.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `titlesec' on input line 84.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box133
+\beforetitleunit=\skip109
+\aftertitleunit=\skip110
+\ttl@plus=\dimen323
+\ttl@minus=\dimen324
+\ttl@toksa=\toks61
+\titlewidth=\dimen325
+\titlewidthlast=\dimen326
+\titlewidthfirst=\dimen327
+
+
+Package titlesec Warning: Non standard sectioning command \section
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subsection
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subsubsection
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \paragraph
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subparagraph
+(titlesec)                detected. Using default spacing and no format.
+
+) (C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
+\linenopenalty=\count374
+\output=\toks62
+\linenoprevgraf=\count375
+\linenumbersep=\dimen328
+\linenumberwidth=\dimen329
+\c@linenumber=\count376
+\c@pagewiselinenumber=\count377
+\c@LN@truepage=\count378
+\c@internallinenumber=\count379
+\c@internallinenumbers=\count380
+\quotelinenumbersep=\dimen330
+\bframerule=\dimen331
+\bframesep=\dimen332
+\bframebox=\box134
+\linenoamsmath@ams@eqpen=\count381
+LaTeX Info: Redefining \\ on input line 3180.
+)
+(strade e bim.aux)
+\openout1 = `"strade e bim.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 118.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
+8.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+Package hyperref Info: Link coloring OFF on input line 118.
+
+(strade e bim.out) (strade e bim.out)
+\@outlinefile=\write4
+\openout4 = `"strade e bim.out"'.
+
+Class scrbook Info: loading recommended package `bookmark'.
+(scrbook)           Using `bookmark' together with `hyperref' is recommended,
+(scrbook)           because of handling of possible bookmark level gaps.
+(scrbook)           You can avoid loading `bookmark' with KOMA-Script option
+(scrbook)           `bookmarkpackage=false' before \begin{document} and
+(scrbook)           you can avoid this message adding:
+(scrbook)             \usepackage{bookmark}
+(scrbook)           before \begin{document} on input line 118.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.de
+f
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count382
+))
+LaTeX Info: Redefining \microtypecontext on input line 118.
+Package microtype Info: Applying patch `item' on input line 118.
+Package microtype Info: Applying patch `toc' on input line 118.
+Package microtype Info: Applying patch `eqnum' on input line 118.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 118.
+
+Package microtype Info: Applying patch `verbatim' on input line 118.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-LatinModer
+nRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+))
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.13).
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/TeXGyreBonumMath(1)/m/n --> TU/lmr/m/n on input line
+ 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 118.
+
+Package unicode-math Warning: Using \overbracket and \underbracket from
+(unicode-math)                `mathtools' package.
+(unicode-math)                 
+(unicode-math)                 Use \Uoverbracket and \Uunderbracket for
+(unicode-math)                original `unicode-math' definition.
+
+
+Package unicode-math Warning: I'm going to overwrite the following commands
+(unicode-math)                from the `mathtools' package: 
+(unicode-math)                 
+(unicode-math)                     \dblcolon, \coloneqq, \Coloneqq, \eqqcolon.
+(unicode-math)                
+(unicode-math)                 
+(unicode-math)                 Note that since I won't overwrite the other
+(unicode-math)                colon-like commands, using them will lead to
+(unicode-math)                inconsistencies.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `TeXGyreBonumMath' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+20.
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(2)/m/n' will be
+(Font)              scaled to size 14.40152pt on input line 120.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 120.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 120.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(3)/m/n' will be
+(Font)              scaled to size 14.39845pt on input line 120.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 120.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+.
+
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\ivano\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+[1
+
+
+
+] [2
+
+
+]
+
+Class scrbook Warning: Redefinition of \@makeschapterhead detected.
+(scrbook)              Note: KOMA-Script does use styles for commands like
+(scrbook)              \chapter. Currently it internally still provides and
+(scrbook)              uses \@makeschapterhead, but a completely different
+(scrbook)              definition compared to the standard classes.
+(scrbook)              So redefining or using internal \@makeschapterhead
+(scrbook)              by users or package authors may already break
+(scrbook)              KOMA-Script and will not work with a coming version,
+(scrbook)              that will remove this deprecated code.
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <24.88> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 159.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 163.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 164.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(2)/m/n' will be
+(Font)              scaled to size 9.24098pt on input line 164.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(2)/m/n' will be
+(Font)              scaled to size 7.20076pt on input line 164.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 164.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(3)/m/n' will be
+(Font)              scaled to size 9.23901pt on input line 164.
+LaTeX Font Info:    Font shape `TU/TeXGyreBonumMath(3)/m/n' will be
+(Font)              scaled to size 7.19922pt on input line 164.
+
+Overfull \hbox (39.06908pt too wide) in paragraph at lines 163--165
+\TU/lmtt/b/n/12 Questi appunti sono presi a lezione. Per quanto sia stata fatta
+ una revisione
+ []
+
+
+Overfull \hbox (2.31308pt too wide) in paragraph at lines 163--165
+\TU/lmtt/b/n/12 è altamente probabile (praticamente certo) che possano contener
+e errori,
+ []
+
+
+Overfull \hbox (7.56909pt too wide) in paragraph at lines 163--165
+\TU/lmtt/b/n/12 sia di stampa che di vero e proprio contenuto. Per eventuali pr
+oposte di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+[3] [4
+
+
+]
+
+Class scrbook Warning: Redefinition of \@makeschapterhead detected.
+(scrbook)              Note: KOMA-Script does use styles for commands like
+(scrbook)              \chapter. Currently it internally still provides and
+(scrbook)              uses \@makeschapterhead, but a completely different
+(scrbook)              definition compared to the standard classes.
+(scrbook)              So redefining or using internal \@makeschapterhead
+(scrbook)              by users or package authors may already break
+(scrbook)              KOMA-Script and will not work with a coming version,
+(scrbook)              that will remove this deprecated code.
+
+Package tocbasic Info: character protrusion at toc deactivated on input line 16
+6.
+(strade e bim.toc
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (0.33597pt too wide) detected at line 15
+ []\TU/lmr/m/n/12 xvii
+ []
+
+
+Overfull \hbox (3.27597pt too wide) detected at line 17
+ []\TU/lmr/m/n/12 xxiv
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `"strade e bim.toc"'.
+
+ [5] [6
+
+
+]
+chapter 1.
+
+Class scrbook Warning: Redefinition of \@makechapterhead detected.
+(scrbook)              Note: KOMA-Script does use styles for commands like
+(scrbook)              \chapter. Currently it internally still provides and
+(scrbook)              uses \@makechapterhead, but a completely different
+(scrbook)              definition compared to the standard classes.
+(scrbook)              So redefining or using internal \@makechapterhead
+(scrbook)              by users or package authors may already break
+(scrbook)              KOMA-Script and will not work with a coming version,
+(scrbook)              that will remove this deprecated code.
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <17.28> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 169.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[]\TU/lmtt/m/n/12 Determinare lo \TU/lmtt/b/n/12 sforzo di trazione \TU/lmtt/m/
+n/12 per mantenere una velocità
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\TU/lmtt/b/n/12 costante \TU/lmtt/m/n/12 di 55 Km/h su di un tronco stradale \T
+U/lmtt/b/n/12 rettilineo\TU/lmtt/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\TU/lmtt/m/n/12 con pavimentazione \TU/lmtt/b/n/12 asciutta \TU/lmtt/m/n/12 con
+ manto stradale con \TU/lmtt/b/n/12 micro e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\TU/lmtt/b/n/12 macrotessitura ed elementi a spigoli vivi\TU/lmtt/m/n/12 , ed i
+n \TU/lmtt/b/n/12 salita \TU/lmtt/m/n/12 con la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\TU/lmtt/m/n/12 pendenza longitudinale i = 2%. Verificare e indicare se lo \TU/
+lmtt/b/n/12 sforzo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\TU/lmtt/m/n/12 Dato che la strada in esame è in rettilineo, $[][]$=0. Inoltr
+e,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/lmtt/m/n/12 a velocità costante possiamo trascurare la componente di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/lmtt/m/n/12 accelerazione $[]$, e infine, $[]$ avrà segno positivo perché i
+n salita.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+[]\TU/lmtt/m/n/12 Per verificare se lo sforzo di trazione sia esplicabile, poni
+amo
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 220--221
+[] [] [][]$ \TU/lmtt/m/n/12 e cioè $[] [] [][] [] [][]$. Invece, per quanto rig
+uarda la
+ []
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 244.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+|[]\TU/lmtt/b/n/17.28 Esercizio 2|
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+[]\TU/lmtt/m/n/12 Determinare lo sforzo di trazione necessario all’avviamento s
+u
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\TU/lmtt/m/n/12 di un tronco stradale \TU/lmtt/b/n/12 rettilineo\TU/lmtt/m/n/12
+ , con pavimentazione \TU/lmtt/b/n/12 bagnata \TU/lmtt/m/n/12 in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\TU/lmtt/b/n/12 conglomerato bituminoso\TU/lmtt/m/n/12 , in \TU/lmtt/b/n/12 sal
+ita \TU/lmtt/m/n/12 con la pendenza longitudinale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\TU/lmtt/m/n/12 i = 3,5%, e con un’accelerazione confortevole a = dv/dt = 0,25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\TU/lmtt/m/n/12 m/s². Verificare e indicare se lo sforzo di trazione calcolato 
+è
+ []
+
+[3]
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 316.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 316.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+|[]\TU/lmtt/b/n/17.28 Esercizio 3|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+[]\TU/lmtt/m/n/12 Determinare la massima pendenza possibile di una strada tale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\TU/lmtt/m/n/12 che sia garantito l’\TU/lmtt/b/n/12 avviamento \TU/lmtt/m/n/12 
+in \TU/lmtt/b/n/12 salita \TU/lmtt/m/n/12 su un tronco stradale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\TU/lmtt/b/n/12 rettilineo \TU/lmtt/m/n/12 con pavimentazione \TU/lmtt/b/n/12 a
+sciutta \TU/lmtt/m/n/12 in \TU/lmtt/b/n/12 conglomerato bituminoso\TU/lmtt/m/n/
+12 .
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+[]\TU/lmtt/m/n/12 Prendiamo il valore più piccolo tra $[][]$ e $[][]$ ponendolo
+ come
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+|[]\TU/lmtt/b/n/17.28 Esercizio 4|
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[]\TU/lmtt/m/n/12 Determinare la massima accelerazione all’\TU/lmtt/b/n/12 avvi
+amento \TU/lmtt/m/n/12 su di un tronco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+\TU/lmtt/m/n/12 stradale \TU/lmtt/b/n/12 rettilineo \TU/lmtt/m/n/12 in \TU/lmtt
+/b/n/12 salita \TU/lmtt/m/n/12 che ha la pendenza longitudinale i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+\TU/lmtt/m/n/12 = 3% su di una pavimentazione \TU/lmtt/b/n/12 asciutta \TU/lmtt
+/m/n/12 con manto stradale con solo
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
+|[]\TU/lmtt/b/n/17.28 Esercizio 5|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
+[]\TU/lmtt/m/n/12 Determinare le distanze di visibilità per il cambio di corsia
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
+\TU/lmtt/m/n/12 il sorpasso su di una strada ad unica carreggiata di \TU/lmtt/b
+/n/12 tipo C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
+\TU/lmtt/m/n/12 nell'ipotesi che essa sia percorsa in \TU/lmtt/b/n/12 salita \T
+U/lmtt/m/n/12 da una autovettura
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
+\TU/lmtt/m/n/12 A1) Determinare, altresì, la distanza di arresto nell’ipotesi c
+he
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
+\TU/lmtt/m/n/12 A2) Determinare, altresì, la distanza di arresto nell’ipotesi d
+i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[]\TU/lmtt/m/n/12 27,8m/s perché come si vede anche nella formula, v è minuscol
+o.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+\TU/lmtt/m/n/12 Quando troviamo questo tipo di notazione, la velocità è in metr
+i al
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+[8]
+chapter 2.
+
+Class scrbook Warning: Redefinition of \@makechapterhead detected.
+(scrbook)              Note: KOMA-Script does use styles for commands like
+(scrbook)              \chapter. Currently it internally still provides and
+(scrbook)              uses \@makechapterhead, but a completely different
+(scrbook)              definition compared to the standard classes.
+(scrbook)              So redefining or using internal \@makechapterhead
+(scrbook)              by users or package authors may already break
+(scrbook)              KOMA-Script and will not work with a coming version,
+(scrbook)              that will remove this deprecated code.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
+|\TU/lmtt/b/n/24.88 Capitolo 2|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
+|\TU/lmtt/b/n/24.88 Formulario II|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+|[]\TU/lmtt/b/n/17.28 Esercizio 1|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+[]\TU/lmtt/m/n/12 Determinare il raggio minimo della curva circolare
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\TU/lmtt/m/n/12 planimetrica per cui è garantito l’equilibrio allo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\TU/lmtt/m/n/12 sbandamento dei veicoli adottando i valori di aderenza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+[]\TU/lmtt/m/n/12 Determinare la velocità di percorrenza al limite dello
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+\TU/lmtt/m/n/12 sbandamento dell’autovettura nell'ipotesi di un valore
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+\TU/lmtt/m/n/12 del coefficiente di aderenza fa = 0,45 e di pendenza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+[]\TU/lmtt/m/n/12 Determinare l’accelerazione trasversale non compensata e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+[]\TU/lmtt/m/n/12 Dato che ci troviamo in condizione di percorrere una strada d
+i tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+\TU/lmtt/m/n/12 C1, avremo come limiti inferiori e superiori rispettivamente 60
+ e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+\TU/lmtt/m/n/12 100km/h. In ordine per calcolare Rmin useremo il limite inferio
+re
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+\TU/lmtt/m/n/12 di 60km/h, mentre il valore di pendenza q sarà dato da tabella 
+nel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+\TU/lmtt/m/n/12 DM.6792 a pagina 60. Ft è preso da tabella 4 a seconda di veloc
+ità
+ []
+
+
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
+ [9
+
+
+]
+File: immagini/qmax.png Graphic file (type bmp)
+<immagini/qmax.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+[]\TU/lmtt/m/n/12 Ci troviamo in questa parte di progetto a verificare la veloc
+ità di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+\TU/lmtt/m/n/12 percorrenza a limite di sbandamento. Ciò significa che ci trovi
+amo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+\TU/lmtt/m/n/12 nel caso limite in cui con tale velocità riusciamo ancora a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+\TU/lmtt/m/n/12 rimanere su strada. Tale condizione viene data da T=A. Calcoler
+emo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+\TU/lmtt/m/n/12 la velocità con la formula del raggio minimo interpolando Ft
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+[]\TU/lmtt/m/n/12 Nelle componenti dell'aderenza trascuriamo quella trasversale
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+[]\TU/lmtt/m/n/12 Ricalcoliamo T con la nuova velocità per verificare che sia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+|[]\TU/lmtt/b/n/17.28 Esercizio 2|
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+[]\TU/lmtt/m/n/12 Determinare la pendenza trasversale q di una curva
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+\TU/lmtt/m/n/12 di raggio R = 750 m e la velocità di percorrenza V
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+[]\TU/lmtt/m/n/12 Verificare se con il raggio assegnato è garantita la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+\TU/lmtt/m/n/12 visibilità del ciglio interno. Si consideri per il calcolo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+\TU/lmtt/m/n/12 del raggio che consente la visibilità del ciglio interno
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 648.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
+|[]\TU/lmtt/b/n/17.28 Esercizio 3|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
+[]\TU/lmtt/m/n/12 Determinare la velocità di percorrenza V dell'autovettura e l
+a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
+\TU/lmtt/m/n/12 pendenza trasversale q di una curva di raggio R = 185 m secondo
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
+[]\TU/lmtt/m/n/12 Calcoliamo V con l'equazione a Vmax per tipo di strada relati
+va a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
+|[]\TU/lmtt/b/n/17.28 Esercizio 4|
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 691--693
+[]\TU/lmtt/m/n/12 Determinare per gli esercizi 2) e 3) nell'ipotesi di pendenza
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--693
+\TU/lmtt/m/n/12 longitudinale i = 3.5% e nell'ipotesi che osservatore ed ostaco
+lo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+[]\TU/lmtt/m/n/12 la distanza minima D dell’asse della corsia da un ostacolo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+\TU/lmtt/m/n/12 laterale, affinché sia garantita la distanza di visibilità
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+[]\TU/lmtt/m/n/12 Il valore minimo del raggio R, affinché sia garantita
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+\TU/lmtt/m/n/12 la distanza di visibilità nell’ipotesi di sorpasso e di
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Overfull \hbox (26.52847pt too wide) detected at line 726
+[][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+[]\TU/lmtt/m/n/12 Il valore di $[]$ per Rmin è dato dalla lunghezza della corsi
+a più
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+\TU/lmtt/m/n/12 quello della banchina, tabellare da caratteristiche geometriche
+ per
+ []
+
+[16]
+chapter 3.
+
+Class scrbook Warning: Redefinition of \@makechapterhead detected.
+(scrbook)              Note: KOMA-Script does use styles for commands like
+(scrbook)              \chapter. Currently it internally still provides and
+(scrbook)              uses \@makechapterhead, but a completely different
+(scrbook)              definition compared to the standard classes.
+(scrbook)              So redefining or using internal \@makechapterhead
+(scrbook)              by users or package authors may already break
+(scrbook)              KOMA-Script and will not work with a coming version,
+(scrbook)              that will remove this deprecated code.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--753
+|\TU/lmtt/b/n/24.88 Capitolo 3|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--753
+|\TU/lmtt/b/n/24.88 Formulario III|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--755
+|[]\TU/lmtt/b/n/17.28 Esercizio 1|
+ []
+
+Missing character: There is no ∆ in font [lmmono12-regular]:!
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--760
+[]\TU/lmtt/m/n/12 Lo scostamento ∆R tra un rettifilo e una curva circolare di r
+aggio R
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+[]\TU/lmtt/m/n/12 Determinare il parametro A della clotoide e verificare
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+\TU/lmtt/m/n/12 se tale parametro soddisfa i criteri indicati nel DM
+ []
+
+Missing character: There is no ∆ in font [lmmono12-regular]:!
+Missing character: There is no ∆ in font [lmmono12-regular]:!
+
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
+[]\TU/lmtt/m/n/12 Determinare lo scostamento ∆R minimo che assicuri il
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
+\TU/lmtt/m/n/12 superamento delle verifiche indicate nel D.M. 5/11/2001
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
+\TU/lmtt/m/n/12 per il parametro A della clotoide. Si trascuri per il
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
+[]\TU/lmtt/m/n/12 Determinare le coordinate del centro del cerchio,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
+\TU/lmtt/m/n/12 le coordinate del punto finale e il valore di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
+\TU/lmtt/m/n/12 tc e rappresentare graficamente il raccordo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
+\TU/lmtt/m/n/12 rettifilo-clotoide-curva circolare indicando le grandezze
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+[]\TU/lmtt/m/n/12 Dato che il raggio non può dirci il dato della velocità, lo
+ []
+
+
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [18]
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 807.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
+[]$[][]$ \TU/lmtt/m/n/12 è il raggio del cerchio che segue, mentre $[][]$ è que
+llo che
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
+\TU/lmtt/m/n/12 precede (rettifilo = 0). $[][]$ lo poniamo uguale a $[][]$ e $[
+][]$ a $[][]$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
+\TU/lmtt/m/n/12 Nella formula per calcolare $[][][]$ il valore di B è dato dall
+a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
+\TU/lmtt/m/n/12 distanza dell'asse di rotazione e ovvero dall'asse della corsia
+ più
+ []
+
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 843--844
+[]\TU/lmtt/m/n/12 Utilizziamo A=182,88m perché nella verifica è stato il valore
+ non
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--844
+\TU/lmtt/m/n/12 soddisfatto. Prendendolo ora per le successive verifiche sappia
+mo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
+[]\TU/lmtt/m/n/12 Con questo valore di l andiamo a prendere tutte le componenti
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
+\TU/lmtt/m/n/12 cartesiane che ci servono per disegnare la figura dalla tabella
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
+|[]\TU/lmtt/b/n/17.28 Esercizio 2|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--881
+[]\TU/lmtt/m/n/12 In figura sono assegnati due elementi curvilinei circolari
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--881
+\TU/lmtt/m/n/12 di raggio R1 = 500m e R2 = 350m distanti D = 10m. Il verso
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--881
+\TU/lmtt/m/n/12 di percorrenza è indicato. La strada assegnata è di tipo F1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+[]\TU/lmtt/m/n/12 Determinare il parametro della clotoide di flesso e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+\TU/lmtt/m/n/12 verificare se tale parametro soddisfa i criteri indicati
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 882--883
+[]\TU/lmtt/m/n/12 Determinare le coordinate del centro dei cerchi, le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
+[]\TU/lmtt/m/n/12 Rappresentare graficamente il raccordo curva
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
+\TU/lmtt/m/n/12 circolare-clotoide-curva circolare indicando tutte le
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+[]\TU/lmtt/m/n/12 Calcoliamo i valori relativi agli assi x e y della figura 2 d
+el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
+[]\TU/lmtt/m/n/12 Grazie ai due dati precedenti possiamo prendere il valore del
+la
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 931--932
+[]\TU/lmtt/m/n/12 In questo caso possiamo trascurare B e $[][]$ la calcoliamo c
+on
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 999.
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1002
+|[]\TU/lmtt/b/n/17.28 Esercizio 3|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1007
+[]\TU/lmtt/m/n/12 Sono assegnate due livellette, la prima con pendenza $[][]$=-
+4,5% e la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1007
+\TU/lmtt/m/n/12 seconda con pendenza $[][]$=+3,5%. L’elemento che sottende il r
+accordo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1007
+\TU/lmtt/m/n/12 è una curva circolare di raggio R = 590m. La strada assegnata è
+ di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
+[]\TU/lmtt/m/n/12 Determinare il raggio e la lunghezza del raccordo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
+\TU/lmtt/m/n/12 verticale secondo i criteri indicati nel DM 5/11/2001.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
+[]\TU/lmtt/m/n/12 Determinare le coordinate del vertice, del punto a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1010
+[]\TU/lmtt/m/n/12 Rappresentare graficamente il raccordo verticale indicando
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+[]\TU/lmtt/m/n/12 Entriamo nell'abaco di figura 1 con pendenza longitudinale e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+\TU/lmtt/m/n/12 velocità e ricaviamo la distanza di arresto. Con questa distanz
+a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+\TU/lmtt/m/n/12 poi vediamo in che zona degli abachi in figura 3 o 4 ci troviam
+o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+\TU/lmtt/m/n/12 (D>L o D<L). In questo caso Da=170m e ci troviamo nella situazi
+one
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+[26] (strade e bim.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2020/03/25>
+ ***********
+Package rerunfilecheck Info: File `"strade e bim".out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+ )
+(\end occurred inside a group at level 12)
+
+### simple group (level 12) entered at line 1057 ({)
+### simple group (level 11) entered at line 980 ({)
+### simple group (level 10) entered at line 960 ({)
+### simple group (level 9) entered at line 858 ({)
+### simple group (level 8) entered at line 621 ({)
+### simple group (level 7) entered at line 518 ({)
+### simple group (level 6) entered at line 412 ({)
+### simple group (level 5) entered at line 350 ({)
+### simple group (level 4) entered at line 295 ({)
+### simple group (level 3) entered at line 273 ({)
+### simple group (level 2) entered at line 223 ({)
+### simple group (level 1) entered at line 199 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 51384 strings out of 409723
+ 1167679 string characters out of 5776037
+ 2017629 words of memory out of 5000000
+ 72648 multiletter control sequences out of 15000+600000
+ 564632 words of font info for 96 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 110i,13n,114p,10911b,1519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on strade e bim.pdf (32 pages).
