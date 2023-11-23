@@ -1,5 +1,4 @@
 % basics
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage[hyphens]{url}
@@ -10,7 +9,8 @@
 \usepackage{booktabs}
 \usepackage{emptypage}
 \usepackage{subcaption}
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[dvipsnames,table,xcdraw]{xcolor}
+
 \input{Math.tex}
 
 
@@ -303,20 +303,48 @@
         }%
 }
 
+\newenvironment{attention}{\par\small % smaller font size
+	\begin{list}{}{
+			\leftmargin=35pt % Indentation on the left
+			\rightmargin=25pt}\item\ignorespaces % Indentation on the right
+		\makebox[-2.5pt]{\begin{tikzpicture}[overlay, baseline=(current bounding box)]
+			\node[draw=cPrim!85,line width=1pt,circle,fill=cPrim!25,font=\sffamily\bfseries,inner sep=2pt,outer sep=0pt] at (-15pt,4pt){\textcolor{cPrim}{\hspace{-2pt}\textbf{!}}};\end{tikzpicture}} % Orange R in a circle
+		\advance\baselineskip -1pt}{\end{list}} % Tighter line spacing
+
+% Style for sections
+\renewcommand{\thesection}{\normalsize\Roman{section}}
+\definecolor{cPrim}{RGB}{15, 115, 145}
+\usepackage{titlesec}
+\titleformat{\section}%
+{\sffamily\bfseries\Large\color{White!0!cPrim}}% format applied to label+text
+{\llap{\colorbox{White!0!cPrim}{\parbox{1.25cm}{\hfill\color{white}\thesection}}}}% label
+{1em}% horizontal separation between label and title body
+{}% before the title body
+[]% after the title body
+
+% subsection format
+\renewcommand{\thesubsection}{\thesection.\arabic{section}}
+\titleformat{\subsection}%
+{\sffamily\bfseries\large\color{White!37!cPrim}}% format applied to label+text
+{\llap{\colorbox{White!37!cPrim}{\parbox{1.25cm}{\hfill\color{white}\thesubsection}}}}% label
+{1em}% horizontal separation between label and title body
+{}% before the title body
+[]% after the title body
+
 % fancy headers
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
 
 % LE: left even
 % RO: right odd
 % CE, CO: center even, center odd
-\fancyhead[LE,RO]{Pingbang Hu}
+%\fancyhead[LE,RO]{Pingbang Hu}
 
-\fancyhead[RO,LE]{\@lecture} % Right odd,  Left even
-\fancyhead[RE,LO]{}          % Right even, Left odd
-\fancyfoot[RO,LE]{\thepage}  % Right odd,  Left even
-\fancyfoot[RE,LO]{}          % Right even, Left odd
-\fancyfoot[C]{\leftmark}     % Center
+%\fancyhead[RO,LE]{\@lecture} % Right odd,  Left even
+%\fancyhead[RE,LO]{}          % Right even, Left odd
+%\fancyfoot[RO,LE]{\thepage}  % Right odd,  Left even
+%\fancyfoot[RE,LO]{}          % Right even, Left odd
+%\fancyfoot[C]{\leftmark}     % Center
 
 \makeatother
 
