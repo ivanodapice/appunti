@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber master"] 1700752228 "master.bcf" "master.bbl" "master" 1700752228 0
-  "master.bcf" 1700752227 107872 dc4c09a612f1cfb6dd4739e67c96c1be "lualatex"
+["biber master"] 1700753802 "master.bcf" "master.bbl" "master" 1700753802 0
+  "master.bcf" 1700753801 107872 dc4c09a612f1cfb6dd4739e67c96c1be "lualatex"
   "ref.bib" 0 -1 0 ""
   (generated)
   "master.bbl"
   "master.blg"
   (rewritten before read)
-["lualatex"] 1700752222 "c:/Users/ivano/Desktop/Note Template 2/master.tex" "master.pdf" "master" 1700752228 0
+["lualatex"] 1700753796 "c:/Users/ivano/Documents/GitHub/appunti/Note Template Italiano/master.tex" "master.pdf" "master" 1700753802 0
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1700743711 81829 7f450278dc4a73c6da318986f916175a ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc" 1700743711 81432 d736f031b49fd4a563434779fc8e8f6e ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1700743708 128402 faa3ffe035660d7ee5b0b6d595f551aa ""
@@ -34,7 +34,7 @@
   "Lectures/lec_2.tex" 1700752194 2198 a2feca2f19e38c7289611f8f2e33b211 ""
   "Math.tex" 1700740182 2510 dd6a3d08728c6d82035b1cd21379ffc1 ""
   "appendix.tex" 1700740182 244 ffa32715a28e22cce3e7a8ebecee74ff ""
-  "c:/Users/ivano/Desktop/Note Template 2/master.tex" 1700747348 1605 db98c1c06caa16ac4d17a5520d5c546b ""
+  "c:/Users/ivano/Documents/GitHub/appunti/Note Template Italiano/master.tex" 1700753774 1647 4b6f0e7b6cb9eda900e4f4abb8c8c56a ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1700736273 64684 c6f5a48921f83c1a51d9384f785ddd5a ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf" 1700736273 66268 16930241f9cd197293e24846cbca8778 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1700736273 111240 1d60e9def74b1102bb4defa7cb772ee3 ""
@@ -277,6 +277,7 @@
   "c:/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty" 1700734968 12441 3b2a708337608012a865c7d9b7f05d28 ""
   "c:/texlive/2023/texmf-dist/tex/latex/complexity/complexity.sty" 1700734982 26143 7d572ae81bd3f5cfbfb151760bf949c4 ""
   "c:/texlive/2023/texmf-dist/tex/latex/complexity/mycomplexity.sty" 1700734982 493 940abec71250a8c7129fe57eea5f60b6 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/darkmode/darkmode.sty" 1700735114 2537 d0865af453466d708c7489ffdcd1de28 ""
   "c:/texlive/2023/texmf-dist/tex/latex/emptypage/emptypage.sty" 1700735333 1524 7aa6e808cbd25977ee4abad01b013964 ""
   "c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1700735345 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1700735360 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -331,6 +332,7 @@
   "c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty" 1700736606 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "c:/texlive/2023/texmf-dist/tex/latex/needspace/needspace.sty" 1700736651 852 0e34dbb72efc69fa07602405ad95585e ""
   "c:/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty" 1700736752 1640 c9cca60f81c5839b9a3e794d72c0b0a7 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/pagecolor/pagecolor.sty" 1700736807 9888 bce9a9132a3f756ede24729ac30ff1e9 ""
   "c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty" 1700736866 6572 ea530fbbe537629fd97736d33babc07d ""
   "c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty" 1700736866 2224 1230ab76aa62221ccbd90bca8c8c015e ""
   "c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty" 1700736873 54859 c2b191f8d736ddb86177723cc23c30a9 ""
@@ -432,12 +434,12 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700738316 4734881 9df31af74c23cb5b6845d6b52ecc54e5 ""
   "c:/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1700738520 12251974 1b373cd40400398bc4c43e5f145a6f1c ""
   "header.tex" 1700752194 13598 9cc6588ce67921ae2d9c555be6e6e06c ""
-  "master.aux" 1700752227 10741 2bc79f57f95d8bc2c3e91e05ef4fe5d5 "lualatex"
+  "master.aux" 1700753801 10741 2bc79f57f95d8bc2c3e91e05ef4fe5d5 "lualatex"
   "master.bbl" 0 -1 0 "biber master"
-  "master.out" 1700752227 1115 868b0205092140e8c62aa7593538f2e8 "lualatex"
-  "master.run.xml" 1700752227 2353 6bd76157bd2a84034e0f18668137d0dd "lualatex"
-  "master.tex" 1700747348 1605 db98c1c06caa16ac4d17a5520d5c546b ""
-  "master.toc" 1700752227 996 49e46e23e6e5b0c05114891687116473 "lualatex"
+  "master.out" 1700753801 1115 868b0205092140e8c62aa7593538f2e8 "lualatex"
+  "master.run.xml" 1700753801 2353 6bd76157bd2a84034e0f18668137d0dd "lualatex"
+  "master.tex" 1700753774 1647 4b6f0e7b6cb9eda900e4f4abb8c8c56a ""
+  "master.toc" 1700753801 996 49e46e23e6e5b0c05114891687116473 "lualatex"
   (generated)
   "master.aux"
   "master.bcf"
