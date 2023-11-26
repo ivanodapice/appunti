@@ -492,6 +492,11 @@ INPUT ./Figures/somma vettori.pdf
 INPUT ./Figures/somma vettori.pdf
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT ./Figures/insiemi sistemi vett.pdf_tex
+INPUT ./Figures/insiemi sistemi vett.pdf_tex
+INPUT ./Figures/insiemi sistemi vett.pdf
+INPUT ./Figures/insiemi sistemi vett.pdf
+INPUT ./Figures/insiemi sistemi vett.pdf
 INPUT ./Lectures/lec_2.tex
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-italic.luc

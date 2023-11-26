@@ -130,7 +130,7 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 \end{es}
 
 \begin{definizione}[combinazione lineare]
-	Siano $\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}, \in V$. Un vettore del tipo $\beta_1 \underline{v} _1+\beta_2 \underline{v} _2+...+\beta_n \underline{v} _n, \beta\in \mathbb{R}$ è combinazione lineare dei vettori $\underline{v} _{1},\underline{v} _{2},...,\underline{v} _{n}$
+	Siano $v_{1},v_{2},...,v_{n}, \in V$. Un vettore del tipo $\beta_1 v_1+\beta_2 v_2+...+\beta_n v_n, \beta\in \mathbb{R}$ è combinazione lineare dei vettori $v_{1},v_{2},...,v_{n}$
 	\begin{es}
 		$3(1,3)+\frac{1}{2}(0,4)+(-1,-1)=(3,9)+(0,2)+(-1,-1)=(2,10)$, questi elementi di $\mathbb{R}^2=(2,10)$ sono combinazione lineare di $(1,3),(0,4),(-1,-1)$ scegliendo $(\beta_1=3, \beta_2=\frac{1}{2}, \beta_3=1)$
 	\end{es}
@@ -146,9 +146,9 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 
 \begin{es}[elementi neutri negli spazi vettoriali]
 	\phantom{}\\
-	$\mathbb{R}^2=\underline{0} \Rightarrow (0,0)$\\
-	$\mathbb{R}^4=\underline{0} \Rightarrow (0,0,0,0)$\\
-	$M_{3\times3}=\underline{0} \Rightarrow 
+	$\mathbb{R}^2=0 \Rightarrow (0,0)$\\
+	$\mathbb{R}^4=0 \Rightarrow (0,0,0,0)$\\
+	$M_{3\times3}=0\Rightarrow 
 	\begin{bmatrix}
     0 & 0 & 0 \\
 	0 & 0 & 0 \\
@@ -162,69 +162,69 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 	Sia $V$ uno spazio vettoriale qualunque, $\forall\beta\in\mathbb{R}, \beta 0=0$\\
     \begin{dimostrazione}
     	\phantom{}\\
-    	$\beta \underline{0}=\beta(\underline{0}+\underline{0})=\beta \underline{0}+\beta \underline{0}$\\
-    	$\beta \underline{0}=\beta \underline{0}+\beta \underline{0}$, esiste l'opposto di $\beta \underline{0}$ e lo chiamiamo $OPP$\\
-    	$\beta \underline{0}+ OPP=(\beta \underline{0}+\beta \underline{0})+OPP$\\
-    	$\underline{0}=\beta \underline{0}+(\beta \underline{0}+OPP)$\\
-    	$\underline{0}=\beta \underline{0}+\underline{0}\rightarrow \beta \underline{0}=\underline{0}$
+    	$\beta 0=\beta(0+0)=\beta 0+\beta 0$\\
+    	$\beta 0=\beta 0+\beta 0$, esiste l'opposto di $\beta 0$ e lo chiamiamo $OPP$\\
+    	$\beta 0+ OPP=(\beta 0+\beta 0)+OPP$\\
+    	$0=\beta 0+(\beta 0+OPP)$\\
+    	$0=\beta 0+0\rightarrow \beta 0=0$
     \end{dimostrazione}
 \end{proposizione}
 
 \begin{proposizione}
-	Sia $V$ uno spazio vettoriale qualunque, $\forall \underline{v}\in V, \underline{v}\cdot0=0$\\
+	Sia $V$ uno spazio vettoriale qualunque, $\forall v\in V, v\cdot0=0$\\
 	\begin{dimostrazione}
 		\phantom{}\\
-		$\underline{v}\cdot0=\underline{v}(0+0)=\underline{v}\cdot0+\underline{v}\cdot0$\\
-		$\underline{v}\cdot0=\underline{v}\cdot0+\underline{v}\cdot0$, esiste l'opposto di $\underline{v}\cdot0$ e lo chiamiamo $OPP$\\
-		$\underline{v}\cdot0+ OPP=(\underline{v}\cdot0+\underline{v}\cdot0)+OPP$\\
-		$0=\underline{v}\cdot0+(\underline{v}\cdot0+OPP)$\\
-		$0=\underline{v} 0+0\rightarrow \underline{v}\cdot0=0$
+		$v\cdot0=v(0+0)=v\cdot0+v\cdot0$\\
+		$v\cdot0=v\cdot0+v\cdot0$, esiste l'opposto di $v\cdot0$ e lo chiamiamo $OPP$\\
+		$v\cdot0+ OPP=(v\cdot0+v\cdot0)+OPP$\\
+		$0=v\cdot0+(v\cdot0+OPP)$\\
+		$0=v 0+0\rightarrow v\cdot0=0$
 	\end{dimostrazione}
 \end{proposizione}
 
 \begin{proposizione}
-	Sia $V$ uno spazio vettoriale qualunque, l'opposto di $\underline{v}\cdot0$ è $(-1)\underline{v}$\\
+	Sia $V$ uno spazio vettoriale qualunque, l'opposto di $v\cdot0$ è $(-1)v$\\
 	\begin{dimostrazione}
 		\phantom{}\\
-		$\underline{v}+(-1)\underline{v}=0$\\
-		$\underline{v}+(-1)\underline{v}=1\cdot \underline{v}+(-1)\underline{v}=(1-1)\underline{v}=0\cdot \underline{v}=0$, per la proposizione III.2
+		$v+(-1)v=0$\\
+		$v+(-1)v=1\cdot v+(-1)v=(1-1)v=0\cdot v=0$, per la proposizione III.2
 	\end{dimostrazione}
 \end{proposizione}
 
 \begin{proposizione}
-	Sia $V$ uno spazio vettoriale qualunque, $k\cdot \underline{v}=\underline{0}$, se $k=0$ o $\underline{v}=\underline{0}$\\
+	Sia $V$ uno spazio vettoriale qualunque, $k\cdot v=0$, se $k=0$ o $v=0$\\
 	\begin{dimostrazione}
 		\phantom{}\\
 		Se $k=0$ è vera per la proposizione III.2\\
-		Se $k\neq0, \exists \frac{1}{k}\in\mathbb{R}: k\cdot \underline{v}=\underline{0}$\\
-		$\frac{1}{k}(k\cdot \underline{v})=\frac{1}{k}\cdot \underline{0}$\\
-		$\frac{1}{k}(k\cdot \underline{v})=\underline{0}$ Per la proposizione III.1\\
-		$1\cdot \underline{v}=\underline{0}$\\
-		$\underline{v}=\underline{0}$
+		Se $k\neq0, \exists \frac{1}{k}\in\mathbb{R}: k\cdot v=0$\\
+		$\frac{1}{k}(k\cdot v)=\frac{1}{k}\cdot 0$\\
+		$\frac{1}{k}(k\cdot v)=0$ Per la proposizione III.1\\
+		$1\cdot v=0$\\
+		$v=0$
 	\end{dimostrazione}
 \end{proposizione}
 
 \begin{proposizione}
-	In uno spazio vettoriale $V\in\mathbb{R}$ se $\exists \underline{v}\neq 0$ allora $V$ contiene infiniti vettori\\
+	In uno spazio vettoriale $V\in\mathbb{R}$ se $\exists v\neq 0$ allora $V$ contiene infiniti vettori\\
 	\begin{dimostrazione}
 		\phantom{}\\
-		$1\underline{v}, 2\underline{v}, 3\underline{v},..., n\underline{v}$ facciamo vedere che sono a due a due distinte\\
-		$h\cdot \underline{v}=k\cdot \underline{v}$\\
-		$(h\cdot \underline{v})+(-1k\cdot \underline{v})=\underline{0}$\\
-		$(h-k)\underline{v}=\underline{0}$\\
-		$h-k=\underline{0}$ Per la proposizione III.4\\
+		$1v, 2v, 3v,..., nv$ facciamo vedere che sono a due a due distinte\\
+		$h\cdot v=k\cdot v$\\
+		$(h\cdot v)+(-1k\cdot v)=0$\\
+		$(h-k)v=0$\\
+		$h-k=0$ Per la proposizione III.4\\
 		$h=k$
 	\end{dimostrazione}
 \end{proposizione}
 
 \begin{proposizione}
-	In uno spazio vettoriale $V$ qualunque, $\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}\in V,$ $0\in <\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>$\\
+	In uno spazio vettoriale $V$ qualunque, $v_{1},v_{2},...,v_{n}\in V,$ $0\in <v_{1},v_{2},...,v_{n}>$\\
 	\begin{dimostrazione}
 		\phantom{}\\
-		$\exists\beta_1,\beta_2,...,\beta_n:\beta_1 \underline{v}_1+\beta_2 \underline{v}_2+...+\beta_n \underline{v}_n=0$\\
+		$\exists\beta_1,\beta_2,...,\beta_n:\beta_1 v_1+\beta_2 v_2+...+\beta_n v_n=0$\\
 		$\beta_1=\beta_2=...=\beta_n=0$\\
 		\begin{nota}
-			Con il simbolo $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>$ o con $\beta(\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n})$ indichiamo l'insieme delle combinazioni lineari di $\{\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}\}$ cioè l'insieme $\{\beta_1 \underline{v}_1+\beta_2 \underline{v}_2+...+\beta_n \underline{v}_n/\beta_i\in\mathbb{R}\}$
+			Con il simbolo $<v_{1},v_{2},...,v_{n}>$ o con $\beta(v_{1},v_{2},...,v_{n})$ indichiamo l'insieme delle combinazioni lineari di $\{v_{1},v_{2},...,v_{n}\}$ cioè l'insieme $\{\beta_1 v_1+\beta_2 v_2+...+\beta_n v_n/\beta_i\in\mathbb{R}\}$
 		\end{nota}
 	\end{dimostrazione}
 	\begin{es}
@@ -248,13 +248,13 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 	\end{es}
 \end{proposizione}
 \leavevmode\\
-In generale, l'insieme delle combinazioni lineari $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>\subseteq V$. Quindi ogni vettore di V è combinazione lineare di $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>$ e si dice che $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>$ sono \textbf{generatori} di V.
+In generale, l'insieme delle combinazioni lineari $<v_{1},v_{2},...,v_{n}>\subseteq V$. Quindi ogni vettore di V è combinazione lineare di $<v_{1},v_{2},...,v_{n}>$ e si dice che $<v_{1},v_{2},...,v_{n}>$ sono \textbf{generatori} di V.
 \begin{es}
 	\phantom{}\\
-	$\underline{v}_1=(1,2,0,3),\underline{v}_2=(\pi,e,0,-55),\underline{v}_3=(\log_2 3,\sin 8,0,0)$\\\\
-	$\underline{v}_1,\underline{v}_2,\underline{v}_3$ generano $\mathbb{R}^4$?\\
+	$v_1=(1,2,0,3),v_2=(\pi,e,0,-55),v_3=(\log_2 3,\sin 8,0,0)$\\\\
+	$v_1,v_2,v_3$ generano $\mathbb{R}^4$?\\
 	No perché: $\beta_1=(1,2,0,3)+\beta_2=(\pi,e,0,-55)+\beta_3=(\log_2 3,\sin 8,0,0)/\beta_i\in\mathbb{R}$\\
-	$(0,0,1,0)$ non è combinazione lineare di $\underline{v}_1,\underline{v}_2,\underline{v}_3$\\\\
+	$(0,0,1,0)$ non è combinazione lineare di $v_1,v_2,v_3$\\\\
 \end{es}
 \begin{es}
 	$P_1(x)=3-x^4, P_2(x)=x+77x^7$\\
@@ -267,12 +267,12 @@ In generale, l'insieme delle combinazioni lineari $<\underline{v}_{1},\underline
 	$\beta=1\rightarrow(1,3)$ non possiamo generare $(1,1)$
 \end{es}
 \begin{es}
-	$(1,0),(0,1)$ generano $\mathbb{R}^2$?\\
+	$(1,0);(0,1)$ generano $\mathbb{R}^2$?\\
 	Si, perché: $(a,b)=?(1,0)+?(0,1)=\beta_1(1,0)+\beta_2(0,1)=(\beta_1,\beta_2)$\\
 	$<(1,0),(0,1)>\in\mathbb{R}^2$
 \end{es}
 \begin{es}
-	$(1,0),(0,1),(55,\frac{1}{2})$ generano $\mathbb{R}^2$?\\
+	$(1,0);(0,1);(55,\frac{1}{2})$ generano $\mathbb{R}^2$?\\
 	Si, perché: $(a,b)=?(1,0)+?(0,1)+?(55,\frac{1}{2})=\beta_1(1,0)+\beta_2(0,1)+\beta_3(55,\frac{1}{2})$\\
 	$<(1,0),(0,1),(55,\frac{1}{2})>\in\mathbb{R}^2$
 \end{es}
@@ -280,10 +280,10 @@ In generale, l'insieme delle combinazioni lineari $<\underline{v}_{1},\underline
 Come vediamo, se un insieme di vettori ha cardinalità minore della dimensione dello spazio a cui appartengono, allora possiamo immediatamente concludere che l'insieme assegnato non è un sistema di generatori (come visto nel caso polinomiale precedente).\footnote{\href{https://www.youmath.it/lezioni/algebra-lineare/matrici-e-vettori/678-sistema-di-generatori-di-uno-spazio-vettoriale.html}{youmath}} Mentre più avanti, con il concetto di dimensione di spazio vettoriale, sarà più facile capire come verificare se un insieme è generatore.
 
 \begin{nota}
-	Se ad un insieme di generatori se ne aggiunge un altro, l'insieme risultante è anch'esso un generatore. Cioè se $\underline{v}_1,...,\underline{v}_n$ genera V allora anche $\underline{v}_1,...,\underline{v}_n,\underline{w}$ diventa generatore.
+	Se ad un insieme di generatori se ne aggiunge un altro, l'insieme risultante è anch'esso un generatore. Cioè se $v_1,...,v_n$ genera V allora anche $v_1,...,v_n,w$ diventa generatore.
 	\begin{dimostrazione}
-		Per ipotesi $V=<\underline{v}_1,...,\underline{v}_n>\subseteq<\underline{v}_1,...,\underline{v}_n,\underline{w}>\subseteq V$\\
-		Dato che $<\underline{v}_1,...,\underline{v}_n,w>$ è incluso in V e include V, allora $<\underline{v}_1,...,\underline{v}_n,\underline{w}>$ è V\\
+		Per ipotesi $V=<v_1,...,v_n>\subseteq<v_1,...,v_n,w>\subseteq V$\\
+		Dato che $<v_1,...,v_n,w>$ è incluso in V e include V, allora $<v_1,...,v_n,w>$ è V\\
 		\begin{es}
 			\phantom{}\\
 			In $\mathbb{R}^3$, $(0,0,1),(1,0,0),(0,1,0)$ generano $\mathbb{R}^3$\\
@@ -294,7 +294,7 @@ Come vediamo, se un insieme di vettori ha cardinalità minore della dimensione d
 	\end{dimostrazione}
 \end{nota}
 
-Un \textbf{Sistema di vettori} è un insieme in cui contano l'ordine degli elementi e anche le eventuali ripetizioni, e si indica così: $[\underline{v}_1,...,\underline{v}_n]$
+Un \textbf{Sistema di vettori} è un insieme in cui contano l'ordine degli elementi e anche le eventuali ripetizioni, e si indica così: $[v_1,...,v_n]$
 \begin{es}
 	\phantom{}\\
 	$\{(1,0),(0,1),(3,5)\}$ 3 elementi\\
@@ -303,36 +303,36 @@ Un \textbf{Sistema di vettori} è un insieme in cui contano l'ordine degli eleme
 	=$\{(3,5),(1,0)\}$
 \end{es}
 \begin{nota}
-$\underline{v}_1=(1,2,3),\underline{v}_2=(0,44,44),\underline{v}_3=(2,4,6)$\\
+$v_1=(1,2,3),v_2=(0,44,44),v_3=(2,4,6)$\\
 Esistono varie combinazioni lineari per esprimere gli elementi soprastanti come vettore nullo. Un metodo banale è porre $\beta_1=0,\beta_2=0,\beta_3=0/\beta_1(1,2,3),\beta_2(0,44,44),\beta_3(2,4,6)$\\
 Un altro modo sarebbe porre $\beta_1=-2,\beta_2=0,\beta_3=1$
 \end{nota}
 
 \subsection{Dipendenza lineare}
-$[\underline{v}_1,...,\underline{v}_2]$ si dice \textbf{linearmente dipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ non è l'unico modo per esprimere 0 come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$\\
-$[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ è l'unico modo per esprimere 0 come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$
+$[v_1,...,v_2]$ si dice \textbf{linearmente dipendente} se e soltanto se $0\cdotv_1,...,0\cdot v_2$ non è l'unico modo per esprimere 0 come combinazione lineare di $v_1,...,v_n$\\
+$[v_1,...,v_2]$ Si dice \textbf{linearmente indipendente} se e soltanto se $0\cdotv_1,...,0\cdot v_2$ è l'unico modo per esprimere 0 come combinazione lineare di $v_1,...,v_n$
 \begin{proposizione}
-	Sia V uno spazio vettoriale qualunque e $\underline{v}_1,...,\underline{v}_n$ contiene almeno una coppia di vettori proporzionali, il sistema è linearmente dipendente.
+	Sia V uno spazio vettoriale qualunque e $v_1,...,v_n$ contiene almeno una coppia di vettori proporzionali, il sistema è linearmente dipendente.
 \end{proposizione}
 
 \begin{es}
-	$\underline{v}_1=(1,2,3),\underline{v}_2=(1,1,1),\underline{v}_3=(1,3,5)$\\
-	$[\underline{v}_1,\underline{v}_2,\underline{v}_3]$ è linearmente dipendente o indipendente?\\
+	$v_1=(1,2,3),v_2=(1,1,1),v_3=(1,3,5)$\\
+	$[v_1,v_2,v_3]$ è linearmente dipendente o indipendente?\\
 	Linearmente dipendente perché: $(0,0,0)=\beta_1(1,2,3)+\beta_2(1,1,1)+\beta_3(1,3,5)$ se poniamo nell'equazione $\beta_1=2,\beta_2=-1,\beta_3=-1$
 \end{es}
 
 \begin{es}
-	$\underline{v}_1=\begin{bmatrix}
+	$v_1=\begin{bmatrix}
 		e           & \pi\\
 		\frac{1}{2} & \cos \delta
-	\end{bmatrix}, \underline{v}_2=\begin{bmatrix}
+	\end{bmatrix}, v_2=\begin{bmatrix}
 		0 & 0\\
 		0 & 0
-	\end{bmatrix}, \underline{v}_3=\begin{bmatrix}
+	\end{bmatrix}, v_3=\begin{bmatrix}
 		10^4   & 10^7\\
 		10^-31 & 10^0
 	\end{bmatrix}$\\\\
-	$[\underline{v}_1,\underline{v}_2,\underline{v}_3]$ è linearmente dipendente perché se ci facciamo caso, qualsiasi valore di $\beta$ mettiamo davanti a $\underline{v}_2$ il risultato sarà sempre un vettore con elementi nulli, mentre per $\underline{v}_1$ e $\underline{v}_2$ basta porre il coefficiente di beta uguale a 0.
+	$[v_1,v_2,v_3]$ è linearmente dipendente perché se ci facciamo caso, qualsiasi valore di $\beta$ mettiamo davanti a $v_2$ il risultato sarà sempre un vettore con elementi nulli, mentre per $v_1$ e $v_2$ basta porre il coefficiente di beta uguale a 0.
 \end{es}
 
 \begin{es}
@@ -350,19 +350,19 @@ $[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente
 	$[v_1,...,v_n]$ lin. dipendenti $\Longleftrightarrow $ Almeno un vettore è combinazione lineare degli altri\\
 	\begin{dimostrazione}[da destra a sinistra]
 		\phantom{}\\
-		Se $\underline{v}_n\in <\underline{v}_1,...,\underline{v}_{n-1}>$\\
-		$\underline{v}_n=\beta_1 \underline{v}_1+...+\beta_{n-1} \underline{v}_{n-1}$\\
-		$0=\beta_1 \underline{v}_1+...+\beta_{n-1}\underline{v}_{n-1}+(-1)\underline{v}_n \Longrightarrow [\underline{v}_1,...,\underline{v}_n]$ linearmente dipendente 
+		Se $v_n\in <v_1,...,v_{n-1}>$\\
+		$v_n=\beta_1 v_1+...+\beta_{n-1} v_{n-1}$\\
+		$0=\beta_1 v_1+...+\beta_{n-1}v_{n-1}+(-1)v_n \Longrightarrow [v_1,...,v_n]$ linearmente dipendente 
 	\end{dimostrazione}
 	\begin{dimostrazione}[da sinistra a destra]
 		\phantom{}\\
-		Per ipotesi $\exists\beta_1,...,\beta_n$ non tutti nulli tale che $0=\beta_1 \underline{v}_1+...+\beta_n \underline{v}_n$\\
-		se $\beta_n\neq 0\Longrightarrow  \underline{v}_n=\frac{1}{\beta_n}(-\beta_1 \underline{v}_1,...,-\beta_{n-1}\underline{v}_n-1)=(-\frac{\beta_1}{\beta_n})\underline{v}_1+...+(-\frac{\beta_{n-1}}{\beta_n})\underline{v}_{n-1}$
+		Per ipotesi $\exists\beta_1,...,\beta_n$ non tutti nulli tale che $0=\beta_1 v_1+...+\beta_n v_n$\\
+		se $\beta_n\neq 0\Longrightarrow  v_n=\frac{1}{\beta_n}(-\beta_1 v_1,...,-\beta_{n-1}v_n-1)=(-\frac{\beta_1}{\beta_n})v_1+...+(-\frac{\beta_{n-1}}{\beta_n})v_{n-1}$
 	\end{dimostrazione}
 \end{teorema}
 
 \begin{corollario}
-	$[\underline{v}_1,\underline{v}_2]$ linearmente dipendenti $\Longleftrightarrow$ Almeno un vettore è combinazione lineare dell'altro $\Longleftrightarrow $ sono proporzionali
+	$[v_1,v_2]$ linearmente dipendenti $\Longleftrightarrow$ Almeno un vettore è combinazione lineare dell'altro $\Longleftrightarrow $ sono proporzionali
 \end{corollario}
 
 \begin{es}
@@ -379,106 +379,26 @@ $[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente
 \end{es}
 
 \begin{esercizio}
-	Sia $P_1(x)=x^{29}+x^9+x^2023$\\\\
-	Determinare $P_2(x),P_3(x)$ tali che: $[P_1(x),P_2(x)]$ lin. indipendenti e $[P_1(x),P_3(x)]$ lin. dipendenti\\
+	Sia $P_1(x)=x^{29}+x^9+x^2023$\\
+	Determinare $P_2(x),P_3(x)$ tali che: $[P_1(x),P_2(x)]$ lin. indipendenti e $[P_1(x),P_2(x)]$ lin. dipendenti\\
 	$P_2(x)$ basta che non sia proporzionale a $P_1(x)$: $P_2(x)=2$\\
 	$P_3(x)$ basta che sia proporzionale a $P_1(x)$: $P_3(x)=0$ oppure $P_3(x)=2x^{29}+2x^9+2x^2023$
 \end{esercizio}
 
-\begin{osservazione}
-	$\underline{v}\in V$\\\\
-	$\underline{v}$ è linearmente dipendente se $\underline{v}=\underline{0}$\\
-	infatti $\beta \underline{v}=\beta \underline{0}=\underline{0}, \forall\beta\in\mathbb{R}$\\\\
-	$\underline{v}$ è linearmente indipendente se $\underline{v}\neq \underline{0}$\\
-	infatti $\beta \underline{v}=\underline{0}\Longleftrightarrow \beta=0$
-\end{osservazione}
 
-\begin{center}
-	\begin{tabular}{ccc}
-		$V=\mathbb{R}$ & Lin. indipendenti & Generatori \\
-			 $[(1,0)]$ &                SI & NO \\
-	   $[(1,0),(0,1)]$ &                SI & SI \\
- $[(1,0),(0,1),(0,5)]$ &                NO & SI \\
-	   $[(1,0),(3,0)]$ &                NO & NO \\
- \end{tabular}
-\end{center}
 
-\begin{figure}[H]
-	\centering
-	\incfig{insiemi sistemi vett}
-	\caption[Caption]{Insiemi dei sistemi vettoriali}
-	\label{fig:insiemisistemivett}
-\end{figure}
 
-\subsection{Basi di uno spazio vettoriale}
 
-Un sistema ordinato $[\underline{v}_1,...,\underline{v}_n]$ si dice base di V se i vettori sono linearmente indipendenti e generano V.
-\begin{nota}
-	\phantom{}\\
-	$[(1,0),(0,1)]$ base canonica di $\mathbb{R}$\\
-	$[(1,0,0),(0,1,0),(0,0,1)]$ base canonica di $\mathbb{R}$\\
-	$\{G\}=\{\underline{0}\}$ Non ha basi, perché i vettori sono linearmente dipendenti\\
-	$P[x]$ Non ha basi, perché non è finitamente generato
-\end{nota}
 
-Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori contenuti in essa, oppure sostituire qualche vettore con uno proporzionale \textbf{non nullo}.
 
-\begin{es}
-	\phantom{}\\
-	$B^{'}=[(1,0,0),(0,1,0),(0,0,1)]$\\
-	$B^{''}=[(1,0,0),(0,0,1),(0,1,0)]$\\
-	Queste sono due basi diverse di $\mathbb{R}^3$, dove nel secondo caso abbiamo solo cambiato l'ordine di $\underline{v}_2$ con $\underline{v}_3$\\
-	$[(0,1,0),(0,0,-1),(2023,0,0)]$\\
-	Invece qui abbiamo sia cambiato l'ordine vettoriale e sia proporzionato gli elementi con diversi coefficienti
-\end{es}
 
-\begin{nota}[DIP+1=DIP]
-	Se ad un sistema linearmente dipendente si aggiunge un vettore, il sistema finale è linearmente dipendente
-	\begin{dimostrazione}
-		$[\underline{v}_1,...,\underline{v}_n]$ linearmente dipendente\\
-		$\exists\beta_1,...,\beta_n$ non tutti nulli tali che $\underline{0}=\beta_1\underline{v}_1+...+\beta_n\underline{v}_n$\\
-		$\underline{0}=\beta_1\underline{v}_1+...+\beta_n\underline{v}_n+0\underline{w}$\\
-		$[\underline{v}_1,...,\underline{v}_n,\underline{w}]$ linearmente dipendente $\forall\underline{w}\in$V\\
-		Quindi in parole povere, se già abbiamo un sistema linearmente dipende e aggiungiamo un vettore a caso, possiamo sempre annullarlo moltiplicando per 0 e non cambia niente in termini di dipendenza
-	\end{dimostrazione}
-\end{nota}
 
-\begin{nota}[INDIP-1=INDIP]
-	Se ad un sistema linearmente indipendente si toglie un vettore, il sistema finale è linearmente indipendente
-	\begin{dimostrazione}
-		$[\underline{v}_1,...,\underline{v}_{n-1}]/n\geq 1$ linearmente indipendente\\
-		Per assurdo, può essere $[\underline{v}_1,...,\underline{v}_{n-2}]/n\geq 2$ linearmente dipendente? No, in base al principio DIP+1=DIP dovrebbe essere linearmente dipendente anche il sistema di partenza
-	\end{dimostrazione}
-\end{nota}
 
-\begin{nota}[Sistema indipendente massimale]
-	Un sistema indipendente si dice indipendente massimale, se appena si aggiunge un vettore, l'indipendenza si perde
-\end{nota}
 
-\begin{nota}[Sistema minimale di generatori]
-	Un sistema di generatori si dice minimale di generatori, se appena si toglie un vettore, il sistema risultante non è più generatore
-\end{nota}
 
-\begin{teorema}[Teorema di caratterizzazione delle basi]
-	Sia V uno spazio vettoriale non banale. Un sistema ordinato di vettori $B=[\underline{e}_1,...,\underline{e}_n]$ di V è una base ordinata se e solo se vale una delle seguenti condizioni:
-	\begin{itemize}
-		\item $\Longleftrightarrow$ il sistema è indipendente massimale
-		\item $\Longleftrightarrow$ il sistema è minimale di generatori
-		\item $\Longleftrightarrow$ ogni vettore di V, si può esprimere come combinazione lineare dei vettori di B, in un solo modo
-	\end{itemize}
-	\begin{dimostrazione}[da destra a sinistra]
-		\phantom{}\\
-		$B=[\underline{e}_1,...,\underline{e}_n]$ per ipotesi si sa già essere generatore, bisogna dimostrare quindi che sia linearmente indipendente. Il sistema B è linearmente indipendente, perché essendo ogni vettore esprimibile in un solo modo, anche $\underline{0}$ si può esprimere in un solo modo. Quindi B è linearmente indipendente
-	\end{dimostrazione}
-	\begin{dimostrazione}[da sinistra a destra]
-		\phantom{}\\
-		$B=[\underline{e}_1,...,\underline{e}_n]$ è una base di V, quindi supponiamo che:\\
-		$\underline{v}=\beta_1 \underline{e}_1+...+\beta_n \underline{e}_n$\\
-		$\underline{v}=\gamma_1 \underline{e}_1+...+\gamma_n \underline{e}_n$\\
-		Sottraendo membro a membro: $\underline{0}=(\beta_1-\gamma_1)\underline{e}_1+...+(\beta_n-\gamma_n)\underline{e}_n$//
-		Essendo per ipotesi, linearmente indipendente: $\beta_1-\gamma_1=0, \beta_n-\gamma_n=0$
-	\end{dimostrazione}
-\end{teorema}
+
+
+
 
 
 
