@@ -1,0 +1,401 @@
+% basics
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[hyphens]{url}
+\usepackage[style=alphabetic,maxcitenames=1]{biblatex}
+\usepackage[colorlinks=true,linkcolor=cyan,urlcolor=magenta,citecolor=violet]{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{emptypage}
+\usepackage{subcaption}
+\usepackage[dvipsnames,table,xcdraw]{xcolor}
+
+\input{Math.tex}
+
+
+\usepackage{amsmath, amsfonts, mathtools, amsthm, amssymb}
+\usepackage{geometry}
+\usepackage{mathrsfs}
+\usepackage{cancel}
+\usepackage{systeme}
+
+\usepackage[inline, shortlabels]{enumitem}
+\usepackage{multicol}
+\setlength\multicolsep{0pt}
+
+\usepackage{caption}
+\captionsetup{belowskip=0pt}
+\geometry{a4paper,left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}
+
+% for the big braces
+\usepackage{bigdelim}
+
+% correct
+\definecolor{correct}{HTML}{009900}
+\newcommand\correct[2]{\ensuremath{\:}{\color{red}{#1}}\ensuremath{\to }{\color{correct}{#2}}\ensuremath{\:}}
+\newcommand\green[1]{{\color{correct}{#1}}}
+
+% hide parts
+\newcommand\hide[1]{}
+
+% si unitx
+\usepackage{siunitx}
+\sisetup{locale = FR}
+% \renewcommand\vec[1]{\mathbf{#1}}
+\newcommand\mat[1]{\mathbf{#1}}
+
+
+% tikz
+\usepackage{tikz}
+\usetikzlibrary{intersections, angles, quotes, positioning}
+\usetikzlibrary{arrows.meta}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+
+\tikzset{
+    force/.style={thick, {Circle[length=2pt]}-stealth, shorten <=-1pt}
+}
+
+% Algorithm Env
+\usepackage[linesnumbered,lined,vlined,ruled,commentsnumbered,resetcount,algochapter]{algorithm2e}
+\SetKwComment{Comment}{// }{}
+\SetArgSty{textsl}
+\def\algocflineautorefname{Algorithm}
+\counterwithin{algocfline}{chapter}
+
+% Clear out the item autoref name
+\makeatletter
+\def\itemautorefname{\@gobble}
+\makeatother
+
+% theorems
+\makeatother
+\usepackage{thmtools}
+\usepackage[framemethod=TikZ]{mdframed}
+
+\mdfsetup{skipabove=1em,skipbelow=0em}
+
+\theoremstyle{definition}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{ForestGreen!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=ForestGreen, backgroundcolor=ForestGreen!5,
+            nobreak=false
+        }
+]{thmgreenbox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{ForestGreen!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=ForestGreen, backgroundcolor=ForestGreen!8,
+            nobreak=false
+        }
+]{thmgreen2box}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{NavyBlue!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=NavyBlue, backgroundcolor=NavyBlue!5,
+            nobreak=false
+        }
+]{thmbluebox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{TealBlue!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=TealBlue,
+            nobreak=false
+        }
+]{thmblueline}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{RawSienna!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=RawSienna, backgroundcolor=RawSienna!5,
+            nobreak=false
+        }
+]{thmredbox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{RawSienna!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=RawSienna, backgroundcolor=RawSienna!8,
+            nobreak=false
+        }
+]{thmred2box}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{SeaGreen!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=SeaGreen, backgroundcolor=SeaGreen!2,
+            nobreak=false
+        }
+]{thmgreen3box}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{WildStrawberry!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=WildStrawberry, backgroundcolor=WildStrawberry!5,
+            nobreak=false
+        }
+]{thmpinkbox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{MidnightBlue!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=MidnightBlue, backgroundcolor=MidnightBlue!5,
+            nobreak=false
+        }
+]{thmblue2box}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{Gray!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=Gray, backgroundcolor=Gray!5,
+            nobreak=false
+        }
+]{notgraybox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{Gray!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=Gray,
+            nobreak=false
+        }
+]{notgrayline}
+
+% \declaretheoremstyle[
+% 	headfont=\bfseries\sffamily\color{RawSienna!70!black}, bodyfont=\normalfont,
+% 	numbered=no,
+% 	mdframed={
+% 			linewidth=2pt,
+% 			rightline=false, topline=false, bottomline=false,
+% 			linecolor=RawSienna, backgroundcolor=RawSienna!1,
+% 		},
+% 	qed=\qedsymbol
+% ]{thmproofbox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{NavyBlue!70!black}, bodyfont=\normalfont,
+    numbered=no,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=NavyBlue, backgroundcolor=NavyBlue!1,
+            nobreak=false
+        }
+]{thmexplanationbox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{WildStrawberry!70!black}, bodyfont=\normalfont,
+    numbered=no,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=WildStrawberry, backgroundcolor=WildStrawberry!1,
+            nobreak=false
+        }
+]{thmanswerbox}
+
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{Violet!70!black}, bodyfont=\normalfont,
+    mdframed={
+            linewidth=2pt,
+            rightline=false, topline=false, bottomline=false,
+            linecolor=Violet, backgroundcolor=Violet!1,
+            nobreak=false
+        }
+]{conjpurplebox}
+
+\declaretheorem[style=thmgreenbox, name=Definizione, numberwithin=section]{definizione}
+\declaretheorem[style=thmgreen2box, name=Definizione, numbered=no]{definizione*}
+\declaretheorem[style=thmredbox, name=Teorema, numberwithin=section]{teorema}
+\declaretheorem[style=thmred2box, name=Teorema, numbered=no]{teorema*}
+\declaretheorem[style=thmredbox, name=Lemma, numberwithin=section]{lemma}
+\declaretheorem[style=thmredbox, name=Proposizione, numberwithin=section]{proposizione}
+\declaretheorem[style=thmredbox, name=Corollario, numberwithin=section]{corollario}
+\declaretheorem[style=thmpinkbox, name=Problema, numberwithin=section]{problema}
+\declaretheorem[style=thmpinkbox, name=Problema, numbered=no]{problema*}
+\declaretheorem[style=thmblue2box, name=Affermazione, numbered=no]{affermazione}
+\declaretheorem[style=conjpurplebox, name=Congettura, numberwithin=section]{congettura}
+
+% Redefine proof environment to get a full control. 
+\makeatletter
+\renewenvironment{proof}[1][\proofname]{\par
+    \pushQED{\qed}%
+    \normalfont \topsep-2\p@\@plus6\p@\relax
+    \trivlist
+    \item[\hskip\labelsep
+                \color{RawSienna!70!black}\sffamily\bfseries
+                #1\@addpunct{.}]\ignorespaces
+    \begin{mdframed}[linewidth=2pt,rightline=false, topline=false, bottomline=false,linecolor=RawSienna, backgroundcolor=RawSienna!1]
+        }{%
+        \popQED\endtrivlist\@endpefalse
+    \end{mdframed}
+}
+\makeatother
+
+\declaretheorem[style=thmbluebox, numbered=no, name=Esempio]{es}
+\declaretheorem[style=thmexplanationbox, numbered=no, name=Dimostrazione]{dimostrazione}
+\declaretheorem[style=thmexplanationbox, numbered=no, name=Spiegazione]{spiegazione}
+\newenvironment{spiegaz}[1][]{\vspace{-10pt}\pushQED{\(\circledast\)}\begin{spiegazione}}{\null\hfill\popQED\end{spiegazione}}
+
+\declaretheorem[style=thmblueline, numbered=no, name=Osservazione]{osservazione}
+\declaretheorem[style=thmblueline, numbered=no, name=Nota]{nota}
+\declaretheorem[style=thmpinkbox, numbered=no, name=Esercizio]{esercizio}
+\declaretheorem[style=notgrayline, numbered=no, name=Come visto prima]{prima}
+\declaretheorem[style=thmgreen3box, numbered=no, name=Intuizione]{intuizione}
+\declaretheorem[style=notgraybox, numbered=no, name=Notazione]{notazione}
+\declaretheorem[style=thmanswerbox, numbered=no, name=Risposta]{tmprisposta}
+\newenvironment{risposta}[1][]{\vspace{-10pt}\pushQED{\(\circledast\)}\begin{tmprisposta}}{\null\hfill\popQED\end{tmprisposta}}
+
+
+\usepackage{etoolbox}
+\renewcommand{\qed}{\null\hfill\(\blacksquare\)}
+
+\makeatletter
+
+\def\testdateparts#1{\dateparts#1\relax}
+\def\dateparts#1 #2 #3 #4 #5\relax{
+    \marginpar{\small\textsf{\mbox{#1 #2 #3 #5}}}
+}
+
+\def\@lecture{}%
+\newcommand{\lecture}[3]{
+    \ifthenelse{\isempty{#3}}{%
+        \def\@lecture{Lecture #1}%
+    }{%
+        \def\@lecture{Lecture #1: #3}%
+    }%
+    \section*{\@lecture}
+    \marginpar{\small\textsf{\mbox{#2}}}
+}
+\usepackage{pgffor}%
+\newcommand{\lec}[2]{%
+    \foreach \c in {#1,...,#2}{%
+            \IfFileExists{Lectures/lec_\c.tex} {%
+                \input{Lectures/lec_\c.tex}%
+            }{}%
+        }%
+}
+
+\newenvironment{attenzione}{\par\small % smaller font size
+	\begin{list}{}{
+			\leftmargin=35pt % Indentation on the left
+			\rightmargin=25pt}\item\ignorespaces % Indentation on the right
+		\makebox[-2.5pt]{\begin{tikzpicture}[overlay, baseline=(current bounding box)]
+			\node[draw=cPrim!85,line width=1pt,circle,fill=cPrim!25,font=\sffamily\bfseries,inner sep=2pt,outer sep=0pt] at (-15pt,4pt){\textcolor{cPrim}{\hspace{-2pt}\textbf{!}}};\end{tikzpicture}} % Orange R in a circle
+		\advance\baselineskip -1pt}{\end{list}} % Tighter line spacing
+
+% Style for sections
+\renewcommand{\thesection}{\normalsize\Roman{section}}
+\definecolor{cPrim}{RGB}{15, 115, 145}
+\usepackage{titlesec}
+\titleformat{\section}%
+{\sffamily\bfseries\Large\color{White!0!cPrim}}% format applied to label+text
+{\llap{\colorbox{White!0!cPrim}{\parbox{1.25cm}{\hfill\color{white}\thesection}}}}% label
+{1em}% horizontal separation between label and title body
+{}% before the title body
+[]% after the title body
+
+% subsection format
+\renewcommand{\thesubsection}{\thesection.\arabic{section}}
+\titleformat{\subsection}%
+{\sffamily\bfseries\large\color{White!37!cPrim}}% format applied to label+text
+{\llap{\colorbox{White!37!cPrim}{\parbox{1.25cm}{\hfill\color{white}\thesubsection}}}}% label
+{1em}% horizontal separation between label and title body
+{}% before the title body
+[]% after the title body
+
+% fancy headers
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+
+% LE: left even
+% RO: right odd
+% CE, CO: center even, center odd
+%\fancyhead[LE,RO]{Pingbang Hu}
+
+%\fancyhead[RO,LE]{\@lecture} % Right odd,  Left even
+%\fancyhead[RE,LO]{}          % Right even, Left odd
+%\fancyfoot[RO,LE]{\thepage}  % Right odd,  Left even
+%\fancyfoot[RE,LO]{}          % Right even, Left odd
+%\fancyfoot[C]{\leftmark}     % Center
+
+\makeatother
+
+% notes
+\usepackage[color=pink]{todonotes}
+\usepackage{marginnote}
+\let\marginpar\marginnote
+
+% Fix some stuff
+% %http://tex.stackexchange.com/questions/76273/multiple-pdfs-with-page-group-included-in-a-single-page-warning
+
+% Appendix environment
+\usepackage{appendix}
+\def\chapterautorefname{Section}
+\def\sectionautorefname{Section}
+\def\appendixautorefname{Appendix}
+\renewcommand\appendixname{Appendix}
+\renewcommand\appendixtocname{Appendix}
+\renewcommand\appendixpagename{Appendix}
+% begin appendix autoref patch [\autoref subsections in appendix](https://tex.stackexchange.com/questions/149807/autoref-subsections-in-appendix)
+\makeatletter
+\patchcmd{\hyper@makecurrent}{%
+    \ifx\Hy@param\Hy@chapterstring
+        \let\Hy@param\Hy@chapapp
+    \fi
+}{%
+    \iftoggle{inappendix}{%true-branch
+        % list the names of all sectioning counters here
+        \@checkappendixparam{chapter}%
+        \@checkappendixparam{section}%
+        \@checkappendixparam{subsection}%
+        \@checkappendixparam{subsubsection}%
+        \@checkappendixparam{paragraph}%
+        \@checkappendixparam{subparagraph}%
+    }{}%
+}{}{\errmessage{failed to patch}}
+
+\newcommand*{\@checkappendixparam}[1]{%
+    \def\@checkappendixparamtmp{#1}%
+    \ifx\Hy@param\@checkappendixparamtmp
+        \let\Hy@param\Hy@appendixstring
+    \fi
+}
+\makeatletter
+
+\newtoggle{inappendix}
+\togglefalse{inappendix}
+
+\apptocmd{\appendix}{\toggletrue{inappendix}}{}{\errmessage{failed to patch}}
+\apptocmd{\subappendices}{\toggletrue{inappendix}}{}{\errmessage{failed to patch}}
+% end appendix autoref patch
+
+\setcounter{tocdepth}{1}

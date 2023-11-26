@@ -1,21 +1,21 @@
 \documentclass[a4paper]{report}
 \input{header.tex}
 
+%\usepackage[modulo]{lineno}          % Line numbers package
+%\preto{\chapter}{\resetlinenumber}
+%\linenumbers
+\usepackage{array}
 \usepackage{graphicx}
 \definecolor{titlepagecolor}{cmyk}{1,.38,0,.15} %C100 M38 Y0 K15
 \definecolor{namecolor}{cmyk}{0, 0, 0, .0980} 
 
 \usepackage{textcase}
-\title{Titolo}                     %Titolo
 \usepackage{etoolbox}
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{Sottotitolo}
-\author{Ivano D'Apice}
-\date{25/11/2023}
 
 \thispagestyle{empty}
 \addbibresource{ref.bib}
@@ -43,22 +43,22 @@
 	\noindent
 	\textbf{\sffamily{Università degli Studi di Napoli Federico II}}  
 	
-	\noindent\sffamily{Triennale - Edile} \\
+	\noindent\sffamily{Scienze e Tecniche dell’Edilizia - L23} \\
 	\noindent\sffamily{Dipartimento di Ingegneria Civile Edile e Ambientale} \par\vskip\baselineskip
 	
 	\vspace{1em}
 	
 	\begin{flushleft}
 	
-	\noindent
-	{\LARGE \sf \@title  \par}\vskip\baselineskip
+	\noindent % Titolo
+	{\LARGE \sf Appunti di Algebra e Geometria  \par}\vskip\baselineskip 
 	
-	\noindent
-	 \sf \@subtitle \par \vskip\baselineskip
+	\noindent % Sottotitolo
+	 \sf Codice - MAT 03 - 6CFU \par \vskip\baselineskip
 	\end{flushleft}
 	
-	\noindent
-	{\sffamily\MakeTextUppercase{\@author}\par} 
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Ivano D'Apice}\par} 
 	\par \vskip\baselineskip
 	\noindent
 	\vspace{1em}
@@ -66,7 +66,7 @@
 	%Professori
 	\noindent\sffamily{\textbf{Professore}}\par \vskip\baselineskip
 	\noindent
-	\sffamily{\MakeTextUppercase{Professore 1} \\ 
+	\sffamily{\MakeTextUppercase{Prof. Maurizio Brunetti} \\ 
 	\small{\textbf{Università degli Studi di Napoli Federico II}\\
 	Dipartimento di Ingegneria Civile Edile e Ambientale}} \par \vskip\baselineskip
 	\par \vskip\baselineskip
@@ -78,7 +78,7 @@
 	%Dipartimento di Ingegneria Civile Edile e Ambientale}} \par \vskip\baselineskip
 	%\par \vskip\baselineskip
 	
-	\vspace{2em}
+	\vspace{2em} % Data del documento
 	
 	 {\footnotesize   \ttfamily{25 Nov 2023} \par}
 	
@@ -89,12 +89,12 @@
 \nopagecolor % Use this to restore the color pages to white
 \pagecolor{white}
 
-%\maketitle
-
 \begin{abstract}
-	This is a note template, with all but minimal compilable files provided. Feel free to adjust for your usage.
-
-	Now let's start a simple demo for you to take fancy notes in \LaTeX!
+	\textbf{Questi appunti sono presi a lezione. Per quanto sia stata fatta
+		una revisione è altamente probabile (praticamente certo) che possano
+		contenere errori, sia di stampa che di vero e proprio contenuto. Per
+		eventuali proposte di correzione inviare mail a: }\\
+	\url{ivanodapice@hotmail.com}.
 \end{abstract}
 
 \newpage

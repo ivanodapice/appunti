@@ -1,6 +1,6 @@
-PWD c:/Users/ivano/Documents/GitHub/appunti/Note Template Italiano
+PWD c:/Users/ivano/Documents/GitHub/appunti/Algebra e Geometria
 INPUT c:/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT c:/Users/ivano/Documents/GitHub/appunti/Note Template Italiano/master.tex
+INPUT c:/Users/ivano/Documents/GitHub/appunti/Algebra e Geometria/master.tex
 OUTPUT master.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/ltluatex.lua
@@ -431,7 +431,7 @@ INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans9-regular.l
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans8-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc
 INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
 INPUT ./master.toc
 OUTPUT master.toc
@@ -453,45 +453,49 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-italic.luc
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-italic.luc
-INPUT ./Figures/test.pdf_tex
-INPUT ./Figures/test.pdf_tex
-INPUT ./Figures/test.pdf
-INPUT ./Figures/test.pdf
-INPUT ./Figures/test.pdf
-INPUT ./Figures/test.pdf
-INPUT ./Figures/test.pdf
-INPUT ./Figures/test.pdf
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
+INPUT ./Figures/piano cartesiano.pdf_tex
+INPUT ./Figures/piano cartesiano.pdf_tex
+INPUT ./Figures/piano cartesiano.pdf
+INPUT ./Figures/piano cartesiano.pdf
+INPUT ./Figures/piano cartesiano.pdf
+INPUT ./Figures/somma vettori.pdf_tex
+INPUT ./Figures/somma vettori.pdf_tex
+INPUT ./Figures/somma vettori.pdf
+INPUT ./Figures/somma vettori.pdf
+INPUT ./Figures/somma vettori.pdf
+INPUT ./Figures/somma vettori.pdf
+INPUT ./Figures/somma vettori.pdf
+INPUT ./Figures/somma vettori.pdf
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./Lectures/lec_2.tex
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-italic.luc
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-italic.luc
 INPUT ./appendix.tex
 INPUT ./master.aux
 INPUT ./master.out

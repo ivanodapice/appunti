@@ -1,0 +1,313 @@
+\chapter{Introduzione}
+\lecture{1}{25 Nov. 12:11}{Richiami}
+\section{Insiemi}
+Partiamo col dire che nel vasto spettro degli insiemi troviamo anche quelli numerici. Questi insiemi si dicono infiniti 
+perché racchiudono al loro interno elementi che continuano ad incrementare o/e decrementare all'infinito. Vediamo ora i 
+vari insiemi numerici che potremo incontrare nel corso:\\
+\begin{definizione}[Numeri Naturali]\label{nnaturali}
+  L'insieme $\mathbb{\MakeUppercase{n}}$ comprende al suo interno tutti i numeri non negativi\\
+  \begin{es}
+   $\mathbb{\MakeUppercase{n}}=\{1,2,3,4,5,...,+\infty\}$
+  \end{es}
+\end{definizione}
+
+\begin{definizione}[Numeri Interi]\label{ninteri}
+  L'insieme $\mathbb{\MakeUppercase{z}}$ comprende al suo interno tutti i numeri negativi e positivi compreso quello nullo\\
+  \begin{es}
+   $\mathbb{\MakeUppercase{z}}=\{0,\pm1,\pm2,\pm3,\pm4,\pm5,...,\pm\infty\}$
+  \end{es}
+\end{definizione}
+
+\begin{definizione}[Numeri Razionali]\label{nrazionali}
+  L'insieme $\mathbb{\MakeUppercase{q}}$ comprende al suo interno tutti i numeri interi e comprende la notazione del tipo $\frac{m}{n}, m\in\mathbb{\MakeUppercase{z}} \wedge n\in\mathbb{\MakeUppercase{n}}$\\
+  \begin{es}
+   $\mathbb{\MakeUppercase{q}}=\{-\frac{5}{7},0,\frac{3}{5},1.5\overline{3},1.23(\frac{111}{90}),\frac{88}{1},...\}$
+  \end{es}
+\end{definizione}
+
+\begin{definizione}[Numeri Reali]\label{nreali}
+  L'insieme $\mathbb{\MakeUppercase{r}}$ comprende quei numeri che possono essere rappresentati con notazione decimale senza per forza essere del tipo $\frac{m}{n}$ \\
+  \begin{es}
+   $\mathbb{\MakeUppercase{r}}=\{\sqrt{2},\pi,e^{4}\}$
+  \end{es}
+\end{definizione}
+\leavevmode\\
+Quindi possiamo dire che $\mathbb{\MakeUppercase{n}}\subseteq\mathbb{\MakeUppercase{z}}\subseteq\mathbb{\MakeUppercase{q}}\subseteq\mathbb{\MakeUppercase{r}}$
+\subsection{N-ple, $R^n$}
+
+Identifichiamo ora un nuovo ente [$(a,b)$] individuato da due oggetti a e b non necessariamente distinti, e dall'ordine dei due. Un buon esempio potrebbe essere quello degli scacchi dove la posizione di una casella è identificata da due valori [$(n,x)$].\footnote{\href{https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SCD_algebraic_notation.svg/1200px-SCD_algebraic_notation.svg.png}{Coordinate Scacchiera}}
+\leavevmode\\
+Possiamo definire adesso un nuovo insieme che è quello di $\mathbb{R}^{2}=\mathbb{R}\times \mathbb{R}, \{(a,b):a\in \mathbb{R} \wedge b\in \mathbb{R}\}$ definito da numeri razionali.
+\begin{es}
+	Un insieme $\mathbb{R}^{2}$ potrebbe essere $v=(2,\sqrt{6.4}), \in \mathbb{R}^{2}$
+\end{es}
+
+\begin{nota}
+	In $\mathbb{R}^{2}$ ci sono anche particolari combinazioni che prendono il nome di \textbf{Diagonale Principale} e \textbf{Diagonale Secondaria}.
+	\begin{es}
+		\phantom{}\\
+		\begin{align*}
+			v=(x,&x) \text{: Diagonale Principale (i due elementi sono uguali)}\\
+			v=(x,-&x) \text{: Diagonale Secondaria (un elemento è l'opposto dell'altro)}
+		\end{align*}
+	\end{es}
+\end{nota}
+
+Oltre all'insieme $\mathbb{R}^{2}$ ci sono poi tutta una serie incrementale di insiemi fino ad arrivare alla ennupla $\mathbb{R}^{n}$ che ha un numero di elementi virtualmente infinito. L'insieme di $\mathbb{R}^{n}, n>2$ viene chiamato spazio euclideo mentre i suoi elementi $(x_{1},x_{2},...,x_{n}, x\in \mathbb{R})$ vengono chiamati punti o vettori.\\
+Possiamo usare gli spazi $\mathbb{R}$ per rappresentare graficamente dei riferimenti. $\mathbb{R}^{1}$ ci permette di orientarci su una retta mentre $\mathbb{R}^{2}$ e $\mathbb{R}^{3}$ rispettivamente per visualizzare figure piane e solidi.
+
+\begin{figure}[H]
+	\centering
+	\incfig{piano cartesiano}
+	\caption[Caption]{Coordinate degli assi in $\mathbb{R}^{2}$ e $\mathbb{R}^{3}$}
+	\label{fig:pianocartesiano}
+\end{figure}
+
+Adesso possiamo usare lo spazio $\mathbb{R}^{2}$ per fare un esercizio. Avremo due vettori $q=(3,5)\wedge p=(5,3)$ e vogliamo visualizzare il vettore $s=\frac{1}{2}q+2p$. Per fare ciò, si usa un metodo grafico chiamato punta-coda, dove mettiamo i nostri vettori in successione connettendo l'inizio di uno alla fine dell'altro.
+
+\begin{figure}[H]
+	\centering
+	\incfig{somma vettori}
+	\caption[Caption]{}
+	\label{fig:sommavettori}
+\end{figure}
+
+\section{Proprietà}
+
+\subsection{Somma}
+
+\begin{definizione}
+	$(a_{1}, a_{2})+(b_{1},b_{2})=(a_{1}+b_{1}, a_{2}+b_{2}), (a, b)\in \mathbb{R}$
+\end{definizione}
+
+La somma è un'operazione interna, dato che gli addendi e il risultato dell'operazione si trovano nello stesso insieme.
+
+\begin{nota}
+	\phantom{}\\
+	\begin{description}
+		\item[1.] Elemento neutro: $(a_{1}, a_{2})+(0,0)=(0,0)+(a_{1}, a_{2})=(a_{1}, a_{2}), \forall(a_{1}, a_{2}\in \mathbb{R}^{2})$
+		\item[2.] Opposto: $(a_{1}, a_{2})+(-a_{1}, -a_{2})=(0, 0), \forall(a_{1}, a_{2}\in \mathbb{R}^{2})$\\
+		\item[3.] P. Associativa: $\forall (a_{1}, a_{2}), (b_{1}, b_{2}), (c_{1}, c_{2}), \in \mathbb{R}^{2}$\\\\
+		\phantom{texttexttextt}$[(a_{1}, a_{2})+(b_{1}, b_{2})]+(c_{1}, c_{2})=(a_{1}, a_{2})[(b_{1}, b_{2})+(c_{1}, c_{2})]$\\
+		\item[4.] P. Commutativa: $\forall (a_{1}, a_{2}), (b_{1}, b_{2}), \in \mathbb{R}^{2}$\\\\
+		\phantom{texttexttexttex}$(a_{1}, a_{2})+(b_{1}, b_{2})=(b_{1}, b_{2})+(a_{1}, a_{2})$
+	\end{description}
+\end{nota}
+\leavevmode\\
+Una struttura algebrica del tipo $(\mathbb{R}^{2},+)$ se gode delle precedenti proprietà da 1 a 4 viene chiamata \textbf{Gruppo Abeliano}
+
+\subsection{Moltiplicazione di un vettore per uno scalare}
+
+\begin{definizione}
+	$(a_{1}, a_{2})\cdot(b_{1},b_{2})=(a_{1}\cdot b_{1}, a_{2}\cdot b_{2})\dagger a,b\in \mathbb{R}$
+\end{definizione}
+\begin{nota}
+	\phantom{}\\
+	\begin{description}
+		\item[5.] P. distributiva: $\forall \beta\in \mathbb{R} \wedge \forall (a_{1}, a_{2}),(b_{1}, b_{2}), \in \mathbb{R}^{2}$\\\\
+		\phantom{texttexttextt}$\beta[(a_{1}, a_{2})+(b_{1}, b_{2})]=\beta(a_{1}, a_{2})+\beta(b_{1}, b_{2})$\\
+		\item[6.] P. distributiva: $\forall \beta,\delta\in \mathbb{R} \wedge \forall (a_{1}, a_{2}), \in \mathbb{R}^{2}$\\\\
+		\phantom{texttexttextt}$(\beta+\delta)(a_{1}, a_{2})=\beta(a_{1}, a_{2})+\delta(a_{1}, a_{2})$\\
+		\item[7.] P. Associativa: $\forall \beta,\delta\in \mathbb{R} \wedge \forall (a_{1}, a_{2}), \in \mathbb{R}^{2}$\\\\
+		\phantom{texttexttextt}$\beta\gamma(a_{1}, a_{2})=\beta[\gamma(a_{1}, a_{2})]=(\beta\gamma)(a_{1}, a_{2})$\\
+		\item[8.] Elemento neutro: $1(a_{1}, a_{2})=(a_{1}, a_{2}), \forall(a_{1}, a_{2})\in\mathbb{R}^{2}$
+	\end{description}
+\end{nota}
+\leavevmode\\
+\section{Spazio Vettoriale}
+
+Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vuoto su cui sono definite delle operazioni), dove $+$ è interna e $\cdot$ è una moltiplicazione di un vettore per uno scalare, $(\mathbb{R}^{2},+,\cdot)$ si chiama \textbf{spazio vettoriale} (e gli elementi di $\mathbb{R}^{2}$ vettori) se valgono le precedenti 8 proprietà.
+
+\begin{es}[Spazi Vettoriali]
+	$\mathbb{R}[x] \cong$ Polinomi a coefficienti reali ad un'incognita.\\\\
+	$P_{1}(x)=3-x+x^{3} + P_{2}(x)=5x-\frac{7}{2}x^{4}$
+	\begin{alignat*}{3}
+		3 &{}- x&{}+ x^{3}&  &{}+\\
+		  &{}+ 5x&{} &{}- \frac{7}{2}x^{4}&{}=\\
+		3 &{}+ 4x&{}+ x^{3}&{}- \frac{7}{2}x^{4}& 
+	\end{alignat*}\\
+	$\frac{1}{3}P_{1}(x)=1-\frac{1}{3}x+\frac{1}{3}x^{3}$
+\end{es}
+
+\begin{definizione}[combinazione lineare]
+	Siano $v_{1},v_{2},...,v_{n}, \in V$. Un vettore del tipo $\beta_1 v_1+\beta_2 v_2+...+\beta_n v_n, \beta\in \mathbb{R}$ è combinazione lineare dei vettori $v_{1},v_{2},...,v_{n}$
+	\begin{es}
+		$3(1,3)+\frac{1}{2}(0,4)+(-1,-1)=(3,9)+(0,2)+(-1,-1)=(2,10)$, questi elementi di $\mathbb{R}^2=(2,10)$ sono combinazione lineare di $(1,3),(0,4),(-1,-1)$ scegliendo $(\beta_1=3, \beta_2=\frac{1}{2}, \beta_3=1)$
+	\end{es}
+\end{definizione}
+
+\begin{es}[spazi vettoriali]
+	\phantom{}\\
+    $\mathbb{R}^2, \mathbb{R}^3,...,\mathbb{R}^n$ (Spazio vettoriale dei vettori)\\
+    $\mathbb{R}[x], \mathbb{R}[x_1,x_2], \mathbb{R}[x_1,...,x_n]$ (Spazio vettoriale dei polinomi)\\
+    $M_{n\times m}, n\wedge m\in \mathbb{N}$ (Spazio vettoriale delle matrici)\\
+    \{G\} (Spazio vettoriale dell'elemento nullo)
+\end{es}
+
+\begin{es}[elementi neutri negli spazi vettoriali]
+	\phantom{}\\
+	$\mathbb{R}^2=0 \Rightarrow (0,0)$\\
+	$\mathbb{R}^4=0 \Rightarrow (0,0,0,0)$\\
+	$M_{3\times3}=0\Rightarrow 
+	\begin{bmatrix}
+    0 & 0 & 0 \\
+	0 & 0 & 0 \\
+	0 & 0 & 0
+	\end{bmatrix}$
+\end{es}
+
+\subsection{Proprietà valide negli spazi vettoriali}
+
+\begin{proposizione}
+	Sia $V$ uno spazio vettoriale qualunque, $\forall\beta\in\mathbb{R}, \beta 0=0$\\
+    \begin{dimostrazione}
+    	\phantom{}\\
+    	$\beta 0=\beta(0+0)=\beta 0+\beta 0$\\
+    	$\beta 0=\beta 0+\beta 0$, esiste l'opposto di $\beta 0$ e lo chiamiamo $OPP$\\
+    	$\beta 0+ OPP=(\beta 0+\beta 0)+OPP$\\
+    	$0=\beta 0+(\beta 0+OPP)$\\
+    	$0=\beta 0+0\rightarrow \beta 0=0$
+    \end{dimostrazione}
+\end{proposizione}
+
+\begin{proposizione}
+	Sia $V$ uno spazio vettoriale qualunque, $\forall v\in V, v\cdot0=0$\\
+	\begin{dimostrazione}
+		\phantom{}\\
+		$v\cdot0=v(0+0)=v\cdot0+v\cdot0$\\
+		$v\cdot0=v\cdot0+v\cdot0$, esiste l'opposto di $v\cdot0$ e lo chiamiamo $OPP$\\
+		$v\cdot0+ OPP=(v\cdot0+v\cdot0)+OPP$\\
+		$0=v\cdot0+(v\cdot0+OPP)$\\
+		$0=v 0+0\rightarrow v\cdot0=0$
+	\end{dimostrazione}
+\end{proposizione}
+
+\begin{proposizione}
+	Sia $V$ uno spazio vettoriale qualunque, l'opposto di $v\cdot0$ è $(-1)v$\\
+	\begin{dimostrazione}
+		\phantom{}\\
+		$v+(-1)v=0$\\
+		$v+(-1)v=1\cdot v+(-1)v=(1-1)v=0\cdot v=0$, per la proposizione III.2
+	\end{dimostrazione}
+\end{proposizione}
+
+\begin{proposizione}
+	Sia $V$ uno spazio vettoriale qualunque, $k\cdot v=0$, se $k=0$ o $v=0$\\
+	\begin{dimostrazione}
+		\phantom{}\\
+		Se $k=0$ è vera per la proposizione III.2\\
+		Se $k\neq0, \exists \frac{1}{k}\in\mathbb{R}: k\cdot v=0$\\
+		$\frac{1}{k}(k\cdot v)=\frac{1}{k}\cdot 0$\\
+		$\frac{1}{k}(k\cdot v)=0$ Per la proposizione III.1\\
+		$1\cdot v=0$\\
+		$v=0$
+	\end{dimostrazione}
+\end{proposizione}
+
+\begin{proposizione}
+	In uno spazio vettoriale $V\in\mathbb{R}$ se $\exists v\neq 0$ allora $V$ contiene infiniti vettori\\
+	\begin{dimostrazione}
+		\phantom{}\\
+		$1v, 2v, 3v,..., nv$ facciamo vedere che sono a due a due distinte\\
+		$h\cdot v=k\cdot v$\\
+		$(h\cdot v)+(-1k\cdot v)=0$\\
+		$(h-k)v=0$\\
+		$h-k=0$ Per la proposizione III.4\\
+		$h=k$
+	\end{dimostrazione}
+\end{proposizione}
+
+\begin{proposizione}
+	In uno spazio vettoriale $V$ qualunque, $v_{1},v_{2},...,v_{n}\in V,$ $0\in <v_{1},v_{2},...,v_{n}>$\\
+	\begin{dimostrazione}
+		\phantom{}\\
+		$\exists\beta_1,\beta_2,...,\beta_n:\beta_1 v_1+\beta_2 v_2+...+\beta_n v_n=0$\\
+		$\beta_1=\beta_2=...=\beta_n=0$\\
+		\begin{nota}
+			Con il simbolo $<v_{1},v_{2},...,v_{n}>$ o con $\beta(v_{1},v_{2},...,v_{n})$ indichiamo l'insieme delle combinazioni lineari di $\{v_{1},v_{2},...,v_{n}\}$ cioè l'insieme $\{\beta_1 v_1+\beta_2 v_2+...+\beta_n v_n/\beta_i\in\mathbb{R}\}$
+		\end{nota}
+	\end{dimostrazione}
+	\begin{es}
+		\phantom{}\\
+		$(0,4)\in<(2,6),(0,4),(-7,2)>?$\\
+		Si, infatti basta scegliere $\beta_1\wedge\beta_3=0, \beta_2=1$\\\\
+		$(-1,-3)\in<(2,6),(0,4),(-7,2)>?$\\
+		Si, $\beta_1\wedge\beta_2=0, \beta_3=-\frac{1}{2}$\\\\
+		$(-5,8)\in<(2,6),(0,4),(-7,2)>?$\\
+		$(-5,8)=\beta_1(2,6)+\beta_2(0,4)+\beta_3(-7,2)=(2\beta_1-7\beta_3,6\beta_1+4\beta_2+2\beta_3)$\\
+		\[
+        	\left\{
+        	\setlength\arraycolsep{0pt}
+    		\begin{array}{ r @{{}={}} r  >{{}}c<{{}} r  >{{}}c<{{}}  r }
+			-5 & 2\beta_1 & &          &-& 7\beta_3\\
+ 			8  & 6\beta_1 &+& 4\beta_2 &+& 2\beta_3\\
+			\end{array}
+			\right.
+		\]
+		$\beta_1=1,\beta_2=0,\beta_3=1$
+	\end{es}
+\end{proposizione}
+\leavevmode\\
+In generale, l'insieme delle combinazioni lineari $<v_{1},v_{2},...,v_{n}>\subseteq V$. Quindi ogni vettore di V è combinazione lineare di $<v_{1},v_{2},...,v_{n}>$ e si dice che $<v_{1},v_{2},...,v_{n}>$ sono \textbf{generatori} di V.
+\begin{es}
+	\phantom{}\\
+	$v_1=(1,2,0,3),v_2=(\pi,e,0,-55),v_3=(\log_2 3,\sin 8,0,0)$\\\\
+	$v_1,v_2,v_3$ generano $\mathbb{R}^4$?\\
+	No perché: $\beta_1=(1,2,0,3)+\beta_2=(\pi,e,0,-55)+\beta_3=(\log_2 3,\sin 8,0,0)/\beta_i\in\mathbb{R}$\\
+	$(0,0,1,0)$ non è combinazione lineare di $v_1,v_2,v_3$\\\\
+\end{es}
+\begin{es}
+	$P_1(x)=3-x^4, P_2(x)=x+77x^7$\\
+	$x^8\in<P_1(x),P_2(x)>$?\\
+	No perché non contiene polinomi di grado maggiore a 7.
+\end{es}
+\begin{es}
+	$(1,3)\in\mathbb{R}^2$ genera $\mathbb{R}^2$?\\
+	No, perché: $\{\beta(1,3)/\beta_i\in\mathbb{R}\}=\{(\beta,3\beta)/\beta\in\mathbb{R}\}$\\
+	$\beta=1\rightarrow(1,3)$ non possiamo generare $(1,1)$
+\end{es}
+\begin{es}
+	$(1,0);(0,1)$ generano $\mathbb{R}^2$?\\
+	Si, perché: $(a,b)=?(1,0)+?(0,1)=\beta_1(1,0)+\beta_2(0,1)=(\beta_1,\beta_2)$\\
+	$<(1,0),(0,1)>\in\mathbb{R}^2$
+\end{es}
+\begin{es}
+	$(1,0);(0,1);(55,\frac{1}{2})$ generano $\mathbb{R}^2$?\\
+	Si, perché: $(a,b)=?(1,0)+?(0,1)+?(55,\frac{1}{2})=\beta_1(1,0)+\beta_2(0,1)+\beta_3(55,\frac{1}{2})$\\
+	$<(1,0),(0,1),(55,\frac{1}{2})>\in\mathbb{R}^2$
+\end{es}
+
+Come vediamo, se un insieme di vettori ha cardinalità minore della dimensione dello spazio a cui appartengono, allora possiamo immediatamente concludere che l'insieme assegnato non è un sistema di generatori (come visto nel caso polinomiale precedente).\footnote{\href{https://www.youmath.it/lezioni/algebra-lineare/matrici-e-vettori/678-sistema-di-generatori-di-uno-spazio-vettoriale.html}{youmath}} Mentre più avanti, con il concetto di dimensione di spazio vettoriale, sarà più facile capire come verificare se un insieme è generatore.
+
+\begin{nota}
+	Se ad un insieme di generatori se ne aggiunge un altro, l'insieme risultante è anch'esso un generatore. Cioè se $v_1,...,v_n$ genera V allora anche $v_1,...,v_n,w$ diventa generatore.
+	\begin{dimostrazione}
+		Per ipotesi $V=<v_1,...,v_n>\subseteq<v_1,...,v_n,w>\subseteq V$\\
+		Dato che $<v_1,...,v_n,w>$ è incluso in V e include V, allora $<v_1,...,v_n,w>$ è V\\
+		\begin{es}
+			\phantom{}\\
+			In $\mathbb{R}^3$, $(0,0,1),(1,0,0),(0,1,0)$ generano $\mathbb{R}^3$\\
+			In $\mathbb{R}^4$, $(1)$ genera $\mathbb{R}^4$\\
+			In $\mathbb{R}^n$, $(1,0,...,0),(0,1,...,0),(0,0,...,1)$ generano $\mathbb{R}^n$\\
+			In $\{G\}$, $G$ genera $\{G\}$ *vettore nullo
+		\end{es}
+	\end{dimostrazione}
+\end{nota}
+
+Un \textbf{Sistema di vettori} è un insieme in cui contano l'ordine degli elementi e anche le eventuali ripetizioni, e si indica così: $[v_1,...,v_n]$
+\begin{es}
+
+\end{es}
+
+
+
+
+
+
+
+
+
+
+
+
+
