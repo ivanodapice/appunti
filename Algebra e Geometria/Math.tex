@@ -83,3 +83,9 @@
 	\def\svgwidth{\columnwidth}
 	\import{./Figures/}{#1.pdf_tex}
 }
+
+\usetikzlibrary{arrows}% only needed for the arrow tip stealth'
+\newcommand\tikznode[3][]{%
+  \tikz[remember picture,baseline=(#2.base)]
+    \node[minimum size=0pt,inner sep=0pt,#1](#2){#3};%
+}

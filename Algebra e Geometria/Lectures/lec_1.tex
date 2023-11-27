@@ -529,9 +529,34 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 			\beta   & \beta-2\delta\\
 			\lambda & 55\varpi
  		\end{pmatrix}$\\
-		
+		Quindi $\beta=1, \beta-2\delta=2, \lambda=3, 55\varpi=4$\\
+		$\beta=1, \delta=-\frac{1}{2}, \lambda=3, \varpi=\frac{4}{55}$
+	\end{es}
+	\begin{es}
+		Data la base $B^{'}=[(1,2),(3,4)]$ di $\mathbb{R}^2$ calcolare il vettore di componenti $(5,8)$\\
+		$\underline{v}=5(1,2)+8(3,4)=(5,10)+(24,32)=(29,42)$
 	\end{es}
 \end{proposizione}
+
+\begin{definizione}
+	Il determinante è una funzione che ha per dominio una matrice quadrata\\
+	$\det=M_{n\times n}\Longrightarrow\mathbb{R}$\\
+	Calcolo del determinante di una matrice quadrata:\\
+	$n=1\Longrightarrow \det(a_{1,1})=a_{1,1}$\\
+	$n=2\Longrightarrow \det\begin{pmatrix}
+		a_{1,1} & a_{1,2}\\
+		a_{2,1} & a_{2,2}
+	\end{pmatrix}=(a_{1,1}a_{2,2})-(a_{1,2}a{2,1})$\\
+	si può anche capire meglio visualizzando l'operazione come una croce:
+	\begin{tabular}{r@{\qquad}r}
+		\tikznode{a_{1,1}}{$a_{1,1}$} & \tikznode{a_{1,2}}{$a_{1,2}$} \\[2ex]
+		\tikznode{a_{2,1}}{$a_{2,1}$} & \tikznode{a_{2,2}}{$a_{2,2}$} 
+	\end{tabular}
+	\begin{tikzpicture}[remember picture,overlay,> = stealth',shorten <= 4pt,shorten > = 4pt]
+	  \draw[->] (a_{1,1}.east) -- (a_{2,2}.west);
+	  \draw[->] (a_{2,1}.east) -- (a_{1,2}.west);
+	\end{tikzpicture}
+\end{definizione}
 
 
 

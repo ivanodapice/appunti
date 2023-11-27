@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.23)  27 NOV 2023 08:43
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.23)  27 NOV 2023 13:16
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"c:/Users/ivano/Documents/GitHub/appunti/Algebra e Geometria/master.tex"
@@ -839,6 +839,11 @@ File: ppluatex.def 2022/12/19 v0.5x Pdfpages driver for LuaTeX (AM)
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
  (c:/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen302
 ))) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup9
@@ -852,16 +857,16 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count448
-\l_MT_multwidth_dim=\dimen302
+\l_MT_multwidth_dim=\dimen303
 \origjot=\skip82
-\l_MT_shortvdotswithinadjustabove_dim=\dimen303
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen304
-\l_MT_above_intertext_sep=\dimen305
-\l_MT_below_intertext_sep=\dimen306
-\l_MT_above_shortintertext_sep=\dimen307
-\l_MT_below_shortintertext_sep=\dimen308
+\l_MT_shortvdotswithinadjustabove_dim=\dimen304
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen305
+\l_MT_above_intertext_sep=\dimen306
+\l_MT_below_intertext_sep=\dimen307
+\l_MT_above_shortintertext_sep=\dimen308
+\l_MT_below_shortintertext_sep=\dimen309
 \xmathstrut@box=\box72
-\xmathstrut@dim=\dimen309
+\xmathstrut@dim=\dimen310
 ) (c:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks43
@@ -884,14 +889,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count449
 \Gm@cntv=\count450
 \c@Gm@tempcnt=\count451
-\Gm@bindingoffset=\dimen310
-\Gm@wd@mp=\dimen311
-\Gm@odd@mp=\dimen312
-\Gm@even@mp=\dimen313
-\Gm@layoutwidth=\dimen314
-\Gm@layoutheight=\dimen315
-\Gm@layouthoffset=\dimen316
-\Gm@layoutvoffset=\dimen317
+\Gm@bindingoffset=\dimen311
+\Gm@wd@mp=\dimen312
+\Gm@odd@mp=\dimen313
+\Gm@even@mp=\dimen314
+\Gm@layoutwidth=\dimen315
+\Gm@layoutheight=\dimen316
+\Gm@layouthoffset=\dimen317
+\Gm@layoutvoffset=\dimen318
 \Gm@dimlist=\toks49
 ) (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -912,7 +917,7 @@ Package: systeme 2020/05/03 v0.34 Mise en forme de systemes d'equations (CT)
 ) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip86
-\enit@outerparindent=\dimen318
+\enit@outerparindent=\dimen319
 \enit@toks=\toks52
 \enit@inbox=\box73
 \enit@count@id=\count455
@@ -921,22 +926,22 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count457
 \mult@box=\box74
-\multicol@leftmargin=\dimen319
+\multicol@leftmargin=\dimen320
 \c@unbalance=\count458
 \c@collectmore=\count459
 \doublecol@number=\count460
 \multicoltolerance=\count461
 \multicolpretolerance=\count462
-\full@width=\dimen320
-\page@free=\dimen321
-\premulticols=\dimen322
-\postmulticols=\dimen323
+\full@width=\dimen321
+\page@free=\dimen322
+\premulticols=\dimen323
+\postmulticols=\dimen324
 \multicolsep=\skip87
 \multicolbaselineskip=\skip88
 \partial@page=\box75
 \last@line=\box76
 \mc@boxedresult=\box77
-\maxbalancingoverflow=\dimen324
+\maxbalancingoverflow=\dimen325
 \mult@rightbox=\box78
 \mult@grightbox=\box79
 \mult@firstbox=\box80
@@ -980,9 +985,9 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@minrows=\count463
 \c@columnbadness=\count464
 \c@finalcolumnbadness=\count465
-\last@try=\dimen325
-\multicolovershoot=\dimen326
-\multicolundershoot=\dimen327
+\last@try=\dimen326
+\multicolovershoot=\dimen327
+\multicolundershoot=\dimen328
 \mult@nat@firstbox=\box118
 \colbreak@box=\box119
 \mc@col@check@num=\count466
@@ -993,7 +998,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip89
 \multirow@cntb=\count467
 \multirow@dima=\skip90
-\bigstrutjot=\dimen328
+\bigstrutjot=\dimen329
 )) (c:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count468
@@ -1006,7 +1011,7 @@ Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
 \l__siunitx_number_group_first_int=\count475
 \l__siunitx_number_group_size_int=\count476
 \l__siunitx_number_group_minimum_int=\count477
-\l__siunitx_angle_tmp_dim=\dimen329
+\l__siunitx_angle_tmp_dim=\dimen330
 \l__siunitx_angle_marker_box=\box120
 \l__siunitx_angle_unit_box=\box121
 \l__siunitx_compound_count_int=\count478
@@ -1014,15 +1019,15 @@ Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_table_tmp_box=\box122
-\l__siunitx_table_tmp_dim=\dimen330
-\l__siunitx_table_column_width_dim=\dimen331
+\l__siunitx_table_tmp_dim=\dimen331
+\l__siunitx_table_column_width_dim=\dimen332
 \l__siunitx_table_integer_box=\box123
 \l__siunitx_table_decimal_box=\box124
 \l__siunitx_table_uncert_box=\box125
 \l__siunitx_table_before_box=\box126
 \l__siunitx_table_after_box=\box127
-\l__siunitx_table_before_dim=\dimen332
-\l__siunitx_table_carry_dim=\dimen333
+\l__siunitx_table_before_dim=\dimen333
+\l__siunitx_table_carry_dim=\dimen334
 \l__siunitx_unit_tmp_int=\count479
 \l__siunitx_unit_position_int=\count480
 \l__siunitx_unit_total_int=\count481
@@ -1040,7 +1045,7 @@ Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 \t@pgfplots@toka=\toks53
 \t@pgfplots@tokb=\toks54
 \t@pgfplots@tokc=\toks55
-\pgfplots@tmpa=\dimen334
+\pgfplots@tmpa=\dimen335
 \c@pgfplots@coordindex=\count483
 \c@pgfplots@scanlineindex=\count484
  (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
@@ -1061,12 +1066,12 @@ Package pgfplots info on input line 82: Found new luatex: initializing lua comma
 \c@pgfplotslibrarysurf@no=\count487
  (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-luatex.def))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count488
-\pgfplots@xmin@reg=\dimen335
-\pgfplots@xmax@reg=\dimen336
-\pgfplots@ymin@reg=\dimen337
-\pgfplots@ymax@reg=\dimen338
-\pgfplots@zmin@reg=\dimen339
-\pgfplots@zmax@reg=\dimen340
+\pgfplots@xmin@reg=\dimen336
+\pgfplots@xmax@reg=\dimen337
+\pgfplots@ymin@reg=\dimen338
+\pgfplots@ymax@reg=\dimen339
+\pgfplots@zmin@reg=\dimen340
+\pgfplots@zmax@reg=\dimen341
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -1091,12 +1096,12 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip97
 \algomargin=\skip98
 \skipalgocfslide=\skip99
-\algowidth=\dimen341
-\inoutsize=\dimen342
-\inoutindent=\dimen343
-\interspacetitleruled=\dimen344
-\interspacealgoruled=\dimen345
-\interspacetitleboxruled=\dimen346
+\algowidth=\dimen342
+\inoutsize=\dimen343
+\inoutindent=\dimen344
+\interspacetitleruled=\dimen345
+\interspacealgoruled=\dimen346
+\interspacetitleboxruled=\dimen347
 \algocf@ruledwidth=\skip100
 \algocf@inoutbox=\box128
 \algocf@inputbox=\box129
@@ -1328,12 +1333,12 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box141
 \beforetitleunit=\skip177
 \aftertitleunit=\skip178
-\ttl@plus=\dimen347
-\ttl@minus=\dimen348
+\ttl@plus=\dimen348
+\ttl@minus=\dimen349
 \ttl@toksa=\toks63
-\titlewidth=\dimen349
-\titlewidthlast=\dimen350
-\titlewidthfirst=\dimen351
+\titlewidth=\dimen350
+\titlewidthlast=\dimen351
+\titlewidthfirst=\dimen352
 ) (c:/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
 Package: todonotes 2023/01/31
@@ -1368,30 +1373,30 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box142
 )
-\tc@llx=\dimen352
-\tc@lly=\dimen353
-\tc@urx=\dimen354
-\tc@ury=\dimen355
+\tc@llx=\dimen353
+\tc@lly=\dimen354
+\tc@urx=\dimen355
+\tc@ury=\dimen356
  (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pgf.def
 File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
 )
 Package trimclip Info: No clipping driver 'tc-luatex.def' available.
 (trimclip)             Using fall-back PGF driver.
 )
-\adjbox@Width=\dimen356
-\adjbox@Height=\dimen357
-\adjbox@Depth=\dimen358
-\adjbox@Totalheight=\dimen359
-\adjbox@pwidth=\dimen360
-\adjbox@pheight=\dimen361
-\adjbox@pdepth=\dimen362
-\adjbox@ptotalheight=\dimen363
+\adjbox@Width=\dimen357
+\adjbox@Height=\dimen358
+\adjbox@Depth=\dimen359
+\adjbox@Totalheight=\dimen360
+\adjbox@pwidth=\dimen361
+\adjbox@pheight=\dimen362
+\adjbox@pdepth=\dimen363
+\adjbox@ptotalheight=\dimen364
  (c:/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box143
 \sift@deathcycles=\count515
-\@vwid@loff=\dimen364
-\@vwid@roff=\dimen365
+\@vwid@loff=\dimen365
+\@vwid@roff=\dimen366
 )) (c:/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 ) (c:/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
@@ -1415,9 +1420,9 @@ Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 \l__fontspec_emdef_int=\count524
 \l__fontspec_strong_int=\count525
 \l__fontspec_strongdef_int=\count526
-\l__fontspec_tmpa_dim=\dimen366
-\l__fontspec_tmpb_dim=\dimen367
-\l__fontspec_tmpc_dim=\dimen368
+\l__fontspec_tmpa_dim=\dimen367
+\l__fontspec_tmpb_dim=\dimen368
+\l__fontspec_tmpc_dim=\dimen369
  (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
@@ -1593,19 +1598,20 @@ No file master.bbl.
 Package biblatex Info: Reference section=0 on input line 32.
 Package biblatex Info: Reference segment=0 on input line 32.
 Package hyperref Info: Link coloring ON on input line 32.
+(./master.out) (./master.out)
 \@outlinefile=\write5
 
 \openout5 = master.out
-(c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count532
-\scratchdimen=\dimen369
+\scratchdimen=\dimen370
 \scratchbox=\box144
 \nofMPsegments=\count533
 \nofMParguments=\count534
 \everyMPshowfont=\toks66
 \MPscratchCnt=\count535
-\MPscratchDim=\dimen370
+\MPscratchDim=\dimen371
 \MPnumerator=\count536
 \makeMPintoPDFobject=\count537
 \everyMPtoPDFconversion=\toks67
@@ -1716,12 +1722,11 @@ Package unicode-math Warning: I'm going to overwrite the following commands
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
 Package marginnote Info: Using workaround for absolute page number on input line 98.
-
-No file master.toc.
+ (./master.toc)
 \tf@toc=\write6
 
 \openout6 = master.toc
-(./Lectures/lec_1.tex
+ (./Lectures/lec_1.tex
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
@@ -1729,8 +1734,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 Package marginnote Info: Using workaround for absolute page number on input line 1.
 
 Chapter 1.
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 3.
 Package marginnote Info: right page because not two side mode on input line 3.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 3.
+Package marginnote Info: xpos seems to be 72.2698pt on input line 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
@@ -1811,18 +1817,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 53.
 ("./Figures/piano cartesiano.pdf_tex"
-<./Figures/piano cartesiano.pdf, id=53, page=1, 682.80093pt x 225.84375pt>
+<./Figures/piano cartesiano.pdf, id=87, page=1, 682.80093pt x 225.84375pt>
 File: ./Figures/piano cartesiano.pdf Graphic file (type pdf)
 <use ./Figures/piano cartesiano.pdf, page 1>
 Package luatex.def Info: ./Figures/piano cartesiano.pdf , page1 used on input line 56.
 (luatex.def)             Requested size: 452.96826pt x 149.8258pt.
 ) ("./Figures/somma vettori.pdf_tex"
-<./Figures/somma vettori.pdf, id=54, page=1, 682.80093pt x 127.97812pt>
+<./Figures/somma vettori.pdf, id=88, page=1, 682.80093pt x 127.97812pt>
 File: ./Figures/somma vettori.pdf Graphic file (type pdf)
 <use ./Figures/somma vettori.pdf, page 1>
 Package luatex.def Info: ./Figures/somma vettori.pdf , page1 used on input line 56.
 (luatex.def)             Requested size: 452.96826pt x 84.90128pt.
-<./Figures/somma vettori.pdf, id=55, page=2, 682.80093pt x 127.97812pt>
+<./Figures/somma vettori.pdf, id=89, page=2, 682.80093pt x 127.97812pt>
 File: ./Figures/somma vettori.pdf Graphic file (type pdf)
 <use ./Figures/somma vettori.pdf, page 2>
 Package luatex.def Info: ./Figures/somma vettori.pdf , page2 used on input line 62.
@@ -2104,4 +2110,218 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 315.
-Pa
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 319.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 325.
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--336
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 339.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 343.
+[8]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 350.
+Package hyperref Info: bookmark level for unknown teorema defaults to 0 on input line 350.
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 351.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 356.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 357.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 361.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 365.
+Package hyperref Info: bookmark level for unknown corollario defaults to 0 on input line 365.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 369.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 382.
+Package hyperref Info: bookmark level for unknown esercizio defaults to 0 on input line 382.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--386
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 389.
+Package hyperref Info: bookmark level for unknown osservazione defaults to 0 on input line 389.
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--394
+
+ []
+
+("./Figures/insiemi sistemi vett.pdf_tex"
+<./Figures/insiemi sistemi vett.pdf, id=181, page=1, 682.80093pt x 127.97812pt>
+File: ./Figures/insiemi sistemi vett.pdf Graphic file (type pdf)
+<use ./Figures/insiemi sistemi vett.pdf, page 1>
+Package luatex.def Info: ./Figures/insiemi sistemi vett.pdf , page1 used on input line 56.
+(luatex.def)             Requested size: 452.96826pt x 84.90128pt.
+) [9<./Figures/insiemi sistemi vett.pdf>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 417.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 427.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 435.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 438.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 443.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 446.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 449.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 451.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 454.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 458.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 462.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 469.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 472.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 473.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 480.
+ [10]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 484.
+
+Overfull \hbox (31.55801pt too wide) in paragraph at lines 484--490
+\TU/TeXGyreBonumMath(1)/m/n/10 𝐵[] = [(0, 1, 0), (0, 0, −1), (2023, 0, 0)] ⟹ (𝑎, 𝑏, 𝑐) = 𝑏(0, 1, 0) + [−𝑐(0, 0, −1)] + [](2023, 0, 0)$ 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 490.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 494.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 496.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 534.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 536.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 538.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 542.
+) (./Lectures/lec_2.tex [11]
+Chapter 2.
+Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 3.
+Package marginnote Info: right page because not two side mode on input line 3.
+Package marginnote Info: xpos seems to be 72.2698pt on input line 3.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 12.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 13.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 24.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 27.
+Package hyperref Info: bookmark level for unknown affermazione defaults to 0 on input line 27.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 28.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 30.
+Package hyperref Info: bookmark level for unknown spiegazione defaults to 0 on input line 30.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 42.
+[12
+
+]) [13] [14
+
+] (./appendix.tex
+Appendix A.
+) [15
+
+]
+
+LaTeX Warning: Empty bibliography on input line 116.
+
+(./master.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `master.out' has not changed.
+(rerunfilecheck)             Checksum: 85BB61F7FE46587D436CB34726A3C343;778.
+Package logreq Info: Writing requests to 'master.run.xml'.
+
+\openout1 = master.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 61384 strings out of 476598
+ 125262,2848258 words of node,token memory allocated
+ 1110 words of node memory still in use:
+   10 hlist, 2 vlist, 2 rule, 16 glue, 4 kern, 1 glyph, 23 attribute, 133 glue_spec, 23 attribute_list, 2 write, 4 pdf_colorstack nodes
+   avail lists: 1:14,2:3949,3:2679,4:356,5:484,6:78,7:8651,8:81,9:1711,10:7,11:515
+ 81685 multiletter control sequences out of 65536+600000
+ 133 fonts using 27067079 bytes
+ 108i,17n,103p,1328b,1892s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-italic.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-italic.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrebonum-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrebonum-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrebonum-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans9-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on master.pdf (17 pages, 173607 bytes).
+
+PDF statistics: 373 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 136 named destinations out of 1000 (max. 131072)
+ 72 words of extra memory for PDF output out of 10000 (max. 100000000)
+
