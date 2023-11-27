@@ -480,8 +480,58 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	\end{dimostrazione}
 \end{teorema}
 
-
-
+\begin{proposizione}
+	\phantom{}\\
+	$B^{\phantom{'}}=[(1,0,0),(0,1,0),(0,0,1)]\Longrightarrow (a,b,c)=a(1,0,0)+b(0,1,0)+c(0,0,1)$\\
+	$B^{'}=[(0,1,0),(0,0,1),(1,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)+c(0,0,1)+a(1,0,0)$\\
+	$B^{"}=[(0,1,0),(0,0,-1),(2023,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)+[-c(0,0,-1)]+\frac{a}{2023}(2023,0,0)$\\
+	In qualunque spazio vettoriale V che possegga una base, un vettore $\underline{v}$ si può esprimere come: $\underline{v}=\beta_1\underline{e}_1+...+\beta_n\underline{e}_n$. I coefficienti $\beta_1,...,\beta_n$ individuano univocamente $\underline{v}$ e prendono anche il nome di componenti di $\underline{v}$ rispetto alla base B.
+	\begin{es}
+		$\underline{v}=(3,10,2023)\in\mathbb{R}^{2}$\\
+		Le componenti di B rispetto a $B$ sono $(3,10,2023)$\\
+		Le componenti di B rispetto a $B^{'}$ sono $(10,2023,3)$\\
+		Le componenti di B rispetto a $B^{"}$ sono $(10,-2023,\frac{3}{2023})$	
+	\end{es}
+	\begin{es}
+		$B=[\begin{pmatrix}
+			1 & 1\\
+			0 & 0
+		\end{pmatrix},\begin{pmatrix}
+			0 & -2\\
+			0 & 0
+		\end{pmatrix},\begin{pmatrix}
+			0 & 0\\
+			1 & 0
+		\end{pmatrix},\begin{pmatrix}
+			0 & 0\\
+			0 & 55
+		\end{pmatrix}]$\\
+		Calcolare le componenti del vettore $\begin{pmatrix}
+			1 & 2\\
+			3 & 4
+		\end{pmatrix}\in M_{2\times 2}$ rispetto a B:\\
+		$\begin{pmatrix}
+			1 & 2\\
+			3 & 4
+		\end{pmatrix}=\beta\begin{pmatrix}
+			1 & 1\\
+			0 & 0
+		\end{pmatrix}+\delta\begin{pmatrix}
+			0 & -2\\
+			0 & 0
+		\end{pmatrix}+\lambda\begin{pmatrix}
+			0 & 0\\
+			1 & 0
+		\end{pmatrix}+\varpi\begin{pmatrix}
+			0 & 0\\
+			0 & 55
+		\end{pmatrix}=\begin{pmatrix}
+			\beta   & \beta-2\delta\\
+			\lambda & 55\varpi
+ 		\end{pmatrix}$\\
+		
+	\end{es}
+\end{proposizione}
 
 
 
