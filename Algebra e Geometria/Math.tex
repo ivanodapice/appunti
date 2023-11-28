@@ -47,6 +47,7 @@
 
 \usepackage{physics}
 \usepackage{complexity}
+\usepackage{gensymb}
 
 \DeclareMathOperator{\id}{id}
 \DeclareMathOperator{\Span}{span}
@@ -88,4 +89,11 @@
 \newcommand\tikznode[3][]{%
   \tikz[remember picture,baseline=(#2.base)]
     \node[minimum size=0pt,inner sep=0pt,#1](#2){#3};%
+}
+
+\def\env@cases{%
+  \let\@ifnextchar\new@ifnextchar
+  \left\lbrace
+  \def\arraystretch{1.2}%
+  \array{l@{\quad}l@{}}% Formerly @{}l@{\quad}l@{}
 }
