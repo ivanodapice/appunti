@@ -1,0 +1,67 @@
+%% Creator: Inkscape 1.3.1 (91b66b0783, 2023-11-16), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'critericlotoide.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{178.33983994bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.3898733)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{critericlotoide.pdf}}%
+    \put(0.59108928,0.00416805){\color[rgb]{0,0,0}\transparent{0.98484898}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
+    \put(0.12487723,0.37239894){\color[rgb]{0,0,0}\transparent{0.98484898}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+    \put(0.00220331,0.07596782){\color[rgb]{0,0,0}\transparent{0.98484898}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_{min} = f(V_p,c)$\end{tabular}}}}%
+    \put(0.34351958,0.13051199){\color[rgb]{0,0,0}\transparent{0.98484898}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{R}{3} \leq A \leq R$\end{tabular}}}}%
+    \put(0.54706642,0.36629103){\color[rgb]{0,0,0}\transparent{0.98484898}\rotatebox{0.70828898}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A = R \phantom{t}$\end{tabular}}}}}%
+    \put(0.52487106,0.33593116){\color[rgb]{0,0,0}\transparent{0.98484898}\rotatebox{0.70828898}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\text{limite per la percezione ottica dell'arco}$\end{tabular}}}}}%
+    \put(0.24815942,0.11187822){\color[rgb]{0,0,0}\transparent{0.98484898}\rotatebox{90.950342}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{min} = f(V_p, q_{max})$\end{tabular}}}}}%
+    \put(0.61729849,0.12315745){\color[rgb]{0,0,0}\transparent{0.98484898}\rotatebox{0.232614}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A = \frac{R}{3}$\end{tabular}}}}}%
+    \put(0.55712844,0.09460608){\color[rgb]{0,0,0}\transparent{0.98484898}\rotatebox{0.232614}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\text{limite per la percezione ottica del raccordo}$\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%

@@ -2,7 +2,7 @@
 
 Il progetto seguente consiste nello sviluppare un tronco stradale nell’ottica di una progettazione I-BIM
 (Infrastructure-building information modelling), ovvero un sistema di gestione e manutenzione dei processi
-informativi delle costruzioni infrastrutturali, in questo caso, di tipo digitale. L’obiettivo è quello di
+informativi delle costruzioni infrastrutturali, in questo caso, di tipo digitale. L'obiettivo è quello di
 collegare con un corpo stradale i punti assegnati (\ref{tracciaprogetto}) al gruppo 5 sulla cartografia 3D di riferimento.
 
 \begin{figure}[H]
@@ -14,11 +14,13 @@ collegare con un corpo stradale i punti assegnati (\ref{tracciaprogetto}) al gru
 Nella progettazione, tanto più è lunga la distanza tra il punto di partenza ed il punto di arrivo, tante
 più possibilità diverse di tracciati esistono. Per poter ottenere il tracciato definitivo si devono fare scelte
 opportune per limitare le spese sia in termini di difficoltà di lavorazione che in ambito economico. Inoltre,
-si deve tener conto anche dell’impatto ambientale dell’infrastruttura.
-
+si deve tener conto anche dell'impatto ambientale dell'infrastruttura.
+\leavevmode\\
+\leavevmode\\
+\leavevmode\\
 \section{Profilo planimetrico}
 
-Dopo la modellazione del terreno, per la costruzione del tracciato stradale (\ref{Traccia progetto}) che unisce i punti 5-5, si fa riferimento ad un Seed-2D, chiamato tracciato. 
+Dopo la modellazione del terreno, per la costruzione del tracciato stradale (\ref{tracciaprogetto}) che unisce i punti 5-5, si fa riferimento ad un Seed-2D, chiamato tracciato. 
 Il tracciato è una raffigurazione bidimensionale dell'infrastruttura da utilizzare, ed è caratterizzato da un profilo planimetrico e da un profilo altimetrico. Per ottenere un tracciato conveniente economicamente e che non abbia un impatto ambientale troppo elevato si cerca di ottimizzare al massimo il rapporto tra terreno di scavo e terreno di riporto, facendo ciò, si cerca ridurre al massimo il volume di terreno da dover comprare o smaltire. La tecnica da utilizzare sarà quella di cercare di creare il tracciato senza tagliare troppe curve di livello, e se non se ne può fare a meno, si cercherà di ottenere un equilibrio tra discese e salite.
 
 \begin{figure}[H]
@@ -40,13 +42,17 @@ Tutti gli elementi del tracciato devono rispettare dei valori normati da:
     \item[\bullet] “Direttiva 2008/96/CE sulla gestione della sicurezza delle infrastrutture” (2008)
 \end{itemize}
 
-Che tengono conto del tipo di strada e del suo rispettivo intervallo di velocità di progetto (\ref{velocitàdiprogetto}).
+Che tengono conto del tipo di strada e del suo rispettivo intervallo di velocità di progetto.
 
-\begin{figure}[H]
-    \includegraphics[width=\textwidth]{Figures/velocità di progetto F extraurbana.png}
-      \caption{velocità di progetto F extraurbana}
-      \label{velocitàdiprogetto}
-\end{figure}
+\begin{table}[H]
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    {\color[HTML]{FE0000} F}                   & {\color[HTML]{FE0000} Strade locali extraurbane} & {\color[HTML]{FE0000} 40} & {\color[HTML]{FE0000} 100} \\ \cline{2-4} 
+    \multirow{-2}{*}{{\color[HTML]{FE0000} }} & {\color[HTML]{FE0000} Strade locali urbane} & {\color[HTML]{FE0000} 25} & {\color[HTML]{FE0000} 60} \\ \hline
+    \end{tabular}
+ \end{center}
+\end{table}
 
 La lunghezza dei rettifili deve essere tale che non si verifichino le seguenti condizioni:
 
@@ -57,13 +63,17 @@ La lunghezza dei rettifili deve essere tale che non si verifichino le seguenti c
     \item[\bullet] superamento delle velocità consentite
 \end{itemize}
 
-I rettifili avranno una lunghezza massima che si calcola moltiplicando la velocità massima di percorrenza per 22 $(L_{max}=22*VP_{max}= 2200m)$, poi avranno una lunghezza minima tabellata (\ref{Lunghezzerettifilominime}).
+I rettifili avranno una lunghezza massima che si calcola moltiplicando la velocità massima di percorrenza per 22 $(L_{max}=22*VP_{max}= 2200m)$, poi avranno una lunghezza minima tabellata.
 
-\begin{figure}[H]
-    \includegraphics[width=\textwidth]{Figures/Lunghezze rettifilo minime.png}
-      \caption{Lunghezze rettifilo minime}
-      \label{Lunghezzerettifilominime}
-\end{figure}
+    \begin{table}[H]
+        \begin{center}
+        \begin{tabular}{@{}llllllllllll@{}}
+        \toprule
+         Velocità di progetto (km/h)& 40 & 50 & 60 & 70 & 80 & 90 & 100 & 110 & 120 & 130 & 140 \\ \midrule
+         $L_r$ minimo (m)& 30 & 40 & 50 & 65 & 90 & 115 & 150 & 190 & 250 & 300 & 360 \\ \bottomrule
+        \end{tabular}
+    \end{center}
+        \end{table}
 
 Le curve circolari devono essere dimensionate in modo da garantire:
 
@@ -74,13 +84,30 @@ Le curve circolari devono essere dimensionate in modo da garantire:
 
 Le clotoidi invece devono necessariamente avere un fattore di scala A che rispetti i tre criteri delle norme C.N.R., ovvero il criterio dinamico che limita il contraccolpo, il criterio costruttivo che limita la pendenza relativa del ciglio esterno della carreggiata rispetto all'asse stradale e il criterio ottico che garantisce la corretta percezione ottica del tracciato. Il valore più limitante è il valore dinamico, per questo motivo in fase di progetto ci si limita a verificare che sia rispettato solo il primo criterio in tutti gli elementi del tracciato.
 
+\begin{minipage}[b]{0.94\textwidth}
 \begin{figure}[H]
-    \includegraphics[width=\textwidth]{Figures/criteri clotoide.png}
-      \caption{Criteri di verifica delle clotoidi}
-      \label{Criteri di verifica delle clotoidi}
+    \centering
+    \incfig{critericlotoide}
+    \caption[Caption]{}
+    \label{fig:test}
 \end{figure}
+\end{minipage}
 
+\begin{multicols}{2}
+    \begin{itemize}
+    \item[1] $A\geq A_{1,min}=0,021\cdot V^{2}$
+    \item[2] $A\geq A_{2,min}=\sqrt{\frac{B_i (q_f+q_i) 100}{(\frac{1}{r_f}) \Delta_{i,max}}}$
+    \end{itemize}
+    \columnbreak
+    \begin{itemize}
+    \item[3] $A\geq A_{3,min}=\frac{R}{3}$
+    \item[4] $A\leq A_{4,max}=R$
+    \end{itemize}
+\end{multicols}
+\leavevmode\\
 Nella pratica, per poter creare i vari elementi si utilizzerà la sezione Geometry/Horizontal utilizzando per disegnare rettifili, curve e clotoidi rispettivamente i tasti lines/line from element/spiral line from element e arcs/arcs from element/spiral o reverse spiral arc from element.
+
+\newpage
 
 \section{Profilo Altimetrico}
 

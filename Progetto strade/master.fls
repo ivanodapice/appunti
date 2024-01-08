@@ -339,7 +339,19 @@ INPUT c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 INPUT c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 INPUT c:/texlive/2023/texmf-dist/tex/latex/marginnote/marginnote.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT c:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
+INPUT c:/texlive/2023/texmf-var/tex/generic/config/language.dat
+INPUT c:/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
+INPUT c:/texlive/2023/texmf-dist/tex/generic/babel-italian/italian.ldf
+INPUT c:/texlive/2023/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-it.tex
+INPUT c:/texlive/2023/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-it.tex
+INPUT c:/texlive/2023/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-it.tex
+INPUT c:/texlive/2023/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex
+INPUT c:/texlive/2023/texmf-dist/tex/generic/babel/locale/it/babel-it.ini
+INPUT c:/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/adjustbox/trimclip.sty
@@ -347,6 +359,7 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/collectbox/collectbox.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pgf.def
 INPUT c:/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/rotating.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -440,12 +453,13 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT ./Figures/tracciato stradale completo.jpg
 INPUT ./Figures/tracciato stradale completo.jpg
-INPUT ./Figures/velocità di progetto F extraurbana.png
-INPUT ./Figures/velocità di progetto F extraurbana.png
-INPUT ./Figures/Lunghezze rettifilo minime.png
-INPUT ./Figures/Lunghezze rettifilo minime.png
-INPUT ./Figures/criteri clotoide.png
-INPUT ./Figures/criteri clotoide.png
+INPUT ./pdf/critericlotoide.pdf_tex
+INPUT ./pdf/critericlotoide.pdf_tex
+INPUT ./pdf/critericlotoide.pdf
+INPUT ./pdf/critericlotoide.pdf
+INPUT ./pdf/critericlotoide.pdf
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
 INPUT ./Figures/Profilo altimetrico.png
 INPUT ./Figures/Profilo altimetrico.png
 INPUT ./Lectures/lec_3.tex
@@ -481,15 +495,58 @@ INPUT ./Figures/Vista in dettaglio 3D - 1.png
 INPUT ./Figures/Vista in dettaglio 3D - 1.png
 INPUT ./Figures/Vista in dettaglio 3D - 2.png
 INPUT ./Figures/Vista in dettaglio 3D - 2.png
+INPUT ./Figures/Vista in dettaglio 3D - 3.png
+INPUT ./Figures/Vista in dettaglio 3D - 3.png
 INPUT ./Lectures/lec_6.tex
-INPUT ./Figures/Sezione in rilevato.png
-INPUT ./Figures/Sezione in rilevato.png
-INPUT ./Figures/Sezione a mezzacosta.png
-INPUT ./Figures/Sezione a mezzacosta.png
-INPUT ./Figures/sezione in trincea.jpg
-INPUT ./Figures/sezione in trincea.jpg
+INPUT ./Figures/sezione in rilevato.png
+INPUT ./Figures/sezione in rilevato.png
+INPUT ./Figures/sezione a mezzacosta.png
+INPUT ./Figures/sezione a mezzacosta.png
+INPUT ./Figures/sezione in trincea.png
+INPUT ./Figures/sezione in trincea.png
 INPUT ./Figures/Corridor report.png
 INPUT ./Figures/Corridor report.png
 INPUT ./appendix.tex
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Simple Horizontal Integrity Report.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
+INPUT ./pdf/Controllo altimetria.pdf
 INPUT ./master.aux
 INPUT ./master.out
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb

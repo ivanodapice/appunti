@@ -3,7 +3,7 @@
 \usepackage{textcomp}
 \usepackage[hyphens]{url}
 %\usepackage[style=alphabetic,maxcitenames=1]{biblatex}
-\usepackage[colorlinks=true,linkcolor=cyan,urlcolor=magenta,citecolor=violet]{hyperref}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=magenta,citecolor=violet]{hyperref}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{booktabs}
@@ -393,3 +393,11 @@
 % end appendix autoref patch
 
 \setcounter{tocdepth}{1}
+
+%\makeatletter
+%\renewcommand{\@chapapp}{}   % used with fancyr to customize chapter name
+%\makeatother
+
+\usepackage[italian]{babel}   % sets the language in italian
+\usepackage{hyphenat}
+\hyphenation{mate-mati-ca recu-perare}
