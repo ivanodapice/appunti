@@ -359,6 +359,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 INPUT c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 INPUT c:/texlive/2023/texmf-dist/tex/latex/marginnote/marginnote.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/easy/easybmat.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/easy/easy.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -512,6 +514,23 @@ INPUT ./Figures/insiemi sistemi vett.pdf_tex
 INPUT ./Figures/insiemi sistemi vett.pdf
 INPUT ./Figures/insiemi sistemi vett.pdf
 INPUT ./Figures/insiemi sistemi vett.pdf
+INPUT ./Lectures/lec_3.tex
+INPUT ./Figures/sottospazio vettoriale.pdf_tex
+INPUT ./Figures/sottospazio vettoriale.pdf_tex
+INPUT ./Figures/sottospazio vettoriale.pdf
+INPUT ./Figures/sottospazio vettoriale.pdf
+INPUT ./Figures/sottospazio vettoriale.pdf
+INPUT ./Figures/laplace.pdf_tex
+INPUT ./Figures/laplace.pdf_tex
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
+INPUT ./Figures/laplace.pdf
 INPUT ./appendix.tex
 INPUT ./master.aux
 INPUT ./master.out

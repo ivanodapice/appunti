@@ -10,4 +10,7 @@
 \contentsline {section}{\numberline {2.3}Teorema di caratterizzazione dei sistemi di vettori linearmente dipendenti}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Basi di uno spazio vettoriale}{10}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Teorema di caratterizzazione delle basi}{11}{section.2.5}%
-\contentsline {chapter}{\numberline {A}Additional Proofs}{16}{appendix.A}%
+\contentsline {chapter}{\numberline {3}Sottospazi Vettoriali}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Complemento Algebrico}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Rango di una Matrice}{19}{section.3.2}%
+\contentsline {chapter}{\numberline {A}Additional Proofs}{21}{appendix.A}%

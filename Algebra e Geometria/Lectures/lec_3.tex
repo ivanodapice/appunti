@@ -1,0 +1,218 @@
+\chapter{Sottospazi Vettoriali}
+\lecture{3}{9 Sep. 08:00}{Spazi vettoriali}
+
+Sia $V$ uno spazio vettoriale, se $S\subseteq V$ si dice che $S$ è un sottospazio di $V$ se e solo se $S$ con le operazioni creditate da V è uno spazio vettoriale 
+\begin{figure}[H]
+	\centering
+	\incfig{sottospazio vettoriale}
+	\caption[Caption]{Sottospazio Vettoriale}
+	\label{fig:sottospaziovettoriale}
+\end{figure}
+
+\begin{definizione}
+	$S$ è un sottopazio di $V$ se:\\
+	A: $\forall \underline{w}_1+\underline{w}_2\in S - \underline{w}_1+\underline{w}_2\in S$\\
+	B: $\forall\alpha\in\mathbb{R}, \underline{w}_1\in S - \alpha\underline{w}_1\in S$
+\end{definizione}
+
+\begin{es}
+	\phantom{}\\
+	$S_1=\{(c,c^2)/c\in\mathbb{R}^2\}\subseteq\mathbb{R}^2$\\
+	$(0,0)\in S_1$\\ $(2,4)\in S_1$\\ $(1,1)\in S_1$\\ $(2,4)+(1,1)=(3,5)\notin S_1$ Non è soddisfatta la (A) e quindi $S_1$ non è sottospazio di $\mathbb{R}^2$\\\\$\diamondsuit$\\
+	$S_2=\mathbb{R}^2-\{0,0\}$\\ $(0,0)\notin S_2$ quindi $S_2$ non è un sottospazio\\\\$\diamondsuit$\\
+	$S_3=\mathbb{R}^2-\{6,9\}$\\ $(0,0)\in S_3$\\ $(-6,-9)\in S_3$\\ $(-1)\cdot(-6,-9)=(6,9)\notin S_3$ Non è soddisfatta la (B)\\\\$\diamondsuit$\\
+	$S_4=\{(a,b)/a,b\in\mathbb{Z}\}$\\ $(6,9)\in S_4$\\ $\frac{1}{\pi}\in\mathbb{R}$, $\frac{1}{\pi}\cdot(6,9)=(\frac{6}{\pi};\frac{9}{\pi})\notin S_4$ Non è soddisfatta la (B)\\\\$\diamondsuit$\\
+	$S_5=\{(\frac{n}{\pi};\frac{2n}{\pi})/-1000<n<1000, n\in\mathbb{Z}\}$\\
+	$(0,0)\in S_5$ Se ha 2001 elementi quindi non è uno spazio vettoriale perché non è infinito\\\\$\diamondsuit$\\
+	$S_6=\{P(x)\}\subseteq\mathbb{R}[x]$\\ A: $xq_1(x)+xq_2(x)=x(q_1(x)+q_2(x))$\\ B: $\alpha(xq(x))=x(\alpha q(x))$\\ $S_6=\{xq(x)/q(x)\in\mathbb{R}[x]\}$, $S_6$ è un sottospazio di $\mathbb{R}[x]$\\\\$\diamondsuit$\\
+	$S_7=\{\underline{0}\}=\{(0,0)\}\subseteq\mathbb{R}^2$, $S_7$ è un sottospazio di $\mathbb{R}^2$
+\end{es} 
+\phantom{text}\\
+\phantom{text}\\
+Ogni spazio vettoriale $V$ contiene il sottospazio nullo: $\{\underline{0}\}$
+
+\begin{proposizione}
+	\phantom{text}\\
+	Comunque scelti $\underline{v}_1,\dots,\underline{v}_n\in V$\\
+	$S=<\underline{v}_1,\dots,\underline{v}_n>=\{\alpha\underline{v}_1+\dots+\alpha\underline{v}_n/\alpha_i\in\mathbb{R}\}$ è un sottospazio di $V$\\
+	infatti: $(\alpha_1\underline{v}_1+\dots+\alpha_n\underline{v}_n)+(\beta_1\underline{v}_1+\dots+\beta_n\underline{v}_n)=(\alpha_1+\beta_1)\underline{v}_1+\dots+(\alpha_n+\beta_n)\underline{v}_n\in S$, Quindi (A) è verificata.\\\\
+	$\alpha(\beta_1\underline{v}_1+\dots+\beta_n\underline{v}_n)=(\alpha\beta_1)\underline{v}_1+\dots+(\alpha\beta_n)\underline{v}_n\in S$, Quindi (B) è verificata.
+\end{proposizione}
+
+\begin{es}
+	\phantom{text}\\
+	Determinare la dimensione del sottospazio $<\begin{pmatrix}
+		1&2\\
+		3&4
+	\end{pmatrix}>=5$\\
+	$S=\{\begin{pmatrix}
+	       \alpha& 2\alpha\\
+		   3\alpha& 4\alpha
+	     \end{pmatrix}/ \alpha\in\mathbb{R}\}$ linearmente indipendente perché $\begin{pmatrix}
+			0&0\\
+			0&0
+		 \end{pmatrix}$ solo se $\alpha=0$ e genera anche $S$\\
+		 Quindi una sua base è $\begin{pmatrix}
+			1&2\\
+			3&4
+		 \end{pmatrix}\Mapsto\dim S=1$\\\\
+		 Calcolare la dimensione del sottospazio dei polinomi $<x^{2024}>=\{\alpha x^{2024}/\alpha\in\mathbb{R}\}\Mapsto\dim =1$
+\end{es}
+
+\begin{proposizione}
+	\phantom{text}\\
+	$\forall\underline{v}\neq\underline{0}$ in un qualsiasi spazio  vettoriale $V$ si ha che:\\
+	$<\underline{v}>=\{\alpha\underline{v}/\alpha\in\mathbb{R}\}$ è un sottospazio di $V$ di dimensione 1, e una sua base è $[\underline{v}]$\\$\diamondsuit$\\
+	$T=<\underline{v}_1,\dots,\underline{v}_k>\subseteq V$\\
+	(T è un sottospazio di $V$)\\
+	(T ha dimensione $\leqslant\alpha k$)\\\\
+	- Se $\underline{v}_1,\dots,\underline{v}_k$ sono indipententi, allora sono anche una base di T e quindi $\dim T=k$\\
+	- Se $\underline{v}_1,\dots,\underline{v}_k$ sono dipendenti, allora non sono una base, quindi non sono minimali di generatori e così una base di T contiene meno di k vettori. Di conseguenza $\dim T<k$\\$\diamondsuit$\\
+	$T_n=\{\text{Polinomi di grado}\leqslant n\}$, $\dim T_n=n+1$\\
+	$T_3=\{a_0+a_1 x+a_2 x^2+a_3 x^3/a_i\in\mathbb{R}\}=<x^0,x^1,x^2,x^3>\mapsto[1,x^1,x^2,x^3]$ è indipendente e quindi $\dim T_3=4$\\\\
+	Sottospazio di $\mathbb{R}[x]$ di dimensione $1000=T_{999}=\{a_0+a_1 x+\dots+a_{999}x^{999}/a\in\mathbb{R}\}$ BASE$=[1,x,x^2,x^3,\dots,x^{999}]$
+\end{proposizione}
+
+\begin{proposizione}
+	\phantom{text}\\
+	A: Se $W$ è un sottospazio di $V$ e $\dim V=n$ allora $\dim W\leqslant\dim V$\\
+	B: Se $\dim W=\dim V\mapsto W=V$
+	\begin{dimostrazione}[A]
+		Per il lemma di Steinitz, più di n vettori dentro W sono linearmente dipendenti, di conseguenza, un sistema indipendente massimale in W non può contenere più di n vettori.
+	\end{dimostrazione}
+	\begin{dimostrazione}[B]
+		Siano $\underline{w}_1,\dots,\underline{w}_n$ vettori indipendenti di W (una base di W), \\$[\underline{w}_1,\dots,\underline{w}_n,\underline{v}]\forall\underline{v}\in V$, $n+1$ vettori in uno spazio vettoriale di dimensione n, per il lemma di Steinitz sono linearmente dipendenti, allora $\underline{w}_1,\dots,\underline{w}_n$ è indipendente massimale in V e di conseguenza genera V
+	\end{dimostrazione}
+\end{proposizione}
+
+Vediamo adesso alcuni sottospazi di $\mathbb{R}^2, (\dim\mathbb{R}^2=2)$:\\
+$W$ sottospazio di $\mathbb{R}^2$\\
+$\dim W=0$ Esiste un solo sottospazio: $W=\{(0,0)\}$\\
+$\dim W=1$ Tutti i sottospazi del tipo: $<\underline{v}>\forall\underline{v}\neq\underline{0}$\\
+$\dim W=2$ Esiste un solo sottospazio: $W=\mathbb{R}^2$
+
+\section{Complemento Algebrico}
+
+Si chiama complemento algebrico di posto $(i,j)$ il numero reale $A_{ij}$ elevando $-1$ alla $i+j$ e moltiplicandolo per il determinante della matrice che si ottiene cancellando la i-esima riga e la j-esima colonna:\\
+$A_{ij}=(-1)^{i+j}\cdot\det\begin{pmatrix}
+	\text{coef}_{1,1}(A) & \ldots & \text{coef}_{1,n}(A) \\
+	\vdots & \ddots & \vdots \\
+	\text{coef}_{n,1}(A) & \ldots & \text{coef}_{n,n}(A)
+	\end{pmatrix}$
+\begin{es}
+	$A=\begin{pmatrix}
+		1&3&1\\
+		0&1&-1\\
+		5&6&7
+	\end{pmatrix}$\\\\
+	$A_{2,1}=(-1)^3\cdot\det\begin{pmatrix}
+		\begin{BMAT}(b){rrr}{ccc}
+		1 & 3 & 1\\
+		0 & 1 & -1\\
+		5 & 6 & 7
+		\addpath{(1,1,0)rrullldr}
+		\addpath{(0,0,0)ruuulddd}
+        \end{BMAT}  
+	\end{pmatrix}=-1(21-6)=-15$\\\\\\
+	$A_{1,3}=(-1)^4\cdot\det\begin{pmatrix}
+		\begin{BMAT}(b){rrr}{ccc}
+		1 & 3 & 1\\
+		0 & 1 & -1\\
+		5 & 6 & 7
+		\addpath{(1,2,0)rrullldr}
+		\addpath{(2,0,0)ruuulddd}
+        \end{BMAT}  
+	\end{pmatrix}=1(-5)=-5$
+\end{es}
+
+\begin{teorema}[$4\degree$ Teorema di Laplace]
+	Il determinante di una matrice quadrata A, è la somma dei prodotti degli elementi di una linea (ruga o colonna) di A moltiplicati per i loro componenti algebrici.\\
+	$\det A=a_{i,1}\cdot A_{i,1}+a_{i,2}\cdot A_{i,2}+\dots+a_{i,n}\cdot A_{i,n}$\\
+	$\det A=a_{1,j}\cdot A_{1,j}+a_{2,j}\cdot A_{2,j}+\dots+a_{n,j}\cdot A_{n,j}$
+\end{teorema}
+
+\begin{esercizio}
+	Verificare se $\underline{v}_1,\underline{v}_2,\underline{v}_3$ sono una base di $\mathbb{R}^3$\\
+	$\underline{v}_1=(1,3,1); \underline{v}_2=(0,1,-1); \underline{v}_3=(5,6,7)$\\
+	Dato che tutte le basi di $\mathbb{R}^3$ contengono 3 vettori, basta verificare che sono indipendenti massimali, cioè che $\det A\neq 0$\\
+	$A=\begin{pmatrix}
+		1&3&1\\
+		0&1&-1\\
+		5&6&7
+	\end{pmatrix}\mapsto \det\begin{pmatrix}
+		1&3&1\\
+		0&1&-1\\
+		5&6&7
+	\end{pmatrix}=(a^2=(a^2+a^3))=\det\begin{pmatrix}
+		1 & 4 & 1\\
+		0 & 0 &-1\\
+		5 & 13 & 7
+	\end{pmatrix}$\\
+	Con laplace: $0\cdot A_{2,1}+0\cdot A_{2,2}+(-1)\cdot(-1)^5\det\begin{pmatrix}
+		1 &4\\
+		5 &13
+	\end{pmatrix}=(+1)(13-20)=-7$, ovvero i coefficienti (in questo caso della seconda riga) per i complementi algebrici di A relativi sempre alla seconda riga\\
+	Dato che il determinante di A è diverso da 0: $[(1,3,1),(0,1,-1),(5,6,7)]$ è una base di $\mathbb{R}^3$
+\end{esercizio}
+
+\begin{figure}[H]
+	\centering
+	\incfig{laplace}
+	\caption[Caption]{Visualizzazione grafica dell'esercizio precedente}
+	\label{fig:laplacees1}
+\end{figure}
+
+\begin{esercizio}
+	Verificare se $[(1,0,1,1),(1,2,-1,0),(1,1,-1,-1),(0,1,0,4)]$ è una base di $\mathbb{R}^4$\\
+	$\det\begin{pmatrix}
+		1 & 0 & 1 & 1\\
+		1 & 2 & -1 & 0\\
+		1 & 1 & -1 & -1\\
+		0 & 1 & 0 & 4
+	\end{pmatrix}=(a^4=(a^4-4a))=\det\begin{pmatrix}
+		1 & 0 & 1 & 1\\
+		1 & 2 & -1 & -8\\
+		1 & 1 & -1 & -5\\
+		0 & 1 & 0 & 0
+	\end{pmatrix}=\text{laplace 4a riga}=+1\det\begin{pmatrix}
+		1 & 1 & 1\\
+		1 & -1 & -8\\
+		1 & 1 & -5
+	\end{pmatrix}=\det\begin{pmatrix}
+		2 & 1 & 1\\
+		0 & -1 & -8\\
+		0 & -1 & -5
+	\end{pmatrix}=\text{laplace 1a colonna}=2\det\begin{pmatrix}
+		-1 & -8\\
+		-1 & -5
+	\end{pmatrix}=2(5-8)=-6$\\\\
+	Si, i vettori formano una base di $\mathbb{R}^4$
+\end{esercizio}
+
+\section{Rango di una Matrice}
+
+Il rango di una matrice qualsiasi è pari al numero massimo di righe indipendenti o al numero massimo di colonne indipendenti.\\
+$A\in M_{m\times n}$, $rgA\leqslant min\{m,n\}$\\
+$\begin{pmatrix}
+	1 & 2 & 3 & 4\\
+	0 & 1 & 0 & 1\\
+	-1 & 5 & 6 & 7
+\end{pmatrix}=(\underline{a}^1, \underline{a}^2, \underline{a}^3, \underline{a}^4), (\underline{a}_1,\underline{a}_2,\underline{a}_3)$\\
+$<\underline{a}^1, \underline{a}^2, \underline{a}^3, \underline{a}^4>\subseteq\mathbb{R}^3$\\
+$<\underline{a}_1,\underline{a}_2,\underline{a}_3>\subseteq\mathbb{R}^4$\\
+La dimensione di $<\underline{a}_1,\underline{a}_2,\underline{a}_3>$ è uguale alla dimensione di $<\underline{a}^1, \underline{a}^2, \underline{a}^3, \underline{a}^4>$ ed è uguale al rango della matrice.\\
+$dim<\underline{a}^1, \underline{a}^2, \underline{a}^3, \underline{a}^4>=dim<\underline{a}_1,\underline{a}_2,\underline{a}_3>=rg(1)$\\\\\\
+Le matrici nulle hanno rango 0:\\
+In ogni spazio vettoriale delle matrici $M_{m\times n}$ c'è una sola matrice di rango 0\\\\
+Le matrici che hanno tutte le righe o colonne proporzionali hanno rango 1:
+$A=\begin{pmatrix}
+	1 & 2 & 0 & 3\\
+	2 & 4 & 0 & 6\\
+	8 & 16 & 0 & 24
+\end{pmatrix}, rg(A)=1$ perché tutte le righe sono proporzionali\\
+$B=\begin{pmatrix}
+	1 & 2 & 0 & 3\\
+	0 & 1 & 0 & 1\\
+	-1 & 5 & 6 & 7
+\end{pmatrix}$, Il rango di B è diverso da 0 perché non è una matrice nulla, diverso da 1 perché non ci sono righe o colonne proporzionali e quindi può essere 2 o 3\\\\
+Se $A\in M_{m\times n}$ è quadrata, il rango massimo possibile è n; Il rango di A è il massimo: $rgA=n\Leftrightarrow \det A\neq 0$

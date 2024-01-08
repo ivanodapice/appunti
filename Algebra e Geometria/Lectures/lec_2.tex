@@ -231,7 +231,7 @@ $[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente
 
 \section{Teorema di caratterizzazione dei sistemi di vettori linearmente dipendenti}
 
-\begin{teorema}
+\begin{teorema}\label{caratterizzazione}
 	$[v_1,...,v_n]$ lin. dipendenti $\Longleftrightarrow $ Almeno un vettore è combinazione lineare degli altri\\
 	\begin{dimostrazione}[da destra a sinistra]
 		\phantom{}\\
@@ -628,6 +628,107 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	\end{pmatrix}$ (vale anche per le colonne)\\
 	
 \end{proposizione}
+
+\begin{teorema}[Dipendenza lineare e matrici]
+	\phantom{}\\
+	$V=\mathbb{R}^n$ se $[\underline{v}_1,\cdots,\underline{v}_n]$ è linearmente indipendente e quindi se e solo se $\det\begin{pmatrix}
+		\underline{v}_1\\
+		\cdots\\
+		\underline{v}_n
+	\end{pmatrix}\neq 0$
+	\begin{dimostrazione}[da dx a sx, n=4]
+		\phantom{}\\
+		Se $[\underline{v}_1,\underline{v}_2,\underline{v}_3,\underline{v}_4]$ è linearmente dipendente, allora, almeno uno di essi è combinazione lineare degli altri [teorema di caratterizzazione], quindi supponiamo che $\underline{v}_4=\alpha\underline{v}_1+\beta\underline{v}_2+\gamma\underline{v}_3$\\
+		$\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			\underline{v}_4
+		\end{pmatrix}=\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			(\alpha\underline{v}_1+\beta\underline{v}_2)\gamma\underline{v}_3
+		\end{pmatrix}=\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			\alpha\underline{v}_1+\beta\underline{v}_2
+		\end{pmatrix}+\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			\gamma\underline{v}_3
+		\end{pmatrix}\\
+		\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			\alpha\underline{v}_1
+		\end{pmatrix}+\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			\beta\underline{v}_2
+		\end{pmatrix}+\det\begin{pmatrix}
+			\underline{v}_1\\
+			\underline{v}_2\\
+			\underline{v}_3\\
+			\gamma\underline{v}_3
+		\end{pmatrix}=0$
+	\end{dimostrazione}
+\end{teorema}
+
+\begin{corollario}[relativo alla terza proprietà]
+	\phantom{text}\\
+	$\det\begin{pmatrix}
+		\underline{a}_1+\beta\underline{a}_i\\
+		\underline{a}_2\\
+		\vdots\\
+		\underline{a}_n
+	\end{pmatrix}=\det\begin{pmatrix}
+		\underline{a}_1\\
+		\vdots\\
+		\underline{a}_n
+	\end{pmatrix}$(stessa formula anche per le colonne)
+	\begin{dimostrazione}
+		$\det\begin{pmatrix}
+			\underline{a}_1+\beta\underline{a}_i\\
+			\underline{a}_i\\
+			\underline{a}_n
+		\end{pmatrix}=\det\begin{pmatrix}
+			\underline{a}_1\\
+			\underline{a}_i\\
+			\underline{a}_n
+		\end{pmatrix}+\det\begin{pmatrix}
+			\beta\underline{a}_i\\
+			\underline{a}_i\\
+			\underline{a}_n
+		\end{pmatrix}=\det\begin{pmatrix}
+			\underline{a}_1\\
+			\underline{a}_i\\
+			\underline{a}_n
+		\end{pmatrix}+0=\det\begin{pmatrix}
+			\underline{a}_1\\
+			\vdots\\
+			\underline{a}_n
+		\end{pmatrix}$
+	\end{dimostrazione}
+	\begin{es}
+		$\det\begin{pmatrix}
+			1, 2, 3, 4\\
+			2, -1, 5, 5\\
+			0, 2, 3 ,4\\
+			1, 1, 1, 1
+		\end{pmatrix}=\det\begin{pmatrix}
+			1, 2, 3, 4\\
+			0, -5, -1, -3\\
+			0, 2, 3, 6\\
+			1, 1, 1, 1
+		\end{pmatrix}$\\
+		Abbiamo trasformato $\underline{a}_2$ in $\underline{a}_2-2\underline{a}_1$  per far diventare $\underline{a}_4=0$
+	\end{es}
+\end{corollario}
 
 
 
