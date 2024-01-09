@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber master"] 1704740773 "master.bcf" "master.bbl" "master" 1704740773 0
-  "master.bcf" 1704740772 107795 c278d89dbdf90cddc47a36867fb016fd "lualatex"
+["biber master"] 1704742245 "master.bcf" "master.bbl" "master" 1704742245 0
+  "master.bcf" 1704742244 107795 c278d89dbdf90cddc47a36867fb016fd "lualatex"
   "ref.bib" 0 -1 0 ""
   (generated)
   "master.bbl"
   "master.blg"
   (rewritten before read)
-["lualatex"] 1704740766 "c:/Users/ivano/Documents/GitHub/appunti/Algebra e Geometria/master.tex" "master.pdf" "master" 1704740773 0
+["lualatex"] 1704742237 "c:/Users/ivano/Documents/GitHub/appunti/Algebra e Geometria/master.tex" "master.pdf" "master" 1704742245 0
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1700743711 81829 7f450278dc4a73c6da318986f916175a ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc" 1700743711 81432 d736f031b49fd4a563434779fc8e8f6e ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1700743708 128402 faa3ffe035660d7ee5b0b6d595f551aa ""
@@ -39,7 +39,7 @@
   "Figures/sottospazio vettoriale.pdf_tex" 1704725310 2916 17ece9c324c0da1e35f04339a586f629 ""
   "Lectures/lec_1.tex" 1701210275 6550 cd4791e2990d3d9f27d69a425e53acef ""
   "Lectures/lec_2.tex" 1704725337 32699 8ada2738c07f67435c2cc2bf38277232 ""
-  "Lectures/lec_3.tex" 1704740733 10557 01df432eaece69c8e82040d1e8ae2eb7 ""
+  "Lectures/lec_3.tex" 1704742202 11338 647798a046c2d3a34c67af967e920364 ""
   "Math.tex" 1701210275 2886 f52ad8a9998ff58607f2f3722daee4ae ""
   "appendix.tex" 1700911863 29 9cae46d33379f896d504a75e6729f4a4 ""
   "c:/Users/ivano/Documents/GitHub/appunti/Algebra e Geometria/master.tex" 1704734525 4125 1011bf2ac958c2a5d5a436c50016de85 ""
@@ -447,12 +447,12 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700738316 4734881 9df31af74c23cb5b6845d6b52ecc54e5 ""
   "c:/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1700738520 12251974 1b373cd40400398bc4c43e5f145a6f1c ""
   "header.tex" 1701084928 13600 9c9669f8791c9bd16e2feef479699be6 ""
-  "master.aux" 1704740772 29126 13ff37e8ab8953723ceb96e2400d4c6a "lualatex"
+  "master.aux" 1704742244 29249 f908bbbe79b755817f635c7cb6d497e6 "lualatex"
   "master.bbl" 0 -1 0 "biber master"
-  "master.out" 1704740772 2371 bddedb222b96efe0d1aec25981c24489 "lualatex"
-  "master.run.xml" 1704740772 2353 d80257892029ce454047f36fb67cd80a "lualatex"
+  "master.out" 1704742244 2540 ed8fa8d4b771d77b64d41ffde6af69f9 "lualatex"
+  "master.run.xml" 1704742244 2353 d80257892029ce454047f36fb67cd80a "lualatex"
   "master.tex" 1704734525 4125 1011bf2ac958c2a5d5a436c50016de85 ""
-  "master.toc" 1704740772 1368 61abb681731c0a22a79fd2cedcdeaad4 "lualatex"
+  "master.toc" 1704742244 1450 ba8edc47b94406296df2d061a97e355b "lualatex"
   (generated)
   "master.aux"
   "master.bcf"
