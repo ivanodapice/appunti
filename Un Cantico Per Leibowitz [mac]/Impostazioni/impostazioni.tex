@@ -27,13 +27,12 @@ final 		% Per una copia pronta alla stampa.
 final,
 protrusion=true,
 expansion=true
-]{microtype} 													% Meno badbox.
-\usepackage{cjhebrew} 											% Necessario per scrivere testo in alfabeto ebraico.
-																% https://ctan.mirror.garr.it/mirrors/ctan/language/hebrew/cjhebrew/cjhebrew.pdf
-\usepackage{garamondlibre} 									% Modifica del carattere.
-																% Controlla: https://tug.org/FontCatalogue/
-%\renewcommand*\familydefault{\sfdefault} 						% se il font di base è sans serif.
-\newcommand*\diagonalstrikev{\setmainfont{Font/Andika-Regular.ttf}} 	% Necessario per visualizzare i caratteri ꝟ,ꝶ.
+]{microtype} 															% Meno badbox.
+\usepackage{cjhebrew} 													% Necessario per scrivere testo in alfabeto ebraico.
+																		% https://ctan.mirror.garr.it/mirrors/ctan/language/hebrew/cjhebrew/cjhebrew.pdf
+\usepackage{garamondlibre} 												% Modifica del carattere.
+																		% Controlla: https://tug.org/FontCatalogue/
+%\renewcommand*\familydefault{\sfdefault} 								% se il font di base è sans serif.
 
 %----------------FONTS----------------%
 
@@ -53,8 +52,10 @@ expansion=true
 %\checkandfixthelayout[fixed]{} 				% Ho messo questo per sicurezza, per assicurare che il layout precedente sia fisso.
 %\usepackage[paperwidth=148mm, paperheight=210mm,bindingoffset=0mm]{geometry}
 \setlrmarginsandblock{10mm}{18mm}{*}
-\setulmarginsandblock{20mm}{*}{1}
+\setulmarginsandblock{25mm}{*}{*}
+\setheaderspaces{*}{*}{1.618}
 \checkandfixthelayout 
+%\OnehalfSpacing								$ Se vuoi verticalizzare il testo con più spazio
 
 %--------------PAGE LAYOUT------------%
 
@@ -63,6 +64,7 @@ expansion=true
 \chapterstyle{thatcher}
 % https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/contrib/memoir/memman.pdf
 % Pagina 430: Showcases
+% default , section , hangnum , companion , article, demo
 
 %-------------CHAPTER STYLE-----------%
 
@@ -85,15 +87,6 @@ expansion=true
 \setlength{\absrightindent}{\absleftindent}
 
 %---------------ABSTRACT--------------% 
-
-%-----------HEADER AND FOOTER---------%
-
-\pagestyle{headings}            % Scelta dello stile di pagina e dello stile del capitolo.
-
-								% https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/contrib/memoir/memman.pdf
-								% Pagina 156: 7. PAGINATION AND HEADERS
-
-%-----------HEADER AND FOOTER---------%
 
 %-----------TABLE OF CONTENTS---------%
 
