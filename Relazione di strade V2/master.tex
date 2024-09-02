@@ -1,0 +1,133 @@
+\documentclass[a4paper]{report}
+\input{header.tex}
+
+%\usepackage[modulo]{lineno}          % Line numbers package
+%\preto{\chapter}{\resetlinenumber}
+%\linenumbers
+\usepackage{array}
+\usepackage{graphicx}
+\definecolor{titlepagecolor}{cmyk}{1,.38,0,.15} %C100 M38 Y0 K15
+\definecolor{namecolor}{cmyk}{0, 0, 0, .0980} 
+
+\usepackage{textcase}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+
+\thispagestyle{empty}
+\addbibresource{ref.bib}
+
+%\usepackage[]{darkmode}            % Enables dark mode
+%\enabledarkmode
+
+\usepackage{adjustbox}
+\usepackage{centernot}
+
+\usepackage{unicode-math}           % Required to use math fonts
+\setmathfont{TeX Gyre Bonum Math}   % Custom font for equations
+
+\begin{document}
+
+\begin{titlepage}
+    \color{namecolor}
+	
+	\pagecolor{titlepagecolor}
+	
+	\noindent
+	\makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
+	\par
+	
+	\noindent
+	\textbf{\sffamily{Università degli Studi di Napoli Federico II}}\\
+	\noindent\sffamily{Dipartimento di Ingegneria Civile Edile e Ambientale} \par\vskip\baselineskip
+	
+	\vspace{1em}
+	
+	\begin{flushleft}
+	
+	\noindent % Titolo
+	{\LARGE \sf Relazione di Strade e BIM per Infrastrutture \par}\vskip\baselineskip 
+	
+	\noindent % Sottotitolo
+	 \sf Codice - ICAR/04 - 9CFU \par \vskip\baselineskip
+	\end{flushleft}
+	
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Francesco Zampella, N38001913}\par} 
+	\par \vskip\baselineskip
+	\noindent
+	\vspace{1em}
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Laura Amendola, N41002791}\par} 
+	\par \vskip\baselineskip
+	\noindent
+	\vspace{1em}
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Ivano D'Apice, N41002772}\par} 
+	\par \vskip\baselineskip
+	\noindent
+	\vspace{1em}
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Francesca Pia Gagliardi, N41002910}\par} 
+	\par \vskip\baselineskip
+	\noindent
+	\vspace{1em}
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Domenico Iervolino, N38001993}\par} 
+	\par \vskip\baselineskip
+	\noindent
+	\vspace{1em}
+	\noindent % Autore
+	{\sffamily\MakeTextUppercase{Giovanna Pia Di Ruocco, N41002658}\par} 
+	\par \vskip\baselineskip
+	\noindent
+	\vspace{1em}
+	
+	%Professori
+	\noindent\sffamily{\textbf{Docenti:}}\par \vskip\baselineskip
+	\noindent
+	\sffamily{\MakeTextUppercase{Prof. Gianluca Dell’Acqua} \\ 
+	\small{\textbf{Università degli Studi di Napoli Federico II}\\
+	Dipartimento di Ingegneria Civile Edile e Ambientale}} \par \vskip\baselineskip
+	\par \vskip\baselineskip
+	
+	%Assistenti
+	\noindent
+	\sffamily{\MakeTextUppercase{Prof. Salvatore A. Biancardo} \\ 
+	\small{\textbf{Università degli Studi di Napoli Federico II}\\
+	Dipartimento di Ingegneria Civile Edile e Ambientale}} \par \vskip\baselineskip
+	\par \vskip\baselineskip
+	
+	\vspace{2em} % Data del documento
+	
+	 {\footnotesize   \ttfamily{25 Nov 2023} \par}
+	
+	\color{black}
+	
+\end{titlepage}
+\makeatother
+\nopagecolor % Use this to restore the color pages to white
+\pagecolor{white}
+
+\begin{abstract}
+	In questo documento affronteremo la realizzazione di una strada di tipo F1 Extraurbana con le necessarie verifiche e calcoli. Partiremo dal tracciato stradale per poi posizionare al meglio i vari tratti del percorso facendo attenzione alle curve di livello. Passeremo poi a studiare un piano altimetrico e la conseguente sopraelevazione che ci darà poi i dati da dare al software (Openroads) per generare il profilo dei cigli. In fine seguiranno le varie verifiche da normativa cogente.
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+%─────Lezioni────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\lec{1}{6}
+
+\newpage
+%─────Appendice────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\appendix
+\appendixpage
+
+\input{appendix.tex}
+
+\end{document}

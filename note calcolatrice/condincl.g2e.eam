@@ -1,0 +1,16 @@
+g2econdinclh_{1}+g·z_{1}=h_{2}+g·z_{2}
+°S_{gen}=m°c·ln\frac{T_{2}}{T_{1}}
+v(P_{2}-P_{1})+g(z_{2}-z_{1})+r=0
+P_{2}=P_{1}-\frac{1}{v}(r+g(z_{2}-z_{1}))
+inclinato basso:
+reale:
+r>0;P_{2}dipende da gravita
+T_{2}>T_{1}
+ideale:
+r=0; P_{2}>P_{1}; T_{2}=T_{1}
+inclinato alto:
+reale:
+r>0;P_{2}<P_{1}
+T_{2}>T_{1}
+ideale:
+r=0; P_{2}<P_{1}; T_{2}=T_{1}

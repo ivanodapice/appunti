@@ -1,0 +1,17 @@
+g2eGeneraleC=\frac{δQ}{δT}[\frac{kJ}{k}]
+c=\frac{C}{m}[\frac{kJ}{kgk}]
+c_{v}=\frac{δu}{δT}
+c_{p}=\frac{δh}{δT}
+Fasi:
+P>P_{s}(T) liquido
+P<P_{s}(T) aeriforme
+P=P_{s}(T) vap sat
+T>T_{s}(P) aeriforme
+T<T_{s}(P) liquida
+T=T_{s}(P) vap saturo
+s<s_{s}(T) liquido
+s>s_{vs}(T) aeriforme
+s_{s}(T)<s<s_{vs}(T) vap saturo
+h<h_{s}(P) liquido
+h>h_{vs}(P) aeriforme
+h_{s}(P)<h<h_{vs}(P) vap saturo

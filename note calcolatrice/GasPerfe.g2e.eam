@@ -1,0 +1,13 @@
+g2eGasPerfePv=RT;PV=mRT
+▲u=c_{v}▲T
+▲h=c_{p}▲T
+▲s=c_{v}ln(\frac{T_{2}}{T_{1}})+Rln(\frac{v_{2}}{v_{1}})
+▲s=c_{p}ln(\frac{T_{2}}{T_{1}})-Rln(\frac{P_{2}}{P_{1}})
+▲s=c_{p}ln(\frac{v_{2}}{v_{1}})+c_{v}ln(\frac{P_{2}}{P_{1}})
+adiab revers
+S_{gen}=0
+▲s=0
+k tabellare
+T_{1}v_{1}^{k-1}=T_{2}v_{2}^{k-1}
+\frac{T_{1}}{P_{1}^{\frac{k-1}{k}}}=\frac{T_{2}}{P_{2}^{\frac{k-1}{k}}}
+P_{1}v_{1}^{k}=P_{2}v_{2}^{k}

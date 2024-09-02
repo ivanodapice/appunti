@@ -1,0 +1,665 @@
+﻿<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cif="cif">
+  <head>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" type="text/css" href="C:\Program Files\Bentley\OpenRoads Designer CE 10.12\OpenRoadsDesigner\Default\Reports\_Themes\/engtheme.css">
+    <title lang="en">Vertical Alignment Review with XY Coordinates Report</title>
+  </head>
+  <body>
+    <center>
+      <h2 lang="en">Vertical Alignment Review with XY Coordinates Report</h2>
+      <p lang="en">
+                                    Report Created:  mercoledì 29 novembre 2023<br>
+                                    Time:  11:39:05</p>
+    </center>
+    <table class="margin" cellpadding="2" width="90%">
+      <tbody>
+        <tr>
+          <th align="right" lang="en">Progetto:  </th>
+          <td align="left" colspan="2">Default</td>
+        </tr>
+        <tr>
+          <th align="right" lang="en">Descrizione:  </th>
+          <td align="left" colspan="2">
+          </td>
+        </tr>
+        <tr>
+          <th align="right" lang="en">Name File:  </th>
+          <td align="left" colspan="2">C:\Users\io\Desktop\BIM\Gruppo 5 BIM\dgn\modellatore.dgn</td>
+        </tr>
+        <tr>
+          <th align="right" lang="en">Ultima Revisione:  </th>
+          <td align="left" colspan="2">  11/29/2023 11:21:13</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <table class="margin" width="90%">
+      <thead>
+        <tr>
+          <th align="right" colspan="2" lang="en"><br>Tracciato Planimetrico:</th>
+          <td align="left" colspan="4" valign="bottom">X_Asse</td>
+        </tr>
+        <tr>
+          <th colspan="6"> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th align="right" colspan="2" lang="en"><br>Tracciato Altimetrico:</th>
+          <td align="left" colspan="2" valign="bottom">ProfileByTemplate</td>
+        </tr>
+        <tr>
+          <th></th>
+          <th></th>
+          <th align="right" class="underline" lang="en">Progressiva</th>
+          <th align="right" class="underline" lang="en">Quota</th>
+          <th align="right" class="underline" lang="en">Y</th>
+          <th align="right" class="underline" lang="en">X</th>
+        </tr>
+        
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">START</td>
+          <td align="right">0,000</td>
+          <td align="right">346,961</td>
+          <td align="right">4680076,619</td>
+          <td align="right">268797,358</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">299999781,000</td>
+          <td align="right">344,689</td>
+          <td align="right">4679805,834</td>
+          <td align="right">268902,174</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">300,000</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">299999781,000</td>
+          <td align="right">344,689</td>
+          <td align="right">4679805,834</td>
+          <td align="right">268902,174</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">374992344,000</td>
+          <td align="right">344,121</td>
+          <td align="right">4679758,746</td>
+          <td align="right">268960,467</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">74,993</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">374992344,000</td>
+          <td align="right">344,121</td>
+          <td align="right">4679758,746</td>
+          <td align="right">268960,467</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">499989961,000</td>
+          <td align="right">343,175</td>
+          <td align="right">4679686,855</td>
+          <td align="right">269062,698</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">124,998</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">499989961,000</td>
+          <td align="right">343,175</td>
+          <td align="right">4679686,855</td>
+          <td align="right">269062,698</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">550724992,000</td>
+          <td align="right">342,791</td>
+          <td align="right">4679653,383</td>
+          <td align="right">269100,794</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">50,735</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">550724992,000</td>
+          <td align="right">342,791</td>
+          <td align="right">4679653,383</td>
+          <td align="right">269100,794</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">674982510,000</td>
+          <td align="right">341,850</td>
+          <td align="right">4679551,558</td>
+          <td align="right">269170,798</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">124,258</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">674982510,000</td>
+          <td align="right">341,850</td>
+          <td align="right">4679551,558</td>
+          <td align="right">269170,798</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">749974741,000</td>
+          <td align="right">341,282</td>
+          <td align="right">4679480,833</td>
+          <td align="right">269195,556</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">74,992</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">749974741,000</td>
+          <td align="right">341,282</td>
+          <td align="right">4679480,833</td>
+          <td align="right">269195,556</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">874972383,000</td>
+          <td align="right">340,335</td>
+          <td align="right">4679360,238</td>
+          <td align="right">269228,374</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">124,998</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">874972383,000</td>
+          <td align="right">340,335</td>
+          <td align="right">4679360,238</td>
+          <td align="right">269228,374</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1099969557,000</td>
+          <td align="right">338,631</td>
+          <td align="right">4679175,102</td>
+          <td align="right">269351,029</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">224,997</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1099969557,000</td>
+          <td align="right">338,631</td>
+          <td align="right">4679175,102</td>
+          <td align="right">269351,029</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1207407754,000</td>
+          <td align="right">337,818</td>
+          <td align="right">4679112,908</td>
+          <td align="right">269438,542</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">107,438</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1207407754,000</td>
+          <td align="right">337,818</td>
+          <td align="right">4679112,908</td>
+          <td align="right">269438,542</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1235376375,000</td>
+          <td align="right">337,606</td>
+          <td align="right">4679097,716</td>
+          <td align="right">269462,025</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">27,969</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1235376375,000</td>
+          <td align="right">335,246</td>
+          <td align="right">4679097,716</td>
+          <td align="right">269462,025</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1477138870,000</td>
+          <td align="right">333,415</td>
+          <td align="right">4678844,221</td>
+          <td align="right">269947,430</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">241,762</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1477138870,000</td>
+          <td align="right">333,415</td>
+          <td align="right">4678844,221</td>
+          <td align="right">269947,430</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1488382930,000</td>
+          <td align="right">333,322</td>
+          <td align="right">4678843,261</td>
+          <td align="right">269958,633</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,008</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">11,244</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1488382930,000</td>
+          <td align="right">333,322</td>
+          <td align="right">4678843,261</td>
+          <td align="right">269958,633</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1509886010,000</td>
+          <td align="right">333,100</td>
+          <td align="right">4678841,969</td>
+          <td align="right">269980,097</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,010</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">21,503</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1509886010,000</td>
+          <td align="right">333,100</td>
+          <td align="right">4678841,969</td>
+          <td align="right">269980,097</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1513382140,000</td>
+          <td align="right">333,059</td>
+          <td align="right">4678841,814</td>
+          <td align="right">269983,590</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,012</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">3,496</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1513382140,000</td>
+          <td align="right">333,059</td>
+          <td align="right">4678841,814</td>
+          <td align="right">269983,590</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1534885734,000</td>
+          <td align="right">332,770</td>
+          <td align="right">4678841,108</td>
+          <td align="right">270005,082</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,013</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">21,504</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1534885734,000</td>
+          <td align="right">332,770</td>
+          <td align="right">4678841,108</td>
+          <td align="right">270005,082</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1538381866,000</td>
+          <td align="right">332,717</td>
+          <td align="right">4678841,024</td>
+          <td align="right">270008,577</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,015</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">3,496</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1538381866,000</td>
+          <td align="right">332,717</td>
+          <td align="right">4678841,024</td>
+          <td align="right">270008,577</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1559886171,000</td>
+          <td align="right">332,361</td>
+          <td align="right">4678840,602</td>
+          <td align="right">270030,077</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,017</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">21,504</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1559886171,000</td>
+          <td align="right">332,361</td>
+          <td align="right">4678840,602</td>
+          <td align="right">270030,077</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1563381839,000</td>
+          <td align="right">332,298</td>
+          <td align="right">4678840,540</td>
+          <td align="right">270033,572</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,018</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">3,496</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1563381839,000</td>
+          <td align="right">332,298</td>
+          <td align="right">4678840,540</td>
+          <td align="right">270033,572</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1588381839,000</td>
+          <td align="right">331,800</td>
+          <td align="right">4678840,093</td>
+          <td align="right">270058,568</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,020</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">25,000</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1588381839,000</td>
+          <td align="right">331,800</td>
+          <td align="right">4678840,093</td>
+          <td align="right">270058,568</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1613381839,000</td>
+          <td align="right">331,224</td>
+          <td align="right">4678839,646</td>
+          <td align="right">270083,564</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,023</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">25,000</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1613381839,000</td>
+          <td align="right">331,224</td>
+          <td align="right">4678839,646</td>
+          <td align="right">270083,564</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1638381839,000</td>
+          <td align="right">330,569</td>
+          <td align="right">4678839,199</td>
+          <td align="right">270108,560</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,026</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">25,000</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1638381839,000</td>
+          <td align="right">330,569</td>
+          <td align="right">4678839,199</td>
+          <td align="right">270108,560</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1663381839,000</td>
+          <td align="right">329,837</td>
+          <td align="right">4678838,752</td>
+          <td align="right">270133,556</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,029</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">25,000</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1663381839,000</td>
+          <td align="right">329,837</td>
+          <td align="right">4678838,752</td>
+          <td align="right">270133,556</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1665504265,000</td>
+          <td align="right">329,771</td>
+          <td align="right">4678838,714</td>
+          <td align="right">270135,678</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,031</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">2,122</td>
+        </tr>
+          <tr>
+          <td align="left" colspan="6" lang="en"><br>Livelletta</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">VPI</td>
+          <td align="right">1665504265,000</td>
+          <td align="right">329,771</td>
+          <td align="right">4678838,714</td>
+          <td align="right">270135,678</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2">END</td>
+          <td align="right">2509670346,000</td>
+          <td align="right">303,502</td>
+          <td align="right">4678823,623</td>
+          <td align="right">270979,710</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Grade:</td>
+          <td align="right">-0,031</td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2" lang="en">Tangent Length:</td>
+          <td align="right">844,166</td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+  </body>
+</html>

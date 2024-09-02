@@ -1,0 +1,20 @@
+g3eConduzioQ°_{k}=\frac{t_{1}-t_{2}}{R_{eq}}
+simm piana: R=\frac{L}{k·A}
+simm cilin: R=\frac{ln(\frac{r}{r_{o}})}{2πkL}
+Reg Transitorio
+simm piana B_{i}=\frac{h_{g}·L}{k}
+simm cilin B_{i}=\frac{h_{g}·r_{o}}{2k}
+simm sferi B_{i}=\frac{h_{g}·r_{o}}{3k}
+B_{i}>0,10 si ricalcola cil e sfer
+·B_{i}<0,10:
+δQ=δU
+δU=ρV·du
+δQ=-A·h_{g}(T(θ)-T_{a})dθ
+T(θ)=T_{a}+(T_{i}-T_{a})e^{-\frac{A·h_{g}}{ρcV}θ}
+·B_{i}>0,10:
+simm piana x*=\frac{x}{L}
+simm cilin x*=\frac{r}{r_{o}}
+∀corpo:
+F_{o}=\frac{α·θ}{L^{2}}
+α=\frac{k}{ρc}
+T*=\frac{T(x;θ)-T_{a}}{T_{i}-T_{a}}
