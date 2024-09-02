@@ -1,0 +1,191 @@
+%----------DOCUMENT SETTINGS----------%
+
+\documentclass[
+a5paper,
+twoside, 	% il documento sarà pubblicato con stampa su entrambi i lati della carta
+onecolumn, 	% Una sola colonna di testo.
+openany, 	% Un capitolo può iniziare sia su una pagina di fronte che su una di retro.
+final 		% Per una copia pronta alla stampa.
+]{memoir} 
+% openright 	% Ogni capitolo inizierà su una pagina di fronte.
+% openleft  	% Ogni capitolo inizierà su una pagina di retro.
+% 13pt, 		% Dimensione del testo.
+% article 		% La tipografia simula la classe dell'articolo.
+% twocolumn		% Due colonne di testo.
+% draft 		% In questo modo le linee strabordanti vengono contrassegnate da barre nere e si possono visualizzare alcuni segni di modifica. Possono verificarsi anche altri effetti, in particolare se si utilizzano alcuni pacchetti.
+%showtrims 		% Prints marks at the corners of the sheet so that you can see where the stock must be trimmed to produce the final page size.
+
+%----------DOCUMENT SETTINGS----------%
+
+%----------------FONTS----------------%
+
+\usepackage[utf8x]{inputenc} 			% Se la codifica è utf8.
+\usepackage[T1]{fontenc}    			%
+\usepackage{fontspec} 					%
+\usepackage[italian]{babel} 			% Capitoli e altri testi in italiano.
+\usepackage[
+final,
+protrusion=true,
+expansion=true
+]{microtype} 													% Meno badbox.
+\usepackage{cjhebrew} 											% Necessario per scrivere testo in alfabeto ebraico.
+																% https://ctan.mirror.garr.it/mirrors/ctan/language/hebrew/cjhebrew/cjhebrew.pdf
+\usepackage{garamondlibre} 									% Modifica del carattere.
+																% Controlla: https://tug.org/FontCatalogue/
+%\renewcommand*\familydefault{\sfdefault} 						% se il font di base è sans serif.
+\newcommand*\diagonalstrikev{\setmainfont{Font/Andika-Regular.ttf}} 	% Necessario per visualizzare i caratteri ꝟ,ꝶ.
+
+%----------------FONTS----------------%
+
+%---------------PACKAGES--------------%
+
+\usepackage{amsmath,amssymb,mathtools} 	% Math.
+\usepackage{ragged2e} 					% Permette \centering e hyphenation.
+\usepackage{tikz} 						% Figures.
+\usepackage{graphicx,calc} 				% Include figures.
+
+%---------------PACKAGES--------------%
+
+%--------------PAGE LAYOUT------------%
+
+%\setlrmarginsandblock{0.1\paperwidth}{*}{1} 	% Margine destro e sinistro.
+%\setulmarginsandblock{0.1\paperwidth}{*}{1}  	% Margine superiore e inferiore.
+%\checkandfixthelayout[fixed]{} 				% Ho messo questo per sicurezza, per assicurare che il layout precedente sia fisso.
+%\usepackage[paperwidth=148mm, paperheight=210mm,bindingoffset=0mm]{geometry}
+\setlrmarginsandblock{10mm}{18mm}{*}
+\setulmarginsandblock{20mm}{*}{1}
+\checkandfixthelayout 
+
+%--------------PAGE LAYOUT------------%
+
+%-------------CHAPTER STYLE-----------%
+
+\chapterstyle{thatcher}
+% https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/contrib/memoir/memman.pdf
+% Pagina 430: Showcases
+
+%-------------CHAPTER STYLE-----------%
+
+%----------FLOATS AND CAPTIONS--------%
+
+\makeatletter                  	% Non è necessario scrivere sempre [htpb].
+\renewcommand\fps@figure{htbp} 	%
+\renewcommand\fps@table{htbp}  	%
+\makeatother                   	%
+\changecaptionwidth          	% Cambia la larghezza della didascalia.
+\captionwidth{1\textwidth}		%
+
+
+%----------FLOATS AND CAPTIONS--------%
+
+%---------------ABSTRACT--------------%
+
+\renewcommand{\abstractnamefont}{\normalfont\small\bfseries} 	% Font del titolo dell'abstract.
+\setlength{\absleftindent}{0.1\textwidth} 						% Larghezza dell'abstract.
+\setlength{\absrightindent}{\absleftindent}
+
+%---------------ABSTRACT--------------% 
+
+%-----------HEADER AND FOOTER---------%
+
+\pagestyle{headings}            % Scelta dello stile di pagina e dello stile del capitolo.
+
+								% https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/contrib/memoir/memman.pdf
+								% Pagina 156: 7. PAGINATION AND HEADERS
+
+%-----------HEADER AND FOOTER---------%
+
+%-----------TABLE OF CONTENTS---------%
+
+\maxtocdepth{subsection} 					% Solo le parti, i capitoli e le sezioni dell'indice.
+\settocdepth{subsection}
+%\AtEndDocument{\addtocontents{toc}{\par}} 	% Aggiungere un paragrafo alla fine del TOC.
+
+%-----------TABLE OF CONTENTS---------%
+
+%-------------COLORED BOXES-----------%
+
+\usepackage[noframe]{showframe}
+\renewenvironment{shaded}
+  	{%
+		\def\FrameCommand{\fboxsep=\FrameSep \colorbox{shadecolor}}%
+		\MakeFramed{\advance\hsize-\width \FrameRestore\FrameRestore}
+	}%
+{\endMakeFramed}
+\usepackage{framed}                          % 
+\definecolor{shadecolor}{gray}{0.75}         %  
+\usepackage{lipsum,stackengine}              %
+\setstackEOL{\\}
+
+%-------------COLORED BOXES-----------%
+
+%----------------LETTRINE-------------%
+
+\begin{filecontents}{Zallman.sty}
+	\NeedsTeXFormat{LaTeX2e}
+	\ProvidesPackage{Zallman}[2007/11/24 v1.0 Zallman CFR]
+	\input Zallman.fd
+	\DeclareRobustCommand{\Zallmanfamily}{
+		\fontencoding{U}%
+		\fontseries{xl}%
+		\fontshape{n}%
+		\fontfamily{Zallman}%
+		\selectfont}
+	\DeclareTextFontCommand{\zall}{\Zallmanfamily}
+	\endinput
+	%% end Zallman.sty
+\end{filecontents}
+
+\usepackage{enumitem,Zallman,Acorn,GoudyIn,lettrine,textalpha,GoudyIn,needspace,textcase}	% Pacchetto DropCap.
+\renewcommand\LettrineFontHook{\color{red}\Zallmanfamily} 									% Pacchetto DropCap per usare lettrine.
+\newcommand{\checklettrine}
+	{
+		\ifnum\prevgraf<\lettrinelines
+		\wlog{\prevgraf}
+		\Repeat{\fpeval{\lettrinelines-\prevgraf}}{\hfill \\}
+		\indent
+		\fi
+	}
+\newcommand{\lettrinelines}{5}
+\linespread{0.8}
+
+%----------------LETTRINE-------------%
+
+%----------------DEDICA---------------%
+
+\newenvironment{dedica}
+{%\clearpage           		% nuova pagina.          
+	\thispagestyle{empty}	% no header e footer.
+	\vspace*{\stretch{1}}	% un po' di spazio in alto.
+	\itshape             	% il testo è in corsivo.
+	\raggedleft          	% sposta sul margine destro.
+}
+{\par 						% fine del paragrafo.
+	\vspace{\stretch{3}} 	% lo spazio in basso è tre volte quello in alto.
+	\clearpage           	% fine della pagina.
+}
+
+%----------------DEDICA---------------%
+
+%---------------TINYTEXT--------------%
+\newlength\myheight
+\newlength\mydepth
+\settototalheight\myheight{Xygp}
+\settodepth\mydepth{Xygp}
+\setlength\fboxsep{0pt}
+\newcommand*\inlinegraphics[1]{%
+	\settototalheight\myheight{Xygp}%
+	\settodepth\mydepth{Xygp}%
+	\raisebox{-\mydepth}{\includegraphics[height=\myheight]{#1}}%
+}
+
+\newcommand*{\img}[1]{%
+	\raisebox{-.3\baselineskip}{% 		% Questi sono due metodi diversi per inserire delle foto
+		\includegraphics[				%  vicino al testo mantenendo la stessa grandezza dei
+		height=\baselineskip,			%  caratteri. 
+		width=\baselineskip,        	% Per usare il primo metodo:
+		keepaspectratio,				% \raisebox{-\mydepth}{\fbox{\includegraphics[height=\myheight]{imm.png}}}
+		]{#1}%							% Secondo metodo:
+	}%									% \img{imm.png}
+}
+%---------------TINYTEXT--------------%
