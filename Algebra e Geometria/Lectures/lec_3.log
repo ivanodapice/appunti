@@ -1,0 +1,5338 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.9.7)  18 OCT 2024 19:57
+ restricted system commands enabled.
+**lec_3.tex
+(./lec_3.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-16>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/texlive/2024/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "c:/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-
+28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2024/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+! Undefined control sequence.
+l.1 \chapter
+          {Sottospazi Vettoriali}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{S
+            ottospazi Vettoriali}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.2 \lecture
+          {3}{9 Sep. 08:00}{Spazi vettoriali}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]Sottospazi
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 S
+   ia $V$ uno spazio vettoriale, se $S\subseteq V$ si dice che $S$ è un sot...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{figure}
+                [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.7 	\incfig
+          {sottospazio vettoriale}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 	\caption
+           [Caption]{Sottospazio Vettoriale}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--11
+[]Sia
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (17.26382pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 S \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 S$
+ []
+
+
+! LaTeX Error: Environment definizione undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \begin{definizione}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 	$
+     S$ è un sottopazio di $V$ se:\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.15 	B: $\forall\alpha\in\mathbb
+                               {R}, \underline{w}_1\in S - \alpha\underline{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{definizione}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{definizione}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (26.70831pt too wide) in paragraph at lines 13--17
+[]$\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (25.24776pt too wide) in paragraph at lines 13--17
+\OMS/cmsy/m/n/10 8[][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (21.35878pt too wide) in paragraph at lines 13--17
+[][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (14.48611pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 S \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (19.69218pt too wide) in paragraph at lines 13--17
+[][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (21.35878pt too wide) in paragraph at lines 13--17
+[][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 S$ 
+ []
+
+
+Overfull \hbox (21.434pt too wide) in paragraph at lines 13--17
+\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10  \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (33.47334pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 R; [][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (14.48611pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 S \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (27.79282pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 [][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 13--17
+\OML/cmm/m/it/10 S$
+ []
+
+
+! LaTeX Error: Environment es undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{es}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 	\phantom{}
+              \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.20 	$S_1=\{(c,c^2)/c\in\mathbb
+                              {R}^2\}\subseteq\mathbb{R}^2$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 ...\{(c,c^2)/c\in\mathbb{R}^2\}\subseteq\mathbb
+                                                  {R}^2$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.21 ... quindi $S_1$ non è sottospazio di $\mathbb
+                                                  {R}^2$\\\\$\diamondsuit$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 	$S_2=\mathbb
+                {R}^2-\{0,0\}$\\ $(0,0)\notin S_2$ quindi $S_2$ non è un so...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.23 	$S_3=\mathbb
+                {R}^2-\{6,9\}$\\ $(0,0)\in S_3$\\ $(-6,-9)\in S_3$\\ $(-1)\c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 	$S_4=\{(a,b)/a,b\in\mathbb
+                              {Z}\}$\\ $(6,9)\in S_4$\\ $\frac{1}{\pi}\in\ma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 ...\\ $(6,9)\in S_4$\\ $\frac{1}{\pi}\in\mathbb
+                                                  {R}$, $\frac{1}{\pi}\cdot(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.25 ...i};\frac{2n}{\pi})/-1000<n<1000, n\in\mathbb
+                                                  {Z}\}$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 	$S_6=\{P(x)\}\subseteq\mathbb
+                                 {R}[x]$\\ A: $xq_1(x)+xq_2(x)=x(q_1(x)+q_2(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 ...(\alpha q(x))$\\ $S_6=\{xq(x)/q(x)\in\mathbb
+                                                  {R}[x]\}$, $S_6$ è un sot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.27 ...}[x]\}$, $S_6$ è un sottospazio di $\mathbb
+                                                  {R}[x]$\\\\$\diamondsuit$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 ...=\{\underline{0}\}=\{(0,0)\}\subseteq\mathbb
+                                                  {R}^2$, $S_7$ è un sottos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.28 ...b{R}^2$, $S_7$ è un sottospazio di $\mathbb
+                                                  {R}^2$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{es}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{es}
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--33
+[][] 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (49.13545pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c; c[]\OT1/cmr/m/n/10 )\OML
+/cmm/m/it/10 =c \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (27.7118pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[]\OMS/cmsy/m/n/10 g 
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$ 
+ []
+
+
+Overfull \hbox (30.00005pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4) +
+ []
+
+
+Overfull \hbox (32.77776pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1) =
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5) []
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.93408pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (24.44447pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OMS/cms
+y/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) []
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.93408pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (24.44447pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OMS/cms
+y/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$ 
+ []
+
+
+Overfull \hbox (47.22224pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OMS/c
+msy/m/n/10 ^^@\OT1/cmr/m/n/10 9) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$ 
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (48.33336pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OMS/c
+msy/m/n/10 ^^@\OT1/cmr/m/n/10 9) =
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9) []
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (55.26614pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 )\OML/c
+mm/m/it/10 =a; b \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (12.54169pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 Z\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$ 
+ []
+
+
+Overfull \hbox (16.77187pt too wide) in paragraph at lines 19--33
+[] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (7.67015pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R$\nullfont ,
+ []
+
+
+Overfull \hbox (10.10526pt too wide) in paragraph at lines 19--33
+[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (32.77776pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9) =
+ []
+
+
+Overfull \hbox (36.32155pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 ([]; []) []
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (48.67282pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ([]; [])\OML/cmm/m/it/10 = \OMS/cmsy/m/n/10 ^^
+@
+ []
+
+
+Overfull \hbox (30.55557pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 1000 \OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 n <
+ []
+
+
+Overfull \hbox (39.89122pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 1000\OML/cmm/m/it/10 ; n \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (12.54169pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 Z\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (31.66664pt too wide) in paragraph at lines 19--33
+\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (41.85765pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr
+/m/n/10 )\OMS/cmsy/m/n/10 g 
+ []
+
+
+Overfull \hbox (18.941pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ]$ 
+ []
+
+
+Overfull \hbox (35.9364pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 xq[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (38.71411pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 xq[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (39.8253pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 x\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (26.33223pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ))$ 
+ []
+
+
+Overfull \hbox (48.7986pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 xq\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 x\OT1/cmr/m/n/10 )) =
+ []
+
+
+Overfull \hbox (38.24309pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 x\OT1/cmr/m/n/10 ))$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (61.79166pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 xq\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cm
+r/m/n/10 )\OML/cmm/m/it/10 =q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10
+ ) \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (23.94101pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ]\OMS/cmsy
+/m/n/10 g$\nullfont ,
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (18.941pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ]$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (25.55556pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f[]g \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (42.77779pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OMS/c
+msy/m/n/10 g 
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[]$\nullfont ,
+ []
+
+
+Overfull \hbox (10.61807pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 R[]$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 19--33
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 19--33
+\OMS/cmsy/m/n/10 f[]g$ 
+ []
+
+
+! LaTeX Error: Environment proposizione undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{proposizione}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 	\phantom{text}
+                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.37 ...ots+\alpha\underline{v}_n/\alpha_i\in\mathbb
+                                                  {R}\}$ è un sottospazio d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{proposizione}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{proposizione}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--41
+[][] 
+ []
+
+
+Overfull \hbox (52.00793pt too wide) in paragraph at lines 35--41
+[][]\OML/cmm/m/it/10 ; [] ; [][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 V$ 
+ []
+
+
+Overfull \hbox (25.04163pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (60.89685pt too wide) in paragraph at lines 35--41
+[][]\OML/cmm/m/it/10 ; [] ; [][] >\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (28.90399pt too wide) in paragraph at lines 35--41
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 [][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 35--41
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (41.25409pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 [][]=[] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (12.67017pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 R\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 V$ 
+ []
+
+
+Overfull \hbox (32.24199pt too wide) in paragraph at lines 35--41
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [][][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 35--41
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (34.15639pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 [][][]\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (31.50122pt too wide) in paragraph at lines 35--41
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [][][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 35--41
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (36.19333pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 [][][]\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (22.54985pt too wide) in paragraph at lines 35--41
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (31.50122pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][] +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 35--41
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.50705pt too wide) in paragraph at lines 35--41
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (35.08221pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 S$\nullfont ,
+ []
+
+
+Overfull \hbox (37.93526pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [][][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 35--41
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (36.19333pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 [][][]\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (41.82416pt too wide) in paragraph at lines 35--41
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][] +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 35--41
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (45.40515pt too wide) in paragraph at lines 35--41
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 35--41
+\OML/cmm/m/it/10 S$\nullfont ,
+ []
+
+
+
+luaotfload | db : Font names database loaded from C:/texlive/2024/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 
+   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no 8 (U+0038) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no H (U+0048) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+! Undefined control sequence.
+<write> \newlabel{fig:sottospaziovettoriale}{{}{\thepage 
+                                                 }{}{}{}}
+l.41 
+   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{fig:sottospaziovettoriale}{{}{}{}{}{}}
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no é (U+00E9) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no è (U+00E8) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+]
+
+! LaTeX Error: Environment es undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \begin{es}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 	\phantom{text}
+                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.45 		1&
+       2\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.46 		3&
+       4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.49 	       \alpha&
+                   2\alpha\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.50 		   3\alpha&
+                 4\alpha
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.51 	     \end{pmatrix}/ \alpha\in\mathbb
+                                        {R}\}$ linearmente indipendente perc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.52 			0&
+        0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.53 			0&
+        0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.56 			1&
+        2\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.57 			3&
+        4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.58 		 \end{pmatrix}\Mapsto
+                          \dim S=1$\\\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.59 ...x^{2024}>=\{\alpha x^{2024}/\alpha\in\mathbb
+                                                  {R}\}\Mapsto\dim =1$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.59 ...\alpha x^{2024}/\alpha\in\mathbb{R}\}\Mapsto
+                                                  \dim =1$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{es}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \end{es}
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--61
+[][] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (22.77771pt too wide) in paragraph at lines 43--61
+[] \OT1/cmr/m/n/10 2[] 
+ []
+
+
+Overfull \hbox (28.33334pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 34 \OML/cmm/m/it/10 >\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 5$ 
+ []
+
+
+Overfull \hbox (17.26382pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (35.64578pt too wide) in paragraph at lines 43--61
+\OMS/cmsy/m/n/10 f[] \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 [] 
+ []
+
+
+Overfull \hbox (43.74655pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 = \OMS/c
+msy/m/n/10 2
+ []
+
+
+Overfull \hbox (12.67017pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 R\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (22.77771pt too wide) in paragraph at lines 43--61
+[] \OT1/cmr/m/n/10 0[] 
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 00$
+ []
+
+
+Overfull \hbox (16.98955pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 0$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 S$ 
+ []
+
+
+Overfull \hbox (22.77771pt too wide) in paragraph at lines 43--61
+[] \OT1/cmr/m/n/10 2[] 
+ []
+
+
+Overfull \hbox (47.26382pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 34 [] \OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 1$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (40.4931pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 x[] >\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (54.47229pt too wide) in paragraph at lines 43--61
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]= \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (41.55902pt too wide) in paragraph at lines 43--61
+\OML/cmm/m/it/10 R\OMS/cmsy/m/n/10 g [] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 43--61
+\OT1/cmr/m/n/10 1$
+ []
+
+
+! LaTeX Error: Environment proposizione undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{proposizione}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\phantom{text}
+                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.65 ...e{v}>=\{\alpha\underline{v}/\alpha\in\mathbb
+                                                  {R}\}$ è un sottospazio d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \leqslant 
+          
+l.68 	(T ha dimensione $\leqslant
+                               \alpha k$)\\\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.71 	$T_n=\{\text
+                {Polinomi di grado}\leqslant n\}$, $\dim T_n=n+1$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.71 	$T_n=\{\text{Polinomi di grado}\leqslant
+                                             n\}$, $\dim T_n=n+1$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 	$T_3=\{a_0+a_1 x+a_2 x^2+a_3 x^3/a_i\in\mathbb
+                                                  {R}\}=<x^0,x^1,x^2,x^3>\ma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.73 	Sottospazio di $\mathbb
+                           {R}[x]$ di dimensione $1000=T_{999}=\{a_0+a_1 x+\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.73 ...\{a_0+a_1 x+\dots+a_{999}x^{999}/a\in\mathbb
+                                                  {R}\}$ BASE$=[1,x,x^2,x^3,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{proposizione}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \end{proposizione}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 63--75
+[][] 
+ []
+
+
+Overfull \hbox (21.3171pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 8[] 6\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--75
+[]$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (23.53932pt too wide) in paragraph at lines 63--75
+[] \OML/cmm/m/it/10 >\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (37.51851pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 []= \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (12.67017pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 R\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (10.76158pt too wide) in paragraph at lines 63--75
+\OT1/cmr/m/n/10 [[]]$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (25.56596pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 T \OT1/cmr/m/n/10 =\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (60.37369pt too wide) in paragraph at lines 63--75
+[][]\OML/cmm/m/it/10 ; [] ; [][] >\OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 V$ 
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 V$\nullfont ) 
+ []
+
+
+Overfull \hbox (11.95488pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 k$\nullfont ) 
+ []
+
+
+Overfull \hbox (42.04037pt too wide) in paragraph at lines 63--75
+[][]\OML/cmm/m/it/10 ; [] ; [][]$
+ []
+
+
+Overfull \hbox (36.1215pt too wide) in paragraph at lines 63--75
+[] \OML/cmm/m/it/10 T \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.52084pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 k$ 
+ []
+
+
+Overfull \hbox (42.04037pt too wide) in paragraph at lines 63--75
+[][]\OML/cmm/m/it/10 ; [] ; [][]$
+ []
+
+
+Overfull \hbox (36.1215pt too wide) in paragraph at lines 63--75
+[] \OML/cmm/m/it/10 T <
+ []
+
+
+Overfull \hbox (5.52084pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 k$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 }$ 
+ []
+
+
+Overfull \hbox (21.84259pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (92.265pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 f[]\OML/cmm/m/it/10 n\OMS/cmsy/m/n/10 g$\nullfont ,
+ []
+
+
+Overfull \hbox (40.17593pt too wide) in paragraph at lines 63--75
+[] \OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (13.78015pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--75
+\OT1/cmr/m/n/10 1$ 
+ []
+
+
+Overfull \hbox (20.88539pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (22.54984pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.26509pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 a[]x \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (27.75122pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 a[]x[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (43.033pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 a[]x[]=a[] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (31.00348pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 R\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 =\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (74.69437pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 x[]; x[]; x[]; x[] >\OMS/cmsy/m/n/10 7!
+ []
+
+
+Overfull \hbox (54.49303pt too wide) in paragraph at lines 63--75
+\OT1/cmr/m/n/10 [1\OML/cmm/m/it/10 ; x[]; x[]; x[]\OT1/cmr/m/n/10 ]$
+ []
+
+
+Overfull \hbox (39.21873pt too wide) in paragraph at lines 63--75
+[] \OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--75
+\OT1/cmr/m/n/10 4$ 
+ []
+
+
+Overfull \hbox (18.941pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ]$
+ []
+
+
+Overfull \hbox (30.55557pt too wide) in paragraph at lines 63--75
+\OT1/cmr/m/n/10 1000 =
+ []
+
+
+Overfull \hbox (28.85765pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (22.54984pt too wide) in paragraph at lines 63--75
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.26509pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 a[]x \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 63--75
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (55.64824pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 a[]x[]=a \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (12.67017pt too wide) in paragraph at lines 63--75
+\OML/cmm/m/it/10 R\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 63--75
+BASE$\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (90.40262pt too wide) in paragraph at lines 63--75
+\OT1/cmr/m/n/10 [1\OML/cmm/m/it/10 ; x; x[]; x[]; [] ; x[]\OT1/cmr/m/n/10 ]$
+ []
+
+
+! LaTeX Error: Environment proposizione undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \begin{proposizione}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 	\phantom{text}
+                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.78 ... di $V$ e $\dim V=n$ allora $\dim W\leqslant
+                                                  \dim V$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment dimostrazione undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 	\begin{dimostrazione}
+                         [A]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{dimostrazione}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 	\end{dimostrazione}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment dimostrazione undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 	\begin{dimostrazione}
+                         [B]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{dimostrazione}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 	\end{dimostrazione}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{proposizione}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{proposizione}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--87
+[][] 
+ []
+
+
+Overfull \hbox (10.83334pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 W$
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (36.94441pt too wide) in paragraph at lines 77--87
+[] \OML/cmm/m/it/10 V \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (6.00235pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 n$
+ []
+
+
+Overfull \hbox (57.22221pt too wide) in paragraph at lines 77--87
+[] \OML/cmm/m/it/10 W [] V$ 
+ []
+
+
+Overfull \hbox (39.7222pt too wide) in paragraph at lines 77--87
+[] \OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (39.16663pt too wide) in paragraph at lines 77--87
+[] \OML/cmm/m/it/10 V \OMS/cmsy/m/n/10 7!
+ []
+
+
+Overfull \hbox (21.38885pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 V$
+ []
+
+
+Overfull \hbox (47.00803pt too wide) in paragraph at lines 77--87
+[][]\OML/cmm/m/it/10 ; [] ; [][]$
+ []
+
+
+Overfull \hbox (82.42pt too wide) in paragraph at lines 77--87
+\OT1/cmr/m/n/10 [[][]\OML/cmm/m/it/10 ; [] ; [][]; []\OT1/cmr/m/n/10 ]\OMS/cmsy
+/m/n/10 8[] 2
+ []
+
+
+Overfull \hbox (8.05556pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 V$\nullfont ,
+ []
+
+
+Overfull \hbox (13.78015pt too wide) in paragraph at lines 77--87
+\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--87
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (47.00803pt too wide) in paragraph at lines 77--87
+[][]\OML/cmm/m/it/10 ; [] ; [][]$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 V
+    ediamo adesso alcuni sottospazi di $\mathbb{R}^2, (\dim\mathbb{R}^2=2)$:\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.88 Vediamo adesso alcuni sottospazi di $\mathbb
+                                               {R}^2, (\dim\mathbb{R}^2=2)$:\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.88 ...ni sottospazi di $\mathbb{R}^2, (\dim\mathbb
+                                                  {R}^2=2)$:\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.89 $W$ sottospazio di $\mathbb
+                              {R}^2$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.92 ... W=2$ Esiste un solo sottospazio: $W=\mathbb
+                                                  {R}^2$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 88--93
+[]Vediamo
+ []
+
+
+Overfull \hbox (61.53473pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 R[]; \OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 88--93
+\OT1/cmr/m/n/10 2)$\nullfont : 
+ []
+
+
+Overfull \hbox (10.83334pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 W$
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (39.7222pt too wide) in paragraph at lines 88--93
+[] \OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 88--93
+\OT1/cmr/m/n/10 0$
+ []
+
+
+Overfull \hbox (21.38885pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.22227pt too wide) in paragraph at lines 88--93
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OMS/c
+msy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (39.7222pt too wide) in paragraph at lines 88--93
+[] \OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 88--93
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (15.76152pt too wide) in paragraph at lines 88--93
+[] \OML/cmm/m/it/10 >
+ []
+
+
+Overfull \hbox (21.3171pt too wide) in paragraph at lines 88--93
+\OMS/cmsy/m/n/10 8[] 6\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 88--93
+[]$ 
+ []
+
+
+Overfull \hbox (39.7222pt too wide) in paragraph at lines 88--93
+[] \OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 88--93
+\OT1/cmr/m/n/10 2$
+ []
+
+
+Overfull \hbox (21.38885pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 W \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 88--93
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+! Undefined control sequence.
+l.94 \section
+           {Complemento Algebrico}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \section{C
+             omplemento Algebrico}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 94--95
+[]Complemento
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 S
+    i chiama complemento algebrico di posto $(i,j)$ il numero reale $A_{ij}$...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \text 
+      
+l.98 	\text
+         {coef}_{1,1}(A) & \ldots & \text{coef}_{1,n}(A) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.98 	\text{coef}_{1,1}(A) &
+                           \ldots & \text{coef}_{1,n}(A) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.98 	\text{coef}_{1,1}(A) & \ldots &
+                                    \text{coef}_{1,n}(A) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.98 	\text{coef}_{1,1}(A) & \ldots & \text
+                                         {coef}_{1,n}(A) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.99 	\vdots &
+             \ddots & \vdots \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.99 	\vdots & \ddots &
+                      \vdots \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+<recently read> \text 
+      
+l.100 	\text
+          {coef}_{n,1}(A) & \ldots & \text{coef}_{n,n}(A)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.100 	\text{coef}_{n,1}(A) &
+                            \ldots & \text{coef}_{n,n}(A)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.100 	\text{coef}_{n,1}(A) & \ldots &
+                                     \text{coef}_{n,n}(A)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.100 	\text{coef}_{n,1}(A) & \ldots & \text
+                                          {coef}_{n,n}(A)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment es undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \begin{es}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.104 		1&
+        3&1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.104 		1&3&
+          1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.105 		0&
+        1&-1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.105 		0&1&
+          -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.106 		5&
+        6&7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.106 		5&6&
+          7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.109 		\begin
+            {BMAT}(b){rrr}{ccc}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+\endgroup 
+l.109 		\begin
+            {BMAT}(b){rrr}{ccc}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced alignment tab character &.
+l.110 		1 &
+          3 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.110 		1 & 3 &
+              1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.111 		0 &
+          1 & -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.111 		0 & 1 &
+              -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.112 		5 &
+          6 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.112 		5 & 6 &
+              7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.113 		\addpath
+              {(1,1,0)rrullldr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114 		\addpath
+              {(0,0,0)ruuulddd}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{pmatrix} on input line 108 ended by \end{BMAT}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115         \end{BMAT}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{pmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 	\end{pmatrix}
+                  =-1(21-6)=-15$\\\\\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.116 	\end{pmatrix}
+                  =-1(21-6)=-15$\\\\\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.117 	$A_
+        {1,3}=(-1)^4\cdot\det\begin{pmatrix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.118 		\begin
+            {BMAT}(b){rrr}{ccc}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+\endgroup 
+l.118 		\begin
+            {BMAT}(b){rrr}{ccc}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced alignment tab character &.
+l.119 		1 &
+          3 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.119 		1 & 3 &
+              1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120 		0 &
+          1 & -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120 		0 & 1 &
+              -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.121 		5 &
+          6 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.121 		5 & 6 &
+              7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.122 		\addpath
+              {(1,2,0)rrullldr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.123 		\addpath
+              {(2,0,0)ruuulddd}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{pmatrix} on input line 117 ended by \end{BMAT}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124         \end{BMAT}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{pmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 	\end{pmatrix}
+                  =1(-5)=-5$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.125 	\end{pmatrix}
+                  =1(-5)=-5$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+          
+l.125 	\end{pmatrix}
+                  =1(-5)=-5$
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{es}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 \end{es}
+            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.126 \end{es}
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+          
+l.126 \end{es}
+            
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--127
+[]Si
+ []
+
+
+Overfull \hbox (20.35783pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (14.54286pt too wide) in paragraph at lines 96--127
+\OML/cmm/m/it/10 A[]$
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 96--127
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (11.22293pt too wide) in paragraph at lines 96--127
+\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 96--127
+\OML/cmm/m/it/10 j$
+ []
+
+
+Overfull \hbox (25.09837pt too wide) in paragraph at lines 96--127
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (36.51517pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (136.14706pt too wide) in paragraph at lines 96--127
+[] [] [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) [] [][](\OML/cmm
+/m/it/10 A\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (6.6665pt too wide) in paragraph at lines 96--127
+[] [] [][] 
+ []
+
+
+Overfull \hbox (109.72824pt too wide) in paragraph at lines 96--127
+[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) [] [][](\OML/cmm/m/it/
+10 A\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (18.05553pt too wide) in paragraph at lines 96--127
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (27.77773pt too wide) in paragraph at lines 96--127
+[] \OT1/cmr/m/n/10 31[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 01 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 567$ 
+ []
+
+
+Overfull \hbox (28.90279pt too wide) in paragraph at lines 96--127
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (27.81953pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (121.36465pt too wide) in paragraph at lines 96--127
+[] [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 )[][]131[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 01 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (153.93092pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 567[][]$\nullfont =-
+ []
+
+
+Overfull \hbox (21.40277pt too wide) in paragraph at lines 96--127
+A$[][] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (27.81953pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (121.36465pt too wide) in paragraph at lines 96--127
+[] [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 )[][]131[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 01 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (153.93092pt too wide) in paragraph at lines 96--127
+\OT1/cmr/m/n/10 567[][]$\nullfont =1(-
+ []
+
+
+! LaTeX Error: Environment teorema undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \begin{teorema}
+                   [$4\degree$ Teorema di Laplace]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \begin{teorema}[
+                    $4\degree$ Teorema di Laplace]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.128 \begin{teorema}[$4\degree
+                             $ Teorema di Laplace]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{teorema}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \end{teorema}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (25.00002pt too wide) in paragraph at lines 128--133
+[][$\OT1/cmr/m/n/10 4$
+ []
+
+
+Overfull \hbox (33.61107pt too wide) in paragraph at lines 128--133
+[] \OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (17.75409pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (24.96823pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (17.75409pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (24.96823pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 128--133
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (18.71129pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (18.14763pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 A[]$ 
+ []
+
+
+Overfull \hbox (33.61107pt too wide) in paragraph at lines 128--133
+[] \OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.63837pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (25.85251pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (18.63837pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (25.85251pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.44441pt too wide) in paragraph at lines 128--133
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.59557pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (19.0319pt too wide) in paragraph at lines 128--133
+\OML/cmm/m/it/10 A[]$
+ []
+
+
+! LaTeX Error: Environment esercizio undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \begin{esercizio}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 	V
+      erificare se $\underline{v}_1,\underline{v}_2,\underline{v}_3$ sono un...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.135 ...,\underline{v}_3$ sono una base di $\mathbb
+                                                  {R}^3$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.137 	Dato che tutte le basi di $\mathbb
+                                       {R}^3$ contengono 3 vettori, basta ve...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.139 		1&
+        3&1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.139 		1&3&
+          1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.140 		0&
+        1&-1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.140 		0&1&
+          -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.141 		5&
+        6&7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.141 		5&6&
+          7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.143 		1&
+        3&1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.143 		1&3&
+          1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.144 		0&
+        1&-1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.144 		0&1&
+          -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.145 		5&
+        6&7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.145 		5&6&
+          7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.147 		1 &
+          4 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.147 		1 & 4 &
+              1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.148 		0 &
+          0 &-1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.148 		0 & 0 &
+             -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.149 		5 &
+          13 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.149 		5 & 13 &
+               7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.152 		1 &
+         4\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.153 		5 &
+         13
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.155 ...,(0,1,-1),(5,6,7)]$ è una base di $\mathbb
+                                                  {R}^3$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{esercizio}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \end{esercizio}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 135--157
+[]Verificare
+ []
+
+
+Overfull \hbox (37.96524pt too wide) in paragraph at lines 135--157
+[][]\OML/cmm/m/it/10 ; [][]; [][]$
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (20.24765pt too wide) in paragraph at lines 135--157
+[][] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (56.35873pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 1); [][] =
+ []
+
+
+Overfull \hbox (64.13654pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/c
+msy/m/n/10 ^^@\OT1/cmr/m/n/10 1); [][] =
+ []
+
+
+Overfull \hbox (31.66667pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 7)$ 
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 R[]$
+ []
+
+
+Overfull \hbox (33.61107pt too wide) in paragraph at lines 135--157
+[] \OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 0$ 
+ []
+
+
+Overfull \hbox (18.05553pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (27.77773pt too wide) in paragraph at lines 135--157
+[] \OT1/cmr/m/n/10 31[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 01 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (27.77777pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 567 \OMS/cmsy/m/n/10 7!
+ []
+
+
+Overfull \hbox (43.33327pt too wide) in paragraph at lines 135--157
+[] [] \OT1/cmr/m/n/10 31[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 01 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (25.55556pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 567 =
+ []
+
+
+Overfull \hbox (24.21643pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (21.43872pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (28.10533pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )) =
+ []
+
+
+Overfull \hbox (43.33327pt too wide) in paragraph at lines 135--157
+[] [] \OT1/cmr/m/n/10 41[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 00 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 5137$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (26.12508pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (26.12508pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (65.04163pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[] [] [] 4[] 
+ []
+
+
+Overfull \hbox (25.55556pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 513 =
+ []
+
+
+Overfull \hbox (42.22235pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 (+1)(13 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (24.44444pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 20) =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 135--157
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 7$\nullfont ,
+ []
+
+
+Overfull \hbox (117.22221pt too wide) in paragraph at lines 135--157
+\OT1/cmr/m/n/10 [(1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/
+cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m
+/n/10 1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)\OML/cmm/m/it/1
+0 ; \OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \O
+T1/cmr/m/n/10 7)]$
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 135--157
+\OML/cmm/m/it/10 R[]$
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \begin{figure}
+                  [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \begin{figure}[
+                   H]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.160 	\incfig
+            {laplace}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 	\caption
+             [Caption]{Visualizzazione grafica dell'esercizio precedente}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 158--164
+[][H]
+ []
+
+
+! LaTeX Error: Environment esercizio undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \begin{esercizio}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 	V
+      erificare se $[(1,0,1,1),(1,2,-1,0),(1,1,-1,-1),(0,1,0,4)]$ è una bas...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.166 ...,-1,-1),(0,1,0,4)]$ è una base di $\mathbb
+                                                  {R}^4$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.168 		1 &
+          0 & 1 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.168 		1 & 0 &
+              1 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.168 		1 & 0 & 1 &
+                  1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.169 		1 &
+          2 & -1 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.169 		1 & 2 &
+              -1 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.169 		1 & 2 & -1 &
+                   0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.170 		1 &
+          1 & -1 & -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.170 		1 & 1 &
+              -1 & -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.170 		1 & 1 & -1 &
+                   -1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.171 		0 &
+          1 & 0 & 4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.171 		0 & 1 &
+              0 & 4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.171 		0 & 1 & 0 &
+                  4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 		1 &
+          0 & 1 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 		1 & 0 &
+              1 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 		1 & 0 & 1 &
+                  1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.174 		1 &
+          2 & -1 & -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.174 		1 & 2 &
+              -1 & -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.174 		1 & 2 & -1 &
+                   -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.175 		1 &
+          1 & -1 & -5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.175 		1 & 1 &
+              -1 & -5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.175 		1 & 1 & -1 &
+                   -5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.176 		0 &
+          1 & 0 & 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.176 		0 & 1 &
+              0 & 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.176 		0 & 1 & 0 &
+                  0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.177 	\end{pmatrix}=\text
+                        {laplace 4a riga}=+1\det\begin{pmatrix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.178 		1 &
+          1 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.178 		1 & 1 &
+              1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.179 		1 &
+          -1 & -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.179 		1 & -1 &
+               -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.180 		1 &
+          1 & -5
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.180 		1 & 1 &
+              -5
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.182 		2 &
+          1 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.182 		2 & 1 &
+              1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.183 		0 &
+          -1 & -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.183 		0 & -1 &
+               -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.184 		0 &
+          -1 & -5
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.184 		0 & -1 &
+               -5
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.185 	\end{pmatrix}=\text
+                        {laplace 1a colonna}=2\det\begin{pmatrix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.186 		-1 &
+           -8\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.187 		-1 &
+           -5
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+        
+l.189 	Si, i vettori formano una base di $\mathbb
+                                               {R}^4$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{esercizio}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 \end{esercizio}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 166--191
+[]Verificare
+ []
+
+
+Overfull \hbox (206.66661pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 [(1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/
+cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/
+n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 
+^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT
+1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/cmsy
+/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n
+/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)]$
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 166--191
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (48.33328pt too wide) in paragraph at lines 166--191
+[] [] \OT1/cmr/m/n/10 011[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 10[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 11 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (30.55557pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 0104 =
+ []
+
+
+Overfull \hbox (24.21643pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (21.43872pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (28.61922pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 )) =
+ []
+
+
+Overfull \hbox (48.33328pt too wide) in paragraph at lines 166--191
+[] [] \OT1/cmr/m/n/10 011[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 8[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 11 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 5[] 
+ []
+
+
+Overfull \hbox (30.55557pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 0100 =
+ []
+
+
+Overfull \hbox (70.43826pt too wide) in paragraph at lines 166--191
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (57.77771pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 +1 [] [] 11[] 
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 8[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 11 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 5 =
+ []
+
+
+Overfull \hbox (43.33327pt too wide) in paragraph at lines 166--191
+[] [] \OT1/cmr/m/n/10 11[] 
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 8[] 
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 5 =
+ []
+
+
+Overfull \hbox (86.2826pt too wide) in paragraph at lines 166--191
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (55.55548pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 2 [] [] 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 8[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 166--191
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 5 =
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 2(5 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (19.44443pt too wide) in paragraph at lines 166--191
+\OT1/cmr/m/n/10 8) =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 166--191
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 6$ 
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 166--191
+\OML/cmm/m/it/10 R[]$
+ []
+
+! Undefined control sequence.
+l.192 \section
+            {Rango di una Matrice}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \section{R
+              ango di una Matrice}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 192--193
+[]Rango
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194 I
+     l rango di una matrice qualsiasi è pari al numero massimo di righe ind...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.195 $A\in M_{m\times n}$, $rgA\leqslant
+                                        min\{m,n\}$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.197 	1 &
+         2 & 3 & 4\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.197 	1 & 2 &
+             3 & 4\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.197 	1 & 2 & 3 &
+                 4\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.198 	0 &
+         1 & 0 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.198 	0 & 1 &
+             0 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.198 	0 & 1 & 0 &
+                 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.199 	-1 &
+          5 & 6 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.199 	-1 & 5 &
+              6 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.199 	-1 & 5 & 6 &
+                  7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.201 ...line{a}^3, \underline{a}^4>\subseteq\mathbb
+                                                  {R}^3$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.202 ...rline{a}_2,\underline{a}_3>\subseteq\mathbb
+                                                  {R}^4$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.209 	1 &
+         2 & 0 & 3\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.209 	1 & 2 &
+             0 & 3\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.209 	1 & 2 & 0 &
+                 3\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.210 	2 &
+         4 & 0 & 6\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.210 	2 & 4 &
+             0 & 6\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.210 	2 & 4 & 0 &
+                 6\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.211 	8 &
+         16 & 0 & 24
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.211 	8 & 16 &
+              0 & 24
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.211 	8 & 16 & 0 &
+                  24
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.214 	1 &
+         2 & 0 & 3\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.214 	1 & 2 &
+             0 & 3\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.214 	1 & 2 & 0 &
+                 3\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.215 	0 &
+         1 & 0 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.215 	0 & 1 &
+             0 & 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.215 	0 & 1 & 0 &
+                 1\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216 	-1 &
+          5 & 6 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216 	-1 & 5 &
+              6 & 7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216 	-1 & 5 & 6 &
+                  7
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 194--219
+[]Il
+ []
+
+
+Overfull \hbox (16.94441pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (28.49086pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 M[]$\nullfont ,
+ []
+
+
+Overfull \hbox (64.87239pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 rgAmin\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 m; n\OMS/cmsy/m/n/10 
+g$ 
+ []
+
+
+Overfull \hbox (32.77774pt too wide) in paragraph at lines 194--219
+[] \OT1/cmr/m/n/10 234[] 
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 0101[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 194--219
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (30.55557pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 1567 =
+ []
+
+
+Overfull \hbox (110.6262pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 ; [][]; [][]; [][]\OT1/cmr/m/n/10 )\OML/c
+mm/m/it/10 ; \OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 ; [][]; [][]\OT1/cmr/m/n/10 
+)$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (70.75462pt too wide) in paragraph at lines 194--219
+[][]\OML/cmm/m/it/10 ; [][]; [][]; [][] >\OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (56.5382pt too wide) in paragraph at lines 194--219
+[][]\OML/cmm/m/it/10 ; [][]; [][] >\OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (12.15628pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 R[]$ 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (48.76039pt too wide) in paragraph at lines 194--219
+[][]\OML/cmm/m/it/10 ; [][]; [][] >$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 <
+ []
+
+
+Overfull \hbox (62.97682pt too wide) in paragraph at lines 194--219
+[][]\OML/cmm/m/it/10 ; [][]; [][]; [][] >$
+ []
+
+
+Overfull \hbox (27.98564pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 dim <
+ []
+
+
+Overfull \hbox (70.75462pt too wide) in paragraph at lines 194--219
+[][]\OML/cmm/m/it/10 ; [][]; [][]; [][] >\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (27.98564pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 dim <
+ []
+
+
+Overfull \hbox (56.5382pt too wide) in paragraph at lines 194--219
+[][]\OML/cmm/m/it/10 ; [][]; [][] >\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (25.19565pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 rg\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (28.49086pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 M[]$
+ []
+
+
+Overfull \hbox (18.05553pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.77774pt too wide) in paragraph at lines 194--219
+[] \OT1/cmr/m/n/10 203[] 
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 2406[] 
+ []
+
+
+Overfull \hbox (70.19566pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 816024\OML/cmm/m/it/10 ; rg\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\
+OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (18.64232pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 B \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.77774pt too wide) in paragraph at lines 194--219
+[] \OT1/cmr/m/n/10 203[] 
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 0101[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 194--219
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 1567$\nullfont ,
+ []
+
+
+Overfull \hbox (16.94441pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (28.49086pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 M[]$
+ []
+
+
+Overfull \hbox (27.97336pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 rgA \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.78008pt too wide) in paragraph at lines 194--219
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ,
+ []
+
+
+Overfull \hbox (33.61107pt too wide) in paragraph at lines 194--219
+[] \OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 194--219
+\OT1/cmr/m/n/10 0$ 
+ []
+
+! Undefined control sequence.
+l.220 \section
+            {Minore di una matrice}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \section{M
+              inore di una matrice}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.223 	1 &
+         2 & 3 & 4 & 5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.223 	1 & 2 &
+             3 & 4 & 5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.223 	1 & 2 & 3 &
+                 4 & 5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.223 	1 & 2 & 3 & 4 &
+                     5\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.224 	0 &
+         1 & 0 & 1 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.224 	0 & 1 &
+             0 & 1 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.224 	0 & 1 & 0 &
+                 1 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.224 	0 & 1 & 0 & 1 &
+                     0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.225 	3 &
+         -1 & -1 & 6 & 7\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.225 	3 & -1 &
+              -1 & 6 & 7\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.225 	3 & -1 & -1 &
+                   6 & 7\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.225 	3 & -1 & -1 & 6 &
+                       7\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.226 	\frac{1}{2} &
+                   0 & 3 & 0 & 4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.226 	\frac{1}{2} & 0 &
+                       3 & 0 & 4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.226 	\frac{1}{2} & 0 & 3 &
+                           0 & 4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.226 	\frac{1}{2} & 0 & 3 & 0 &
+                               4
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.229 	2 &
+         4\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.230 	-1 &
+          6
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
+! Emergency stop.
+<*> lec_3.tex
+          
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 51 strings out of 475910
+ 100000,1977958 words of node,token memory allocated 63327 words of node memory still in use:
+   1016 hlist, 93 vlist, 64 rule, 7 disc, 13 local_par, 1 dir, 247 math, 2153 gl
+ue, 252 kern, 415 penalty, 4273 glyph, 782 attribute, 39 glue_spec, 782 attribut
+e_list, 1 temp, 1 write nodes
+   avail lists: 2:7,3:34,4:33,5:7,6:1,8:184,9:1,10:32
+ 22801 multiletter control sequences out of 65536+600000
+ 25 fonts using 1345055 bytes
+ 24i,11n,24p,399b,126s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

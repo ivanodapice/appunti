@@ -63,7 +63,7 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 		$\underline{v}\cdot0=\underline{v}\cdot0+\underline{v}\cdot0$, esiste l'opposto di $\underline{v}\cdot0$ e lo chiamiamo $OPP$\\
 		$\underline{v}\cdot0+ OPP=(\underline{v}\cdot0+\underline{v}\cdot0)+OPP$\\
 		$0=\underline{v}\cdot0+(\underline{v}\cdot0+OPP)$\\
-		$0=\underline{v} 0+0\rightarrow \underline{v}\cdot0=0$
+		$0=\underline{v}\cdot0+0\rightarrow \underline{v}\cdot0=0$
 	\end{dimostrazione}
 \end{proposizione}
 
@@ -75,7 +75,7 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 		$\underline{v}+(-1)\underline{v}=1\cdot \underline{v}+(-1)\underline{v}=(1-1)\underline{v}=0\cdot \underline{v}=0$, per la proposizione III.2
 	\end{dimostrazione}
 \end{proposizione}
-
+\newpage
 \begin{proposizione}
 	Sia $V$ uno spazio vettoriale qualunque, $k\cdot \underline{v}=\underline{0}$, se $k=0$ o $\underline{v}=\underline{0}$\\
 	\begin{dimostrazione}
@@ -138,8 +138,8 @@ In generale, l'insieme delle combinazioni lineari $<\underline{v}_{1},\underline
 	\phantom{}\\
 	$\underline{v}_1=(1,2,0,3),\underline{v}_2=(\pi,e,0,-55),\underline{v}_3=(\log_2 3,\sin 8,0,0)$\\\\
 	$\underline{v}_1,\underline{v}_2,\underline{v}_3$ generano $\mathbb{R}^4$?\\
-	No perché: $\beta_1=(1,2,0,3)+\beta_2=(\pi,e,0,-55)+\beta_3=(\log_2 3,\sin 8,0,0)/\beta_i\in\mathbb{R}$\\
-	$(0,0,1,0)$ non è combinazione lineare di $\underline{v}_1,\underline{v}_2,\underline{v}_3$\\\\
+	No perché: $\beta_1(1,2,0,3)+\beta_2(\pi,e,0,-55)+\beta_3(\log_2 3,\sin 8,0,0)/\beta_i\in\mathbb{R}$\\
+	$(0,0,1,0)$ non è combinazione lineare di $\underline{v}_1,\underline{v}_2,\underline{v}_3$ (In ogni vettore, il terzo elemento è 0, e qualcosa per 0 fa sempre 0)\\\\
 \end{es}
 \begin{es}
 	$P_1(x)=3-x^4, P_2(x)=x+77x^7$\\
@@ -167,14 +167,14 @@ Come vediamo, se un insieme di vettori ha cardinalità minore della dimensione d
 \begin{nota}
 	Se ad un insieme di generatori se ne aggiunge un altro, l'insieme risultante è anch'esso un generatore. Cioè se $\underline{v}_1,...,\underline{v}_n$ genera V allora anche $\underline{v}_1,...,\underline{v}_n,\underline{w}$ diventa generatore.
 	\begin{dimostrazione}
-		Per ipotesi $V=<\underline{v}_1,...,\underline{v}_n>\subseteq<\underline{v}_1,...,\underline{v}_n,\underline{w}>\subseteq V$\\
-		Dato che $<\underline{v}_1,...,\underline{v}_n,w>$ è incluso in V e include V, allora $<\underline{v}_1,...,\underline{v}_n,\underline{w}>$ è V\\
+		Per ipotesi $V=<\underline{v}_1,...,\underline{v}_n>\phantom{1}\subseteq\phantom{1}<\underline{v}_1,...,\underline{v}_n,\underline{w}>\phantom{1}\subseteq\phantom{1} V$\\
+		Dato che $<\underline{v}_1,...,\underline{v}_n,\underline{w}>$ è incluso in V e include V, allora $<\underline{v}_1,...,\underline{v}_n,\underline{w}>$ è V\\
 		\begin{es}
 			\phantom{}\\
 			In $\mathbb{R}^3$, $(0,0,1),(1,0,0),(0,1,0)$ generano $\mathbb{R}^3$\\
-			In $\mathbb{R}^4$, $(1)$ genera $\mathbb{R}^4$\\
+			In $\mathbb{R}^1$, $(1)$ genera $\mathbb{R}^1$\\
 			In $\mathbb{R}^n$, $(1,0,...,0),(0,1,...,0),(0,0,...,1)$ generano $\mathbb{R}^n$\\
-			In $\{G\}$, $G$ genera $\{G\}$ 
+			In $\{G\}$, $G$(vettore nullo) genera $\{G\}$ 
 		\end{es}
 	\end{dimostrazione}
 \end{nota}
@@ -183,9 +183,9 @@ Un \textbf{Sistema di vettori} è un insieme in cui contano l'ordine degli eleme
 \begin{es}
 	\phantom{}\\
 	$\{(1,0),(0,1),(3,5)\}$ 3 elementi\\
-	$\{(1,0),(1,0),(3,5)\}$ 2 elementi\\
-	=$\{(1,0),(3,5)\}$\\
-	=$\{(3,5),(1,0)\}$
+	$\{(1,0),(1,0),(3,5)\}$ 2 elementi $=\{(1,0),(3,5)\}=\{(3,5),(1,0)\}$\\
+	$[(1,0),(0,1),(3,5)]$ 3 elementi\\
+	$[(1,0),(1,0),(3,5)]$ 3 elementi $\neq[(1,0),(3,5)]\neq[(3,5),(1,0)]$ 
 \end{es}
 \begin{nota}
 $\underline{v}_1=(1,2,3),\underline{v}_2=(0,44,44),\underline{v}_3=(2,4,6)$\\
@@ -194,8 +194,8 @@ Un altro modo sarebbe porre $\beta_1=-2,\beta_2=0,\beta_3=1$
 \end{nota}
 
 \section{Dipendenza lineare}
-$[\underline{v}_1,...,\underline{v}_2]$ si dice \textbf{linearmente dipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ non è l'unico modo per esprimere 0 come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$\\
-$[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ è l'unico modo per esprimere 0 come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$
+$[\underline{v}_1,...,\underline{v}_2]$ si dice \textbf{linearmente dipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ non è l'unico modo per esprimere $\underline{0}$ come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$\\
+$[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ è l'unico modo per esprimere $\underline{0}$ come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$
 \begin{proposizione}
 	Sia V uno spazio vettoriale qualunque e $\underline{v}_1,...,\underline{v}_n$ contiene almeno una coppia di vettori proporzionali, il sistema è linearmente dipendente.
 \end{proposizione}
@@ -301,8 +301,8 @@ Un sistema ordinato $[\underline{v}_1,...,\underline{v}_n]$ si dice base di V se
 \begin{nota}
 	\phantom{}\\
 	$[(1,0),(0,1)]$ base canonica di $\mathbb{R}$\\
-	$[(1,0,0),(0,1,0),(0,0,1)]$ base canonica di $\mathbb{R}$\\
-	$\{G\}=\{\underline{0}\}$ Non ha basi, perché i vettori sono linearmente dipendenti\\
+	$[(1,0,0),(0,1,0),(0,0,1)]$ base canonica di $\mathbb{R}^3$\\
+	$\{G\}=\{\underline{0}\}$ Non ha basi, perché i vettori sono linearmente dipendenti ($n\cdot G=0/\forall n\in \mathbb{R}$)\\
 	$P[x]$ Non ha basi, perché non è finitamente generato
 \end{nota}
 
@@ -369,13 +369,19 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	\phantom{}\\
 	$B^{\phantom{'}}=[(1,0,0),(0,1,0),(0,0,1)]\Longrightarrow (a,b,c)=a(1,0,0)+b(0,1,0)+c(0,0,1)$\\
 	$B^{'}=[(0,1,0),(0,0,1),(1,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)+c(0,0,1)+a(1,0,0)$\\
-	$B^{"}=[(0,1,0),(0,0,-1),(2023,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)+[-c(0,0,-1)]+\frac{a}{2023}(2023,0,0)$\\
+	$B^{"}=[(0,1,0),(0,0,-1),(2023,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)-c(0,0,-1)+\frac{a}{2023}(2023,0,0)$\\
 	In qualunque spazio vettoriale V che possegga una base, un vettore $\underline{v}$ si può esprimere come: $\underline{v}=\beta_1\underline{e}_1+...+\beta_n\underline{e}_n$. I coefficienti $\beta_1,...,\beta_n$ individuano univocamente $\underline{v}$ e prendono anche il nome di componenti di $\underline{v}$ rispetto alla base B.
 	\begin{es}
 		$\underline{v}=(3,10,2023)\in\mathbb{R}^{2}$\\
-		Le componenti di B rispetto a $B$ sono $(3,10,2023)$\\
-		Le componenti di B rispetto a $B^{'}$ sono $(10,2023,3)$\\
-		Le componenti di B rispetto a $B^{"}$ sono $(10,-2023,\frac{3}{2023})$	
+		Le componenti di $\underline{v}$ rispetto a $B$ sono $(3,10,2023) \swarrow$\\
+		$a(1,0,0)+b(0,1,0)+c(0,0,1)=(3,10,2023)$\\
+		$\textbf{3}(1,0,0)+\textbf{10}(0,1,0)+\textbf{2024}(0,0,1)=(3,10,2023)$\\\\
+		Le componenti di $\underline{v}$ rispetto a $B^{'}$ sono $(10,2023,3) \swarrow$\\
+		$b(0,1,0)+c(0,0,1)+a(1,0,0)=(3,10,2023)$\\
+		$\textbf{10}(0,1,0)+\textbf{2023}(0,0,1)+\textbf{3}(1,0,0)=(3,10,2023)$\\\\
+		Le componenti di $\underline{v}$ rispetto a $B^{"}$ sono $(10,-2023,\frac{3}{2023}) \swarrow$\\
+		$b(0,1,0)+c(0,0,-1)+\frac{a}{2023}(2023,0,0)=(3,10,2023)$\\
+		$\textbf{10}(0,1,0)-\textbf{2023}(0,0,-1)+\frac{\textbf{3}}{2023}(2023,0,0)=(3,10,2023)$
 	\end{es}
 	\begin{es}
 		$B=[\begin{pmatrix}
@@ -413,7 +419,7 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 		\end{pmatrix}=\begin{pmatrix}
 			\beta   & \beta-2\delta\\
 			\lambda & 55\varpi
- 		\end{pmatrix}$\\
+ 		\end{pmatrix}$\\\\
 		Quindi $\beta=1, \beta-2\delta=2, \lambda=3, 55\varpi=4$\\
 		$\beta=1, \delta=-\frac{1}{2}, \lambda=3, \varpi=\frac{4}{55}$
 	\end{es}
@@ -431,7 +437,7 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	$n=2\Longrightarrow \det\begin{pmatrix}
 		a_{1,1} & a_{1,2}\\
 		a_{2,1} & a_{2,2}
-	\end{pmatrix}=(a_{1,1}a_{2,2})-(a_{1,2}a{2,1})$\\
+	\end{pmatrix}=(a_{1,1}\cdot a_{2,2})-(a_{1,2}\cdot a_{2,1})$\\
 	si può anche capire meglio visualizzando l'operazione come una croce:
 	\begin{tabular}{r@{\qquad}r}
 		\tikznode{a_{1,1}}{$a_{1,1}$} & \tikznode{a_{1,2}}{$a_{1,2}$} \\[2ex]
@@ -465,8 +471,8 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 \end{proposizione}
 
 \begin{lemma}[Steinitz]\label{lemmadisteinitz}
-	Sia V uno spazio vettoriale avente $[\underline{e}_1,...,\underline{e}_n]$ come base, e sia $S=\underline{v}_1,...,\underline{v}_m]$ un sistema di vettori di V. Se $m>n$, il sistema S è linearmente dipendente.\\
-	Sia $[\underline{e}_1,...,\underline{e}_n]$ una base di V e sia $S=\underline{v}_1,...,\underline{v}_h]$ un sistema linearmente indipendente, allora $h\leq n$
+	Sia V uno spazio vettoriale avente $[\underline{e}_1,...,\underline{e}_n]$ come base, e sia $S=[\underline{v}_1,...,\underline{v}_m]$ un sistema di vettori di V. Se $m>n$, il sistema S è linearmente dipendente.\\
+	Sia $[\underline{e}_1,...,\underline{e}_n]$ una base di V e sia $S=[\underline{v}_1,...,\underline{v}_h]$ un sistema linearmente indipendente, allora $h\leq n$
 	\begin{es}
 		$S=[(1,2,3),(\pi,\pi^2,\pi^3),(5,50,500),(\frac{1}{2},\frac{1}{4},\frac{1}{6})]\in\mathbb{R}^3$\\
 		$[(1,0,0),(0,1,0),(0,0,1)]$ base canonica di $\mathbb{R}^3$\\
@@ -488,9 +494,9 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	\end{dimostrazione}
 	\begin{esercizio}
 		$S=[(1,2,3,4),(\frac{1}{2},\pi,\sin 8, 55)]$ genera $\mathbb{R}^4$?\\
-		$S$ genera $\mathbb{R}^4$ se $\forall(a,b,c,d)\in\mathbb{R}^4\exists\beta\delta\in\mathbb{R}$ tali che:\\ 
+		$S$ genera $\mathbb{R}^4$ se $\forall(a,b,c,d)\in\mathbb{R}^4\phantom{1}\exists\beta,\delta\in\mathbb{R}$ tali che:\\ 
 		$(a,b,c,d)=\beta(1,2,3,4)+\delta(\frac{1}{2},\pi,\sin 8, 55)$
-		S è indipendente (Lemma di Steinitz\ref{lemmadisteinitz}), S non è una base (Teor. equipotenza delle basi\ref{equipotenza}) $\longrightarrow$ S non è un generatore
+		S è indipendente (Lemma di Steinitz \ref{lemmadisteinitz}), S non è una base (Teor. equipotenza delle basi \ref{equipotenza}) $\longrightarrow$ S non è un generatore
 	\end{esercizio}
 	\begin{osservazione}
 		\phantom{}\\
@@ -507,7 +513,7 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 
 \begin{proposizione}[Dimensione di uno spazio vettoriale]
 	\phantom{}\\
-	La \textbf{dimensione di uno spazio vettoriale} finitamente generato è uguale al \textbf{numero di vettori che contiene una base}\\
+	La \textbf{dimensione di uno spazio vettoriale} finitamente generato è uguale al \textbf{numero di vettori che contiene una base} (ovvero \underline{linearmente indipendenti})\\
 	$
 		\dim V= 
 		\begin{cases}

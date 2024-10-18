@@ -79,8 +79,5 @@
     <requires type="dynamic">
       <file>master.bcf</file>
     </requires>
-    <requires type="editable">
-      <file>ref.bib</file>
-    </requires>
   </external>
 </requests>
