@@ -12,7 +12,8 @@ Sia $V$ uno spazio vettoriale, se $S\subseteq V$ si dice che $S$ è un sottospaz
 \begin{definizione}
 	$S$ è un sottopazio di $V$ se:\\
 	A: $\forall \underline{w}_1+\underline{w}_2\in S - \underline{w}_1+\underline{w}_2\in S$\\
-	B: $\forall\alpha\in\mathbb{R}, \underline{w}_1\in S - \alpha\underline{w}_1\in S$
+	B: $\forall\alpha\in\mathbb{R}, \underline{w}_1\in S - \alpha\underline{w}_1\in S$\\
+	Quindi dobbiamo verificare che la somma e il prodotto siano operazioni interne
 \end{definizione}
 
 \begin{es}
@@ -44,7 +45,7 @@ Ogni spazio vettoriale $V$ contiene il sottospazio nullo: $\{\underline{0}\}$
 	Determinare la dimensione del sottospazio $<\begin{pmatrix}
 		1&2\\
 		3&4
-	\end{pmatrix}>=5$\\
+	\end{pmatrix}>=S$\\
 	$S=\{\begin{pmatrix}
 	       \alpha& 2\alpha\\
 		   3\alpha& 4\alpha
@@ -55,8 +56,15 @@ Ogni spazio vettoriale $V$ contiene il sottospazio nullo: $\{\underline{0}\}$
 		 Quindi una sua base è $\begin{pmatrix}
 			1&2\\
 			3&4
-		 \end{pmatrix}\Mapsto\dim S=1$\\\\
-		 Calcolare la dimensione del sottospazio dei polinomi $<x^{2024}>=\{\alpha x^{2024}/\alpha\in\mathbb{R}\}\Mapsto\dim =1$
+		 \end{pmatrix}\Mapsto\dim S=1$
+		 \begin{nota}
+			Potevamo anche dire che essendo S composto da un solo elemento, deve avere necessariamente dimensione uguale a 1, essendo diverso da $\underline{0}$
+		 \end{nota}
+\end{es}
+
+\begin{es}
+	\phantom{text}\\
+	Calcolare la dimensione del sottospazio dei polinomi $<x^{2024}>=\{\alpha x^{2024}/\alpha\in\mathbb{R}\}\Mapsto\dim =1$
 \end{es}
 
 \begin{proposizione}
@@ -157,7 +165,8 @@ $A_{ij}=(-1)^{i+j}\cdot\det\begin{pmatrix}
 
 \begin{figure}[H]
 	\centering
-	\incfig{laplace}
+	%\incfig{laplace}
+	\includegraphics[height=0.16\textwidth]{Figures/laplace.pdf}
 	\caption[Caption]{Visualizzazione grafica dell'esercizio precedente}
 	\label{fig:laplacees1}
 \end{figure}

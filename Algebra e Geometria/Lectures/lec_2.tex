@@ -136,14 +136,14 @@ Sia $(\mathbb{R}^{2},+,\cdot)$ una struttura algebrica (ovvero un insieme non vu
 In generale, l'insieme delle combinazioni lineari $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>\subseteq V$. Quindi ogni vettore di V è combinazione lineare di $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>$ e si dice che $<\underline{v}_{1},\underline{v}_{2},...,\underline{v}_{n}>$ sono \textbf{generatori} di V.
 \begin{es}
 	\phantom{}\\
-	$\underline{v}_1=(1,2,0,3),\underline{v}_2=(\pi,e,0,-55),\underline{v}_3=(\log_2 3,\sin 8,0,0)$\\\\
-	$\underline{v}_1,\underline{v}_2,\underline{v}_3$ generano $\mathbb{R}^4$?\\
+	$\underline{v}_1=(1,2,0,3), \underline{v}_2=(\pi,e,0,-55), \underline{v}_3=(\log_2 3,\sin 8,0,0)$\\\\
+	$\underline{v}_1, \underline{v}_2, \underline{v}_3$ generano $\mathbb{R}^4$?\\
 	No perché: $\beta_1(1,2,0,3)+\beta_2(\pi,e,0,-55)+\beta_3(\log_2 3,\sin 8,0,0)/\beta_i\in\mathbb{R}$\\
 	$(0,0,1,0)$ non è combinazione lineare di $\underline{v}_1,\underline{v}_2,\underline{v}_3$ (In ogni vettore, il terzo elemento è 0, e qualcosa per 0 fa sempre 0)\\\\
 \end{es}
 \begin{es}
 	$P_1(x)=3-x^4, P_2(x)=x+77x^7$\\
-	$x^8\in<P_1(x),P_2(x)>$?\\
+	$x^8\in<P_1(x), P_2(x)>$?\\
 	No perché non contiene polinomi di grado maggiore a 7.
 \end{es}
 \begin{es}
@@ -188,23 +188,24 @@ Un \textbf{Sistema di vettori} è un insieme in cui contano l'ordine degli eleme
 	$[(1,0),(1,0),(3,5)]$ 3 elementi $\neq[(1,0),(3,5)]\neq[(3,5),(1,0)]$ 
 \end{es}
 \begin{nota}
-$\underline{v}_1=(1,2,3),\underline{v}_2=(0,44,44),\underline{v}_3=(2,4,6)$\\
-Esistono varie combinazioni lineari per esprimere gli elementi soprastanti come vettore nullo. Un metodo banale è porre $\beta_1=0,\beta_2=0,\beta_3=0/\beta_1(1,2,3),\beta_2(0,44,44),\beta_3(2,4,6)$\\
+$\underline{v}_1=(1,2,3), \underline{v}_2=(0,44,44), \underline{v}_3=(2,4,6)$\\
+Esistono varie combinazioni lineari per esprimere gli elementi soprastanti come vettore nullo. Un metodo banale è porre $\beta_1=0,\beta_2=0,\beta_3=0 \longrightarrow 0\cdot(1,2,3),0\cdot(0,44,44), 0\cdot(2,4,6)$\\
 Un altro modo sarebbe porre $\beta_1=-2,\beta_2=0,\beta_3=1$
 \end{nota}
 
 \section{Dipendenza lineare}
-$[\underline{v}_1,...,\underline{v}_2]$ si dice \textbf{linearmente dipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ non è l'unico modo per esprimere $\underline{0}$ come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$\\
-$[\underline{v}_1,...,\underline{v}_2]$ Si dice \textbf{linearmente indipendente} se e soltanto se $0\cdot \underline{v}_1,...,0\cdot \underline{v}_2$ è l'unico modo per esprimere $\underline{0}$ come combinazione lineare di $\underline{v}_1,...,\underline{v}_n$
+$[\underline{v}_1,...,\underline{v}_n]$ si dice \textbf{linearmente dipendente} se e soltanto se $[0\cdot \underline{v}_1,...,0\cdot \underline{v}_n]$ non è l'unico modo per esprimere $\underline{0}$ come combinazione lineare di $[\underline{v}_1,...,\underline{v}_n]$\\
+$[\underline{v}_1,...,\underline{v}_n]$ Si dice \textbf{linearmente indipendente} se e soltanto se $[0\cdot \underline{v}_1,...,0\cdot \underline{v}_n]$ è l'unico modo per esprimere $\underline{0}$ come combinazione lineare di $[\underline{v}_1,...,\underline{v}_n]$
+
 \begin{proposizione}
 	Sia V uno spazio vettoriale qualunque e $\underline{v}_1,...,\underline{v}_n$ contiene almeno una coppia di vettori proporzionali, il sistema è linearmente dipendente.
+	\begin{es}
+		\phantom{text}\\
+		$[(2,4),(4,8)]=\underline{0}$\\
+		essendo $(4,8)$ il doppio di $(2,4)$ basta porre $\beta_1$ uguale a -2\\
+		$[-2\cdot(2,4)+1\cdot(4,8)]=(0,0)$
+	\end{es}	
 \end{proposizione}
-
-\begin{es}
-	$\underline{v}_1=(1,2,3),\underline{v}_2=(1,1,1),\underline{v}_3=(1,3,5)$\\
-	$[\underline{v}_1,\underline{v}_2,\underline{v}_3]$ è linearmente dipendente o indipendente?\\
-	Linearmente dipendente perché: $(0,0,0)=\beta_1(1,2,3)+\beta_2(1,1,1)+\beta_3(1,3,5)$ se poniamo nell'equazione $\beta_1=2,\beta_2=-1,\beta_3=-1$
-\end{es}
 
 \begin{es}
 	$\underline{v}_1=\begin{bmatrix}
@@ -360,22 +361,25 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 		$B=[\underline{e}_1,...,\underline{e}_n]$ è una base di V, quindi supponiamo che:\\
 		$\underline{v}=\beta_1 \underline{e}_1+...+\beta_n \underline{e}_n$\\
 		$\underline{v}=\gamma_1 \underline{e}_1+...+\gamma_n \underline{e}_n$\\
-		Sottraendo membro a membro: $\underline{0}=(\beta_1-\gamma_1)\underline{e}_1+...+(\beta_n-\gamma_n)\underline{e}_n$//
+		Sottraendo membro a membro: $\underline{0}=(\beta_1-\gamma_1)\underline{e}_1+...+(\beta_n-\gamma_n)\underline{e}_n$\\
 		Essendo per ipotesi, linearmente indipendente: $\beta_1-\gamma_1=0, \beta_n-\gamma_n=0$
 	\end{dimostrazione}
 \end{teorema}
 
 \begin{proposizione}
 	\phantom{}\\
-	$B^{\phantom{'}}=[(1,0,0),(0,1,0),(0,0,1)]\Longrightarrow (a,b,c)=a(1,0,0)+b(0,1,0)+c(0,0,1)$\\
-	$B^{'}=[(0,1,0),(0,0,1),(1,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)+c(0,0,1)+a(1,0,0)$\\
-	$B^{"}=[(0,1,0),(0,0,-1),(2023,0,0)]\Longrightarrow (a,b,c)=b(0,1,0)-c(0,0,-1)+\frac{a}{2023}(2023,0,0)$\\
+	$B^{\phantom{'}}=[(1,0,0),(0,1,0),(0,0,1)]\swarrow$\\
+	\phantom{texttt}$(a,b,c)=a(1,0,0)+b(0,1,0)+c(0,0,1)$\\\\
+	$B^{'}=[(0,1,0),(0,0,1),(1,0,0)]\swarrow$\\
+	\phantom{texttt}$(a,b,c)=b(0,1,0)+c(0,0,1)+a(1,0,0)$\\\\
+	$B^{"}=[(0,1,0),(0,0,-1),(2023,0,0)]\swarrow$\\
+	\phantom{texttt}$(a,b,c)=b(0,1,0)-c(0,0,-1)+\frac{a}{2023}(2023,0,0)$\\\\
 	In qualunque spazio vettoriale V che possegga una base, un vettore $\underline{v}$ si può esprimere come: $\underline{v}=\beta_1\underline{e}_1+...+\beta_n\underline{e}_n$. I coefficienti $\beta_1,...,\beta_n$ individuano univocamente $\underline{v}$ e prendono anche il nome di componenti di $\underline{v}$ rispetto alla base B.
 	\begin{es}
 		$\underline{v}=(3,10,2023)\in\mathbb{R}^{2}$\\
 		Le componenti di $\underline{v}$ rispetto a $B$ sono $(3,10,2023) \swarrow$\\
 		$a(1,0,0)+b(0,1,0)+c(0,0,1)=(3,10,2023)$\\
-		$\textbf{3}(1,0,0)+\textbf{10}(0,1,0)+\textbf{2024}(0,0,1)=(3,10,2023)$\\\\
+		$\textbf{3}(1,0,0)+\textbf{10}(0,1,0)+\textbf{2023}(0,0,1)=(3,10,2023)$\\\\
 		Le componenti di $\underline{v}$ rispetto a $B^{'}$ sono $(10,2023,3) \swarrow$\\
 		$b(0,1,0)+c(0,0,1)+a(1,0,0)=(3,10,2023)$\\
 		$\textbf{10}(0,1,0)+\textbf{2023}(0,0,1)+\textbf{3}(1,0,0)=(3,10,2023)$\\\\
@@ -485,7 +489,7 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	\begin{dimostrazione}
 		\phantom{}\\
 		\begin{itemize}
-			\item[hp] $B=[\underline{e}_1,...,\underline{e}_n], B^{'}=[\underline{e}_1,...,\underline{e}_m]$ basi di V
+			\item[hp] $B=[\underline{e}_1,...,\underline{e}_n],\phantom{1}B^{'}=[\underline{e}_1,...,\underline{e}_m]$ basi di V
 			\item[th] $m=n$
 		\end{itemize}
 		$B$ è una base, $B^{'}$ in particolare è indipendente $\Longrightarrow$ $m\leqslant n$ Per il \ref{lemmadisteinitz}\\
@@ -614,6 +618,8 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 	\end{corollario}
 \end{proposizione}
 
+\newpage
+
 \begin{proposizione}[terza proprietà elementare dei determinanti]
 	\phantom{}\\
 	$\det\begin{pmatrix}
@@ -632,7 +638,21 @@ Data una base, per trovarne una nuova, basta cambiare l'ordine dei vettori conte
 		\vdots\\
 		\underline{c}_n
 	\end{pmatrix}$ (vale anche per le colonne)\\
-	
+	\begin{es}
+		\det\begin{pmatrix}
+			1 & 0\\
+			3 & 4\\
+		\end{pmatrix}+\det\begin{pmatrix}
+			5 & 6\\
+			3 & 4\\
+		\end{pmatrix}=\det\begin{pmatrix}
+			6 & 6\\
+			3 & 4\\
+		\end{pmatrix}=6\cdot\det\begin{pmatrix}
+			1 & 1\\
+			3 & 4\\
+		\end{pmatrix}
+	\end{es}
 \end{proposizione}
 
 \begin{teorema}[Dipendenza lineare e matrici]
