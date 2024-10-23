@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg1" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" inkscape:export-xdpi="96" inkscape:export-ydpi="96" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 802.2 140.4"
+	 style="enable-background:new 0 0 802.2 140.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00BAEB;}
+	.st1{fill:#FF5E3D;}
+	.st2{fill:#7F58BD;}
+	.st3{font-family:'TimesNewRomanPSMT';}
+	.st4{font-size:10px;}
+</style>
+<g>
+	<circle class="st0" cx="350.5" cy="70.2" r="65"/>
+	<circle class="st1" cx="451.7" cy="70.2" r="65"/>
+	<path class="st2" d="M386.7,70.2c0,15.5,5.4,29.7,14.4,40.8c9-11.2,14.4-25.4,14.4-40.8s-5.4-29.7-14.4-40.8
+		C392.1,40.5,386.7,54.7,386.7,70.2z"/>
+</g>
+<rect x="528.2" y="33.2" class="st2" width="17" height="17"/>
+<text transform="matrix(1 0 0 1 548.3503 44.7647)" class="st3 st4">Basi di uno spazio vettoriale (lin. indip e generatori)</text>
+<rect x="528.2" y="61.8" class="st1" width="17" height="17"/>
+<text transform="matrix(1 0 0 1 548.3503 73.3047)" class="st3 st4">Insieme dei sistemi di vettori generatori di V</text>
+<rect x="528.2" y="90.3" class="st0" width="17" height="17"/>
+<text transform="matrix(1 0 0 1 548.3503 101.8448)" class="st3 st4">Insieme dei sistemi di vettori lin. indipendenti</text>
+</svg>
