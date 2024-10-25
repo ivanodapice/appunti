@@ -1,82 +1,118 @@
 \chapter{Introduzione}
 \lecture{1}{25 Nov. 12:11}{Richiami}
 \section{Insiemi}
-Partiamo col dire che nel vasto spettro degli insiemi troviamo anche quelli numerici. Questi insiemi si dicono infiniti 
-perché racchiudono al loro interno elementi che continuano ad incrementare o/e decrementare all'infinito. Vediamo ora i 
+Partiamo col dire che nel vasto spettro degli insiemi troviamo anche
+quelli numerici. Questi insiemi si dicono infiniti
+perché racchiudono al loro interno elementi che continuano ad
+incrementare o/e decrementare all'infinito. Vediamo ora i
 vari insiemi numerici che potremo incontrare nel corso:\\
 \begin{definizione}[Numeri Naturali]\label{nnaturali}
-  L'insieme $\mathbb{\MakeUppercase{n}}$ comprende al suo interno tutti i numeri non negativi\\
+  L'insieme $\mathbb{\MakeUppercase{n}}$ comprende al suo interno
+  tutti i numeri non negativi\\
   \begin{es}
-   $\mathbb{\MakeUppercase{n}}=\{1,2,3,4,5,...,+\infty\}$
+    $\mathbb{\MakeUppercase{n}}=\{1,2,3,4,5,...,+\infty\}$
   \end{es}
 \end{definizione}
 
 \begin{definizione}[Numeri Interi]\label{ninteri}
-  L'insieme $\mathbb{\MakeUppercase{z}}$ comprende al suo interno tutti i numeri negativi e positivi compreso quello nullo\\
+  L'insieme $\mathbb{\MakeUppercase{z}}$ comprende al suo interno
+  tutti i numeri negativi e positivi compreso quello nullo\\
   \begin{es}
-   $\mathbb{\MakeUppercase{z}}=\{0,\pm1,\pm2,\pm3,\pm4,\pm5,...,\pm\infty\}$
+    $\mathbb{\MakeUppercase{z}}=\{0,\pm1,\pm2,\pm3,\pm4,\pm5,...,\pm\infty\}$
   \end{es}
 \end{definizione}
 
 \begin{definizione}[Numeri Razionali]\label{nrazionali}
-  L'insieme $\mathbb{\MakeUppercase{q}}$ comprende al suo interno tutti i numeri interi e comprende la notazione del tipo $\frac{m}{n}, m\in\mathbb{\MakeUppercase{z}} \wedge n\in\mathbb{\MakeUppercase{n}}$\\
+  L'insieme $\mathbb{\MakeUppercase{q}}$ comprende al suo interno
+  tutti i numeri interi e comprende la notazione del tipo
+  $\frac{m}{n}, m\in\mathbb{\MakeUppercase{z}} \wedge
+  n\in\mathbb{\MakeUppercase{n}}$\\
   \begin{es}
-   $\mathbb{\MakeUppercase{q}}=\{-\frac{5}{7},0,\frac{3}{5},1.5\overline{3},1.23(\frac{111}{90}),\frac{88}{1},...\}$
+    $\mathbb{\MakeUppercase{q}}=\{-\frac{5}{7},0,\frac{3}{5},1.5\overline{3},1.23(\frac{111}{90}),\frac{88}{1},...\}$
   \end{es}
 \end{definizione}
 
 \begin{definizione}[Numeri Reali]\label{nreali}
-  L'insieme $\mathbb{\MakeUppercase{r}}$ comprende quei numeri che possono essere rappresentati con notazione decimale senza per forza essere del tipo $\frac{m}{n}$ \\
+  L'insieme $\mathbb{\MakeUppercase{r}}$ comprende quei numeri che
+  possono essere rappresentati con notazione decimale senza per forza
+  essere del tipo $\frac{m}{n}$ \\
   \begin{es}
-   $\mathbb{\MakeUppercase{r}}=\{\sqrt{2},\pi,e^{4}\}$
+    $\mathbb{\MakeUppercase{r}}=\{\sqrt{2},\pi,e^{4}\}$
   \end{es}
 \end{definizione}
 \leavevmode\\
-Quindi possiamo dire che $\mathbb{\MakeUppercase{n}}\subseteq\mathbb{\MakeUppercase{z}}\subseteq\mathbb{\MakeUppercase{q}}\subseteq\mathbb{\MakeUppercase{r}}$
+Quindi possiamo dire che
+$\mathbb{\MakeUppercase{n}}\subseteq\mathbb{\MakeUppercase{z}}\subseteq\mathbb{\MakeUppercase{q}}\subseteq\mathbb{\MakeUppercase{r}}$
 \leavevmode\\
 Per ricordare più facilmente questi insiemi possiamo ripensarli come:
 
-$\mathbb{\MakeUppercase{n}}$(Naturali), $\mathbb{\MakeUppercase{z}}$(Zero), $\mathbb{\MakeUppercase{q}}$(Quoziente), $\mathbb{\MakeUppercase{r}}$(reali)
+$\mathbb{\MakeUppercase{n}}$(Naturali),
+$\mathbb{\MakeUppercase{z}}$(Zero),
+$\mathbb{\MakeUppercase{q}}$(Quoziente), $\mathbb{\MakeUppercase{r}}$(reali)
 
 \subsection{N-ple, $R^n$}
 
-Identifichiamo ora un nuovo ente [$(a,b)$] individuato da due oggetti a e b non necessariamente distinti, e dall'ordine dei due. Un buon esempio potrebbe essere quello degli scacchi dove la posizione di una casella è identificata da due valori [$(n,x)$].\footnote{\href{https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SCD_algebraic_notation.svg/1200px-SCD_algebraic_notation.svg.png}{Coordinate Scacchiera}}
+Identifichiamo ora un nuovo ente [$(a,b)$] individuato da due oggetti
+a e b non necessariamente distinti, e dall'ordine dei due. Un buon
+esempio potrebbe essere quello degli scacchi dove la posizione di una
+casella è identificata da due valori
+[$(n,x)$].\footnote{\href{https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SCD_algebraic_notation.svg/1200px-SCD_algebraic_notation.svg.png}{Coordinate
+Scacchiera}}
 \leavevmode\\
-Possiamo definire adesso un nuovo insieme che è quello di $\mathbb{R}^{2}=\mathbb{R}\times \mathbb{R}, \{(a,b):a\in \mathbb{R} \wedge b\in \mathbb{R}\}$ definito da numeri razionali.
+Possiamo definire adesso un nuovo insieme che è quello di
+$\mathbb{R}^{2}=\mathbb{R}\times \mathbb{R}, \{(a,b):a\in \mathbb{R}
+\wedge b\in \mathbb{R}\}$ definito da numeri razionali.
 \begin{es}
-	Un insieme $\mathbb{R}^{2}$ potrebbe essere $v=(2,\sqrt{6.4}), \in \mathbb{R}^{2}$
+  Un insieme $\mathbb{R}^{2}$ potrebbe essere $v=(2,\sqrt{6.4}), \in
+  \mathbb{R}^{2}$
 \end{es}
 
 \begin{nota}
-	In $\mathbb{R}^{2}$ ci sono anche particolari combinazioni che prendono il nome di \textbf{Diagonale Principale} e \textbf{Diagonale Secondaria}.
-	\begin{es}
-		\phantom{}\\
-		\begin{align*}
-			v=(x,&x) \text{: Diagonale Principale (i due elementi sono uguali)}\\
-			v=(x,-&x) \text{: Diagonale Secondaria (un elemento è l'opposto dell'altro)}
-		\end{align*}
-	\end{es}
+  In $\mathbb{R}^{2}$ ci sono anche particolari combinazioni che
+  prendono il nome di \textbf{Diagonale Principale} e
+  \textbf{Diagonale Secondaria}.
+  \begin{es}
+    \phantom{}\\
+    \begin{align*}
+      v=(x,&x) \text{: Diagonale Principale (i due elementi sono uguali)}\\
+      v=(x,-&x) \text{: Diagonale Secondaria (un elemento è l'opposto
+      dell'altro)}
+    \end{align*}
+  \end{es}
 \end{nota}
 
-Oltre all'insieme $\mathbb{R}^{2}$ ci sono poi tutta una serie incrementale di insiemi fino ad arrivare alla ennupla $\mathbb{R}^{n}$ che ha un numero di elementi virtualmente infinito. L'insieme di $\mathbb{R}^{n}, n>2$ viene chiamato spazio euclideo mentre i suoi elementi $(x_{1},x_{2},...,x_{n}, x\in \mathbb{R})$ vengono chiamati punti o vettori.\\
-Possiamo usare gli spazi $\mathbb{R}$ per rappresentare graficamente dei riferimenti. $\mathbb{R}^{1}$ ci permette di orientarci su una retta mentre $\mathbb{R}^{2}$ e $\mathbb{R}^{3}$ rispettivamente per visualizzare figure piane e solidi.
+Oltre all'insieme $\mathbb{R}^{2}$ ci sono poi tutta una serie
+incrementale di insiemi fino ad arrivare alla ennupla
+$\mathbb{R}^{n}$ che ha un numero di elementi virtualmente infinito.
+L'insieme di $\mathbb{R}^{n}, n>2$ viene chiamato spazio euclideo
+mentre i suoi elementi $(x_{1},x_{2},...,x_{n}, x\in \mathbb{R})$
+vengono chiamati punti o vettori.\\
+Possiamo usare gli spazi $\mathbb{R}$ per rappresentare graficamente
+dei riferimenti. $\mathbb{R}^{1}$ ci permette di orientarci su una
+retta mentre $\mathbb{R}^{2}$ e $\mathbb{R}^{3}$ rispettivamente per
+visualizzare figure piane e solidi.
 
 \begin{figure}[H]
-	\centering
-	\incfig{piano cartesiano}
-	\caption[Caption]{Coordinate degli assi in $\mathbb{R}^{2}$ e $\mathbb{R}^{3}$}
-	\label{fig:pianocartesiano}
+  \centering
+  \incfig{piano cartesiano}
+  \caption[Caption]{Coordinate degli assi in $\mathbb{R}^{2}$ e
+  $\mathbb{R}^{3}$}
+  \label{fig:pianocartesiano}
 \end{figure}
 
-\newpage 
+\newpage
 
-Adesso possiamo usare lo spazio $\mathbb{R}^{2}$ per fare un esercizio. Avremo due vettori $q=(3,5)\wedge p=(5,3)$ e vogliamo visualizzare il vettore $s=\frac{1}{2}q+2p$. Per fare ciò, si usa un metodo grafico chiamato punta-coda, dove mettiamo i nostri vettori in successione connettendo l'inizio di uno alla fine dell'altro.
+Adesso possiamo usare lo spazio $\mathbb{R}^{2}$ per fare un
+esercizio. Avremo due vettori $q=(3,5)\wedge p=(5,3)$ e vogliamo
+visualizzare il vettore $s=\frac{1}{2}q+2p$. Per fare ciò, si usa un
+metodo grafico chiamato punta-coda, dove mettiamo i nostri vettori in
+successione connettendo l'inizio di uno alla fine dell'altro.
 
 \begin{figure}[H]
-	\centering
-	\incfig{somma vettori}
-	\caption[Caption]{}
-	\label{fig:sommavettori}
+  \centering
+  \incfig{somma vettori}
+  \caption[Caption]{}
+  \label{fig:sommavettori}
 \end{figure}
 
 \section{Proprietà}
@@ -84,49 +120,60 @@ Adesso possiamo usare lo spazio $\mathbb{R}^{2}$ per fare un esercizio. Avremo d
 \subsection{Somma}
 
 \begin{definizione}
-	$(a_{1}, a_{2})+(b_{1},b_{2})=(a_{1}+b_{1}, a_{2}+b_{2}), (a, b)\in \mathbb{R}$
+  $(a_{1}, a_{2})+(b_{1},b_{2})=(a_{1}+b_{1}, a_{2}+b_{2}), (a, b)\in
+  \mathbb{R}$
 \end{definizione}
 
-La somma è un'operazione interna, dato che gli addendi e il risultato dell'operazione si trovano nello stesso insieme.
+La somma è un'operazione interna, dato che gli addendi e il risultato
+dell'operazione si trovano nello stesso insieme.
 
 \begin{nota}
-	\phantom{}\\
-	\begin{description}
-		\item[1.] Elemento neutro: $(a_{1}, a_{2})+(0,0)=(0,0)+(a_{1}, a_{2})=(a_{1}, a_{2}), \forall(a_{1}, a_{2}\in \mathbb{R}^{2})$
-		\item[2.] Opposto: $(a_{1}, a_{2})+(-a_{1}, -a_{2})=(0, 0), \forall(a_{1}, a_{2}\in \mathbb{R}^{2})$\\
-		\item[3.] P. Associativa: $\forall (a_{1}, a_{2}), (b_{1}, b_{2}), (c_{1}, c_{2}), \in \mathbb{R}^{2}$\\\\
-		\phantom{texttexttextt}$[(a_{1}, a_{2})+(b_{1}, b_{2})]+(c_{1}, c_{2})=(a_{1}, a_{2})[(b_{1}, b_{2})+(c_{1}, c_{2})]$\\
-		\item[4.] P. Commutativa: $\forall (a_{1}, a_{2}), (b_{1}, b_{2}), \in \mathbb{R}^{2}$\\\\
-		\phantom{texttexttexttex}$(a_{1}, a_{2})+(b_{1}, b_{2})=(b_{1}, b_{2})+(a_{1}, a_{2})$
-	\end{description}
+  \phantom{}\\
+  \begin{description}
+    \item[1.] Elemento neutro: $(a_{1}, a_{2})+(0,0)=(0,0)+(a_{1},
+      a_{2})=(a_{1}, a_{2}), \forall(a_{1}, a_{2}\in \mathbb{R}^{2})$
+    \item[2.] Opposto: $(a_{1}, a_{2})+(-a_{1}, -a_{2})=(0, 0),
+      \forall(a_{1}, a_{2}\in \mathbb{R}^{2})$\\
+    \item[3.] P. Associativa: $\forall (a_{1}, a_{2}), (b_{1},
+      b_{2}), (c_{1}, c_{2}), \in \mathbb{R}^{2}$\\\\
+      \phantom{texttexttextt}$[(a_{1}, a_{2})+(b_{1}, b_{2})]+(c_{1},
+      c_{2})=(a_{1}, a_{2})[(b_{1}, b_{2})+(c_{1}, c_{2})]$\\
+    \item[4.] P. Commutativa: $\forall (a_{1}, a_{2}), (b_{1},
+      b_{2}), \in \mathbb{R}^{2}$\\\\
+      \phantom{texttexttexttex}$(a_{1}, a_{2})+(b_{1}, b_{2})=(b_{1},
+      b_{2})+(a_{1}, a_{2})$
+  \end{description}
 \end{nota}
 \leavevmode\\
-Una struttura algebrica del tipo $(\mathbb{R}^{2},+)$ se gode delle precedenti proprietà da 1 a 4 viene chiamata \textbf{Gruppo Abeliano}
+Una struttura algebrica del tipo $(\mathbb{R}^{2},+)$ se gode delle
+precedenti proprietà da 1 a 4 viene chiamata \textbf{Gruppo Abeliano}
 
 \newpage
 
 \subsection{Moltiplicazione di un vettore per uno scalare}
 
 \begin{definizione}
-	$(a_{1}, a_{2})\cdot(b_{1},b_{2})=(a_{1}\cdot b_{1}, a_{2}\cdot b_{2})\dagger a,b\in \mathbb{R}$
+  $(a_{1}, a_{2})\cdot(b_{1},b_{2})=(a_{1}\cdot b_{1}, a_{2}\cdot
+  b_{2})\dagger a,b\in \mathbb{R}$
 \end{definizione}
 
 \begin{nota}
-	\phantom{}\\
-	\begin{description}
-		\item[5.] P. distributiva: $\forall \beta\in \mathbb{R} \wedge \forall (a_{1}, a_{2}),(b_{1}, b_{2}), \in \mathbb{R}^{2}$\\\\
-		\phantom{texttexttextt}$\beta[(a_{1}, a_{2})+(b_{1}, b_{2})]=\beta(a_{1}, a_{2})+\beta(b_{1}, b_{2})$\\
-		\item[6.] P. distributiva: $\forall \beta,\delta\in \mathbb{R} \wedge \forall (a_{1}, a_{2}), \in \mathbb{R}^{2}$\\\\
-		\phantom{texttexttextt}$(\beta+\delta)(a_{1}, a_{2})=\beta(a_{1}, a_{2})+\delta(a_{1}, a_{2})$\\
-		\item[7.] P. Associativa: $\forall \beta,\delta\in \mathbb{R} \wedge \forall (a_{1}, a_{2}), \in \mathbb{R}^{2}$\\\\
-		\phantom{texttexttextt}$\beta\gamma(a_{1}, a_{2})=\beta[\gamma(a_{1}, a_{2})]=(\beta\gamma)(a_{1}, a_{2})$\\
-		\item[8.] Elemento neutro: $1(a_{1}, a_{2})=(a_{1}, a_{2}), \forall(a_{1}, a_{2})\in\mathbb{R}^{2}$
-	\end{description}
+  \phantom{}\\
+  \begin{description}
+    \item[5.] P. distributiva: $\forall \beta\in \mathbb{R} \wedge
+      \forall (a_{1}, a_{2}),(b_{1}, b_{2}), \in \mathbb{R}^{2}$\\\\
+      \phantom{texttexttextt}$\beta[(a_{1}, a_{2})+(b_{1},
+      b_{2})]=\beta(a_{1}, a_{2})+\beta(b_{1}, b_{2})$\\
+    \item[6.] P. distributiva: $\forall \beta,\delta\in \mathbb{R}
+      \wedge \forall (a_{1}, a_{2}), \in \mathbb{R}^{2}$\\\\
+      \phantom{texttexttextt}$(\beta+\delta)(a_{1},
+      a_{2})=\beta(a_{1}, a_{2})+\delta(a_{1}, a_{2})$\\
+    \item[7.] P. Associativa: $\forall \beta,\delta\in \mathbb{R}
+      \wedge \forall (a_{1}, a_{2}), \in \mathbb{R}^{2}$\\\\
+      \phantom{texttexttextt}$\beta\gamma(a_{1},
+      a_{2})=\beta[\gamma(a_{1}, a_{2})]=(\beta\gamma)(a_{1}, a_{2})$\\
+    \item[8.] Elemento neutro: $1(a_{1}, a_{2})=(a_{1}, a_{2}),
+      \forall(a_{1}, a_{2})\in\mathbb{R}^{2}$
+  \end{description}
 \end{nota}
-
-
-
-
-
-
 
