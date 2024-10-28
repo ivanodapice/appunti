@@ -17,3 +17,6 @@
 \contentsline {section}{\numberline {3.4}Orlati di una Matrice}{24}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Matrici triangolari}{28}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Teorema di Completamento di una Base}{28}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Sistemi lineari}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Relazioni di equivalenza}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}La somma Vettoriale è un gruppo Abeliano}{33}{section.4.2}%
