@@ -165,10 +165,122 @@ $(\overrightarrow{U}+\overrightarrow{V})+\overrightarrow{W}=\overrightarrow{U}+(
 	\beta\cdot \overrightarrow{u}
 	\begin{cases}
 		\text{Se } \beta=0 \text{ o } \overrightarrow{u}=0 \Rightarrow& \overrightarrow{0}\\
-		\text{Se } \beta\neq0 \text{ e } \overrightarrow{u}\neq 0 \Rightarrow& \text{ Stessa direzione di }\overrightarrow{u}\\
+		\text{Se } \beta\neq0 \text{ e } \overrightarrow{u}\neq 0 \Rightarrow& \text{Stessa direzione di }\overrightarrow{u}\\
 		\text{Se e solo se } \beta\neq0 \Rightarrow& \text{Stesso verso di } \overrightarrow{u}
 	\end{cases}\\
 	\beta\in\mathbb{R}
 \end{align*}
 
 $$|\beta\cdot\overrightarrow{u}|=|\beta|\cdot|\overrightarrow{u}|$$
+
+\begin{esercizio}
+	Addizione di Vettori
+	\leavevmode\\
+	Siano dati i vettori 
+	\[
+	\vec{u} = \begin{bmatrix} 2 \\ 3 \end{bmatrix} \quad \text{e} \quad \vec{v} = \begin{bmatrix} 4 \\ 1 \end{bmatrix}.
+	\]
+	Calcola \(\vec{u} + \vec{v}\).
+	\leavevmode\\
+	\[
+	\vec{u} + \vec{v} = \begin{bmatrix} 2 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 4 \end{bmatrix}
+	\]
+	\leavevmode\\
+	\textbf{Rappresentazione Grafica:}
+	\leavevmode\\
+	\begin{center}
+		\begin{tikzpicture}
+			% Assi con tacche
+			\draw[->] (-1,0) -- (7,0) node[right] {$x$};
+			\foreach \x in {0, 2, 4, 6} \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+			\draw[->] (0,-1) -- (0,5) node[above] {$y$};
+			\foreach \y in {0, 1, 3, 4} \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+			
+			% Vettore u
+			\draw[->, thick, blue] (0,0) -- (2,3) node[midway, above, sloped] {$\vec{u}$};
+			\filldraw[blue] (2,3) circle (2pt) node[right] {$(2, 3)$};
+			
+			% Vettore v
+			\draw[->, thick, red] (2,3) -- (6,4) node[midway, above, sloped] {$\vec{v}$};
+			\filldraw[red] (6,4) circle (2pt) node[right] {$(6, 4)$};
+			
+			% Vettore risultante u + v
+			\draw[->, thick, purple] (0,0) -- (6,4) node[midway, above, sloped] {$\vec{u} + \vec{v}$};
+			\filldraw[purple] (6,4) circle (2pt);
+		\end{tikzpicture}
+	\end{center}
+\end{esercizio}
+
+\begin{esercizio}
+	Sottrazione di Vettori
+	\leavevmode\\
+	Siano dati i vettori 
+	\[
+	\vec{u} = \begin{bmatrix} 5 \\ 2 \end{bmatrix} \quad \text{e} \quad \vec{v} = \begin{bmatrix} 2 \\ 3 \end{bmatrix}.
+	\]
+	Calcola \(\vec{u} - \vec{v}\).
+	\leavevmode\\
+	\[
+	\vec{u} - \vec{v} = \begin{bmatrix} 5 \\ 2 \end{bmatrix} - \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} 3 \\ -1 \end{bmatrix}
+	\]
+	\leavevmode\\
+	\textbf{Rappresentazione Grafica:}
+	\leavevmode\\
+	\begin{center}
+		\begin{tikzpicture}
+			% Assi con tacche
+			\draw[->] (-1,0) -- (7,0) node[right] {$x$};
+			\foreach \x in {0, 3, 5} \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+			\draw[->] (0,-2) -- (0,5) node[above] {$y$};
+			\foreach \y in {-1, 0, 2} \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+			
+			% Vettore u
+			\draw[->, thick, blue] (0,0) -- (5,2) node[midway, above, sloped] {$\vec{u}$};
+			\filldraw[blue] (5,2) circle (2pt) node[right] {$(5, 2)$};
+			
+			% Vettore -v
+			\draw[->, thick, red] (5,2) -- (3,-1) node[midway, above, sloped] {$-\vec{v}$};
+			\filldraw[red] (3,-1) circle (2pt) node[right] {$(3, -1)$};
+			
+			% Vettore risultante u - v
+			\draw[->, thick, purple] (0,0) -- (3,-1) node[midway, below, sloped] {$\vec{u} - \vec{v}$};
+			\filldraw[purple] (3,-1) circle (2pt);
+		\end{tikzpicture}
+	\end{center}
+\end{esercizio}
+
+\begin{esercizio}
+	Moltiplicazione per uno Scalare
+	\leavevmode\\
+	Sia dato il vettore 
+	\[
+	\vec{u} = \begin{bmatrix} 1 \\ 4 \end{bmatrix}.
+	\]
+	Calcola \(2 \vec{u}\).
+	\leavevmode\\
+	\[
+	\frac{1}{2} \vec{u} = \frac{1}{2} \cdot \begin{bmatrix} 1 \\ 4 \end{bmatrix} = \begin{bmatrix} 0,5 \\ 2 \end{bmatrix}
+	\]
+	\leavevmode\\
+	\textbf{Rappresentazione Grafica:}
+	\leavevmode\\
+	\begin{center}
+		\begin{tikzpicture}
+			% Assi con tacche
+			\draw[->] (-1,0) -- (3,0) node[right] {$x$};
+			\foreach \x in {0, 0.5, 1, 1.5} \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+			\draw[->] (0,-1) -- (0,5) node[above] {$y$};
+			\foreach \y in {0, 2, 4} \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+			
+			% Vettore u
+			\draw[->, thick, blue] (0,0) -- (1,4) node[midway, right, sloped] {$\vec{u}$};
+			\filldraw[blue] (1,4) circle (2pt) node[right] {$(1, 4)$};
+			
+			% Vettore risultante 1/2 u
+			\draw[->, thick, purple] (0,0) -- (0.5,2) node[midway, right, sloped] {$\frac{1}{2}\vec{u}$};
+			\filldraw[purple] (0.5,2) circle (2pt) node[right] {$(0.5, 2)$};
+		\end{tikzpicture}
+	\end{center}
+\end{esercizio}
+
+\section{Prodotto scalare standard in $\mathbb{R}^n$}

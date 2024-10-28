@@ -20,3 +20,4 @@
 \contentsline {chapter}{\numberline {4}Sistemi lineari}{31}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Relazioni di equivalenza}{31}{section.4.1}%
 \contentsline {section}{\numberline {4.2}La somma Vettoriale è un gruppo Abeliano}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Prodotto scalare standard in $\symbb {R}^n$}{35}{section.4.3}%
