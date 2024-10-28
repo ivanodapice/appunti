@@ -525,7 +525,7 @@ righe e colonne disponibili, i determinanti risultano tutti uguali a
         1 & 2\\
         3 & 4
     \end{pmatrix}]$$
-	\leavevmode\\
+    \leavevmode\\
     In $M_{2\times2}$ una base è: $[
       \begin{pmatrix}
         1 & 0\\
@@ -547,121 +547,140 @@ righe e colonne disponibili, i determinanti risultano tutti uguali a
     Quindi le componenti dei vettori di $S$ rispetto alla base sono:
     \leavevmode\\\\
     $
-    \alpha_1\begin{pmatrix}
-    	1 & 0\\
-    	0 & 0
+    \alpha_1
+    \begin{pmatrix}
+      1 & 0\\
+      0 & 0
     \end{pmatrix},
-    \beta_1\begin{pmatrix}
-    	0 & 1\\
-    	0 & 0
+    \beta_1
+    \begin{pmatrix}
+      0 & 1\\
+      0 & 0
     \end{pmatrix},
-    \gamma_1\begin{pmatrix}
-    	0 & 0\\
-    	1 & 0
+    \gamma_1
+    \begin{pmatrix}
+      0 & 0\\
+      1 & 0
     \end{pmatrix},
-    \delta_1\begin{pmatrix}
-    	0 & 0\\
-    	0 & 1
-    \end{pmatrix}=\begin{pmatrix}
-    1 & 0\\
-    2 & 1
+    \delta_1
+    \begin{pmatrix}
+      0 & 0\\
+      0 & 1
+    \end{pmatrix}=
+    \begin{pmatrix}
+      1 & 0\\
+      2 & 1
     \end{pmatrix}
     $
     \leavevmode\\
     $
-    \alpha_2\begin{pmatrix}
-    	1 & 0\\
-    	0 & 0
+    \alpha_2
+    \begin{pmatrix}
+      1 & 0\\
+      0 & 0
     \end{pmatrix},
-    \beta_2\begin{pmatrix}
-    	0 & 1\\
-    	0 & 0
+    \beta_2
+    \begin{pmatrix}
+      0 & 1\\
+      0 & 0
     \end{pmatrix},
-    \gamma_2\begin{pmatrix}
-    	0 & 0\\
-    	1 & 0
+    \gamma_2
+    \begin{pmatrix}
+      0 & 0\\
+      1 & 0
     \end{pmatrix},
-    \delta_2\begin{pmatrix}
-    	0 & 0\\
-    	0 & 1
-    \end{pmatrix}=\begin{pmatrix}
-    	1 & 1\\
-    	1 & -1
+    \delta_2
+    \begin{pmatrix}
+      0 & 0\\
+      0 & 1
+    \end{pmatrix}=
+    \begin{pmatrix}
+      1 & 1\\
+      1 & -1
     \end{pmatrix}
     $
     \leavevmode\\
     $
-    \alpha_3\begin{pmatrix}
-    	1 & 0\\
-    	0 & 0
+    \alpha_3
+    \begin{pmatrix}
+      1 & 0\\
+      0 & 0
     \end{pmatrix},
-    \beta_3\begin{pmatrix}
-    	0 & 1\\
-    	0 & 0
+    \beta_3
+    \begin{pmatrix}
+      0 & 1\\
+      0 & 0
     \end{pmatrix},
-    \gamma_3\begin{pmatrix}
-    	0 & 0\\
-    	1 & 0
+    \gamma_3
+    \begin{pmatrix}
+      0 & 0\\
+      1 & 0
     \end{pmatrix},
-    \delta_3\begin{pmatrix}
-    	0 & 0\\
-    	0 & 1
-    \end{pmatrix}=\begin{pmatrix}
-    	1 & 2\\
-    	3 & 4
+    \delta_3
+    \begin{pmatrix}
+      0 & 0\\
+      0 & 1
+    \end{pmatrix}=
+    \begin{pmatrix}
+      1 & 2\\
+      3 & 4
     \end{pmatrix}
     $
     \leavevmode\\\\
     $[(1,0,2,1),(1,1,1,-1),(1,2,3,4)]$
     \leavevmode\\
-    $\textnormal{Rg}\begin{pmatrix}
-    	1 & 0 & 2 & 1\\
-    	1 & 1 & 1 & -1\\
-		1 &2 &3 &4    	
+    $\textnormal{Rg}
+    \begin{pmatrix}
+      1 & 0 & 2 & 1\\
+      1 & 1 & 1 & -1\\
+      1 &2 &3 &4
     \end{pmatrix}$
     \leavevmode\\\\
-    Se il rango della matrice è 3, allora i vettori in essa compresi sono linearmente indipendenti, altrimenti dipendenti.
+    Se il rango della matrice è 3, allora i vettori in essa compresi
+    sono linearmente indipendenti, altrimenti dipendenti.
   \end{es}
 \end{proposizione}
 
 \begin{esercizio}
-	Determinare due basi di W
+  Determinare due basi di W
 
-	$$w=<1-x^2,2x+x^4,x^2-x^4>\in\mathbb{R}[x]$$
-	\leavevmode\\
-	$w=<1-x^2,2x+x^4,x^2-x^4>\in<1,x,x^2,x^3,x^4>=T_4$
-	
-	\begin{nota}
-		$<1,x,x^2,x^3,x^4>$ è anche una base $B_{T4}$
-	\end{nota}
-	\leavevmode
-	I vettori di W secondo $B_{T4}$ sono:
-	\leavevmode\\
-	$[(1,0,-1,0,0),(0,2,0,0,1),(0,0,1,0,-1)]$
-	\leavevmode\\\\
-	$
-	\textnormal{Rg}\begin{pmatrix}
-		1 &0 &-1 &0 &0\\
-		0 &2 &0 &0 &1\\
-		0 &0 &1 &0 &-1
-	\end{pmatrix}
-	$
-	\leavevmode\\\\
-	$
-	\det\begin{pmatrix}
-		1 &0 &-1\\
-		0 &2 &0\\
-		0 &0 &1
-	\end{pmatrix}=2\textrightarrow\textnormal{Rg}=3
-	$
-	\leavevmode\\\\
-	$B_w=[1-x^2,2x+4,x^2-x^4]$
-	\leavevmode\\
-	$B'_w=[2x+4,1-x^2,x^2-x^4]$
-	\leavevmode\\
-	Qual'è il polinomio in W di componenti $(17,10,\frac{2010}{\pi})$?
-	\leavevmode\\
-	$17\cdot(1-x^2)+10(2x+x^4)+\frac{2010}{\pi}\cdot(x^2-x^4)$
+  $$w=<1-x^2,2x+x^4,x^2-x^4>\in\mathbb{R}[x]$$
+  \leavevmode\\
+  $w=<1-x^2,2x+x^4,x^2-x^4>\in<1,x,x^2,x^3,x^4>=T_4$
+
+  \begin{nota}
+    $<1,x,x^2,x^3,x^4>$ è anche una base $B_{T4}$
+  \end{nota}
+  \leavevmode
+  I vettori di W secondo $B_{T4}$ sono:
+  \leavevmode\\
+  $[(1,0,-1,0,0),(0,2,0,0,1),(0,0,1,0,-1)]$
+  \leavevmode\\\\
+  $
+  \textnormal{Rg}
+  \begin{pmatrix}
+    1 &0 &-1 &0 &0\\
+    0 &2 &0 &0 &1\\
+    0 &0 &1 &0 &-1
+  \end{pmatrix}
+  $
+  \leavevmode\\\\
+  $
+  \det
+  \begin{pmatrix}
+    1 &0 &-1\\
+    0 &2 &0\\
+    0 &0 &1
+  \end{pmatrix}=2\textrightarrow\textnormal{Rg}=3
+  $
+  \leavevmode\\\\
+  $B_w=[1-x^2,2x+4,x^2-x^4]$
+  \leavevmode\\
+  $B'_w=[2x+4,1-x^2,x^2-x^4]$
+  \leavevmode\\
+  Qual'è il polinomio in W di componenti $(17,10,\frac{2010}{\pi})$?
+  \leavevmode\\
+  $17\cdot(1-x^2)+10(2x+x^4)+\frac{2010}{\pi}\cdot(x^2-x^4)$
 \end{esercizio}
 
 \section{Matrici triangolari}
@@ -740,102 +759,157 @@ $$
 
 \section{Teorema di Completamento di una Base}
 
-il \textbf{teorema di completamento di una base} è uno strumento fondamentale che riguarda gli spazi vettoriali di dimensione finita. Questo teorema afferma che, dato un insieme di vettori linearmente indipendenti in uno spazio vettoriale, è possibile estendere tale insieme fino a ottenere una base completa per l'intero spazio.
+il \textbf{teorema di completamento di una base} è uno strumento
+fondamentale che riguarda gli spazi vettoriali di dimensione finita.
+Questo teorema afferma che, dato un insieme di vettori linearmente
+indipendenti in uno spazio vettoriale, è possibile estendere tale
+insieme fino a ottenere una base completa per l'intero spazio.
 
-Questo teorema è particolarmente utile in quanto permette di costruire una base di \( V \) a partire da un sottoinsieme di vettori che sono già linearmente indipendenti. Estendere una collezione di vettori linearmente indipendenti fino a una base implica che possiamo sempre ottenere un insieme completo che genera tutto lo spazio vettoriale, mantenendo al contempo l'indipendenza lineare.
+Questo teorema è particolarmente utile in quanto permette di
+costruire una base di \( V \) a partire da un sottoinsieme di vettori
+che sono già linearmente indipendenti. Estendere una collezione di
+vettori linearmente indipendenti fino a una base implica che possiamo
+sempre ottenere un insieme completo che genera tutto lo spazio
+vettoriale, mantenendo al contempo l'indipendenza lineare.
 
-Il teorema di completamento di una base è importante in vari contesti, ad esempio:
+Il teorema di completamento di una base è importante in vari
+contesti, ad esempio:
 \begin{itemize}
-	\item \textbf{Sistemi di equazioni lineari:} Aiuta a comprendere le condizioni di compatibilità e le soluzioni di sistemi lineari.
-	\item \textbf{Teoria degli spazi vettoriali:} Permette di lavorare con spazi vettoriali parziali e completare insiemi di vettori fino a ottenere una rappresentazione completa dello spazio.
-	\item \textbf{Diagonalizzazione e autovalori:} Facilita la costruzione di basi di autovettori in algebra lineare e applicazioni nelle trasformazioni lineari.
+  \item \textbf{Sistemi di equazioni lineari:} Aiuta a comprendere le
+    condizioni di compatibilità e le soluzioni di sistemi lineari.
+  \item \textbf{Teoria degli spazi vettoriali:} Permette di lavorare
+    con spazi vettoriali parziali e completare insiemi di vettori
+    fino a ottenere una rappresentazione completa dello spazio.
+  \item \textbf{Diagonalizzazione e autovalori:} Facilita la
+    costruzione di basi di autovettori in algebra lineare e
+    applicazioni nelle trasformazioni lineari.
 \end{itemize}
 
 \begin{es}
-	Consideriamo lo spazio vettoriale \( \mathbb{R}^3 \) e un insieme di vettori linearmente indipendenti:
-	
-	\[
-	S = \left\{ \underline{v}_1 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \; \underline{v}_2 = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} \right\}
-	\]
-	
-	I vettori \( \underline{v}_1 \) e \( \underline{v}_2 \) sono linearmente indipendenti e appartengono a \( \mathbb{R}^3 \), ma non formano una base per \( \mathbb{R}^3 \) poiché \( S \) contiene solo due vettori, mentre \( \mathbb{R}^3 \) ha dimensione 3. 
-	
-	Secondo il \textbf{teorema di completamento di una base}, possiamo aggiungere un ulteriore vettore linearmente indipendente a \( S \) per ottenere una base per \( \mathbb{R}^3 \).
-	\leavevmode\\\\
-	\highlight{1}: Aggiunta di un Vettore Linearmente Indipendente
-	\leavevmode\\\\
-	Per completare l'insieme \( S \), scegliamo il vettore:
-	
-	\[
-	\underline{v}_3 = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}
-	\]
-	
-	Ora l'insieme
-	
-	\[
-	B = \left\{ \underline{v}_1 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \; \underline{v}_2 = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}, \; \underline{v}_3 = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} \right\}
-	\]
-	
-	contiene tre vettori in \( \mathbb{R}^3 \), e possiamo verificare che questi vettori sono linearmente indipendenti.
-	\leavevmode\\\\
-	\highlight{2}: Verifica dell'Indipendenza Lineare
-	\leavevmode\\\\
-	Consideriamo una combinazione lineare di \( \underline{v}_1 \), \( \underline{v}_2 \), e \( \underline{v}_3 \):
-	
-	\[
-	c_1 \underline{v}_1 + c_2 \underline{v}_2 + c_3 \underline{v}_3 = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
-	\]
-	
-	cioè,
-	
-	\[
-	c_1 \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} + c_2 \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} + c_3 \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
-	\]
-	
-	Questa equazione si traduce nel sistema lineare:
-	
-	\[
-	\begin{cases}
-		c_1 = 0 \\
-		c_2 = 0 \\
-		c_3 = 0
-	\end{cases}
-	\]
-	
-	L'unica soluzione è \( c_1 = c_2 = c_3 = 0 \), quindi i vettori \( v_1 \), \( v_2 \), e \( v_3 \) sono linearmente indipendenti.
+  Consideriamo lo spazio vettoriale \( \mathbb{R}^3 \) e un insieme
+  di vettori linearmente indipendenti:
 
-	Abbiamo quindi completato l'insieme iniziale \( S = \{v_1, v_2\} \) aggiungendo il vettore \( v_3 \) per ottenere una base completa \( B = \{v_1, v_2, v_3\} \) per lo spazio \( \mathbb{R}^3 \).
+  \[
+    S = \left\{ \underline{v}_1 =
+      \begin{pmatrix} 1 \\ 0 \\ 0
+      \end{pmatrix}, \; \underline{v}_2 =
+      \begin{pmatrix} 0 \\ 1 \\ 0
+    \end{pmatrix} \right\}
+  \]
+
+  I vettori \( \underline{v}_1 \) e \( \underline{v}_2 \) sono
+  linearmente indipendenti e appartengono a \( \mathbb{R}^3 \), ma
+  non formano una base per \( \mathbb{R}^3 \) poiché \( S \) contiene
+  solo due vettori, mentre \( \mathbb{R}^3 \) ha dimensione 3.
+
+  Secondo il \textbf{teorema di completamento di una base}, possiamo
+  aggiungere un ulteriore vettore linearmente indipendente a \( S \)
+  per ottenere una base per \( \mathbb{R}^3 \).
+  \leavevmode\\\\
+  \highlight{1}: Aggiunta di un Vettore Linearmente Indipendente
+  \leavevmode\\\\
+  Per completare l'insieme \( S \), scegliamo il vettore:
+
+  \[
+    \underline{v}_3 =
+    \begin{pmatrix} 0 \\ 0 \\ 1
+    \end{pmatrix}
+  \]
+
+  Ora l'insieme
+
+  \[
+    B = \left\{ \underline{v}_1 =
+      \begin{pmatrix} 1 \\ 0 \\ 0
+      \end{pmatrix}, \; \underline{v}_2 =
+      \begin{pmatrix} 0 \\ 1 \\ 0
+      \end{pmatrix}, \; \underline{v}_3 =
+      \begin{pmatrix} 0 \\ 0 \\ 1
+    \end{pmatrix} \right\}
+  \]
+
+  contiene tre vettori in \( \mathbb{R}^3 \), e possiamo verificare
+  che questi vettori sono linearmente indipendenti.
+  \leavevmode\\\\
+  \highlight{2}: Verifica dell'Indipendenza Lineare
+  \leavevmode\\\\
+  Consideriamo una combinazione lineare di \( \underline{v}_1 \), \(
+  \underline{v}_2 \), e \( \underline{v}_3 \):
+
+  \[
+    c_1 \underline{v}_1 + c_2 \underline{v}_2 + c_3 \underline{v}_3 =
+    \begin{pmatrix} 0 \\ 0 \\ 0
+    \end{pmatrix}
+  \]
+
+  cioè,
+
+  \[
+    c_1
+    \begin{pmatrix} 1 \\ 0 \\ 0
+    \end{pmatrix} + c_2
+    \begin{pmatrix} 0 \\ 1 \\ 0
+    \end{pmatrix} + c_3
+    \begin{pmatrix} 0 \\ 0 \\ 1
+    \end{pmatrix} =
+    \begin{pmatrix} 0 \\ 0 \\ 0
+    \end{pmatrix}
+  \]
+
+  Questa equazione si traduce nel sistema lineare:
+
+  \[
+    \begin{cases}
+      c_1 = 0 \\
+      c_2 = 0 \\
+      c_3 = 0
+    \end{cases}
+  \]
+
+  L'unica soluzione è \( c_1 = c_2 = c_3 = 0 \), quindi i vettori \(
+  v_1 \), \( v_2 \), e \( v_3 \) sono linearmente indipendenti.
+
+  Abbiamo quindi completato l'insieme iniziale \( S = \{v_1, v_2\} \)
+  aggiungendo il vettore \( v_3 \) per ottenere una base completa \(
+  B = \{v_1, v_2, v_3\} \) per lo spazio \( \mathbb{R}^3 \).
 \end{es}
 
 \begin{esercizio}
-	Esiste una base di $\mathbb{R}^5$ contenente tra gli altri
-	
-	$s=[(1,2,0,1,1),(2,4,0,2,0),(0,0,1,0,5)]$?
-	\leavevmode\\\\
-	$
-	\textnormal{Rg}\begin{pmatrix}
-		\highlightblu{1} &\highlightblu{2} &\highlight{0} &\highlight{1} &\highlight{1}\\
-		\highlightblu{2} &\highlightblu{4} &\highlight{0} &\highlight{2} &\highlight{0}\\
-		\highlightblu{0} &\highlightblu{0} &\highlight{1} &\highlight{0} &\highlight{5}
-	\end{pmatrix}=3
-	$ ; poiché il minore $A^{345}_{123}\neq 0\textrightarrow$ lin. indipendenti
-	
-	Per completare la base, aggiungiamo dei vettori della base canonica di $\mathbb{R}^5$ nelle colonne \textbf{non coinvolte} dal minore $A^{345}_{123}$ (Quelle in blu)
-	
-	$
-	\begin{pmatrix}
-		1 &2 &0 &1 &1\\
-		2 &4 &0 &2 &0\\
-		0 &0 &1 &0 &5\\
-		1 &0 &0 &0 &0\\
-		0 &1 &0 &0 &0
-	\end{pmatrix}=\textnormal{Laplace }A_4=-\det\begin{pmatrix}
-	2 &0 &1 &1\\
-	4 &0 &2 &0\\
-	0 &1 &0 &5\\
-	1 &0 &0 &0
-	\end{pmatrix}=\textnormal{Laplace }A_4=\det A^{345}_{123}\neq 0
-	$
-	\leavevmode\\\\
-	$B=[(1,2,0,1,1),(2,4,0,2,0),(0,0,1,0,5),(1,0,0,0,0),(0,1,0,0,0)]$
+  Esiste una base di $\mathbb{R}^5$ contenente tra gli altri
+
+  $s=[(1,2,0,1,1),(2,4,0,2,0),(0,0,1,0,5)]$?
+  \leavevmode\\\\
+  $
+  \textnormal{Rg}
+  \begin{pmatrix}
+    \highlightblu{1} &\highlightblu{2} &\highlight{0} &\highlight{1}
+    &\highlight{1}\\
+    \highlightblu{2} &\highlightblu{4} &\highlight{0} &\highlight{2}
+    &\highlight{0}\\
+    \highlightblu{0} &\highlightblu{0} &\highlight{1} &\highlight{0}
+    &\highlight{5}
+  \end{pmatrix}=3
+  $ ; poiché il minore $A^{345}_{123}\neq 0\textrightarrow$ lin. indipendenti
+
+  Per completare la base, aggiungiamo dei vettori della base canonica
+  di $\mathbb{R}^5$ nelle colonne \textbf{non coinvolte} dal minore
+  $A^{345}_{123}$ (Quelle in blu)
+
+  $
+  \begin{pmatrix}
+    1 &2 &0 &1 &1\\
+    2 &4 &0 &2 &0\\
+    0 &0 &1 &0 &5\\
+    1 &0 &0 &0 &0\\
+    0 &1 &0 &0 &0
+  \end{pmatrix}=\textnormal{Laplace }A_4=-\det
+  \begin{pmatrix}
+    2 &0 &1 &1\\
+    4 &0 &2 &0\\
+    0 &1 &0 &5\\
+    1 &0 &0 &0
+  \end{pmatrix}=\textnormal{Laplace }A_4=\det A^{345}_{123}\neq 0
+  $
+  \leavevmode\\\\
+  $B=[(1,2,0,1,1),(2,4,0,2,0),(0,0,1,0,5),(1,0,0,0,0),(0,1,0,0,0)]$
 \end{esercizio}
